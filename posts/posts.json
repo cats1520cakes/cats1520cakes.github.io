@@ -3,10 +3,29 @@
         "id": "beginner",
         "title": "初学者指南：从零开始的前端之路",
         "excerpt": "本文介绍了前端基础知识，帮助你快速入门前端开发……",
-        "date": "2023-11-01",
+        "date": "2025-04-12",
+        "category": "前端",
+        "imageUrl": "posts/images/posts1/img1.jpg",
+        "tags": ["HTML", "CSS", "JavaScript","TypeScript" ,"React", "Vite", "mantine"]
+    },
+    {
+        "id": "Quantum Annealing and GNN for Solving TSP with QUBO",
+        "title": "量子退火与图神经网络结合求解TSP问题",
+        "excerpt": "This study highlights the potential of combining deep learning with quantum-inspired optimization for solving NP-hard problems, suggesting future directions for enhancing GNN architectures and applying QUBO frameworks to more complex combinatorial optimization tasks.",
+        "date": "2025-04-12",
+        "category": "量子计算-人工智能",
+        "tags": ["量子计算", "图神经网络", "量子退火", "TSP问题"]
+    
+    },
+    {
+        "id": "beginner copy",
+        "title": "初学者指南：从零开始的前端之路",
+        "excerpt": "本文介绍了前端基础知识，帮助你快速入门前端开发……",
+        "date": "2025-04-12",
         "category": "前端",
         "imageUrl": "posts/images/posts1/img1.jpg",
         "tags": ["HTML", "CSS", "JavaScript","TypeScript" ,"React", "Vite", "mantine"]
     }
+    
     
 ]
