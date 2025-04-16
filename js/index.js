@@ -223,7 +223,7 @@ function search(){
 
 //
 // 新增：调用后端增强搜索 API 的函数
-let useEnhancedSearch = false;// 定义全局变量，表示当前是否启用增强搜索
+let useEnhancedSearch = true;// 定义全局变量，表示当前是否启用增强搜索
 const toggleSearchMode = document.getElementById('toggleSearchMode');// 获取页面上增强搜索模式的复选框
 toggleSearchMode.addEventListener('change', (e) => {
     useEnhancedSearch = e.target.checked; // 监听复选框变更事件
@@ -256,27 +256,54 @@ window.onkeydown = (e) => {
   }
 };
 
-function searchFromKeyWordEnhanced(keyword = "") {
-    // 调用 Vercel 部署的 API（假设路径为 /api/deepseek.js）
-    fetch(`/api/deepseek.js?keyword=${encodeURIComponent(keyword)}`)
-      .then(response => response.json())
-      .then(data => {
-        if (data.result) {
-          displayLLMSearchResult(data.result);
-        } else if (data.error) {
-          displayLLMSearchResult("搜索返回错误：" + data.error);
-        } else {
-          displayLLMSearchResult("未获取到搜索结果。");
-        }
-      })
-      .catch(err => {
-        console.error("Enhanced 搜索错误:", err);
-        displayLLMSearchResult("服务器繁忙，请稍后重试。");
-      });
+function getSearchContext(keyword) {
+    let results = [];
+    // 遍历 searchJson 数组
+    searchJson.forEach(item => {
+      // 如果不存在 title 或 content，则跳过
+      if (!item.title || !item.content) return;
+      let title = item.title;
+      // 确保 item.content 存在后再调用 trim()，否则可以设置为空字符串
+      let content = item.content ? item.content.trim().replace(/<[^>]+>/g, "").replace(/[`#\n]/g, "") : "";
+      if (title.toLowerCase().indexOf(keyword.toLowerCase()) !== -1 ||
+          content.toLowerCase().indexOf(keyword.toLowerCase()) !== -1) {
+        // 使用文章内容的前 100 个字符作为摘要
+        let snippet = content.slice(0, 100) + '...';
+        results.push({ title, snippet });
+      }
+    });
+    return results;
   }
   
+
+function searchFromKeyWordEnhanced(keyword = "") {
+    const context = getSearchContext(keyword); // 获取当前搜索上下文
+    const postData = { keyword, context }; // 构造 POST 请求
+
+    fetch('./api/deepseek', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(postData)
+    })
+        .then(response => response.json()  )
+        .then( data => {
+            if (data.result) {
+                displayLLMSearchResult(data.result); // 展示搜索结果
+            }
+            else if (data.error) {
+                console.error("Error:", data.error);
+                displayLLMSearchResult("搜索失败: " + data.error);
+            }
+            else {
+                displayLLMSearchResult("未获取到搜索结果.");
+            }
+        })
+}
+  
   // 用于展示搜索结果的函数（你可以按需调整样式与布局）
-  function displayLLMSearchResult(result) {
+function displayLLMSearchResult(result) {
     // 假设搜索结果展示区域的 DOM 元素 id 为 search-result-container
     // 你也可以根据需要创建或隐藏其它的 DOM 元素
     searchResultContainer.innerHTML = `<div class="llm-result"><pre>${result}</pre></div>`;
