@@ -1,4 +1,5 @@
 ---
+markdown: kramdown
 permalink: /
 title: "Haoqi He Pages"
 author_profile: true
@@ -13,7 +14,7 @@ I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intak
 
 ---
 
-## Publications  
+## Papers  
 
 | Year | Title & Venue | Role |
 |------|---------------|------|
@@ -56,4 +57,13 @@ I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intak
 
 I am actively seeking PhD supervision in groups focusing on **AI robustness**, **quantum machine learning**, and **security-critical ML applications**.  
 If my background aligns with your research agenda, please feel free to reach out.
+
+<div style="width:100%; min-height:700px">
+  <iframe
+    src="https://udify.app/chatbot/CIfkdC078vzmc81n"
+    style="width:100%; height:100%; min-height:700px"
+    frameborder="0"
+    allow="microphone">
+  </iframe>
+</div>
 

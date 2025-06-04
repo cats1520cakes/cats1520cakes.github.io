@@ -34,7 +34,7 @@ Skills
 - **Frameworks:** PyTorch, Qiskit, Scikit-learn, D-Wave Ocean  
 - **Tools:** Git, Linux, Jupyter, HuggingFace Transformers
 
-Publications
+Papers 
 ======
 - **Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method**  
   *IJCAI 2025, CORE A\*, CCF A* — First Author*  
