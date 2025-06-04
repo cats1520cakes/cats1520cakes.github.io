@@ -1,32 +1,19 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Haoqi He Pages"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am **Haoqi He (赫浩锜)**, a final-year undergraduate majoring in **Cybersecurity** at **Sun Yat-sen University (SYSU)**, graduating **June 2026**.  
-My research lies at the intersection of **Artificial Intelligence safety**, **quantum-inspired optimization**, and **efficient deep learning**. I design algorithms that leverage *Quadratic Unconstrained Binary Optimization* (QUBO) and emerging quantum hardware to improve robustness and scalability of modern machine-learning systems.
+I am **Haoqi He **, a undergraduate majoring in **Cybersecurity** at **Sun Yat-sen University (SYSU)**, graduating **June 2026**.  
+My research lies at the intersection of **Artificial Intelligence safety**, **Multimodal AI safety**, **quantum-inspired AI**, and **efficient deep learning**. I design algorithms that leverage *Quadratic Unconstrained Binary Optimization* (QUBO) and emerging quantum-inspired method to improve robustness and scalability of modern machine-learning systems.
 
-I will apply for **Computer Science PhD programs (Fall 2026 intake)** in Hong Kong, Singapore, and related global hubs. My goal is to advance trustworthy AI through hybrid quantum–classical techniques and rigorous security analysis.
-
----
-
-## Research Interests  
-
-- **Trustworthy & Secure Machine Learning**  
-  - Data-poisoning detection, adversarial robustness, safety evaluation  
-- **Quantum / Quantum-Inspired Optimization**  
-  - QUBO modeling, Ising machines, quantum annealing for ML acceleration  
-- **Efficient AI & Model Compression**  
-  - Graph coarsening, probabilistic training, low-parameter networks  
-- **Multimodal Medical AI Security**  
-  - Jailbreak & backdoor attacks on vision-language models (VLMs)
+I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intake)** in Hong Kong, Singapore, and related global hubs. My goal is to advance trustworthy AI and LLM safety or  quantum–inspired AI.
 
 ---
 
-## Selected Publications  
+## Publications  
 
 | Year | Title & Venue | Role |
 |------|---------------|------|
