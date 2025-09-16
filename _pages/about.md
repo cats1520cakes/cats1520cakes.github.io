@@ -1,16 +1,16 @@
 ---
 markdown: kramdown
 permalink: /
-title: "Haoqi He Pages"
+title: "Haoqi He's Page"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-I am **Haoqi He**, a undergraduate majoring in **Cybersecurity** at **Sun Yat-sen University (SYSU)**, graduating **June 2026**.  
-My research lies at the intersection of **Artificial Intelligence safety**, **Multimodal AI safety**, **quantum-inspired AI**, and **efficient deep learning**. I design algorithms that leverage *Quadratic Unconstrained Binary Optimization* (QUBO) and emerging quantum-inspired method to improve robustness and scalability of modern machine-learning systems.
+I am **Haoqi He**, a undergraduate majoring in **Cybersecurity** at **Sun Yat-sen University (SYSU)**, graduating **June 2026**. I would apply for AI or AI-related **PhD programs (Fall 2026 intake)**.
 
-I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intake)** in Hong Kong, Singapore, and related global hubs. My goal is to advance trustworthy AI and LLM safety or  quantum–inspired AI.
+
+My previous research was about the intersection of **Trustworthy Artificial Intelligence**,  **Efficient Deep Learning** and **physical-inspired AI**. However, I am very interested in the extensive research in the field of AI.
 
 ---
 
@@ -18,11 +18,9 @@ I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intak
 
 | Year | Title & Venue | Role |
 |------|---------------|------|
-| 2025 | **Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method** <br>*(IJCAI 2025, CORE A\*, CCF A)* [[PDF](https://yanxiao6.github.io/papers/quantum_ijcai2025.pdf)] | **First Author** |
-| 2024 | **Solving TSP with Quantum Annealing and Graph Neural Networks** <br>*(AAIM 2024, EI-indexed)* [[PDF](https://link.springer.com/content/pdf/10.1007/978-981-97-7801-0_12)] | **First Author** |
-| 2024 | **Quantum Lung Segmentation: QCU-Net Applied to Chest X-Ray Images** <br>*(AAIM 2024, EI-indexed)* [[PDF](https://link.springer.com/content/pdf/10.1007/978-981-97-7801-0_17)] | **First Author** |
-| 2025 | **Efficient Method for Global Lipschitz Constant Estimation of ReLU Networks** <br>(arXiv Preprint) [[arXiv:2503.16342](https://arxiv.org/abs/2503.16342)] | First Author |
-| 2025 | **Probabilistic QUBO SVM Training on Ising Machine** <br>(arXiv Preprint) [[arXiv:2503.16363](https://arxiv.org/abs/2503.16363)] | First Author |
+| 2025 | **Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method** <br>*(IJCAI 2025 Accepted Paper, CORE A\*, CCF A)* [[PDF](https://yanxiao6.github.io/papers/quantum_ijcai2025.pdf)] | **First Author** |
+| 2025 | **Probabilistic QUBO SVM Training on Ising Machine** <br>((AAAI 2026 under review and has passed Phase 1 review)) | **First Author** |
+| 2025 | **ECCC:Edge Code Cloak Coder for Privacy Code Agents** <br>*((WiNLP@EMNLP 2025 Accepted Paper))* | **First Author** |
 
 ---
 
@@ -31,9 +29,8 @@ I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intak
 
 - **Data-Poisoning Detection for AI (2023 – 2024)** — This project was supported by SYSU innovation. Developed *Q-Detection*; one CN patent filed (CN119782803A) and a CCF-A/Core A^* paper.
 
-- **AI-X Acceleration (2024 – 2025)** — This project was supported by Qboson Inc. and Management Science and Engineering Associate. Quantum-inspired speedups for Lipschitz estimation and Probabilistic QUBO SVMs. 
+- **AI-X Acceleration (2024 – 2025)** — This project was supported by Qboson Inc. and Management Science and Engineering Associate. Quantum-inspired speedups for Lipschitz estimation and Probabilistic QUBO SVMs.  Out team collaborated with Boson Quantum Ltd., led the development of techniques, drafting, and production of technical reports. Output: filed 1 invention patent and 2 drafts (AAAI 2026, both are passed Phase 1 reviews).
 
-- **Defense & Attacks on Multimodal Medical Models (2025 – present)** — Systematic jailbreak/backdoor evaluation of LLaVA-Med and mitigation strategies.  
 ---
 
 ## Honors & Awards  
@@ -43,28 +40,22 @@ I would apply for Computer Science or AI-related **PhD programs (Fall 2026 intak
 - National College Mathematics Competition – 2nd Prize (2023)  
 - SYSU CTF Beginner Competition – 3rd Prize (2023)  
 - APMCM Asia-Pacific Mathematical Modeling – National 1st Prize (2024)  
-- Xiaomi Scholarship (2024)
 ---
 
 ## Skills  
 
-**Languages:** Python, C/C++, LaTeX  
-**Frameworks & Tools:** PyTorch, Scikit-learn, Qiskit, D-Wave Ocean, Git, Linux  
-**Domains:** Quantum/Ising optimization, AI Safety, Multimodal ML  
-**Soft Skills:** Technical writing, team leadership, cross-disciplinary collaboration  
+**Languages:** Python, Go, C, LaTeX  
+**Frameworks & Tools:** PyTorch, Scikit-learn, Transformer, Qiskit, D-Wave Ocean, Git, Linux   
+**Soft Skills:** Technical writing, cross-disciplinary collaboration  
 
 ---
-
-## Looking for opportunities – Fall 2026  
-I am actively seeking PhD supervision in groups focusing on **AI Safty**, **Computer Vision**, **Multimodal AI and its Safety**, and **AI-related** area.  
 
 ## Ask "Me" Anything
 This is an AI chatbot connected to my academic content.  
 Feel free to ask about:
 - My publications and research topics
 - Project experience and technical stacks
-- Research interests such as quantum optimization, AI robustness, etc.
-- Guidance for PhD application (Fall 2026)
+
 
 It can help summarize my work, answer specific questions, or point you to relevant sections of my site.
 

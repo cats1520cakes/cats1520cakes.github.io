@@ -12,9 +12,9 @@ redirect_from:
 Education
 ======
 **Sun Yat-sen University (SYSU)**  
-*B.Eng. in Cybersecurity (Computer Science related major)*  
+*B.Eng. in Cybersecurity*  
 **Expected Graduation:** Jun 2026  
-GPA: 3.3/4.0 ( I would be hopeful to get 3.4 in graduation )
+GPA: 3.4/4.0 ( I would be hopeful to get 3.5 in graduation )
 
   
 Skills
@@ -22,15 +22,10 @@ Skills
 **Machine Learning and AI  
 - Trustworthy Machine Learning  
 - Data Poisoning Detection & Adversarial Robustness  
-- Multimodal Medical Models Security
 
-**Quantum-inspired & Optimization  
-- QUBO Modeling, Ising Model, Quantum Annealing  
-- Hybrid Classical-Quantum Algorithms  
-- Graph Optimization
 
 **Programming & Tools  
-- **Languages:** Python, C++, LaTeX  
+- **Languages:** Python, C, Go, LaTeX  
 - **Frameworks:** PyTorch, Qiskit, Scikit-learn, D-Wave Ocean  
 - **Tools:** Git, Linux, Jupyter, HuggingFace Transformers
 
@@ -40,21 +35,18 @@ Papers
   *IJCAI 2025, CORE A\*, CCF A* — First Author*  
   [PDF](https://yanxiao6.github.io/papers/quantum_ijcai2025.pdf)
 
-- **Solving TSP with Quantum Annealing and Graph Neural Networks**  
-  *AAIM 2024, EI-indexed — First Author*  
-  [PDF](https://link.springer.com/content/pdf/10.1007/978-981-97-7801-0_12)
-
-- **Quantum Lung Segmentation: QCU-Net Applied to Chest X-Ray Images**  
-  *AAIM 2024, EI-indexed — First Author*  
-  [PDF](https://link.springer.com/content/pdf/10.1007/978-981-97-7801-0_17)
-
 - **Efficient Method for Global Lipschitz Constant Estimation of ReLU Networks**  
   *arXiv Preprint — First Author*  
   [arXiv:2503.16342](https://arxiv.org/abs/2503.16342)
 
 - **Probabilistic QUBO SVM Training on Ising Machine**  
-  *arXiv Preprint — First Author*  
-  [arXiv:2503.16363](https://arxiv.org/abs/2503.16363)
+  *AAAI 2026 under review and has passed phase 1 — First Author*  
+
+- **ECCC:Edge Code Cloak Coder for Privacy Code Agents** 
+  *WiNLP@EMNLP 2025 Accepted Paper — First Author* 
+
+- **LAESA: Loyalty-Aware Embedding Space Attack**
+  *Drafts*
   
 Service and leadership
 ======
