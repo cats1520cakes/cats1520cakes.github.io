@@ -29,7 +29,7 @@ I study how language-model agents can learn and act under operational constraint
 |------|---------------|------|
 | 2025 | **Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method** <br>*(IJCAI 2025, CORE A\*, CCF A)* [[Proceedings](https://www.ijcai.org/proceedings/2025/593)] | **First Author** |
 | 2025 | **ECCC: Edge Code Cloak Coder for Privacy Code Agent** <br>*(WiNLP @ EMNLP 2025)* [[ACL Anthology](https://aclanthology.org/2025.winlp-main.14/)] | **First Author** |
-| 2025 | **HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks** <br>*(arXiv)* [[Paper](https://arxiv.org/abs/2503.16342)] | **First Author** |
+| 2026 | **HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks** <br>*(AAAI 2026, CORE A\*, CCF A)* [[Proceedings](https://doi.org/10.1609/aaai.v40i26.39312)] | **First Author** |
 | 2025 | **Probabilistic Quantum SVM Training on Ising Machine** <br>*(arXiv)* [[Paper](https://arxiv.org/abs/2503.16363)] | **First Author** |
 
 ---
