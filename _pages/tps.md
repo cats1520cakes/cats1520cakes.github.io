@@ -7,12 +7,15 @@ author_profile: false
 
 第一人称射击（FPS）：明亮工业仓库里的变异体围剿战（[← 返回游戏厅](/game/)）
 
-**玩法**：`WASD` 移动，`Shift` 疾跑，`Space` 跳跃（可跳上矮箱），鼠标视角，**按住左键射击**，`R` 换弹，`1~4` 切枪，`V` 切换第一/第三人称，`Esc` 暂停。**立体战场**：三条斜坡跑上高台猫道走位，踩上**青色风洞**直接被气流顶上天（~4.5m 大跳），母体来袭先抢制高点。**精英变异体（AI 驱动）**：第 4 波起每 3 波现身一只，暗红装甲 + 胸前发光核心，慢速高血，会震击 / 冲刺 / 吐息（能打高台）/ 咆哮 / 召唤，技能决策由 AI 实时指挥。规则同 2D 版：队友被咬会变异，击杀母体必掉重武器（💥霰弹枪/🌀加特林/🎯巴雷特）。手机端提供虚拟摇杆 + 拖动瞄准。
+**玩法**：`WASD` 移动，`Shift` 疾跑，`Space` 跳跃（可跳上矮箱），鼠标视角，**按住左键射击**，`R` 换弹，`1~4` 切枪，`V` 切换第一/第三人称，`Esc` 暂停。开局前一次性完成 AI 验证，进入战斗后不再弹窗；桌面端默认进入全屏并锁定鼠标。**立体战场**：斜坡、高台和风洞组成扩展仓库，尸潮会成批降临并提前预警。爆头造成双倍伤害。规则同 2D 版：队友被咬会变异，击杀母体必掉重武器（💥霰弹枪/🌀加特林/🎯巴雷特）。手机端提供虚拟摇杆 + 拖动瞄准。
 
 <style>
-#tps-game { max-width: 940px; margin: 0.5em auto 0; }
+#tps-game { max-width: 1120px; margin: 0.5em auto 0; }
 .tps-stage { position: relative; border-radius: 14px; overflow: hidden; box-shadow: 0 12px 34px rgba(20,25,15,0.30), 0 2px 8px rgba(20,25,15,0.16); border: 1px solid rgba(60,70,40,0.35); }
 #tps-canvas { width: 100%; aspect-ratio: 16 / 9; display: block; outline: none; cursor: crosshair; background: #8f887a; touch-action: none; }
+.tps-stage:fullscreen { width: 100vw; height: 100vh; max-width: none; border: 0; border-radius: 0; background: #080b09; }
+.tps-stage:fullscreen #tps-canvas { width: 100%; height: 100%; aspect-ratio: auto; }
+.tps-stage:fullscreen .tps-hud { position: fixed; }
 /* ---------- HUD 覆盖层（生死狙击页游布局） ---------- */
 .tps-hud { position: absolute; inset: 0; pointer-events: none; font-family: inherit; user-select: none; -webkit-user-select: none; }
 /* 左上：圆形雷达 + 模式名 */
@@ -66,6 +69,9 @@ author_profile: false
 @keyframes tpsMedal { 0% { opacity: 0; transform: translate(-50%,-50%) scale(2.4); } 16% { opacity: 1; transform: translate(-50%,-50%) scale(1); } 72% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%,-58%) scale(0.94); } }
 /* 波次横幅 */
 .tps-banner { position: absolute; top: 20%; left: 0; right: 0; text-align: center; font-size: 2rem; font-weight: 800; letter-spacing: 0.1em; color: #ffd97a; text-shadow: 0 2px 14px rgba(0,0,0,0.8); opacity: 0; pointer-events: none; }
+.tps-combat-note { position: absolute; left: 50%; bottom: 21%; transform: translateX(-50%); min-height: 1.4em; padding: 4px 11px; border-radius: 999px; background: rgba(10,14,10,0.48); color: #dce5d6; font-size: 13px; letter-spacing: 0.04em; text-shadow: 0 1px 3px #000; opacity: 0; transition: opacity 0.14s ease; pointer-events: none; white-space: nowrap; }
+.tps-combat-note.show { opacity: 0.82; }
+.tps-combat-note.headshot { color: #ffd35c; background: rgba(70,38,8,0.62); }
 /* 受伤红晕 */
 .tps-hurt { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(ellipse at center, transparent 48%, rgba(190,25,25,0.6)); opacity: 0; }
 /* 飘字 */
@@ -86,6 +92,14 @@ author_profile: false
 #tps-overlay-btn { padding: 10px 34px; border: none; border-radius: 999px; background: linear-gradient(135deg, #7bc96a, #3d7a33); color: #fff; font-size: 16px; cursor: pointer; box-shadow: 0 4px 14px rgba(61,122,51,0.45); transition: transform 0.15s ease, box-shadow 0.15s ease; }
 #tps-overlay-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(61,122,51,0.55); }
 #tps-overlay-btn:disabled { opacity: 0.45; cursor: not-allowed; transform: none; box-shadow: none; }
+.tps-ai-preflight { min-height: 0; margin: 0 auto 14px; }
+.tps-ai-preflight__status { margin: 0 0 10px !important; color: #b9c6ac; font-size: 0.82rem !important; line-height: 1.45 !important; }
+.tps-ai-preflight__status.ready { color: #9fe18c; }
+.tps-ai-preflight .ai-gate-inline { display: block; }
+.tps-ai-preflight .ai-gate-card { width: min(100%, 420px); margin: 0 auto; padding: 14px; border-color: rgba(255,217,122,0.35); border-radius: 12px; background: rgba(17,24,18,0.92); color: #eef2e6; box-shadow: none; text-align: left; }
+.tps-ai-preflight .ai-gate-card h2 { font-size: 1rem; color: #ffd97a; }
+.tps-ai-preflight .ai-gate-card p { font-size: 0.8rem; }
+.tps-ai-preflight .ai-gate-card button { color: #eef2e6; border-color: rgba(200,220,170,0.42); }
 .tps-record { margin: 12px 0 0 !important; font-size: 0.82rem !important; color: #ffd97a; opacity: 0.9 !important; min-height: 1.2em; }
 #tps-msg { margin-top: 12px; min-height: 1.5em; font-size: 15px; color: #5a6b62; text-align: center; }
 /* 手机端紧凑化 */
@@ -134,6 +148,7 @@ author_profile: false
       <div class="tps-cross" id="tps-cross"><i></i><i></i><i></i><i></i><s></s></div>
       <div class="tps-medal" id="tps-medal"></div>
       <div class="tps-banner" id="tps-banner"></div>
+      <div class="tps-combat-note" id="tps-combat-note" aria-live="polite"></div>
       <div class="tps-hurt" id="tps-hurt"></div>
       <div class="tps-touch" id="tps-touch">
         <div class="tps-stick" id="tps-stick"><div class="tps-stick__knob" id="tps-stick-knob"></div></div>
@@ -143,8 +158,12 @@ author_profile: false
       <div class="tps-overlay" id="tps-overlay">
         <div class="tps-overlay__card">
           <h2 id="tps-overlay-title">生死狙击 · 变异战</h2>
-          <p id="tps-overlay-desc">明亮仓库里的第一人称生存射击。带领幸存者小队抵御变异体——被咬的队友会变成它们。击杀母体必掉重武器箱。高台走位 + 踩风洞大跳上天，母体来袭先抢制高点。小心暗红装甲的精英变异体（AI 实时指挥技能）——它的瘟疫吐息能打到高台上。<br><b>点击进入即锁定鼠标（指针隐藏，准星即鼠标），Esc 释放并暂停</b><br>WASD 移动 · Shift 疾跑 · Space 跳跃 · 按住左键射击 · R 换弹 · 1~4 切枪 · V 切换视角</p>
-          <button id="tps-overlay-btn" type="button">进入战场</button>
+          <p id="tps-overlay-desc">扩展仓库里的第一人称生存射击。尸潮成批降临并提前预警；爆头造成双倍伤害。队友会保持阵型、规避近身威胁并寻找射击位置。<br><b>开局前完成一次 AI 验证；进入战斗后不再弹窗。桌面端全屏并锁定鼠标，Esc 释放并暂停。</b><br>WASD 移动 · Shift 疾跑 · Space 跳跃 · 按住左键射击 · R 换弹 · 1~4 切枪 · V 切换视角</p>
+          <div class="tps-ai-preflight" id="tps-ai-preflight">
+            <p class="tps-ai-preflight__status" id="tps-ai-status">AI 精英指挥将在开局前准备；也可选择本地 AI，不影响游戏。</p>
+            <div id="tps-ai-widget"></div>
+          </div>
+          <button id="tps-overlay-btn" type="button">准备战场</button>
           <p class="tps-record" id="tps-record"></p>
         </div>
       </div>

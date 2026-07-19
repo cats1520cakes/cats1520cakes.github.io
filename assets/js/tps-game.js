@@ -27,6 +27,7 @@
     cross: document.getElementById("tps-cross"),
     medal: document.getElementById("tps-medal"),
     banner: document.getElementById("tps-banner"),
+    combatNote: document.getElementById("tps-combat-note"),
     hurt: document.getElementById("tps-hurt"),
     touch: document.getElementById("tps-touch"),
     stick: document.getElementById("tps-stick"),
@@ -37,6 +38,9 @@
     ovTitle: document.getElementById("tps-overlay-title"),
     ovDesc: document.getElementById("tps-overlay-desc"),
     ovBtn: document.getElementById("tps-overlay-btn"),
+    aiPreflight: document.getElementById("tps-ai-preflight"),
+    aiStatus: document.getElementById("tps-ai-status"),
+    aiWidget: document.getElementById("tps-ai-widget"),
     record: document.getElementById("tps-record"),
     msg: document.getElementById("tps-msg")
   };
@@ -110,6 +114,7 @@
   function sDie() { tone(150, 45, 0.32, 0.16, 0, "sawtooth"); }
   function sInfect() { tone(620, 110, 0.7, 0.2, 0, "sine"); noiseBurst(0.5, "bandpass", 800, 300, 0.1); }
   function sWave() { tone(440, 440, 0.12, 0.18); tone(660, 660, 0.2, 0.18, 0.12); }
+  function sWarning() { tone(220, 220, 0.16, 0.15, 0, "square"); tone(170, 170, 0.2, 0.15, 0.22, "square"); }
   function sPickup() { tone(660, 990, 0.12, 0.18); }
   function sWeapon() { tone(523, 523, 0.09, 0.2); tone(659, 659, 0.09, 0.2, 0.09); tone(784, 784, 0.16, 0.22, 0.18); }
   function sHurt() { tone(120, 60, 0.2, 0.3); noiseBurst(0.1, "lowpass", 400, 120, 0.2); }
@@ -127,7 +132,7 @@
   function sGameOver() { tone(300, 60, 1.2, 0.25, 0, "sawtooth"); }
 
   // ---------- 常量 ----------
-  var FIELD = 60;                 // 战场边长（米）
+  var FIELD = 78;                 // 扩展战场边长（米）
   var HALF = FIELD / 2;
   var WALL_H = 10;                // 仓库墙高
   var CEIL_H = 10;                // 天花板高度
@@ -139,6 +144,7 @@
   var WIND_V = 11;                // 风洞喷射初速度（apex ≈ 4.5m，可上全部高台）
   var STEP_H = 0.45;              // 可迈上的台阶高度
   var ZOMBIE_CAP = 40;
+  var HEADSHOT_MULT = 2;
 
   // 武器表：recoil 视角上跳 / kick 枪身后座力度 / slot 切枪键位
   var WEAPONS = {
@@ -173,7 +179,12 @@
     { x: -2,  z: 10,  w: 3.0, h: 1.1,  d: 0.8, rot: 1.1, kind: "wood" },
     { x: 20,  z: 18,  w: 2.4, h: 1.3,  d: 1.4, rot: 0.4, kind: "olive" },
     { x: -20, z: -14, w: 2.0, h: 1.1,  d: 2.0, rot: 0,   kind: "low" },
-    { x: 24,  z: -8,  w: 2.0, h: 1.4,  d: 1.2, rot: 0.2, kind: "wood" }
+    { x: 24,  z: -8,  w: 2.0, h: 1.4,  d: 1.2, rot: 0.2, kind: "wood" },
+    { x: -31, z: -4,  w: 3.6, h: 1.5,  d: 1.6, rot: 0.25, kind: "olive" },
+    { x: 30,  z: 11,  w: 2.8, h: 0.8,  d: 2.0, rot: -0.4, kind: "low" },
+    { x: -27, z: 27,  w: 2.2, h: 1.9,  d: 2.2, rot: 0.1,  kind: "wood" },
+    { x: 29,  z: -27, w: 3.2, h: 1.4,  d: 1.5, rot: 0.55, kind: "olive" },
+    { x: 0,   z: 32,  w: 4.0, h: 1.1,  d: 1.4, rot: 0,    kind: "wood" }
   ];
 
   // ---------- 渲染器 / 场景（明亮工业仓库） ----------
@@ -334,7 +345,10 @@
     var c = Math.abs(Math.cos(o.rot)), s = Math.abs(Math.sin(o.rot));
     var ex = (o.w / 2) * c + (o.d / 2) * s;
     var ez = (o.w / 2) * s + (o.d / 2) * c;
-    obstacles.push({ minX: o.x - ex, maxX: o.x + ex, minZ: o.z - ez, maxZ: o.z + ez, h: o.h });
+    obstacles.push({
+      minX: o.x - ex, maxX: o.x + ex, minZ: o.z - ez, maxZ: o.z + ez, h: o.h,
+      cx: o.x, cz: o.z, halfW: o.w / 2, halfD: o.d / 2, rot: o.rot || 0
+    });
   });
 
   // ---------- 立体结构：高台 / 斜坡 / 风洞 ----------
@@ -353,7 +367,8 @@
   // 风洞垫：仅玩家可被气流顶起（初速 11m/s，~4.5m 大跳），每垫 1s 冷却
   var WIND_PADS = [
     { x: 7,  z: -14.5, r: 1.15, cool: 0 },
-    { x: 16, z: 20,    r: 1.15, cool: 0 }
+    { x: 16, z: 20,    r: 1.15, cool: 0 },
+    { x: -28, z: 22,   r: 1.15, cool: 0 }
   ];
   var PLAT_SPOTS = [ // 高台补给投放点（台面中心）
     { x: 0, z: -27.3 }, { x: -15, z: 11 }, { x: 1, z: -18 }
@@ -463,7 +478,12 @@
 
   // 预计算弹道遮挡 AABB（墙 + 障碍 + 高台 + 斜坡），热循环零分配
   var raySolids = wallBoxes.slice();
-  obstacles.forEach(function (o) { raySolids.push({ minX: o.minX, maxX: o.maxX, minY: 0, maxY: o.h, minZ: o.minZ, maxZ: o.maxZ }); });
+  obstacles.forEach(function (o) {
+    raySolids.push({
+      minX: o.minX, maxX: o.maxX, minY: 0, maxY: o.h, minZ: o.minZ, maxZ: o.maxZ,
+      cx: o.cx, cz: o.cz, halfW: o.halfW, halfD: o.halfD, rot: o.rot || 0
+    });
+  });
   platforms.forEach(function (p) { raySolids.push({ minX: p.minX, maxX: p.maxX, minY: 0, maxY: p.top, minZ: p.minZ, maxZ: p.maxZ }); });
   ramps.forEach(function (r) { raySolids.push({ minX: r.minX, maxX: r.maxX, minY: 0, maxY: r.h1, minZ: r.minZ, maxZ: r.maxZ }); });
 
@@ -475,7 +495,7 @@
 
     // 墙面壁柱（每 12m 一根，四面墙）
     var pillarGeo = new THREE.BoxGeometry(0.55, WALL_H, 0.4);
-    [-24, -12, 0, 12, 24].forEach(function (px2) {
+    [-36, -24, -12, 0, 12, 24, 36].forEach(function (px2) {
       var n = new THREE.Mesh(pillarGeo, steelMat);
       n.position.set(px2, WALL_H / 2, -HALF + 0.2); scene.add(n);
       var s = new THREE.Mesh(pillarGeo, steelMat);
@@ -496,7 +516,7 @@
     var winTex = new THREE.CanvasTexture(wc);
     var winGeo = new THREE.PlaneGeometry(2.4, 1.35);
     var winMat = new THREE.MeshStandardMaterial({ map: winTex, emissive: 0x9fb8c8, emissiveIntensity: 0.42, emissiveMap: winTex, roughness: 0.6 });
-    [-21, -7, 7, 21].forEach(function (wx) {
+    [-30, -18, -6, 6, 18, 30].forEach(function (wx) {
       var n = new THREE.Mesh(winGeo, winMat);
       n.position.set(wx, 7.6, -HALF + 0.08); scene.add(n);
       var s = new THREE.Mesh(winGeo, winMat);
@@ -535,7 +555,7 @@
 
     // 天花板横梁 + 顶灯灯罩（不再只是浮着的发光条）
     var beamGeo = new THREE.BoxGeometry(FIELD + 2, 0.5, 0.7);
-    [-25, -15, -5, 5, 15, 25].forEach(function (bz) {
+    [-35, -25, -15, -5, 5, 15, 25, 35].forEach(function (bz) {
       var b = new THREE.Mesh(beamGeo, darkSteel);
       b.position.set(0, CEIL_H - 0.3, bz);
       scene.add(b);
@@ -1075,7 +1095,7 @@
   var elites = [];            // 精英变异体（LLM 驱动决策）
   var crates = [];
   var wave = 0, score = 0, best = 0, bestWave = 0;
-  var spawnQueue = [], spawnT = 0, interT = 0;
+  var spawnQueue = [], spawnT = 0, interT = 0, pendingElite = false, spawnBatch = 0;
   var time = 0, missionT = 0, zidSeq = 0;
   var keys = {};
   var firing = false, jumpQueued = false;
@@ -1089,6 +1109,7 @@
   var fovKick = 0;              // 风洞大跳 FOV 冲击
   var multiN = 0, multiT = 0;   // 连杀窗口
   var crossHeat = 0;            // 准星扩散
+  var combatNoteT = 0;
   // 单档存档：历史最佳分数 + 最远波次（永远从第 1 波开打，不提供选关）
   try {
     var _sv = localStorage.getItem("tpsSave");
@@ -1115,7 +1136,11 @@
     mesh.position.set(x, y || 0, z);
     scene.add(mesh);
     botMeshes.push(mesh);
-    return { x: x, z: z, y: y || 0, vy: 0, r: 0.42, cool: rand(0, 0.5), infected: false, infectT: 0, wob: rand(0, 6.28), mesh: mesh, ud: mesh.userData, shadow: allocShadow(0.7) };
+    return {
+      x: x, z: z, y: y || 0, vy: 0, r: 0.36, cool: rand(0, 0.35),
+      infected: false, infectT: 0, wob: rand(0, 6.28), formation: botMeshes.length - 1,
+      mesh: mesh, ud: mesh.userData, shadow: allocShadow(0.7)
+    };
   }
 
   function makeZombie(type, x, z, y) {
@@ -1195,6 +1220,13 @@
     void el.medal.offsetWidth; // 重触发动画
     el.medal.classList.add("show");
   }
+  function showCombatNote(text, headshot) {
+    if (!el.combatNote) return;
+    el.combatNote.textContent = text;
+    el.combatNote.classList.toggle("headshot", !!headshot);
+    el.combatNote.classList.add("show");
+    combatNoteT = headshot ? 0.8 : 1.05;
+  }
 
   // ---------- 武器库存 / 切换 ----------
   function saveAmmo() {
@@ -1267,10 +1299,46 @@
     var dx = e.x - nx, dz = e.z - nz;
     var d2 = dx * dx + dz * dz;
     if (d2 >= e.r * e.r) return;
-    var d = Math.sqrt(d2) || 0.01;
-    var push = e.r - d;
-    e.x += (dx / d) * push;
-    e.z += (dz / d) * push;
+    if (d2 > 1e-9) {
+      var d = Math.sqrt(d2);
+      var push = e.r - d;
+      e.x += (dx / d) * push;
+      e.z += (dz / d) * push;
+      return;
+    }
+    // 圆心已经进入盒体时，沿最近边推出；旧逻辑在这里会得到零向量并卡进墙体。
+    var left = e.x - minX, right = maxX - e.x, near = e.z - minZ, far = maxZ - e.z;
+    var edge = Math.min(left, right, near, far);
+    if (edge === left) e.x = minX - e.r;
+    else if (edge === right) e.x = maxX + e.r;
+    else if (edge === near) e.z = minZ - e.r;
+    else e.z = maxZ + e.r;
+  }
+  function pushOutObstacle(e, o) {
+    if (!o.halfW || !o.halfD || !o.rot) {
+      pushOut(e, o.minX, o.maxX, o.minZ, o.maxZ);
+      return;
+    }
+    var c = Math.cos(o.rot), s = Math.sin(o.rot);
+    var wx = e.x - o.cx, wz = e.z - o.cz;
+    var lx = c * wx - s * wz, lz = s * wx + c * wz;
+    var nx = clamp(lx, -o.halfW, o.halfW), nz = clamp(lz, -o.halfD, o.halfD);
+    var dx = lx - nx, dz = lz - nz, d2 = dx * dx + dz * dz;
+    if (d2 >= e.r * e.r) return;
+    var cx = 0, cz = 0;
+    if (d2 > 1e-9) {
+      var d = Math.sqrt(d2), push = e.r - d;
+      cx = dx / d * push; cz = dz / d * push;
+    } else {
+      var left = lx + o.halfW, right = o.halfW - lx, near = lz + o.halfD, far = o.halfD - lz;
+      var edge = Math.min(left, right, near, far);
+      if (edge === left) cx = -left - e.r;
+      else if (edge === right) cx = right + e.r;
+      else if (edge === near) cz = -near - e.r;
+      else cz = far + e.r;
+    }
+    e.x += c * cx + s * cz;
+    e.z += -s * cx + c * cz;
   }
   // 统一规则：表面高度 ≤ feetY+STEP_H 可行走/不挡，否则视为墙体推出
   function collideWorld(e, feetY) {
@@ -1278,7 +1346,7 @@
     for (k = 0; k < obstacles.length; k++) {
       var o = obstacles[k];
       if (o.h <= feetY + STEP_H) continue; // 矮障碍可站上/跳过
-      pushOut(e, o.minX, o.maxX, o.minZ, o.maxZ);
+      pushOutObstacle(e, o);
     }
     for (k = 0; k < platforms.length; k++) {
       var p = platforms[k];
@@ -1293,12 +1361,35 @@
     e.x = clamp(e.x, -BOUND + e.r, BOUND - e.r);
     e.z = clamp(e.z, -BOUND + e.r, BOUND - e.r);
   }
+  // 轴分离 + 小步进，避免低帧率或冲刺时一次跨过薄墙。
+  function moveEntity(e, vx, vz, dt, feetY) {
+    var travel = Math.hypot(vx, vz) * dt;
+    if (travel <= 0) return;
+    var steps = Math.max(1, Math.ceil(travel / 0.18));
+    var stepT = dt / steps;
+    for (var n = 0; n < steps; n++) {
+      e.x += vx * stepT;
+      collideWorld(e, feetY);
+      e.z += vz * stepT;
+      collideWorld(e, feetY);
+    }
+  }
+  function pointInsideObstacle(o, x, z, pad) {
+    pad = pad || 0;
+    if (!o.halfW || !o.halfD || !o.rot) {
+      return x >= o.minX - pad && x <= o.maxX + pad && z >= o.minZ - pad && z <= o.maxZ + pad;
+    }
+    var c = Math.cos(o.rot), s = Math.sin(o.rot);
+    var wx = x - o.cx, wz = z - o.cz;
+    var lx = c * wx - s * wz, lz = s * wx + c * wz;
+    return Math.abs(lx) <= o.halfW + pad && Math.abs(lz) <= o.halfD + pad;
+  }
   function groundHeight(x, z, feetY) {
     var h = 0, k, hh;
     for (k = 0; k < obstacles.length; k++) {
       var o = obstacles[k];
       if (o.h <= h || o.h > feetY + STEP_H) continue;
-      if (x >= o.minX - 0.15 && x <= o.maxX + 0.15 && z >= o.minZ - 0.15 && z <= o.maxZ + 0.15) h = o.h;
+      if (pointInsideObstacle(o, x, z, 0.15)) h = o.h;
     }
     for (k = 0; k < platforms.length; k++) {
       var p = platforms[k];
@@ -1319,7 +1410,7 @@
     var k;
     for (k = 0; k < obstacles.length; k++) {
       var o = obstacles[k];
-      if (x >= o.minX && x <= o.maxX && z >= o.minZ && z <= o.maxZ) return true;
+      if (pointInsideObstacle(o, x, z, 0)) return true;
     }
     for (k = 0; k < platforms.length; k++) {
       var p = platforms[k];
@@ -1351,12 +1442,29 @@
     if (tmax < 0 || tmin > tmax) return Infinity;
     return tmin > 0 ? tmin : 0;
   }
+  function rayOrientedBox(ox, oy, oz, dx, dy, dz, b) {
+    var c = Math.cos(b.rot), s = Math.sin(b.rot);
+    var wx = ox - b.cx, wz = oz - b.cz;
+    var lox = c * wx - s * wz, loz = s * wx + c * wz;
+    var ldx = c * dx - s * dz, ldz = s * dx + c * dz;
+    var idx = 1 / (ldx || 1e-9), idy = 1 / (dy || 1e-9), idz = 1 / (ldz || 1e-9);
+    var t1 = (-b.halfW - lox) * idx, t2 = (b.halfW - lox) * idx;
+    var tmin = Math.min(t1, t2), tmax = Math.max(t1, t2);
+    t1 = (b.minY - oy) * idy; t2 = (b.maxY - oy) * idy;
+    tmin = Math.max(tmin, Math.min(t1, t2)); tmax = Math.min(tmax, Math.max(t1, t2));
+    t1 = (-b.halfD - loz) * idz; t2 = (b.halfD - loz) * idz;
+    tmin = Math.max(tmin, Math.min(t1, t2)); tmax = Math.min(tmax, Math.max(t1, t2));
+    if (tmax < 0 || tmin > tmax) return Infinity;
+    return tmin > 0 ? tmin : 0;
+  }
   // 场景几何（墙 + 障碍 + 高台 + 斜坡 + 地面 + 天花板）对射线的截断
   function worldRayLimit(ox, oy, oz, dx, dy, dz, maxT) {
     var idx = 1 / (dx || 1e-9), idy = 1 / (dy || 1e-9), idz = 1 / (dz || 1e-9);
     var t = maxT, k, h;
     for (k = 0; k < raySolids.length; k++) {
-      h = rayBox(ox, oy, oz, idx, idy, idz, raySolids[k]);
+      h = raySolids[k].rot
+        ? rayOrientedBox(ox, oy, oz, dx, dy, dz, raySolids[k])
+        : rayBox(ox, oy, oz, idx, idy, idz, raySolids[k]);
       if (h < t) t = h;
     }
     if (dy < -1e-6) { h = -oy / dy; if (h > 0 && h < t) t = h; }          // 地面
@@ -1388,7 +1496,7 @@
 
   // ---------- 战斗 ----------
   var hitArr = [];
-  (function () { for (var i = 0; i < 48; i++) hitArr.push({ z: null, t: 0 }); })();
+  (function () { for (var i = 0; i < 48; i++) hitArr.push({ z: null, t: 0, head: false }); })();
 
   function addShake(amp, dur) { shakeAmp = amp; shakeT = dur; shakeDur = dur; }
 
@@ -1462,6 +1570,7 @@
     var mfx = ox + bdx * 0.7 + ux * 0.22;
     var mfy = oy + bdy * 0.7 - 0.16;
     var mfz = oz + bdz * 0.7 + uz * 0.22;
+    var shotHit = false, shotHeadshot = false;
 
     for (var pe = 0; pe < wp.pellets; pe++) {
       var s1 = rand(-wp.spread, wp.spread), s2 = rand(-wp.spread, wp.spread);
@@ -1475,13 +1584,17 @@
       for (k = 0; k < zombies.length; k++) {
         var t = rayZombie(ox, oy, oz, dx, dy, dz, maxT, zombies[k]);
         if (t >= 0 && t <= maxT && hitsN < hitArr.length) {
-          hitArr[hitsN].z = zombies[k]; hitArr[hitsN].t = t; hitsN++;
+          hitArr[hitsN].z = zombies[k]; hitArr[hitsN].t = t;
+          hitArr[hitsN].head = oy + dy * t >= zombies[k].y + zombies[k].h * (zombies[k].crawl ? 0.62 : 0.72);
+          hitsN++;
         }
       }
       for (k = 0; k < elites.length; k++) {
         t = rayZombie(ox, oy, oz, dx, dy, dz, maxT, elites[k]);
         if (t >= 0 && t <= maxT && hitsN < hitArr.length) {
-          hitArr[hitsN].z = elites[k]; hitArr[hitsN].t = t; hitsN++;
+          hitArr[hitsN].z = elites[k]; hitArr[hitsN].t = t;
+          hitArr[hitsN].head = oy + dy * t >= elites[k].y + elites[k].h * 0.74;
+          hitsN++;
         }
       }
       // 仅对前 hitsN 个命中做插入排序（不截断预分配池）
@@ -1493,11 +1606,14 @@
       var maxTargets = 1 + (wp.pierce || 0);
       for (k = 0; k < hitsN && k < maxTargets; k++) {
         var hz = hitArr[k].z;
-        hz.hp -= wp.dmg;
+        var hitDamage = wp.dmg * (hitArr[k].head ? HEADSHOT_MULT : 1);
+        hz.hp -= hitDamage;
         hz.hitT = 0.12;
         hz.lastHitBy = "player";
         hz.kvx += dx * wp.knock;
         hz.kvz += dz * wp.knock;
+        shotHit = true;
+        if (hitArr[k].head) shotHeadshot = true;
       }
       var endT;
       if (hitsN > 0) {
@@ -1510,6 +1626,8 @@
       }
       spawnTracer(mfx, mfy, mfz, ox + dx * endT, oy + dy * endT, oz + dz * endT, wp.color, wp.tracer);
     }
+    if (shotHeadshot) showCombatNote("爆头 · 伤害 ×" + HEADSHOT_MULT, true);
+    else if (!shotHit) showCombatNote("又打偏了，你是人机吗", false);
     if (player.weapon === "shotgun") { sShotgun(); addShake(0.13, 0.1); }
     else if (player.weapon === "gatling") sGatling();
     else if (player.weapon === "sniper") { sSniper(); addShake(0.3, 0.16); }
@@ -1520,9 +1638,9 @@
 
   function botShoot(bot, tz) {
     var ox = bot.x, oy = bot.y + 1.2, oz = bot.z;
-    var dx = tz.x - ox + rand(-0.25, 0.25);
-    var dy = (tz.y + tz.h * 0.55) - oy + rand(-0.12, 0.12);
-    var dz = tz.z - oz + rand(-0.25, 0.25);
+    var dx = tz.x - ox + rand(-0.1, 0.1);
+    var dy = (tz.y + tz.h * 0.62) - oy + rand(-0.06, 0.06);
+    var dz = tz.z - oz + rand(-0.1, 0.1);
     var dl = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
     dx /= dl; dy /= dl; dz /= dl;
     var maxT = worldRayLimit(ox, oy, oz, dx, dy, dz, 40);
@@ -1547,6 +1665,12 @@
     }
     spawnTracer(ox, oy, oz, ox + dx * endT, oy + dy * endT, oz + dz * endT, 0xcfe8ff, 0.025);
     sBotShot();
+  }
+
+  function hasLineOfSight(x, y, z, target) {
+    var dx = target.x - x, dy = target.y + target.h * 0.55 - y, dz = target.z - z;
+    var d = Math.sqrt(dx * dx + dy * dy + dz * dz) || 1;
+    return worldRayLimit(x, y, z, dx / d, dy / d, dz / d, d) >= d - Math.max(0.3, target.r);
   }
 
   function nearestHuman(x, z) {
@@ -1577,7 +1701,8 @@
   var ELITE_HP = 340, ELITE_SPEED = 1.3, ELITE_DMG = 25, ELITE_SCORE = 500;
   var ELITE_WINDUP = { slam: 1.0, charge: 0.7, spit: 0.8, roar: 0.8, summon: 1.0 };
   var ELITE_ACTIONS = ["stalk", "charge", "spit", "roar", "slam", "summon"];
-  var eliteThinkT = 4, eliteInFlight = false, eliteAbort = null, eliteLastOrders = [], eliteAiDisabled = false;
+  var eliteThinkT = 4, eliteInFlight = false, eliteAbort = null, eliteLastOrders = [];
+  var eliteAiDisabled = false, eliteSessionToken = "", elitePreflightDone = false, elitePreparing = false;
 
   // 瘟疫吐息弹丸池
   var SPIT_N = 10;
@@ -1725,8 +1850,7 @@
       if (player.hp > 0 && dist2d(e.x, e.z, player.x, player.z) < 4 && Math.abs(player.y - e.y) < 1.6) {
         damagePlayer(30);
         var nx = player.x - e.x, nz = player.z - e.z, nl = Math.hypot(nx, nz) || 1;
-        player.x += nx / nl * 2.4; player.z += nz / nl * 2.4;
-        collideWorld(player, player.y);
+        moveEntity(player, nx / nl * 12, nz / nl * 12, 0.2, player.y);
         setMsg("被重力震击掀飞！");
       }
       for (k = 0; k < bots.length; k++) {
@@ -1734,7 +1858,7 @@
         if (b.infected) continue;
         if (dist2d(e.x, e.z, b.x, b.z) < 4 && Math.abs(b.y - e.y) < 1.6) {
           var bx2 = b.x - e.x, bz2 = b.z - e.z, bl = Math.hypot(bx2, bz2) || 1;
-          b.x += bx2 / bl * 1.8; b.z += bz2 / bl * 1.8;
+          moveEntity(b, bx2 / bl * 9, bz2 / bl * 9, 0.2, b.y);
         }
       }
     } else if (act === "charge") { // 狂暴冲刺：8m/s 直线冲撞
@@ -1785,7 +1909,7 @@
       e.atkT -= dt; e.hitT -= dt;
       e.wob += dt * (e.mode === "charge" ? 14 : 4);
       // 重型躯体：射击击退只生效 30%
-      e.x += e.kvx * dt * 0.3; e.z += e.kvz * dt * 0.3;
+      moveEntity(e, e.kvx * 0.3, e.kvz * 0.3, dt, e.y);
       e.kvx *= (1 - 6 * dt); e.kvz *= (1 - 6 * dt);
       var dx = player.x - e.x, dz = player.z - e.z;
       var pd = Math.hypot(dx, dz) || 0.01;
@@ -1796,13 +1920,12 @@
         if (e.modeT <= 0) execEliteSkill(e);
       } else if (e.mode === "charge") {
         var step = 8 * dt;
-        e.x += e.chargeDx * step; e.z += e.chargeDz * step;
+        moveEntity(e, e.chargeDx * 8, e.chargeDz * 8, dt, e.y);
         e.chargeLeft -= step;
         if (Math.random() < 0.5) spawnParticle(e.x, 0.2, e.z, "dust", 0.8, 1.2, -4, 0.35);
         if (player.hp > 0 && pd < e.r + player.r + 0.4 && Math.abs(player.y - e.y) < 1.6) {
           damagePlayer(ELITE_DMG);
-          player.x += e.chargeDx * 2.2; player.z += e.chargeDz * 2.2;
-          collideWorld(player, player.y);
+          moveEntity(player, e.chargeDx * 11, e.chargeDz * 11, 0.2, player.y);
           setMsg("被精英冲撞击飞！");
           e.chargeLeft = 0;
         }
@@ -1815,14 +1938,12 @@
         var mx = e.tx - e.x, mz = e.tz - e.z;
         var md = Math.hypot(mx, mz);
         if (md > 0.3) {
-          e.x += (mx / md) * e.speed * dt;
-          e.z += (mz / md) * e.speed * dt;
+          moveEntity(e, (mx / md) * e.speed, (mz / md) * e.speed, dt, e.y);
           e.mesh.rotation.y = Math.atan2(mx, mz);
         }
         if (player.hp > 0 && pd < e.r + player.r + 0.35 && Math.abs(player.y - e.y) < 1.6 && e.atkT <= 0) {
           damagePlayer(e.dmg); // 近身抓取：重伤 + 击退
-          player.x += dx / pd * 1.8; player.z += dz / pd * 1.8;
-          collideWorld(player, player.y);
+          moveEntity(player, dx / pd * 9, dz / pd * 9, 0.2, player.y);
           burst3(player.x, player.y + 1.2, player.z, 6, "blood");
           e.atkT = 1.4;
           setMsg("被精英抓击！");
@@ -1869,7 +1990,7 @@
   // LLM 决策循环：每 4s 一批，fire-and-forget 不阻塞帧，同一时刻最多 1 个在途请求
   function eliteThink() {
     if (elites.length === 0) return;
-    if (eliteAiDisabled || !window.HaoqiAiGate) { eliteThinkLocal(); return; }
+    if (eliteAiDisabled || !eliteSessionToken || !window.HaoqiAiGate) { eliteThinkLocal(); return; }
     if (location.protocol !== "http:" && location.protocol !== "https:") { eliteThinkLocal(); return; }
     if (eliteInFlight) return;
     var zn = 0, k, e;
@@ -1902,19 +2023,18 @@
     var ctrl = new AbortController();
     eliteAbort = ctrl;
     var timer = null;
-    var gateAcquired = false;
-    window.HaoqiAiGate.getSession("elite").then(function (token) {
-      gateAcquired = true;
-      timer = setTimeout(function () { ctrl.abort(); }, 6000);
-      return fetch(window.HaoqiAiGate.url("/api/elite-command"), {
+    timer = setTimeout(function () { ctrl.abort(); }, 6000);
+    fetch(window.HaoqiAiGate.url("/api/elite-command"), {
         method: "POST",
         credentials: "omit",
-        headers: { "Content-Type": "application/json", "Authorization": "Bearer " + token },
+        headers: { "Content-Type": "application/json", "Authorization": "Bearer " + eliteSessionToken },
         body: JSON.stringify({ snapshot: snap }),
         signal: ctrl.signal
-      });
-    }).then(function (res) {
-      if (!res.ok) throw new Error("http " + res.status);
+      }).then(function (res) {
+      if (!res.ok) {
+        if (res.status === 401 || res.status === 403) eliteSessionToken = "";
+        throw new Error("http " + res.status);
+      }
       return res.json();
     }).then(function (data) {
       if (timer) clearTimeout(timer); eliteInFlight = false; eliteAbort = null;
@@ -1937,7 +2057,7 @@
       }
     }).catch(function () { // 404 / 超时 / 离线 / 限流 → 本地兜底
       if (timer) clearTimeout(timer); eliteInFlight = false; eliteAbort = null;
-      if (!gateAcquired) eliteAiDisabled = true;
+      eliteAiDisabled = true;
       eliteThinkLocal();
     });
   }
@@ -1971,7 +2091,7 @@
     muzzleLight.intensity = 0;
 
     player = {
-      x: 0, z: 6, y: 0, vy: 0, grounded: true, r: 0.42, hp: 100, maxHp: 100,
+      x: 0, z: 6, y: 0, vy: 0, grounded: true, r: 0.36, hp: 100, maxHp: 100,
       speed: 5.4, cool: 0, mag: 30, magSize: 30, reserve: 90,
       reloadT: 0, muzzleT: 0, weapon: "rifle", spinT: 0, wob: 0,
       inv: { rifle: { mag: 30, reserve: 90 } }
@@ -1979,11 +2099,12 @@
     bots = [makeBot(-2.2, 7.8), makeBot(2.2, 7.8), makeBot(0, 9.6)];
     zombies = []; crates = [];
     wave = 0; score = 0; interT = 0; hurtFlash = 0; bannerT = 0; missionT = 0;
-    spawnQueue = []; spawnT = 0;
+    spawnQueue = []; spawnT = 0; pendingElite = false; spawnBatch = 0;
     yaw = 0; pitch = 0; firing = false; jumpQueued = false;
     shakeAmp = 0; shakeT = 0;
     bobPhase = 0; landDip = 0; recoilOff = 0; gunKick = 0; swapT = 0;
-    multiN = 0; multiT = 0; crossHeat = 0;
+    multiN = 0; multiT = 0; crossHeat = 0; combatNoteT = 0;
+    if (el.combatNote) el.combatNote.classList.remove("show", "headshot");
     for (i = 0; i < windPads.length; i++) windPads[i].cool = 0;
     fovKick = 0; camera.fov = 72; camera.updateProjectionMatrix();
     el.topWave.textContent = "–";
@@ -2020,6 +2141,19 @@
     zombies.push(makeZombie(type, x, z, 0)); // 僵尸只刷地面层，靠斜坡爬上高台
   }
 
+  function spawnZombieBurst() {
+    var room = Math.max(0, ZOMBIE_CAP - zombies.length);
+    var amount = Math.min(spawnQueue.length, room, Math.min(6, 3 + Math.floor(wave / 3)));
+    for (var i = 0; i < amount; i++) spawnZombieFromQueue();
+    if (pendingElite) {
+      spawnElite();
+      pendingElite = false;
+    }
+    spawnBatch += 1;
+    showBanner("☣ 尸潮降临 · 第 " + spawnBatch + " 批", 1.15);
+    sInfect();
+  }
+
   function showBanner(text, dur) {
     el.banner.textContent = text;
     bannerT = bannerDur = dur || 2;
@@ -2029,13 +2163,14 @@
     wave += 1;
     if (wave > bestWave) { bestWave = wave; persistSave(); } // 抵达新波次立即存档
     spawnQueue = waveComp(wave);
-    spawnT = 0.5;
+    spawnT = 3.2;
+    spawnBatch = 0;
     var hasBrute = spawnQueue.indexOf("brute") >= 0;
     var hasElite = wave >= 4 && (wave - 4) % 3 === 0 && elites.length < 2; // 第 4 波起每 3 波 1 只，场上最多 2 只
-    if (hasElite) spawnElite();
-    showBanner("第 " + wave + " 波" + (hasBrute ? " · ☣ 母体出现" : "") + (hasElite ? " · ⚔ 精英变异体出现" : ""), 2.2);
+    pendingElite = hasElite;
+    showBanner("⚠ 第 " + wave + " 波尸潮 3 秒后降临" + (hasBrute ? " · 母体预警" : "") + (hasElite ? " · 精英预警" : ""), 2.8);
     el.topWave.textContent = wave;
-    sWave();
+    sWarning();
     state = "playing";
   }
 
@@ -2080,10 +2215,57 @@
     el.overlay.hidden = false;
   }
 
+  function prepareEliteAi() {
+    if (elitePreflightDone || elitePreparing) return;
+    elitePreparing = true;
+    el.ovBtn.disabled = true;
+    el.ovBtn.textContent = "准备 AI 对手…";
+    if (el.aiStatus) {
+      el.aiStatus.classList.remove("ready");
+      el.aiStatus.textContent = "请在这里完成开局验证；也可以选择本地 AI。";
+    }
+    var canUseGate = window.HaoqiAiGate && (location.protocol === "http:" || location.protocol === "https:");
+    var ready = canUseGate
+      ? window.HaoqiAiGate.getSession("elite", { mount: el.aiWidget })
+      : Promise.reject(new Error("AI gate unavailable"));
+    ready.then(function (token) {
+      eliteSessionToken = token;
+      eliteAiDisabled = false;
+      if (el.aiStatus) el.aiStatus.textContent = "✓ AI 精英指挥已就绪；战斗中不会再次验证。";
+    }).catch(function () {
+      eliteSessionToken = "";
+      eliteAiDisabled = true;
+      if (el.aiStatus) el.aiStatus.textContent = "✓ 已启用本地 AI；战斗中不会出现验证弹窗。";
+    }).finally(function () {
+      elitePreflightDone = true;
+      elitePreparing = false;
+      if (el.aiWidget) el.aiWidget.textContent = "";
+      if (el.aiStatus) el.aiStatus.classList.add("ready");
+      el.ovBtn.disabled = false;
+      el.ovBtn.textContent = isTouch ? "进入战场（全屏）" : "进入战场（全屏并锁定鼠标）";
+      el.ovBtn.focus();
+    });
+  }
+
+  function enterImmersive() {
+    if (!stage.requestFullscreen || document.fullscreenElement === stage) {
+      lockPointer();
+      return;
+    }
+    var request;
+    try { request = stage.requestFullscreen({ navigationUI: "hide" }); }
+    catch (e) {
+      try { request = stage.requestFullscreen(); } catch (ignored) { request = null; }
+    }
+    if (request && request.then) request.then(lockPointer).catch(lockPointer);
+    else lockPointer();
+  }
+
   function startGame() {
     ac();
     reset();
     hadLock = false; // 重置持锁记录，避免上一局残留状态误触发自动暂停
+    if (el.aiPreflight) el.aiPreflight.hidden = true;
     el.overlay.hidden = true;
     el.ovTitle.textContent = "生死狙击 · 变异战";
     setMsg("尸潮将至，守住阵地！");
@@ -2132,8 +2314,7 @@
         playerSprinting = !!(keys.ShiftLeft || keys.ShiftRight);
         var spd = player.speed * (playerSprinting ? 1.5 : 1);
         if (player.weapon === "gatling" && firing && player.reloadT <= 0) spd *= 0.55; // 加特林开火减速 45%
-        player.x += (vx2 / vl) * spd * dt;
-        player.z += (vz2 / vl) * spd * dt;
+        moveEntity(player, (vx2 / vl) * spd, (vz2 / vl) * spd, dt, player.y);
         bobPhase += dt * (playerSprinting ? 11.5 : 8);
       }
       collideWorld(player, player.y);
@@ -2214,26 +2395,53 @@
         continue;
       }
       b.cool -= dt;
-      var target = nearestZombie(b.x, b.z, 24);
+      var target = nearestZombie(b.x, b.z, 36);
+      var canSeeTarget = target && hasLineOfSight(b.x, b.y + 1.2, b.z, target);
       if (target) {
         b.mesh.rotation.y = Math.atan2(target.x - b.x, target.z - b.z);
-        if (b.cool <= 0) {
+        if (canSeeTarget && b.cool <= 0) {
           botShoot(b, target);
-          b.cool = 0.5 + rand(0, 0.3);
+          b.cool = 0.34 + rand(0, 0.16);
         }
       } else {
         b.mesh.rotation.y = Math.atan2(-Math.sin(yaw), -Math.cos(yaw));
       }
       var dp = dist2d(b.x, b.z, player.x, player.z);
       var bmv = 0;
-      if (dp > 9.4) { b.x += ((player.x - b.x) / dp) * 4.6 * dt; b.z += ((player.z - b.z) / dp) * 4.6 * dt; bmv = 1; }
-      else if (dp < 3.0 && dp > 0.01) { b.x -= ((player.x - b.x) / dp) * 2.2 * dt; b.z -= ((player.z - b.z) / dp) * 2.2 * dt; bmv = 1; }
+      var fi = b.formation % 3;
+      var side = fi === 0 ? -3.2 : fi === 1 ? 3.2 : 0;
+      var back = fi === 2 ? 4.5 : 2.8;
+      var fsy = Math.sin(yaw), fcy = Math.cos(yaw);
+      var fx = player.x + fcy * side + fsy * back;
+      var fz = player.z - fsy * side + fcy * back;
+      var goalX = fx, goalZ = fz, botSpeed = 5.2;
+      if (target) {
+        var txb = target.x - b.x, tzb = target.z - b.z;
+        var tdb = Math.hypot(txb, tzb) || 0.01;
+        if (tdb < 5.2) { // 主动远离近身威胁，避免站着等感染
+          goalX = b.x - txb / tdb * 4.5;
+          goalZ = b.z - tzb / tdb * 4.5;
+          botSpeed = 6.1;
+        } else if (!canSeeTarget && dp < 13) { // 被掩体挡住时向目标侧翼移动
+          goalX = b.x + txb / tdb * 3.2 + tzb / tdb * (fi === 0 ? -2 : 2);
+          goalZ = b.z + tzb / tdb * 3.2 - txb / tdb * (fi === 0 ? -2 : 2);
+        }
+      }
+      if (dp > 15) { goalX = fx; goalZ = fz; botSpeed = 6.4; }
+      var gdx = goalX - b.x, gdz = goalZ - b.z, gd = Math.hypot(gdx, gdz);
+      if (gd > 0.45) {
+        moveEntity(b, gdx / gd * botSpeed, gdz / gd * botSpeed, dt, b.y);
+        bmv = 1;
+      }
       for (k = 0; k < bots.length; k++) {
         var ob = bots[k];
         if (ob === b || ob.infected) continue;
         var sx = b.x - ob.x, sz = b.z - ob.z;
         var sd = Math.hypot(sx, sz);
-        if (sd > 0 && sd < 2) { b.x += (sx / sd) * 1.5 * dt; b.z += (sz / sd) * 1.5 * dt; bmv = 1; }
+        if (sd > 0 && sd < 1.5) {
+          moveEntity(b, sx / sd * 1.5, sz / sd * 1.5, dt, b.y);
+          bmv = 1;
+        }
       }
       collideWorld(b, b.y);
       updateVertical(b, dt);
@@ -2255,8 +2463,7 @@
       var hd = Math.hypot(hx, hz) || 0.01;
       z.wob += dt * 6;
       var zspd = z.speed * (z.hasteT > 0 ? 1.4 : 1); // 精英咆哮加速
-      z.x += (hx / hd) * zspd * dt + z.kvx * dt;
-      z.z += (hz / hd) * zspd * dt + z.kvz * dt;
+      moveEntity(z, (hx / hd) * zspd + z.kvx, (hz / hd) * zspd + z.kvz, dt, z.y);
       z.kvx *= (1 - 6 * dt); z.kvz *= (1 - 6 * dt);
       z.cool -= dt; z.hitT -= dt;
       if (z.hasteT > 0) z.hasteT -= dt;
@@ -2319,8 +2526,12 @@
     if (spawnQueue.length > 0 && zombies.length < ZOMBIE_CAP) {
       spawnT -= dt;
       if (spawnT <= 0) {
-        spawnZombieFromQueue();
-        spawnT = 0.4;
+        spawnZombieBurst();
+        if (spawnQueue.length > 0) {
+          spawnT = 4.0;
+          showBanner("⚠ 下一批尸潮正在集结 · 4 秒", 1.8);
+          sWarning();
+        }
       }
     }
 
@@ -2419,6 +2630,10 @@
     if (muzzleLight.intensity > 0) muzzleLight.intensity = Math.max(0, muzzleLight.intensity - dt * 36);
     if (hurtFlash > 0) hurtFlash -= dt;
     if (bannerT > 0) bannerT -= dt;
+    if (combatNoteT > 0) {
+      combatNoteT -= dt;
+      if (combatNoteT <= 0 && el.combatNote) el.combatNote.classList.remove("show");
+    }
 
     // --- 波次流程 ---
     if (state === "playing" && spawnQueue.length === 0 && zombies.length === 0 && elites.length === 0) {
@@ -2435,10 +2650,14 @@
     var eyeY = player.y + EYE_H + bobY - landDip * 0.09;
     if (viewMode === "tp") { // 第三人称：相机拉到身后上方
       var vsy = Math.sin(yaw), vcy = Math.cos(yaw);
+      var camDx = vsy * 3.1, camDy = 0.55, camDz = vcy * 3.1;
+      var camLen = Math.sqrt(camDx * camDx + camDy * camDy + camDz * camDz);
+      var camLimit = worldRayLimit(player.x, eyeY, player.z, camDx / camLen, camDy / camLen, camDz / camLen, camLen);
+      var camT = Math.max(0.35, Math.min(camLen, camLimit - 0.18));
       camera.position.set(
-        clamp(player.x + vsy * 3.1, -BOUND + 0.6, BOUND - 0.6),
-        eyeY + 0.55,
-        clamp(player.z + vcy * 3.1, -BOUND + 0.6, BOUND - 0.6)
+        clamp(player.x + camDx / camLen * camT, -BOUND + 0.6, BOUND - 0.6),
+        eyeY + camDy / camLen * camT,
+        clamp(player.z + camDz / camLen * camT, -BOUND + 0.6, BOUND - 0.6)
       );
     } else {
       camera.position.set(player.x, eyeY, player.z);
@@ -2524,7 +2743,7 @@
     el.ammoMag.textContent = player.mag;
     el.ammoRes.textContent = player.reserve;
     el.topScore.textContent = score;
-    el.topLeft.textContent = zombies.length + spawnQueue.length + elites.length;
+    el.topLeft.textContent = zombies.length + spawnQueue.length + elites.length + (pendingElite ? 1 : 0);
     el.topTime.textContent = state === "intermission" ? ("备战 " + Math.max(0, Math.ceil(interT))) : fmtTime(missionT);
     var alive = player.hp > 0 ? 1 : 0;
     for (i = 0; i < bots.length; i++) if (!bots[i].infected) alive++;
@@ -2538,7 +2757,7 @@
   var radarCtx = el.radar.getContext("2d");
   function drawRadar() {
     if (!radarCtx || !player) return;
-    var S = 140, C = S / 2, R = C - 6, scale = R / 30;
+    var S = 140, C = S / 2, R = C - 6, scale = R / HALF;
     var g = radarCtx;
     g.clearRect(0, 0, S, S);
     g.save();
@@ -2550,7 +2769,7 @@
     function px(rx, rz) { return rx * cb - rz * sb; }
     function py(rx, rz) { return rx * sb + rz * cb; }
     // 场地方框
-    var corners = [[-30, -30], [30, -30], [30, 30], [-30, 30]];
+    var corners = [[-HALF, -HALF], [HALF, -HALF], [HALF, HALF], [-HALF, HALF]];
     g.strokeStyle = "rgba(190,210,160,0.45)";
     g.lineWidth = 1.5;
     g.beginPath();
@@ -2721,7 +2940,10 @@
   document.addEventListener("keydown", function (e) {
     keys[e.code] = true;
     if (e.code === "KeyR") {
-      if (state === "gameover") startGame();
+      if (state === "gameover") {
+        if (!elitePreflightDone) prepareEliteAi();
+        else { startGame(); enterImmersive(); }
+      }
       else if (state === "playing") startReload();
     } else if (e.code === "Space") {
       if (state === "playing" || state === "intermission") { jumpQueued = true; e.preventDefault(); }
@@ -2744,9 +2966,12 @@
     ac(); // AudioContext 需在用户手势中创建
     if (state === "paused") {
       resumeGame();
+      enterImmersive();
+    } else if (!elitePreflightDone) {
+      prepareEliteAi();
     } else {
       startGame();
-      lockPointer();
+      enterImmersive();
     }
   });
 
@@ -2804,7 +3029,7 @@
     el.btnFire.addEventListener("touchstart", function (e) { firing = true; e.preventDefault(); e.stopPropagation(); }, { passive: false });
     el.btnFire.addEventListener("touchend", function (e) { firing = false; e.preventDefault(); }, { passive: false });
     el.btnJump.addEventListener("touchstart", function (e) { jumpQueued = true; e.preventDefault(); e.stopPropagation(); }, { passive: false });
-    el.ovDesc.innerHTML = "明亮仓库里的第一人称生存射击。左侧虚拟摇杆移动，右侧拖动瞄准，🔥 开火，⬆️ 跳跃。<br>（建议使用桌面端获得完整体验）";
+    el.ovDesc.innerHTML = "扩展仓库里的第一人称生存射击。尸潮成批降临并提前预警，爆头双倍伤害。左侧虚拟摇杆移动，右侧拖动瞄准，🔥 开火，⬆️ 跳跃。<br>开局前准备 AI，战斗中不再弹出验证。";
   }
 
   // ---------- 尺寸自适应 ----------
@@ -2858,9 +3083,14 @@
         score: score,
         zombies: zombies.length,
         elites: elites.length,
+        queued: spawnQueue.length,
+        spawnBatch: spawnBatch,
         bots: bots.length,
         hp: player ? player.hp : 0,
         weapon: player ? player.weapon : "none",
+        field: FIELD,
+        headshotMultiplier: HEADSHOT_MULT,
+        aiPrepared: elitePreflightDone,
         gl: !!renderer
       };
     },
