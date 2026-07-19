@@ -1,0 +1,40 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "haoqi-he-research",
+  "main": "worker/index.ts",
+  "compatibility_date": "2026-07-17",
+  "workers_dev": true,
+  "preview_urls": false,
+  "assets": {
+    "directory": "./_site",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api/*"]
+  },
+  "vars": {
+    "DEEPSEEK_BASE_URL": "https://api.deepseek.com",
+    "DEEPSEEK_MODEL": "deepseek-v4-flash",
+    "SEARCH_PROVIDER": "none",
+    "ALLOWED_ORIGINS": "https://cats1520cakes.github.io"
+  },
+  "ratelimits": [
+    {
+      "name": "SESSION_RATE_LIMITER",
+      "namespace_id": "152001",
+      "simple": { "limit": 3, "period": 60 }
+    },
+    {
+      "name": "AGENT_RATE_LIMITER",
+      "namespace_id": "152002",
+      "simple": { "limit": 6, "period": 60 }
+    },
+    {
+      "name": "GAME_RATE_LIMITER",
+      "namespace_id": "152003",
+      "simple": { "limit": 20, "period": 60 }
+    }
+  ],
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 0.1
+  }
+}

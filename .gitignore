@@ -1,6 +1,7 @@
 # Ignore the contents of the _site directory and other cache directories
 _site/
 .sass-cache/
+.jekyll-preview/
 
 # Ignore the directory for local files during development
 local/
@@ -10,8 +11,17 @@ Gemfile.lock
 
 # Ignore files created by npm
 node_modules
-package-lock.json
 
 # Ignore the vendor file and bundle for alternative installation
 vendor/
 .bundle/
+
+# Cloudflare Worker local state and secrets
+.wrangler/
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
+
+# Local structural index
+.codebase-mcp/

@@ -3,11 +3,11 @@ title: "Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Metho
 collection: publications
 category: conferences
 permalink: /publication/2025-04-15-q-detection
-excerpt: 'We reformulate poisoning detection as a bi-level QUBO problem, introducing a quantum-inspired filtering model that significantly improves detection accuracy and robustness.'
+excerpt: 'A quantum-classical method that models poisoning detection as bilevel optimization and evaluates defenses against label manipulation and backdoor attacks.'
 date: 2025-04-30
 venue: 'International Joint Conference on Artificial Intelligence (IJCAI 2025)'
-paperurl: 'https://yanxiao6.github.io/papers/quantum_ijcai2025.pdf'
-citation: 'He, H., Xiao, Y. (2025). "Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method." <i>IJCAI 2025</i>.'
+paperurl: 'https://www.ijcai.org/proceedings/2025/0593.pdf'
+citation: 'He, H., Lin, X., Chen, J., Xiao, Y. (2025). "Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method." <i>IJCAI 2025</i>, pp. 5327–5335.'
 ---
 
-This work tackles the inefficiency and inaccuracy of traditional data poisoning detection methods. We model the task as a bi-level QUBO optimization problem and introduce a Quantum Weight Assignment Network (Q-WAN) to accelerate detection while maintaining performance. Experiments on GTSRB dataset demonstrate state-of-the-art results and a 20% speedup versus CUDA-based Meta-SIFT.
+Q-Detection models clean-subset selection as a bilevel optimization problem and introduces a Quantum Weight-Assigning Network optimized with quantum computing devices. The paper evaluates label manipulation and backdoor settings. Its speedup statement is a theoretical expectation under quantum computing power, not a measured production speedup.

@@ -1,0 +1,11 @@
+# Copy to .dev.vars for local Worker development. Never commit the copied file.
+DEEPSEEK_API_KEY="replace_with_a_rotated_server_side_key"
+
+# Required for public AI routes. Use Cloudflare's documented dummy keys only
+# in automated tests; production must use a hostname-restricted Turnstile widget.
+TURNSTILE_SITE_KEY="replace_with_the_public_widget_site_key"
+TURNSTILE_SECRET_KEY="replace_with_the_private_widget_secret"
+AI_SESSION_SECRET="replace_with_at_least_32_random_bytes"
+
+# Optional: only needed when SEARCH_PROVIDER is brave or tavily in wrangler.jsonc.
+SEARCH_API_KEY="replace_with_a_server_side_search_key"

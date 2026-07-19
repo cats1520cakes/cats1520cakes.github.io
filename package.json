@@ -1,6 +1,9 @@
 {
   "name": "academic-pages",
   "version": "0.8.1.1",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.9.0",
   "description": "Academic Pages Mistakes Jekyll theme npm build scripts",
   "repository": {
     "type": "git",
@@ -30,10 +33,25 @@
     "magnific-popup": "^1.2.0"
   },
   "devDependencies": {
+    "@cloudflare/workers-types": "5.20260716.1",
     "onchange": "^7.1.0",
-    "uglify-js": "^3.17.4"
+    "typescript": "7.0.2",
+    "uglify-js": "^3.17.4",
+    "vitest": "4.1.10",
+    "wrangler": "4.111.0"
   },
   "scripts": {
+    "dev": "sh scripts/dev.sh",
+    "dev:worker": "npm run kb:build && bundle exec jekyll build && wrangler dev",
+    "kb:build": "node scripts/build-knowledge.mjs",
+    "news:fetch": "node scripts/fetch-news.mjs",
+    "build:site": "bundle exec jekyll clean && bundle exec jekyll build",
+    "build": "npm run kb:build && npm run build:site && npm run typecheck && npm run check:secrets",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "check:secrets": "node scripts/check-secrets.mjs",
+    "check:release": "node scripts/check-secrets.mjs --release",
+    "deploy": "npm run build && npm run check:release && wrangler deploy",
     "uglify": "uglifyjs node_modules/jquery/dist/jquery.min.js node_modules/fitvids/dist/fitvids.min.js node_modules/magnific-popup/dist/jquery.magnific-popup.min.js node_modules/jquery-smooth-scroll/jquery.smooth-scroll.min.js assets/js/plugins/jquery.greedy-navigation.js assets/js/_main.js -c -m -o assets/js/main.min.js",
     "watch:js": "onchange \"assets/js/**/*.js\" -e \"assets/js/main.min.js\" -- npm run build:js",
     "build:js": "npm run uglify"

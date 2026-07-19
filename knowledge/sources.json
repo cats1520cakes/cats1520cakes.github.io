@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-17",
+  "records": [
+    {
+      "id": "profile-current",
+      "title": "Current research profile",
+      "text": "Haoqi He works on LLM post-training, agentic reinforcement learning, verifier-aware harnesses, agent security, model-native safety, Agent for Security, and trustworthy AI. This is the owner-confirmed current positioning for the homepage.",
+      "evidenceType": "owner_confirmed",
+      "status": "current",
+      "sourcePath": "knowledge/sources.json#profile-current",
+      "tags": ["profile", "llm post-training", "agentic rl", "agent safety", "harness"]
+    },
+    {
+      "id": "experience-current",
+      "title": "Current experience and education",
+      "text": "Haoqi He joined Sangfor Innovation Research Institute in July 2026. He worked on AI safety at ByteDance from September 2025 through June 2026. He completed a Bachelor of Engineering in Cybersecurity at Sun Yat-sen University in June 2026.",
+      "evidenceType": "owner_confirmed",
+      "status": "current",
+      "sourcePath": "knowledge/sources.json#experience-current",
+      "tags": ["experience", "sangfor", "bytedance", "sysu", "education"]
+    },
+    {
+      "id": "frontierriskworld-current",
+      "title": "FrontierRiskWorld claim boundary",
+      "text": "FrontierRiskWorld is an ongoing verifier-aware research system for selective risk scoring, evidence guards, routing, abstention, and fallback to real execution. Prototype or partial evaluation evidence must not be generalized into a broad claim that the system solves long-horizon agent safety. Parse success alone is not semantic correctness.",
+      "evidenceType": "owner_confirmed",
+      "status": "ongoing_bounded",
+      "sourcePath": "knowledge/sources.json#frontierriskworld-current",
+      "tags": ["FrontierRiskWorld", "verifier", "selective execution", "evaluation", "claim boundary"]
+    },
+    {
+      "id": "repcore-current",
+      "title": "REPCORE public boundary",
+      "text": "REPCORE is an ongoing project in Haoqi He's post-training and agent-safety research portfolio. There is not yet a citable public artifact in this repository, so the homepage does not state detailed mechanisms, numerical results, or venue claims.",
+      "evidenceType": "owner_confirmed",
+      "status": "ongoing_prepublication",
+      "sourcePath": "knowledge/sources.json#repcore-current",
+      "tags": ["REPCORE", "post-training", "agent safety", "claim boundary"]
+    },
+    {
+      "id": "q-detection-ijcai",
+      "title": "Q-Detection: IJCAI 2025 official proceedings",
+      "text": "Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method is a Main Track paper at IJCAI 2025 by Haoqi He, Xiaokai Lin, Jiancai Chen, and Yan Xiao, pages 5327–5335. It presents a quantum-classical poisoning defense and evaluates label manipulation and backdoor attacks. Its more-than-20-percent speedup statement is a theoretical expectation using quantum computing power, not a measured production speedup.",
+      "evidenceType": "official_publication",
+      "status": "peer_reviewed",
+      "sourceUrl": "https://www.ijcai.org/proceedings/2025/593",
+      "sourcePath": "_publications/2025-04-30-IJCAI2025-Q-Detection.md",
+      "tags": ["Q-Detection", "IJCAI 2025", "data poisoning", "QUBO", "bilevel optimization"]
+    },
+    {
+      "id": "eccc-winlp",
+      "title": "ECCC: ACL Anthology record",
+      "text": "ECCC: Edge Code Cloak Coder for Privacy Code Agent is a WiNLP 2025 paper by Haoqi He, Wenzhi Xu, Ruoying Liu, Jiarui Tang, Bairu Li, and Xiaokai Lin, pages 65–74. It combines a lightweight local model, AST-based anonymization, edge-side privacy validation, and cloud delegation of abstracted tasks. The paper reports correctness within 4–5 percentage points of evaluated GPT-4-based frameworks and a 10/10 privacy score under its stated evaluation.",
+      "evidenceType": "official_publication",
+      "status": "peer_reviewed",
+      "sourceUrl": "https://aclanthology.org/2025.winlp-main.14/",
+      "sourcePath": "_publications/2025-09-16-WiNLP@ENMLP2025-ECCC.md",
+      "tags": ["ECCC", "WiNLP 2025", "code agent", "privacy", "edge cloud"]
+    },
+    {
+      "id": "hiq-lip-arxiv",
+      "title": "HiQ-Lip arXiv record",
+      "text": "HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks is arXiv:2503.16342 by Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, and Kai Wen. Version 2 was updated in January 2026. The method converts estimation to QUBO and uses multilevel graph coarsening and refinement; result claims are bounded to the networks and solver settings in the preprint.",
+      "evidenceType": "official_preprint",
+      "status": "preprint",
+      "sourceUrl": "https://arxiv.org/abs/2503.16342",
+      "sourcePath": "_publications/2025-03-20-HiQ-Lip.md",
+      "tags": ["HiQ-Lip", "Lipschitz", "ReLU", "QUBO", "robustness"]
+    },
+    {
+      "id": "pqsvm-arxiv",
+      "title": "Probabilistic Quantum SVM arXiv record",
+      "text": "Probabilistic Quantum SVM Training on Ising Machine is arXiv:2503.16363 by Haoqi He and Yan Xiao. It proposes an energy-based probabilistic QUBO approach with batching and multi-batch ensembling for limited qubit counts. Numerical statements must be attributed to the simulations, real-machine experiments, datasets, and baselines described in the preprint.",
+      "evidenceType": "official_preprint",
+      "status": "preprint",
+      "sourceUrl": "https://arxiv.org/abs/2503.16363",
+      "sourcePath": "_publications/2025-03-20-Probabilistic-QSVM.md",
+      "tags": ["PQSVM", "SVM", "Ising machine", "QUBO", "probabilistic"]
+    },
+    {
+      "id": "qcu-net-springer",
+      "title": "QCU-Net Springer record",
+      "text": "Quantum Lung Segmentation: QCU-Net Applied to Chest X-Ray Images is an AAIM 2024 chapter by Haoqi He and Mingkai Huang, pages 197–208 in the Springer proceedings.",
+      "evidenceType": "official_publication",
+      "status": "peer_reviewed",
+      "sourceUrl": "https://link.springer.com/chapter/10.1007/978-981-97-7801-0_17",
+      "sourcePath": "_publications/2024-09-01-AAIM2024-QCUNET.md",
+      "tags": ["QCU-Net", "AAIM 2024", "segmentation", "chest X-ray"]
+    },
+    {
+      "id": "tsp-springer",
+      "title": "Quantum Annealing and GNN for TSP Springer record",
+      "text": "Quantum Annealing and GNN for Solving TSP with QUBO is an AAIM 2024 chapter by Haoqi He, pages 134–145 in the Springer proceedings.",
+      "evidenceType": "official_publication",
+      "status": "peer_reviewed",
+      "sourceUrl": "https://link.springer.com/chapter/10.1007/978-981-97-7801-0_12",
+      "sourcePath": "_publications/2024-09-01-AAIM2024-TSPQUBOGNN.md",
+      "tags": ["TSP", "AAIM 2024", "quantum annealing", "GNN", "QUBO"]
+    },
+    {
+      "id": "q-detection-code",
+      "title": "Q-Detection public code repository",
+      "text": "The public Q-Detection repository contains implementations and benchmark entry points for Q-Detection, DCM, LossScan, AutoencoderScan, and Meta-Sift under label-flipping, Narcissus, and BadNets scenarios. Repository documentation is implementation evidence and does not supersede the peer-reviewed paper for scientific claims.",
+      "evidenceType": "public_repository",
+      "status": "public",
+      "sourceUrl": "https://github.com/cats1520cakes/Q-Detection-A-Quantum-Classical-Hybrid-Poisoning-Attack-Detection-Method",
+      "sourcePath": "knowledge/sources.json#q-detection-code",
+      "tags": ["Q-Detection", "code", "reproducibility", "poisoning"]
+    }
+  ],
+  "candidates": [
+    {"name": "QDetPlus", "status": "not_indexed", "reason": "No verified public artifact supplied."},
+    {"name": "Alignment/Lipschitz", "status": "not_indexed", "reason": "No verified public artifact supplied beyond HiQ-Lip."},
+    {"name": "Agent Security/RL", "status": "positioning_only", "reason": "Kept as a research direction, not a standalone result claim."},
+    {"name": "Qwen-AgentWorld", "status": "not_indexed", "reason": "No verified public artifact supplied."},
+    {"name": "ECCC Agent", "status": "covered_by_publication", "reason": "Indexed through the official ECCC publication."}
+  ]
+}

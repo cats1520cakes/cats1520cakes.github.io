@@ -1,3 +1,8 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if page.research_agent %}
+  <script src="{{ base_path }}/assets/js/ai-gate.js" defer></script>
+  <script src="{{ base_path }}/assets/js/research-agent.js" defer></script>
+{% endif %}
+
 {% include analytics.html %}

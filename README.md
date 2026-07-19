@@ -1,96 +1,170 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Haoqi He — AI-native Academic Homepage
 
-![Academic Pages template example](images/homepage.png "Academic Pages template example")
+This repository preserves the existing Academic Pages/Jekyll site and adds a Cloudflare Worker research interface. Static pages and `/api/*` ship as one Cloudflare Workers deployment; the browser never receives a model-provider credential.
 
-# Getting Started
+## Architecture
 
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-See more info at https://academicpages.github.io/
-
-## Running locally
-
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
-
-1. Clone the repository and made updates as detailed above.
-
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
+```text
+Browser
+  ├─ static page/assets ───────────────> Cloudflare Static Assets (_site)
+  ├─ Turnstile ────────────────────────> server-verified, single-use challenge
+  └─ signed AI session + /api/* ───────> Cloudflare Worker
+                                         ├─ endpoint-scoped HMAC session
+                                         ├─ session/client rate limiting
+                                         ├─ bundled public knowledge retrieval
+                                         ├─ optional public URL/search context
+                                         └─ DeepSeek-compatible API
+                                              Authorization: server-side secret only
 ```
 
-You should now be able to access the website from `localhost:4000`.
+The repository did not contain a Vercel runtime or configuration. The deployment migration is therefore from GitHub Pages-only hosting to Cloudflare Workers + Static Assets. GitHub Pages can remain a static fallback until DNS is switched.
 
-### Using the DevContainer in VS Code
+### Research modes
 
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
+- **Research Q&A** — retrieves local evidence and returns inline source identifiers.
+- **Challenge My Research** — separates claim, evidence, bounds, falsification, and next experiment; the default output type is `evidence_analysis`, not a fabricated run.
+- **Collaboration Fit** — assesses demonstrated overlap, gaps, and a concrete next question from a topic, role, paper page, or public URL.
 
-# Maintenance
+External pages and search snippets are tagged `untrusted_external`. They can be analyzed, but they cannot silently establish facts about Haoqi He.
 
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
+## Secret boundary
 
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
+`DEEPSEEK_API_KEY`, `TURNSTILE_SECRET_KEY`, and `AI_SESSION_SECRET` must exist only as Cloudflare encrypted secrets or in an ignored local `.dev.vars` file. Do not place them in `wrangler.jsonc`, Jekyll front matter, JavaScript, HTML, GitHub Actions YAML, or any `PUBLIC_*` variable. `TURNSTILE_SITE_KEY` is public but is still supplied by the Worker at runtime so the static build remains environment-neutral.
 
-## Bugfixes and enhancements
+```bash
+# Production: prompts securely; the value is not written to the repository.
+pnpm exec wrangler secret put DEEPSEEK_API_KEY
+pnpm exec wrangler secret put TURNSTILE_SITE_KEY
+pnpm exec wrangler secret put TURNSTILE_SECRET_KEY
 
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
+# Generate rather than hand-author the HMAC signing secret.
+openssl rand -base64 48 | pnpm exec wrangler secret put AI_SESSION_SECRET
 
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
+# Optional external-search provider secret.
+pnpm exec wrangler secret put SEARCH_API_KEY
+```
 
----
-<div align="center">
-    
-![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
-[![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/academicpages/academicpages.github.io/blob/master/LICENSE)
+For local Worker development:
 
-[![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
-</div>
+```bash
+cp .dev.vars.example .dev.vars
+# Edit .dev.vars locally. It is ignored by git.
+```
+
+The safe, non-secret defaults in `wrangler.jsonc` are:
+
+- `DEEPSEEK_BASE_URL=https://api.deepseek.com`
+- `DEEPSEEK_MODEL=deepseek-v4-flash`
+- `SEARCH_PROVIDER=none`
+
+Set `SEARCH_PROVIDER` to `brave` or `tavily` only after adding `SEARCH_API_KEY` as a Worker secret. Model and base URL remain configurable so model identifiers can change without a frontend rebuild.
+
+## Local development
+
+Requirements: Ruby 3.3+, Bundler, Node 22+, and pnpm 11.9.
+
+```bash
+bundle install
+pnpm install --frozen-lockfile
+
+# Full static build, type check, and secret scan
+pnpm run build
+
+# Cloudflare preview, including /api/agent (http://localhost:8787)
+pnpm run dev:worker
+
+# Jekyll-only visual preview; the agent degrades to an explicit offline state
+pnpm run dev -- --port 7100
+```
+
+The Worker preview requires all four AI/Turnstile values in `.dev.vars` to make a real model request. Missing gate configuration fails closed before any model call. `pnpm run check:release` intentionally rejects a delivery directory that still contains `.dev.vars` or `.env`.
+
+## Knowledge base
+
+`pnpm run kb:build` scans canonical records plus CV/publication Markdown, chunks them by semantic section, records provenance, and writes:
+
+- `knowledge/chunks.json` — Worker retrieval corpus;
+- `knowledge/manifest.json` — source hashes and incremental reuse state;
+- `knowledge/report.md` — build coverage and projects intentionally not promoted to facts.
+
+Source priority is:
+
+1. owner-confirmed current profile facts;
+2. official proceedings, anthology, arXiv, and publisher pages;
+3. local publication/CV records;
+4. runtime external context, always untrusted.
+
+Changed inputs are rebuilt; unchanged sources reuse their prior chunks. Runtime web results are never written back into the trusted corpus automatically.
+
+## API surface
+
+### `GET /api/health`
+
+Returns only the public gate state, public Turnstile site key when enabled, and corpus chunk count. Provider and secret configuration details are not exposed.
+
+### `POST /api/ai-session`
+
+Redeems a single-use Turnstile token through Cloudflare Siteverify and returns a 30-minute HMAC-signed session bound to the requesting client and exactly one scope: `agent`, `zombie`, or `elite`. Session tokens are held in browser memory only.
+
+### `POST /api/agent`
+
+```json
+{
+  "mode": "qa",
+  "question": "What is measured versus theoretical in Q-Detection?",
+  "contextUrl": "https://www.ijcai.org/proceedings/2025/593",
+  "useSearch": false,
+  "history": []
+}
+```
+
+The response is Server-Sent Events with `meta`, `sources`, `status`, `delta`, `done`, and `error` events. The UI renders a constrained Markdown subset using DOM text nodes; model output is never inserted as raw HTML.
+
+## Security controls
+
+- same-origin POST and preflight validation as a CORS boundary, not authentication;
+- mandatory server-side Turnstile verification before a session is issued;
+- short-lived HMAC sessions bound to endpoint scope, client fingerprint, and expiry;
+- encrypted Worker secrets; no browser-visible key path;
+- 8,000-character question, bounded history, and 64 KB request body;
+- Cloudflare Rate Limiting bindings: 3 session issuances, 6 research requests, or 20 total game requests per minute per session/client key;
+- HTTPS-only public URL reader with private/local address, credential, port, redirect, content-type, size, and timeout checks;
+- external-content prompt-injection boundary;
+- upstream timeout and safe provider-error mapping;
+- streamed output filters out reasoning fields and requests non-thinking mode;
+- strict static security headers, no frames, and no microphone/camera permissions;
+- repository/static-output credential-shape scan via `pnpm run check:secrets`.
+
+The gate fails closed when Turnstile, signing secrets, or rate-limit bindings are unavailable. For higher-volume traffic, additionally set provider-side spending limits and a Cloudflare WAF rule; public AI cannot be protected by a frontend-only secret.
+
+## Verification
+
+```bash
+pnpm test                 # retrieval, prompt, SSRF/origin, and route tests
+pnpm run typecheck        # strict TypeScript
+pnpm run build            # KB + clean Jekyll build + typecheck + secret scan
+pnpm run check:release    # fails if local secret files remain in the delivery tree
+pnpm exec wrangler deploy --dry-run
+```
+
+## Deploy to Cloudflare
+
+1. Authenticate with `pnpm exec wrangler login`.
+2. Create a hostname-restricted Managed Turnstile widget for the final Worker/custom-domain hostname.
+3. Add newly rotated `DEEPSEEK_API_KEY`, `TURNSTILE_SITE_KEY`, `TURNSTILE_SECRET_KEY`, and a generated `AI_SESSION_SECRET` using `wrangler secret put`.
+4. Run `pnpm run deploy`; the release scan refuses to deploy while a local `.dev.vars` or `.env` exists.
+5. Add the desired Custom Domain, update `_config.yml` and `ALLOWED_ORIGINS`, then set `workers_dev` to `false`. Preview URLs are already disabled.
+
+The manual GitHub Actions workflow `.github/workflows/cloudflare-deploy.yml` requires repository/environment secrets:
+
+- `CLOUDFLARE_API_TOKEN`
+- `CLOUDFLARE_ACCOUNT_ID`
+
+The DeepSeek key remains attached directly to the Worker in Cloudflare and is not passed through GitHub Actions.
+
+## Current operational boundaries
+
+- The bundled lexical retriever is appropriate for the current small public corpus and Cloudflare free-tier CPU constraints. D1/Vectorize should be introduced only when corpus scale, semantic recall, or update frequency warrants it.
+- Direct URL reading supports public HTML/plain-text landing pages, not PDF parsing.
+- External search is disabled until a provider and its server-side secret are configured.
+- Deployment, Turnstile creation, provider spending limits, and custom-domain activation require the owner's Cloudflare account; this repository intentionally contains no account credential or API key.
