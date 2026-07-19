@@ -81,7 +81,8 @@ publication_category:
   manuscripts:
     title: 'Preprints'
   conferences:
-    title: 'Peer-reviewed Publications'
+    title: 'Selected Publications'
+    selected_only: true
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

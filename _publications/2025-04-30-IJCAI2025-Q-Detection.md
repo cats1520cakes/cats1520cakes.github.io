@@ -2,6 +2,7 @@
 title: "Q-Detection: A Quantum-Classical Hybrid Poisoning Attack Detection Method"
 collection: publications
 category: conferences
+selected: true
 permalink: /publication/2025-04-15-q-detection
 excerpt: 'A quantum-classical method that models poisoning detection as bilevel optimization and evaluates defenses against label manipulation and backdoor attacks.'
 date: 2025-04-30
