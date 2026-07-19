@@ -1906,9 +1906,9 @@
     window.HaoqiAiGate.getSession("elite").then(function (token) {
       gateAcquired = true;
       timer = setTimeout(function () { ctrl.abort(); }, 6000);
-      return fetch("/api/elite-command", {
+      return fetch(window.HaoqiAiGate.url("/api/elite-command"), {
         method: "POST",
-        credentials: "same-origin",
+        credentials: "omit",
         headers: { "Content-Type": "application/json", "Authorization": "Bearer " + token },
         body: JSON.stringify({ snapshot: snap }),
         signal: ctrl.signal

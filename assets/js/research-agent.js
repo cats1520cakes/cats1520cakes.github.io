@@ -293,7 +293,8 @@
     }
   });
 
-  fetch("/api/health", { headers: { Accept: "application/json" }, credentials: "same-origin" })
+  var healthUrl = window.HaoqiAiGate ? window.HaoqiAiGate.url("/api/health") : "/api/health";
+  fetch(healthUrl, { headers: { Accept: "application/json" }, credentials: "omit" })
     .then(function (response) { return response.ok ? response.json() : Promise.reject(new Error("offline")); })
     .then(function (payload) {
       setStatus(payload.aiEnabled ? "is-online" : "", payload.aiEnabled ? "Evidence service protected" : "AI securely disabled · protection not configured");

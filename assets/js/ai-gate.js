@@ -6,6 +6,14 @@
   var configPromise = null;
   var scriptPromise = null;
   var allowedScopes = ["agent", "zombie", "elite"];
+  var workerOrigin = "https://haoqi-he-research.ncgzhhq.workers.dev";
+
+  function apiUrl(input) {
+    if (typeof input !== "string" || input.charAt(0) !== "/") return input;
+    var localPreview = location.hostname === "localhost" || location.hostname === "127.0.0.1";
+    var workerPreview = location.origin === workerOrigin;
+    return localPreview || workerPreview ? input : workerOrigin + input;
+  }
 
   function apiError(response, fallback) {
     return response.json().catch(function () { return {}; }).then(function (payload) {
@@ -15,8 +23,8 @@
 
   function loadConfig() {
     if (!configPromise) {
-      configPromise = fetch("/api/health", {
-        credentials: "same-origin",
+      configPromise = fetch(apiUrl("/api/health"), {
+        credentials: "omit",
         headers: { Accept: "application/json" }
       }).then(function (response) {
         if (!response.ok) return apiError(response, "AI security service is unavailable.");
@@ -95,9 +103,9 @@
         callback: function (turnstileToken) {
           cancel.disabled = true;
           note.textContent = "Creating a short-lived, endpoint-scoped session…";
-          fetch("/api/ai-session", {
+          fetch(apiUrl("/api/ai-session"), {
             method: "POST",
-            credentials: "same-origin",
+            credentials: "omit",
             headers: { "Content-Type": "application/json", Accept: "application/json" },
             body: JSON.stringify({ scope: scope, turnstileToken: turnstileToken })
           }).then(function (response) {
@@ -146,8 +154,8 @@
       var headers = new Headers(options.headers || {});
       headers.set("Authorization", "Bearer " + token);
       options.headers = headers;
-      options.credentials = "same-origin";
-      return fetch(input, options).then(function (response) {
+      options.credentials = "omit";
+      return fetch(apiUrl(input), options).then(function (response) {
         if (response.status === 401 || response.status === 403) delete sessions[scope];
         return response;
       });
@@ -157,6 +165,7 @@
   window.HaoqiAiGate = {
     getSession: getSession,
     fetch: securedFetch,
+    url: apiUrl,
     clear: function (scope) { delete sessions[scope]; }
   };
 })();
