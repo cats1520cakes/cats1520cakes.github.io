@@ -65,26 +65,30 @@
     if (dialog && dialog.parentNode) dialog.parentNode.removeChild(dialog);
   }
 
-  function requestSession(scope, siteKey, turnstileApi) {
+  function requestSession(scope, siteKey, turnstileApi, options) {
     return new Promise(function (resolve, reject) {
+      var mount = options && options.mount;
+      var inline = !!(mount && mount.nodeType === 1);
       var dialog = document.createElement("div");
-      dialog.className = "ai-gate-dialog";
-      dialog.setAttribute("role", "dialog");
-      dialog.setAttribute("aria-modal", "true");
+      dialog.className = inline ? "ai-gate-inline" : "ai-gate-dialog";
+      dialog.setAttribute("role", inline ? "group" : "dialog");
+      if (!inline) dialog.setAttribute("aria-modal", "true");
       dialog.setAttribute("aria-labelledby", "ai-gate-title");
 
       var card = document.createElement("div");
       card.className = "ai-gate-card";
       var title = document.createElement("h2");
       title.id = "ai-gate-title";
-      title.textContent = "Verify this AI session";
+      title.textContent = inline ? "开局前 AI 验证" : "Verify this AI session";
       var note = document.createElement("p");
-      note.textContent = "Cloudflare verification prevents this public research site from being reused as a model proxy.";
+      note.textContent = inline
+        ? "验证只在开局前进行，用于保护 AI 接口；战斗中不会再次弹出。"
+        : "Cloudflare verification prevents this public research site from being reused as a model proxy.";
       var widget = document.createElement("div");
       widget.className = "ai-gate-widget";
       var cancel = document.createElement("button");
       cancel.type = "button";
-      cancel.textContent = "Use local fallback";
+      cancel.textContent = inline ? "使用本地 AI 进入" : "Use local fallback";
       cancel.addEventListener("click", function () {
         removeDialog(dialog);
         reject(new Error("AI verification was cancelled."));
@@ -92,7 +96,12 @@
 
       card.append(title, note, widget, cancel);
       dialog.appendChild(card);
-      document.body.appendChild(dialog);
+      if (inline) {
+        mount.textContent = "";
+        mount.appendChild(dialog);
+      } else {
+        document.body.appendChild(dialog);
+      }
       cancel.focus();
 
       turnstileApi.render(widget, {
@@ -131,14 +140,14 @@
     });
   }
 
-  function getSession(scope) {
+  function getSession(scope, options) {
     if (allowedScopes.indexOf(scope) < 0) return Promise.reject(new Error("Unknown AI session scope."));
     var current = sessions[scope];
     if (current && current.expiresAt > Date.now() + 30_000) return Promise.resolve(current.token);
     if (pending[scope]) return pending[scope];
 
     pending[scope] = Promise.all([loadConfig(), loadTurnstile()])
-      .then(function (values) { return requestSession(scope, values[0].siteKey, values[1]); })
+      .then(function (values) { return requestSession(scope, values[0].siteKey, values[1], options); })
       .then(function (session) {
         sessions[scope] = session;
         return session.token;
