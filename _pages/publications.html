@@ -19,6 +19,11 @@ author_profile: true
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
+      {% if category[1].selected_only %}
+        {% unless post.selected %}
+          {% continue %}
+        {% endunless %}
+      {% endif %}
       {% unless title_shown %}
         <h2>{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
@@ -31,6 +36,5 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endif %}
-
 
 
