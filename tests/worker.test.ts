@@ -14,6 +14,20 @@ describe("worker routes", () => {
     expect(JSON.stringify(payload)).not.toContain("DEEPSEEK_API_KEY");
   });
 
+  it("allows the configured site to read cross-origin health status", async () => {
+    const origin = "https://cats1520cakes.github.io";
+    const response = await worker.fetch(new Request("https://example.com/api/health", {
+      headers: { Origin: origin },
+    }), {
+      ASSETS: { fetch: async () => new Response("asset") },
+      ALLOWED_ORIGINS: origin,
+    });
+
+    expect(response.status).toBe(200);
+    expect(response.headers.get("Access-Control-Allow-Origin")).toBe(origin);
+    expect(response.headers.get("Vary")).toBe("Origin");
+  });
+
   it("rejects originless agent requests", async () => {
     const response = await worker.fetch(new Request("https://example.com/api/agent", {
       method: "POST",

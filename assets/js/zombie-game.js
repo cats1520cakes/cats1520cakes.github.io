@@ -187,9 +187,9 @@
     window.HaoqiAiGate.getSession("zombie").then(function (token) {
       gateAcquired = true;
       timer = setTimeout(function () { if (ctrl) ctrl.abort(); }, AI.timeout);
-      return fetch(AI.url, {
+      return fetch(window.HaoqiAiGate.url(AI.url), {
         method: "POST",
-        credentials: "same-origin",
+        credentials: "omit",
         headers: { "Content-Type": "application/json", "Authorization": "Bearer " + token },
         body: JSON.stringify({ snapshot: aiSnapshot() }),
         signal: ctrl ? ctrl.signal : undefined

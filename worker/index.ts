@@ -76,12 +76,12 @@ export default {
     const url = new URL(request.url);
 
     if (url.pathname === "/api/health" && request.method === "GET") {
-      return json({
+      return withCors(json({
         ok: true,
         aiEnabled: aiAccessReady(env) && Boolean(env.DEEPSEEK_API_KEY),
         turnstileSiteKey: aiAccessReady(env) ? env.TURNSTILE_SITE_KEY : undefined,
         knowledgeChunks: knowledgeStats().chunks,
-      });
+      }), request, env);
     }
 
     if (["/api/ai-session", "/api/agent", "/api/zombie-command", "/api/elite-command"].includes(url.pathname) && request.method === "OPTIONS") {
