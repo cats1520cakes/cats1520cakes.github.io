@@ -1,17 +1,17 @@
 {
   "version": 1,
-  "generatedAt": "2026-07-19T08:11:49.372Z",
-  "corpusSha256": "1148a3c3903077041b0e490f08011d77270973c10051b120cc45b0a7393af9c0",
+  "generatedAt": "2026-07-19T10:39:16.179Z",
+  "corpusSha256": "a16007316ec6c3f5949e5e96617202779455f4fbd904056cf918d3a4211294ee",
   "chunkCount": 24,
   "files": [
     {
       "path": "knowledge/sources.json",
-      "sha256": "bd29d542e8a42f8be50496e3216a5669be9d78fb1710e47234772599a6e6496f",
+      "sha256": "4042565b5731cff44a06678c7e6f3db5011e1d0c9135813cd79aa14126e0bd78",
       "chunks": 11
     },
     {
       "path": "_pages/cv.md",
-      "sha256": "900df144fab8927b81668a44f80ebdb5a5df9ab96937e0443173c18e432abf7f",
+      "sha256": "5516a14df4614cfede06dbb376a0b98674aec993a46b2643d873e8b900ae8584",
       "chunks": 7
     },
     {
@@ -26,7 +26,7 @@
     },
     {
       "path": "_publications/2025-03-20-HiQ-Lip.md",
-      "sha256": "255b974c9e3fd45343fe4981c01092ce024f42448b0c9db9d195bf14735dd408",
+      "sha256": "ffd45b69d66fbe5956457535e51cc59f057482992cc3dc96dff967ac23cb485c",
       "chunks": 1
     },
     {
@@ -45,13 +45,14 @@
       "chunks": 1
     }
   ],
-  "changed": [],
-  "unchanged": [
+  "changed": [
     "knowledge/sources.json",
     "_pages/cv.md",
+    "_publications/2025-03-20-HiQ-Lip.md"
+  ],
+  "unchanged": [
     "_publications/2024-09-01-AAIM2024-QCUNET.md",
     "_publications/2024-09-01-AAIM2024-TSPQUBOGNN.md",
-    "_publications/2025-03-20-HiQ-Lip.md",
     "_publications/2025-03-20-Probabilistic-QSVM.md",
     "_publications/2025-04-30-IJCAI2025-Q-Detection.md",
     "_publications/2025-09-16-WiNLP@ENMLP2025-ECCC.md"

@@ -41,8 +41,8 @@ Selected Publications
   [ACL Anthology](https://aclanthology.org/2025.winlp-main.14/)
 
 - **HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks**<br>
-  Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, Kai Wen. *arXiv:2503.16342*.<br>
-  [arXiv](https://arxiv.org/abs/2503.16342)
+  Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, Kai Wen. *AAAI 2026*, 40(26), pp. 21628–21636.<br>
+  [Proceedings](https://doi.org/10.1609/aaai.v40i26.39312)
 
 - **Probabilistic Quantum SVM Training on Ising Machine**<br>
   Haoqi He, Yan Xiao. *arXiv:2503.16363*.<br>

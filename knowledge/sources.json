@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-19",
   "records": [
     {
       "id": "profile-current",
@@ -59,14 +59,14 @@
       "tags": ["ECCC", "WiNLP 2025", "code agent", "privacy", "edge cloud"]
     },
     {
-      "id": "hiq-lip-arxiv",
-      "title": "HiQ-Lip arXiv record",
-      "text": "HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks is arXiv:2503.16342 by Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, and Kai Wen. Version 2 was updated in January 2026. The method converts estimation to QUBO and uses multilevel graph coarsening and refinement; result claims are bounded to the networks and solver settings in the preprint.",
-      "evidenceType": "official_preprint",
-      "status": "preprint",
-      "sourceUrl": "https://arxiv.org/abs/2503.16342",
+      "id": "hiq-lip-aaai",
+      "title": "HiQ-Lip: AAAI 2026 official proceedings",
+      "text": "HiQ-Lip: A Hierarchical Quantum-Classical Method for Global Lipschitz Constant Estimation of ReLU Networks is an AAAI 2026 paper by Haoqi He, Yan Xiao, Wenzhi Xu, Ruoying Liu, Xiaokai Lin, and Kai Wen. It appears in Proceedings of the AAAI Conference on Artificial Intelligence, volume 40, issue 26, pages 21628–21636, DOI 10.1609/aaai.v40i26.39312. The method converts estimation to QUBO and uses multilevel graph coarsening and refinement; result claims are bounded to the networks and solver settings reported in the paper.",
+      "evidenceType": "official_publication",
+      "status": "peer_reviewed",
+      "sourceUrl": "https://doi.org/10.1609/aaai.v40i26.39312",
       "sourcePath": "_publications/2025-03-20-HiQ-Lip.md",
-      "tags": ["HiQ-Lip", "Lipschitz", "ReLU", "QUBO", "robustness"]
+      "tags": ["HiQ-Lip", "AAAI 2026", "Lipschitz", "ReLU", "QUBO", "robustness"]
     },
     {
       "id": "pqsvm-arxiv",

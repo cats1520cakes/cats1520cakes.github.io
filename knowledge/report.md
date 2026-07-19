@@ -1,20 +1,20 @@
 # Knowledge Base Build Report
 
-Generated: 2026-07-19T08:11:49.372Z
-Corpus SHA-256: `1148a3c3903077041b0e490f08011d77270973c10051b120cc45b0a7393af9c0`
+Generated: 2026-07-19T10:39:16.179Z
+Corpus SHA-256: `a16007316ec6c3f5949e5e96617202779455f4fbd904056cf918d3a4211294ee`
 Chunks: 24
 
 ## Incremental update
 
-- Changed sources: none
-- Reused sources: `knowledge/sources.json`, `_pages/cv.md`, `_publications/2024-09-01-AAIM2024-QCUNET.md`, `_publications/2024-09-01-AAIM2024-TSPQUBOGNN.md`, `_publications/2025-03-20-HiQ-Lip.md`, `_publications/2025-03-20-Probabilistic-QSVM.md`, `_publications/2025-04-30-IJCAI2025-Q-Detection.md`, `_publications/2025-09-16-WiNLP@ENMLP2025-ECCC.md`
+- Changed sources: `knowledge/sources.json`, `_pages/cv.md`, `_publications/2025-03-20-HiQ-Lip.md`
+- Reused sources: `_publications/2024-09-01-AAIM2024-QCUNET.md`, `_publications/2024-09-01-AAIM2024-TSPQUBOGNN.md`, `_publications/2025-03-20-Probabilistic-QSVM.md`, `_publications/2025-04-30-IJCAI2025-Q-Detection.md`, `_publications/2025-09-16-WiNLP@ENMLP2025-ECCC.md`
 
 ## Evidence types
 
 - `local_publication_record`: 6
 - `local_site_source`: 7
-- `official_preprint`: 2
-- `official_publication`: 4
+- `official_preprint`: 1
+- `official_publication`: 5
 - `owner_confirmed`: 4
 - `public_repository`: 1
 
