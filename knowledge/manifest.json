@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "generatedAt": "2026-07-19T08:11:49.372Z",
+  "corpusSha256": "1148a3c3903077041b0e490f08011d77270973c10051b120cc45b0a7393af9c0",
+  "chunkCount": 24,
+  "files": [
+    {
+      "path": "knowledge/sources.json",
+      "sha256": "bd29d542e8a42f8be50496e3216a5669be9d78fb1710e47234772599a6e6496f",
+      "chunks": 11
+    },
+    {
+      "path": "_pages/cv.md",
+      "sha256": "900df144fab8927b81668a44f80ebdb5a5df9ab96937e0443173c18e432abf7f",
+      "chunks": 7
+    },
+    {
+      "path": "_publications/2024-09-01-AAIM2024-QCUNET.md",
+      "sha256": "73967824e1a7820af92c147f300497781c2cadf7f0d13b8dd92839aa9fc6ff0c",
+      "chunks": 1
+    },
+    {
+      "path": "_publications/2024-09-01-AAIM2024-TSPQUBOGNN.md",
+      "sha256": "cd529c758e2707a4e90ff1c5b51b7e14cd8be5cf37c4d5df6a38ef261e2def7b",
+      "chunks": 1
+    },
+    {
+      "path": "_publications/2025-03-20-HiQ-Lip.md",
+      "sha256": "255b974c9e3fd45343fe4981c01092ce024f42448b0c9db9d195bf14735dd408",
+      "chunks": 1
+    },
+    {
+      "path": "_publications/2025-03-20-Probabilistic-QSVM.md",
+      "sha256": "7521320eb43c4bbe14fcbd7211bb5e47519cad1704815b8ef5dedf04f4c150cc",
+      "chunks": 1
+    },
+    {
+      "path": "_publications/2025-04-30-IJCAI2025-Q-Detection.md",
+      "sha256": "7d62f5f43c7fe2b6a1f9795452111d2b8530643536f1738982c594317f47be4d",
+      "chunks": 1
+    },
+    {
+      "path": "_publications/2025-09-16-WiNLP@ENMLP2025-ECCC.md",
+      "sha256": "e640980c5e2c6d001c7ba50e9d0f085e177bb132127c28d25483eb3a9ae2f6e6",
+      "chunks": 1
+    }
+  ],
+  "changed": [],
+  "unchanged": [
+    "knowledge/sources.json",
+    "_pages/cv.md",
+    "_publications/2024-09-01-AAIM2024-QCUNET.md",
+    "_publications/2024-09-01-AAIM2024-TSPQUBOGNN.md",
+    "_publications/2025-03-20-HiQ-Lip.md",
+    "_publications/2025-03-20-Probabilistic-QSVM.md",
+    "_publications/2025-04-30-IJCAI2025-Q-Detection.md",
+    "_publications/2025-09-16-WiNLP@ENMLP2025-ECCC.md"
+  ]
+}

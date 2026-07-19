@@ -11,9 +11,9 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Haoqi He"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://cats1520cakes.github.io/ # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
+name                     : &name "Haoqi He"
+description              : &description "Researcher in LLM post-training, agent safety, and trustworthy AI."
+url                      : https://cats1520cakes.github.io # the base hostname & protocol for your site
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "cats1520cakes/cats1520cakes.github.io"
 
@@ -25,9 +25,9 @@ author:
   avatar           : "profile.png"
   name             : "Haoqi He (赫浩锜)"
   pronouns         : # example: "she/her"  
-  bio              : "I am a bachelor student of SYSU, looking for funded Phd opportunities in 26fall."
-  location         : "China Guangdong Shenzhen"
-  employer         : "Sun Yat-sen University (SYSU)"
+  bio              : "LLM post-training, agent safety, and trustworthy AI."
+  location         : "Shenzhen, China"
+  employer         : "Sangfor Innovation Research Institute"
   uri              : # URL
   email            : "hehq23@mail2.sysu.edu.cn" 
 
@@ -46,7 +46,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/cats1520cakes"
+  github           : "cats1520cakes"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -78,12 +78,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Preprints'
   conferences:
-    title: 'Conference Papers'
+    title: 'Peer-reviewed Publications'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -141,9 +139,12 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : Haoqi He
+  links:
+    - https://github.com/cats1520cakes
+    - https://scholar.google.com/citations?user=VIeMvrEAAAAJ
+    - https://orcid.org/0009-0007-8646-8593
 
 
 # Analytics
@@ -158,6 +159,7 @@ include:
   - .htaccess
   - _pages
   - files
+  - _headers
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -179,8 +181,18 @@ exclude:
   - LICENSE
   - local
   - log
+  - markdown_generator
   - node_modules
   - package.json*
+  - pnpm-lock.yaml
+  - pnpm-workspace.yaml
+  - knowledge
+  - scripts
+  - worker
+  - tests
+  - vitest.config.ts
+  - wrangler.jsonc
+  - tsconfig.json
   - Rakefile
   - README
   - tmp
@@ -295,7 +307,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: Etc/UTC # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Asia/Shanghai
 
 
 # Plugins

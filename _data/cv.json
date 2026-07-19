@@ -2,25 +2,19 @@
   "basics": {
     "name": "Haoqi He",
     "email": "hehq23@mail2.sysu.edu.cn",
-    "phone": "+86 18584819179",
     "website": "https://cats1520cakes.github.io",
-    "summary": "SYSU student of Cybersecurity. Short biography for the left-hand sidebar",
+    "summary": "Researcher in LLM post-training, agent safety, and trustworthy AI.",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Guangdong Shenzhen, China",
-      "countryCode": "CN",
-      "region": "Asia"
+      "city": "Shenzhen",
+      "countryCode": "CN"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=VIeMvrEAAAAJ&hl=zh-CN"
+        "url": "https://scholar.google.com/citations?user=VIeMvrEAAAAJ&hl=en"
       },
       {
         "network": "ORCID",
-        "username": "",
         "url": "https://orcid.org/0009-0007-8646-8593"
       },
       {
@@ -30,50 +24,40 @@
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Sangfor Innovation Research Institute",
+      "position": "Research — LLM Post-training & Agent Safety",
+      "startDate": "2026-07",
+      "endDate": ""
+    },
+    {
+      "company": "ByteDance",
+      "position": "AI Safety",
+      "startDate": "2025-09",
+      "endDate": "2026-06"
+    }
+  ],
   "education": [
     {
       "institution": "Sun Yat-sen University",
-      "area": "Bachelor of CyberSecurity ( CS-related Major )",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2026",
-      "gpa": 3.3,
-      "courses": []
+      "area": "Cybersecurity",
+      "studyType": "B.Eng.",
+      "startDate": "2022",
+      "endDate": "2026-06"
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "LLM and Agent Safety",
+      "keywords": ["post-training", "agentic RL", "evaluation harnesses", "agent security"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": ["LLM post-training", "Agent Safety", "Trustworthy AI"],
   "references": [],
-  "publications": [
-    
-  ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "publications": [],
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
