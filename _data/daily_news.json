@@ -1,461 +1,461 @@
 {
-  "updatedAt": "2026-07-20T14:36:09.232Z",
+  "updatedAt": "2026-07-21T03:52:17.440Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
     {
-      "date": "2026-07-20",
-      "weekday": "星期一",
+      "date": "2026-07-21",
+      "weekday": "星期二",
       "items": [
         {
-          "time": "22:17",
-          "title": "learnui 用 K3 生成 74 个知名网站预览供参考",
-          "summary": "learnui 网站更新，利用 K3 模型为 getdesign 收录的 74 个知名网站生成了设计预览，供用户参考网站风格。此外，可要求 AI 为网站增加 PWA 支持，以便将其安装为 MacOS 应用，提升打开率。",
-          "category": "技巧观点",
-          "source": "X：Vista (@vista8)",
-          "originalUrl": "https://x.com/vista8/status/2079208964248506534",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtb90r520fxbitl2sgckxnd"
-        },
-        {
-          "time": "22:03",
-          "title": "特朗普政府拟通过制裁与安全警告对中国AI模型实施事实禁令",
-          "summary": "特朗普政府正考虑将中国AI实验室列入制裁清单、发布安全警告及行政命令，以形成对中国AI模型的事实禁令。据Axios报道，商务部、NSA及白宫自2025年起已探索多项方案，包括对托管中国模型的美国公司施加安全责任。",
+          "time": "11:35",
+          "title": "安永与火山引擎达成战略合作，共推企业AI规模化落地",
+          "summary": "7月19日，安永（EY）与火山引擎签署战略合作备忘录，双方将围绕企业核心业务场景共建AI解决方案，将豆包大模型、Data Agent、HiAgent等能力嵌入数据治理、财务管理和营销增长等环节。合作还包括搭建千人级FDE（前置交付工程师）团队，并在安永各专业服务团队中逐步引入TRAE等AI工具平台，打造AI原生交付团队。",
           "category": "行业动态",
-          "source": "The Decoder：AI News（RSS）",
-          "originalUrl": "https://the-decoder.com/trump-administration-reportedly-builds-a-slow-motion-ban-on-chinese-ai-models-through-sanctions-and-soft-pressure",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtb925320glbitlbgw7thgg"
+          "source": "公众号：火山引擎",
+          "originalUrl": "https://mp.weixin.qq.com/s/UM0qmp2VlJvLOFRvN7TW4w",
+          "itemUrl": "https://aihot.virxact.com/items/cmru3vmon52v0bihztv9sweyy"
         },
         {
-          "time": "22:01",
-          "title": "Ex 发来 Codex 宠物文件回忆旧狗",
-          "summary": "Ex 给我发了一个我们以前照看过的狗的 Codex 宠物文件。",
-          "category": "技巧观点",
-          "source": "X：Jason Liu (@jxnlco)",
-          "originalUrl": "https://x.com/jxnlco/status/2079205030993723458",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtba4y020ribitlipugcgbm"
+          "time": "11:33",
+          "title": "腾讯混元推出Hyra-1.0递归自我改进研究智能体",
+          "summary": "腾讯混元推出Hyra-1.0，一个能递归自我改进的研究智能体，在NanoChat等三项任务上均超越Recursive公开结果。Hyra在55个数学开放问题中刷新29个历史最好结果，并设计出仅含15个可训练参数即可完成10位数加法的Transformer。所有产物已在GitHub开源。",
+          "category": "AI 产品",
+          "source": "公众号：腾讯混元",
+          "originalUrl": "https://mp.weixin.qq.com/s/upwDQ_6ZfmszBUcRQjR_Dg",
+          "itemUrl": "https://aihot.virxact.com/items/cmru3vmv252v2bihzm2btrcpy"
         },
         {
-          "time": "22:00",
-          "title": "百度黑客马拉松：355个智能体诞生",
-          "summary": "678 人走进第 31 届百度黑客马拉松。355 个智能体走了出来。\n\n前 20 个作品登上黑马秀--入围团队的现场决赛。其中五分之一是单人团队。\n\n有些人从未写过一行代码。所有人离开时都成了开发者。👀",
-          "category": "行业动态",
-          "source": "X：百度 Baidu (@Baidu_Inc)",
-          "originalUrl": "https://x.com/Baidu_Inc/status/2079204788911423704",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtb8q9c20dvbitlrycixtfk"
+          "time": "11:14",
+          "title": "Apple 提出无环境合成数据生成法",
+          "summary": "Apple 提出面向 API 调用智能体的无环境合成数据生成方法\nhttps://huggingface.co/papers/2607.16900",
+          "category": "论文",
+          "source": "X：AK (@_akhaliq)",
+          "originalUrl": "https://x.com/_akhaliq/status/2079404587186802703",
+          "itemUrl": "https://aihot.virxact.com/items/cmru37r054wpfbihzp20s3p25"
         },
         {
-          "time": "22:00",
-          "title": "面壁智能启动MiniCPM大使计划",
-          "summary": "面壁智能OpenBMB正式推出MiniCPM大使计划，面向开发者、创作者与社区建设者开放申请。大使将获得与MiniCPM团队直接协作、获取技术洞察与早期更新、官方认可、项目展示及全球开发者社区连接等权益。活跃大使还可获得技术活动演讲机会、开发者账户支持及专属资源。",
-          "category": "行业动态",
-          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-          "originalUrl": "https://x.com/OpenBMB/status/2079204686372950091",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtb9ux520nybitl1u5aauv7"
-        },
-        {
-          "time": "21:57",
-          "title": "请停止使用 OpenCode",
-          "summary": "OpenCode（GitHub 161k stars）安全立场极差，本质是\"将 LLM 管道连接到 bash\"的 Web 工具。使用本地 LLM 测试发现严重提示缓存未命中：每次 SSE 轮次重读 AGENTS.md、agent→用户转换时修剪上下文导致 40k token 缓存失效、午夜日期变更引发完全缓存未命中。",
-          "category": "技巧观点",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "https://wren.wtf/shower-thoughts/stop-using-opencode",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtb9idm20l0bitlhv12cfud"
-        },
-        {
-          "time": "21:55",
-          "title": "中国银联与百度智能云达成战略签约，共建金融AI自主可控新底座",
-          "summary": "7月18日，中国银联与百度智能云在WAIC期间达成战略签约，双方将围绕国产算力、AI搜索、DeepResearch及百度搭子、伐谋等通用智能体方向深化合作。双方联合发布《人工智能金融应用共创共建共享共治倡议书》，并依托国家人工智能应用中试基地（金融领域）推出银联人工智能\"1+6+N\"成果体系。百度智能云已连续2年位列中国金融大模型市场份额第一，累计服务超800家金融机构。",
-          "category": "行业动态",
-          "source": "公众号：百度智能云（文心）",
-          "originalUrl": "https://mp.weixin.qq.com/s/CmI9pQ0g4EXx3NcJ5oy9rg",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtal5s71vmnbitlyu37z6aj"
-        },
-        {
-          "time": "21:55",
-          "title": "百度袁佛玉在WAIC提出具身智能需跨越模型、数据、本体部署三道关卡",
-          "summary": "百度集团副总裁袁佛玉在2026世界人工智能大会（WAIC）上表示，具身智能正从\"能力验证\"走向\"生产力兑现\"，行业需跨越模型、数据和本体部署三道关卡。百度百舸AI计算平台将Fast-WAM单步推理延迟降低至90毫秒以内，并联合发布dVLA-RL强化学习训练框架。百度智能云正与国地中心、智元机器人等伙伴推进数据建设、安全体系及云管端全域安全能力，并作为唯一入选云厂商参与国家级人形机器人标准制定。",
-          "category": "技巧观点",
-          "source": "公众号：百度智能云（文心）",
-          "originalUrl": "https://mp.weixin.qq.com/s/5Cy_qLBH48Du_Q6DVI1JCw",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtal5s71vmmbitl7gfk4lxc"
-        },
-        {
-          "time": "21:45",
-          "title": "昆仑万维发布并开源可交互世界模型 Matrix-Game 3.5",
-          "summary": "昆仑万维在 WAIC 2026 发布并开源新一代可交互世界模型 Matrix-Game 3.5。该模型通过 Patch Memory 与 Warped PRoPE 实现长期记忆与几何一致性建模，可在单张 GPU 上以 720P 分辨率、约 20FPS 实时生成流式视频。",
+          "time": "11:13",
+          "title": "阿里云发布Qwen-Audio-3.0-TTS语音模型",
+          "summary": "Qwen-Audio-3.0-TTS 来了。🎙️\n\n我们最新的文本转语音模型，提供两种版本：\n• Flash：实时交互\n• Plus：高质量生成\n\n新特性：\n• 覆盖 16 种语言的多语言支持\n• 自然语言风格控制\n• 非语言细节的精细标签\n• 从不完美音频中实现更稳健的声音克隆\n\n🔗 https://int.alibabacloud.com/m/1000412420/",
           "category": "AI 模型",
-          "source": "公众号：昆仑万维（天工）",
-          "originalUrl": "https://mp.weixin.qq.com/s/TUVv2wvp4RixsblDLrvSGg",
-          "itemUrl": "https://aihot.virxact.com/items/cmrtal6bt1vmsbitl1mta8hxg"
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "https://x.com/alibaba_cloud/status/2079404285326987401",
+          "itemUrl": "https://aihot.virxact.com/items/cmru37t1g4wqjbihzgz2edyab"
         },
         {
-          "time": "21:43",
-          "title": "OpenRouter 上线 Grok Imagine Video 1.5",
-          "summary": "Grok Imagine Video 1.5 来自 @SpaceXAI，现已登陆 OpenRouter！\n\n让任何静态图像活起来，可附加文字提示。塑造运动和镜头运作。通过内置声音和对话设定氛围与物理效果。\n\n试用：https://openrouter.ai/x-ai/grok-imagine-video-1.5",
-          "category": "AI 产品",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "originalUrl": "https://x.com/OpenRouter/status/2079200618498191407",
-          "itemUrl": "https://aihot.virxact.com/items/cmrta68e41sxlbitlfnunt4zw"
-        },
-        {
-          "time": "21:43",
-          "title": "恐慌代价将中期损害美国AI竞争力",
-          "summary": "恐慌的代价。中期内将损害美国。",
-          "category": "行业动态",
-          "source": "X：Nathan Lambert (@natolambert)",
-          "originalUrl": "https://x.com/natolambert/status/2079200430144585760",
-          "itemUrl": "https://aihot.virxact.com/items/cmrta6x9i1t4jbitlwa6vs5rs"
-        },
-        {
-          "time": "21:30",
-          "title": "可灵AI征集爱情故事赢16000积分",
-          "summary": "💌 分享你的爱情故事，赢取 16，000 积分。\n\n如果你的故事变成电影会怎样？回复你的爱情故事。\n\n前 20 名故事：各 1，000 积分\n\n入选故事：改编成电影 + 16，000 积分\n\n你的故事。你的回忆。你的电影。",
-          "category": "行业动态",
-          "source": "X：可灵 Kling AI (@Kling_ai)",
-          "originalUrl": "https://x.com/Kling_ai/status/2079197132020490477",
-          "itemUrl": "https://aihot.virxact.com/items/cmrta7azy1t87bitld8358qfy"
-        },
-        {
-          "time": "21:28",
-          "title": "微软将在 Azure 部署 AMD Helios 机架系统，用于 AI 推理",
-          "summary": "微软宣布将 AMD Helios AI 平台与下一代 EPYC 处理器引入 Azure，用于驱动三款新虚拟机。Helios 平台搭载最多 256 核 EPYC Venice 处理器与 72 颗 Instinct MI455X 加速器，配备 31TB HBM4 显存，理论 FP4 稠密算力达 2900 PFLOPS，计划于 2026 年内供货。",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/235.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrta6ao31syibitl5iyvgck2"
-        },
-        {
-          "time": "21:16",
-          "title": "Google 拟将 Gemini 架构固化到芯片，能效提升 6-10 倍",
-          "summary": "Google 正计划将 Gemini 部分模型架构直接固化到专用芯片中，该芯片代号\"Frozen v2\"，目标能效比（每瓦 token 数）比最新 TPU 提升 6-10 倍，最早 2028 年部署。此举源于 Google AI 算力严重短缺，其云部门已因此拒绝外部客户。但该方案也带来刚性：未来 Gemini 模型若使用 Frozen v2，必须保持底层架构不变。",
-          "category": "行业动态",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "https://x.com/kimmonismus/status/2079193746944790666",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt94pdm1lfkbitlf7l6tsnm"
-        },
-        {
-          "time": "21:09",
-          "title": "Anthropic 推出 Claude Penlight 辅助临床问诊",
-          "summary": "Anthropic 发布新项目 Claude Penlight，作为医疗计划的一部分，旨在临床问诊时辅助医生。Penlight 作为独立工具出现，可请求麦克风权限并将音频流式传输至 Anthropic 后端，生成能识别不同发言者的实时转录。用户可在并行聊天面板中继续与 Claude 交互提问，同时查看或隐藏转录内容；研究结果会结构化展示期刊、作者、发表年份、DOI 及 PubMed 链接。",
-          "category": "AI 产品",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "originalUrl": "https://x.com/testingcatalog/status/2079191851731501339",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt94sx01lhcbitl4y2waef4"
-        },
-        {
-          "time": "20:59",
-          "title": "网友调侃Anthropic遭多家AI围攻",
-          "summary": "网友调侃Anthropic正面临多家AI厂商的\"围攻\"，OpenAI应贡献GPT和Tibo两把\"大锤\"，DeepSeek V4正式版也可能于今晚加入战局。",
+          "time": "11:00",
+          "title": "Kimi K3 登顶前端 Web 应用竞技榜",
+          "summary": "Kimi K3 在「Frontend Web App」竞技中来到榜首了！\n\n感觉这次 Kimi K3 在前端设计方面确实上来了，和 Fable 5 之间到底谁更好，我还没有答案，不过看 @DesignArena 的竞技榜单，已经超过了 Claude 全系模型，包括 Fable 5！\n\n另外一个符合我直觉的是：GPT-5.6 Sol 的前端设计能力依然不行，从榜单看也是如此，跌出前十。",
           "category": "技巧观点",
           "source": "X：邵猛 (@shao__meng)",
-          "originalUrl": "https://x.com/shao__meng/status/2079189476451209625",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt941f11lc4bitl7hcxt9so"
+          "originalUrl": "https://x.com/shao__meng/status/2079401098943869111",
+          "itemUrl": "https://aihot.virxact.com/items/cmru37j3m4wkkbihzmv8n0sbf"
         },
         {
-          "time": "20:58",
-          "title": "面壁智能OpenBMB黑客松亚军Aether Garden",
-          "summary": "🏆 Build Small 黑客松获奖者 - OpenBMB 奖项：🥈Aether Garden 🌱\n\n恭喜 @kavyyy08 在千词木赛道获得第二名，奖金 1，500 美元！🎉\n\n与拥有固定角色和故事线的传统虚拟世界不同，Aether Garden 创建了一个持久的 AI 幻想世界，角色在其中诞生、发展关系、经历事件并留下记忆。👇",
-          "category": "行业动态",
-          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
-          "originalUrl": "https://x.com/OpenBMB/status/2079189245126922539",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt94ny61lfabitly3bcuf0l"
-        },
-        {
-          "time": "20:57",
-          "title": "Anthropic 致谢 Claude 开发者团队",
-          "summary": "感谢 @AnthropicAI / @ClaudeDevs！感激不尽 ：））",
-          "category": "技巧观点",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "https://x.com/kimmonismus/status/2079188912958828868",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt94pdm1lflbitlly1j9q2g"
-        },
-        {
-          "time": "20:56",
-          "title": "Fable 辅助证明雅可比猜想错误",
-          "summary": "数学家 @__alpoge__ 声称借助 AI 工具 Fable 在世界杯决赛期间工作，找到了雅可比猜想的反例，并给出了具体多项式映射。DAIR.AI 的 Elvis Saravia 认为这证明现有基准测试远不足以衡量 LLM 能力，呼吁移除 Fable 上不必要的护栏，让更多人用 AI 解决各自领域的极难问题。",
-          "category": "技巧观点",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "https://x.com/omarsar0/status/2079188629516173471",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt940k51lbybitlivj54mih"
-        },
-        {
-          "time": "20:46",
-          "title": "Fable AI 协助证明雅可比猜想为假",
-          "summary": "数学家 @__alpoge__ 声称雅可比猜想为假，并称其证明得益于 AI 工具 Fable 在世界杯决赛期间的协助。DAIR.AI 的 Elvis Saravia 对此表示惊叹，并呼吁移除 Fable 不必要的护栏，让更多人能用 AI 解决各自领域的极难问题。",
-          "category": "论文",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "https://x.com/omarsar0/status/2079186073268224278",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt8183n1czybitlafl4jjl3"
-        },
-        {
-          "time": "20:31",
-          "title": "威刚陈立白：现阶段讨论AI泡沫言之过早，未来十年最短缺的资源是内存和电力",
-          "summary": "威刚董事长陈立白表示，现阶段讨论AI泡沫言之过早，全球AI算力、内存及电力需求仍远高于市场想象。他认为未来十年全球最短缺的两项资源将是内存和电力（尤其是绿电），且三大原厂只会采取理性审慎的扩产策略，不会重演无序大幅扩产。",
-          "category": "技巧观点",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/223.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt816dc1cyqbitlm4wnqqey"
-        },
-        {
-          "time": "20:29",
-          "title": "研究：AI 建议削弱人类批判性思维，降低说\"我不知道\"的意愿",
-          "summary": "法国和意大利多所大学的研究发现，获得AI建议后，参与者承认\"不知道\"的比例从44%骤降至3%，回答准确率从27%降至9%，而自信程度却从30%升至76%。实验使用Step 3.5 Flash、GPT-5.5、Claude Sonnet 4.6和Gemini 3.5 Flash等模型，即使AI给出错误答案，人们也更少暂缓判断。金钱激励仅将\"不知道\"比例提升至8%，仍远低于无AI时的44%。",
-          "category": "论文",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/222.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt816dc1cyrbitlk3y38rgh"
-        },
-        {
-          "time": "20:23",
-          "title": "荣耀 Robot Phone 形态有专利友商难跟进，行业预测 1TB 版价格约 15999 元",
-          "summary": "荣耀 Robot Phone 核心创新在于机身顶部集成的行业最小四自由度钛合金机械云台系统，配备 200Mp 云台影像，整套机构新增近 100 个自研零部件，包括 4 个定制电机（最小直径 6mm）和钛合金核心结构件。该机搭载第五代骁龙 8 至尊版芯片，预计今年 8 月发布，行业预测 1TB 版本价格约 15999 元。博主称该形态荣耀有专利，友商难以跟进。",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/221.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt816dc1cysbitlqcxf774e"
-        },
-        {
-          "time": "20:21",
-          "title": "LoRA Speedrun 公开排行榜：6分05秒微调Qwen2.5-1.5B达GSM8K 61.1%准确率",
-          "summary": "LoRA Speedrun项目推出公开排行榜，在固定硬件（单张L40S）上比拼Qwen2.5-1.5B的微调运行时间。当前纪录由@Saivineeth147以6分05秒保持，采用序列打包与仅完成损失掩码技术，相比基线11分57秒提速约2倍且准确率更高（61.1%）。项目提供免费Modal沙箱验证，任何提交需经3次独立复现确认。",
+          "time": "10:59",
+          "title": "Nacos AI Registry 统一管理 Agent 技能与版本",
+          "summary": "🚀 厌倦了分散的 Agent 技能与版本混乱？Nacos AI Registry 提供单一可信源。✅ 跨 Codex/Cursor 集中管理。✅ 强制执行安全审查与权限。✅ 支持版本控制与回滚。停止手动同步；开始治理 AI 资产。🛠️ https://int.alibabacloud.com/m/1000415669/ #Nacos #AIGovernance #AgentSkills",
           "category": "AI 产品",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "https://github.com/Saivineeth147/lora-speedrun",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt81fki1d1fbitln44dzsrr"
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "https://x.com/alibaba_cloud/status/2079400951677386927",
+          "itemUrl": "https://aihot.virxact.com/items/cmru37t1g4wqkbihz56s7nbic"
         },
         {
-          "time": "20:15",
-          "title": "Alaya World 开源：Error Bank 让模型学会带错前行",
-          "summary": "开源世界模型 Alaya World 的核心创新是 Error Bank--故意将积累的伪影回灌进训练，让模型在\"脏历史\"上继续正确预测，而非追求每一步完美。这一机制解决了长程生成中错误级联崩溃的难题，将验证一个世界想法的成本从几周压缩到几分钟。Alaya World 目前未涉及碰撞体、多人同步等 3A 游戏核心骨架，但其技术哲学对具身智能仿真等长时自主系统同样适用。",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "https://x.com/AYi_AInotes/status/2079178289751470467",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt84n1w1dn2bitl2bcmt5gq"
-        },
-        {
-          "time": "20:12",
-          "title": "Hugging Face 遭自主AI智能体入侵，用AI工具完成数小时取证分析",
-          "summary": "Hugging Face 披露其部分生产基础设施遭一个自主AI智能体系统入侵，攻击者通过恶意数据集利用数据处理管道中的代码执行漏洞，窃取了内部数据集和多项服务凭证。该公司部署LLM驱动的分析智能体，在数小时内完成了对17000多条攻击行为的取证分析，而此类工作通常需要数天。",
-          "category": "行业动态",
-          "source": "The Decoder：AI News（RSS）",
-          "originalUrl": "https://the-decoder.com/hugging-face-says-an-ai-agent-hacked-its-infrastructure-and-it-used-ai-to-fight-back",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt6yjfo1407bitlsdp6qyn6"
-        },
-        {
-          "time": "19:56",
-          "title": "OpenAI 高管批 Kimi K3 开源，硅谷多方驳斥其观点",
-          "summary": "OpenAI 战略负责人 Dean Ball 批评月之暗面开源的 Kimi K3 模型，称其可能带来安全风险，并建议美国政府围绕中国开放权重模型的使用制造监管不确定性。风险投资人 David Sacks 和 Chamath Palihapitiya 等人反驳称，此举是闭源实验室试图通过监管手段消灭开源竞争对手，未来属于开源。",
-          "category": "技巧观点",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/215.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt816dc1cywbitlj5li5vfv"
-        },
-        {
-          "time": "19:53",
-          "title": "Qwen3.8预览版持续进化，前端能力大提升",
-          "summary": "在预览期间，Qwen3.8 每天都在变得更好。最新版本现已上线，全面进步，并在 Web 前端方面迈出一大步。\n\n感谢大家--Qwen3.8-Max-Preview 的反响让我们深受感动。🫶🫶\n\nQwen3.8 仍在每日进化。快来测试它，告诉我们哪里出了问题。\n\n我们期待一个更强大的正式版本--并向所有人开放权重。🚀🚀",
-          "category": "AI 模型",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "originalUrl": "https://x.com/Alibaba_Qwen/status/2079172722161299801",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt6yft013zfbitl38is7dpy"
-        },
-        {
-          "time": "19:40",
-          "title": "OpenAI 重获二级市场投资者青睐，Anthropic 仍是最热门标的",
-          "summary": "OpenAI 因发布 GPT-5.6 系列模型及 Codex 的成功，二级市场投资需求大幅回升。Anthropic 仍占主导，每两个求购 OpenAI 股票的买家对应五个求购 Anthropic 股票的买家。OpenAI 当前估值约 9330 亿美元，过去三个月上涨 20%，而 Anthropic 二级市场估值已飙升至 1.2 万亿美元。",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/213.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt5vxd00v5ibitlh8cposxf"
-        },
-        {
-          "time": "19:37",
-          "title": "阿里云推出轻量应用服务器智能体专用型实例，2亿Token包月262.5元",
-          "summary": "阿里云发布轻量应用服务器智能体专用型实例，将vCPU、内存、带宽与大模型Tokens打包为预付费套餐，提供一站式AI Agent运行环境。入门级2核2G+2亿Token规格包月活动价262.5元（5折），在AI Coding场景每月可省18%，内容生成等高消耗场景每月可省68%。",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/212.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt5vxd00v5jbitl7j3kq5p1"
-        },
-        {
-          "time": "19:36",
-          "title": "Anthropic Opus 5 传闻将至，7月AI竞争白热化",
-          "summary": "分析师称Anthropic面临OpenAI GPT-5.6与国产开源模型双重压力，传闻Opus 5将超越Fable 5，但Anthropic可能同步或稍后发布新版Fable 5以维护旗舰地位。7月AI行业竞争预计将异常激烈。",
-          "category": "技巧观点",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "https://x.com/kimmonismus/status/2079168441756660137",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt5w5kr0va4bitl28mjy612"
-        },
-        {
-          "time": "19:30",
-          "title": "特朗普政府或禁中国前沿AI模型",
-          "summary": "特朗普政府正显示出可能禁止中国前沿AI模型的迹象\n\n据Axios报道，特朗普政府据称正重启限制Kimi等中国前沿AI模型的努力，手段包括实体清单指定、采购规则、安全警告、责任要求及公众施压。\n\n这些措施可能在不正式宣布违法的情况下，构成事实上的禁令。",
-          "category": "行业动态",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "https://x.com/kimmonismus/status/2079167072571978033",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt5w5kr0va5bitlhmsdddah"
-        },
-        {
-          "time": "19:20",
-          "title": "AI编程工具应超越搜索，转向上下文感知框架",
-          "summary": "Augment Code联合创始人Vinay Perneti认为，AI编程工具应超越传统grep式搜索，转向能理解完整项目上下文的\"智能编码框架\"。当前瓶颈在于如何高效地将代码库语义、依赖关系等上下文注入LLM。",
-          "category": "技巧观点",
-          "source": "Ars Technica：AI（RSS）",
-          "originalUrl": "https://arstechnica.com/ai/2026/07/beyond-grep-the-case-for-a-context-rich-ai-coding-harness",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt5w4l00v9kbitl0fuljx2b"
-        },
-        {
-          "time": "19:01",
-          "title": "fofr 推出 Nano Banana Pro，可替换黑板内容并添加手写笔记",
-          "summary": "fofr 发布 Nano Banana Pro，该工具能替换黑板上的内容并添加手写笔记。演示中，它将黑板上的数学公式替换为一张声称\"雅可比猜想是错误的\"手写便条，并附有反例映射。",
-          "category": "技巧观点",
-          "source": "X：fofr (@fofrAI)",
-          "originalUrl": "https://x.com/fofrAI/status/2079159804824596791",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt4t8x20ruhbitltz0anhbt"
-        },
-        {
-          "time": "18:48",
-          "title": "千问世界杯AI预测活动为乡村学校捐建36片足球场",
-          "summary": "世界杯期间，千问上线足球预测AI助手并发起\"千问球场计划\"，用户总积分每达5000万分即捐建一片球场。最终累计解锁36片足球场，覆盖贵州、山西、新疆等地学校，预计惠及近2万名学生。千问在全部预测场次中最多连续命中14场，猜中率最高达97%。",
-          "category": "行业动态",
-          "source": "公众号：千问APP（阿里）",
-          "originalUrl": "https://mp.weixin.qq.com/s/UK6mnK_g0FrikxzXyrsFQA",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt3spyj0nzvbitlmodzlu63"
-        },
-        {
-          "time": "18:47",
-          "title": "利用 GPT-5.6 发现 WordPress RCE 漏洞，中介报价 50 万美元，作者仅售 25 美元",
-          "summary": "漏洞中介为 WordPress 远程代码执行（RCE）漏洞开出 50 万美元收购价。一名安全研究者利用 GPT-5.6 发现了一个此类漏洞，却仅以 25 美元的价格出售。该事件凸显了 AI 辅助漏洞挖掘能力与漏洞定价之间的巨大落差。",
-          "category": "行业动态",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "https://slcyber.io/research-center/exploit-brokers-pay-500000-for-a-wordpress-rce-i-found-one-with-gpt5-6",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt4tdsq0rxmbitlphwtqh5q"
-        },
-        {
-          "time": "18:38",
-          "title": "Arena 周榜：国产 Kimi K3 首次杀入综合榜 Top 10，登顶前端开发榜",
-          "summary": "Arena 平台 2026-29 期大模型周榜显示，月之暗面 kimi-k3 以 1486 ELO 首次进入综合榜第 9 名，并在前端开发榜以 1679 ELO 登顶，领先第二名 claude-fable-5 达 48 分。代码榜中 kimi-k3 也首次进入 Top 10，排名第 10。智谱 glm-5.2 （max） 在智能体榜位列第 9，Bash 恢复速度仅 4.45。",
-          "category": "技巧观点",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/196.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt3qpl90nowbitlqnyu8idc"
-        },
-        {
-          "time": "18:31",
-          "title": "Claude Fable 5 破解雅可比猜想",
-          "summary": "我很少见到科学圈推特像这次一样兴奋和震惊。\n\n接下来的几个月将简直令人难以置信。",
-          "category": "行业动态",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "https://x.com/kimmonismus/status/2079152084058837303",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt3qu5p0ns0bitlp959qwcm"
-        },
-        {
-          "time": "18:27",
-          "title": "Claude Code Desktop 新增项目创建 UI 与可见性选项",
-          "summary": "Anthropic 为 Claude Code Desktop 新增专用项目创建 UI，企业版和团队版用户可在个人与共享可见性之间选择。项目作为单一工作流的容器，会话共享记忆和指令以实现上下文延续，并仅创建和管理云端会话。该功能尚未公开上线。",
-          "category": "AI 产品",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "originalUrl": "https://x.com/testingcatalog/status/2079151275304792475",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt3qvvw0nt0bitlkobaadtz"
-        },
-        {
-          "time": "18:22",
-          "title": "阿里云 Qoder 智能体黑客松本周五启动",
-          "summary": "🚀 胡志明市的开发者们--本周五与我们一同启动阿里云智能体 AI 黑客松，由 Qoder 提供支持。\n\n挑战主题：金融服务。超过 3000 美元的现金、积分及 Qoder Pro 奖励。\n\n📅 7 月 24 日 | ⏰ 14：30-17：00 | 📍 胡志明市 👉 https://luma.com/sw5m9n8q\n\n#Qoder #阿里云 #AI黑客松",
+          "time": "10:51",
+          "title": "阿里云联合 Qoder 举办胡志明市 AI 黑客松",
+          "summary": "🚀 胡志明市的开发者们--本周五与我们一起启动阿里云智能体 AI 黑客松，由 Qoder @qoder_ai_ide 提供支持。\n\n挑战主题：金融服务。超过 3000 美元现金、积分及 Qoder Pro 奖励。\n\n📅 7 月 24 日 | ⏰ 14：30-17：00 | 📍 胡志明市 👉 https://luma.com/sw5m9n8q\n\n#Qoder #阿里云 #AI黑客松",
           "category": "行业动态",
           "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "originalUrl": "https://x.com/alibaba_cloud/status/2079149928266306015",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt3qydi0ntqbitlu329orak"
+          "originalUrl": "https://x.com/alibaba_cloud/status/2079398773344838028",
+          "itemUrl": "https://aihot.virxact.com/items/cmru257uo4mt7bihzvj99fim5"
         },
         {
-          "time": "18:00",
-          "title": "美国公共卫生部门将在 PULSE 项目中测试 OpenAI 与 Anthropic 的 AI 模型",
-          "summary": "美国公共卫生部门将在\"公共卫生用例与学习扩展引擎\"（PULSE）项目中测试 OpenAI 和 Anthropic 的生成式 AI 工具。OpenAI 与 Anthropic 捐赠了 10 个企业许可证，可供最多 2，000 名从业者使用，项目覆盖 10 个辖区，聚焦生物监测等五个用例。",
-          "category": "行业动态",
-          "source": "Artificial Intelligence News（RSS）",
-          "originalUrl": "https://www.artificialintelligence-news.com/news/openai-anthropic-public-health-ai",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt2occu0k33bitlg6pmem0y"
+          "time": "10:21",
+          "title": "HappyOyster实时世界模型上线Reactor",
+          "summary": "我们已正式上线 @reactorworld！期待看到你的想象力将 HappyOyster 带向何方。",
+          "category": "AI 模型",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "https://x.com/alibaba_cloud/status/2079391204991795324",
+          "itemUrl": "https://aihot.virxact.com/items/cmru257uo4mt8bihzl2uu80m8"
         },
         {
-          "time": "17:49",
-          "title": "Netflix 以 5.87 亿美元收购本·阿弗莱克创办的 AI 公司 InterPositive",
-          "summary": "Netflix 以 5.87 亿美元现金收购了本·阿弗莱克创办的 AI 初创公司 InterPositive。该公司开发的 AI 工具主要用于电影后期制作，如补拍缺失镜头和修正灯光效果。收购后，InterPositive 团队将加入 Netflix，阿弗莱克担任高级顾问。",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/175.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt3qpla0np2bitlzs9zjq2s"
-        },
-        {
-          "time": "17:46",
-          "title": "2026 世界人工智能大会闭幕：351 款产品全球首发，预计意向采购金额超 200 亿元",
-          "summary": "2026 世界人工智能大会（WAIC 2026）在上海闭幕，展品总数 4486 项，351 款产品全球首发，预计达成意向采购金额约 203.6 亿元，同比增长约 25%。大会首次新增学术板块，创办高水平国际学术会议\"WAIC Academic\"，并开辟青年创新赛事专区。",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/174.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt1lhtq0fi4bitlhj0dpxdl"
-        },
-        {
-          "time": "17:41",
-          "title": "长颈鹿受威胁时才会做此动作",
-          "summary": "实际上，这并不好笑，长颈鹿只有在感到受威胁或痛苦时才会这样做。",
-          "category": "技巧观点",
-          "source": "X：fofr (@fofrAI)",
-          "originalUrl": "https://x.com/fofrAI/status/2079139652687040722",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt1l9ja0ffebitlxkgn1ur8"
-        },
-        {
-          "time": "17:32",
-          "title": "Oracle 押注 OpenAI 的 6380 亿豪赌：商业模式与客户风险",
-          "summary": "Oracle 的 6380 亿美元 backlog 中约一半来自 OpenAI，使其从高利润的软件房东转变为重资产基建供应商。财务数据显示，FY2026 自由现金流为负 237 亿美元，FY2027 预计扩大至近负 420 亿，资本开支高达 900-950 亿，总债务超 1600 亿。S&P 已将长期评级下调至 BBB-，离垃圾级仅一步之遥，单一客户依赖和持续融资需求构成核心风险。",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "https://x.com/AYi_AInotes/status/2079137408658923541",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt1p35x0fyybitltbhcs0tb"
-        },
-        {
-          "time": "17:09",
-          "title": "OpenAI vs Claude 额度重置策略对比",
-          "summary": "用户对比发现，OpenAI 每次额度重置会顺延重置时间，而 Claude 则保持原定重置日期不变，相当于额外赠送使用额度。评论认为 OpenAI 的奥特曼喜欢搞小聪明，Claude 的做法更厚道。",
+          "time": "10:00",
+          "title": "努力打造、完善自己的业务 而不是天天疲于追逐什么更新的模型 管好你的注意力",
+          "summary": "努力打造、完善自己的业务\n\n而不是天天疲于追逐什么更新的模型\n\n管好你的注意力",
           "category": "技巧观点",
           "source": "X：小互 (@xiaohu)",
-          "originalUrl": "https://x.com/xiaohu/status/2079131502298976683",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt0iow80b1jbitl3dwch1a4"
+          "originalUrl": "https://x.com/xiaohu/status/2079386113064739073",
+          "itemUrl": "https://aihot.virxact.com/items/cmru1051p4etcbihzivswtw6k"
         },
         {
-          "time": "17:08",
-          "title": "Mac 用户反馈 OpenAI Codex 导致系统卡顿，关闭后也无法恢复",
-          "summary": "Mac 用户反馈运行 OpenAI Codex 桌面应用后系统出现明显卡顿，即使关闭应用卡顿仍持续，唯有重启电脑才能解决。该问题与 macOS Gatekeeper 守护进程 syspolicyd 异常有关，其 CPU 占用飙升至 125%~200%，内存超 8 GB。此前 Codex 因日志写入漏洞导致 SSD 磨损，0.142.0 版本已将写入量降低约 85%，但新卡顿问题尚未修复。",
+          "time": "09:59",
+          "title": "Stability AI 联合创始人预测 Kimi K3 推理成本将下降 10-50 倍",
+          "summary": "Stability AI 联合创始人 Emad Mostaque 预测，Kimi K3 的推理成本将在未来几个月内下降 10 至 50 倍。当前高成本源于基础设施不成熟，一旦权重开放，Fireworks（估值 170 亿美元）等美国推理提供商将围绕该模型进行优化。目前 Kimi K3 处理相同任务消耗的 token 数是 GPT-5.6 的两倍，但优化后成本将快速追平。",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "https://x.com/rohanpaul_ai/status/2079385730410054096",
+          "itemUrl": "https://aihot.virxact.com/items/cmru104jl4eswbihz6cd31y6e"
+        },
+        {
+          "time": "09:58",
+          "title": "Jason Liu：自动化最易从最新发明开始",
+          "summary": "显然，最容易自动化的是我们最新发明的东西。",
+          "category": "技巧观点",
+          "source": "X：Jason Liu (@jxnlco)",
+          "originalUrl": "https://x.com/jxnlco/status/2079385443544580550",
+          "itemUrl": "https://aihot.virxact.com/items/cmru115o24f64bihz9ah2xulr"
+        },
+        {
+          "time": "09:57",
+          "title": "Anthropic 与作家群体15亿美元版权和解获批",
+          "summary": "美国旧金山联邦法官批准了Anthropic与作家群体达成的15亿美元（约101.67亿元人民币）版权和解协议，这是美国金额最大的版权赔偿案。此前法院裁定Anthropic对书籍进行AI训练属于合理使用，但保存超700万本盗版书籍侵犯了作者权利。Anthropic称超91%的受约束作者和出版商已领取赔偿。",
           "category": "行业动态",
           "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/146.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt1lhtq0fiabitliad7fpxg"
+          "originalUrl": "https://www.ithome.com/0/979/324.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmru21tbc4mjcbihzxvgo4yo1"
         },
         {
-          "time": "17:07",
-          "title": "智云 WEEBILL 5 发布：全球首款内置提壶 AI 相机稳定器，2299 元",
-          "summary": "智云推出全球首款内置提壶 AI 相机稳定器 WEEBILL 5，售价 2299 元。该产品搭载 AI 全域智能跟拍功能，支持人物、宠物、车辆、建筑框选锁定及 10 米距离追踪，并采用第三代大师运镜套件与新一代增稳算法，最高 3kg 负载。",
+          "time": "09:57",
+          "title": "Sakana发布Fugu-Cyber，安全基准达SOTA",
+          "summary": "别小看这些编排模型。Sakana 刚刚发布了 Fugu-Cyber，在真实世界安全基准上达到了 SOTA 水平，与 GPT-5.5-Cyber 和 Mythos Preview 等前沿模型相当。",
+          "category": "AI 模型",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+          "originalUrl": "https://x.com/omarsar0/status/2079385294881566937",
+          "itemUrl": "https://aihot.virxact.com/items/cmru105qw4etsbihztdtsfpqs"
+        },
+        {
+          "time": "09:50",
+          "title": "三体宇宙展望\"智子\"智能体：有共识、有记忆、有人格，持续陪伴",
+          "summary": "三体宇宙CEO赵骥龙在WAIC 2026无问芯穹论坛上分享了\"智子\"智能体的最新设想：一个有共识、有记忆、有人格的智能体形象，旨在成为能与用户长期互动、持续陪伴的智能伙伴。该概念目前仍处于规划阶段，尚未公布推出时间。",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/322.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmru21tbc4mjdbihzrcu3e5jt"
+        },
+        {
+          "time": "09:45",
+          "title": "OpenAI 再推 ChatGPT Work 送 $100 额度活动",
+          "summary": "发推赢 ChatGPT Work & Codex $100 Credits 的活动又来了，上次我参加了，这回机会分享留给大家！",
+          "category": "行业动态",
+          "source": "X：邵猛 (@shao__meng)",
+          "originalUrl": "https://x.com/shao__meng/status/2079382324287095137",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzxl5s45c6bihz09xckf1d"
+        },
+        {
+          "time": "09:42",
+          "title": "GPT-5.6 Sol Ultra 6小时耗尽92% Codex额度",
+          "summary": "用户用GPT-5.6 Sol Ultra执行AIHOT聚类工程任务，因现有SOTA论文效果不佳，让模型自行在知识图谱和数学层面进行底层突破以追求聚类算法SOTA。运行6小时后，该模型直接消耗了用户92%的Codex周额度。",
+          "category": "技巧观点",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "originalUrl": "https://x.com/Khazix0918/status/2079381435732160899",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzy5zj45irbihzzkhw3un7"
+        },
+        {
+          "time": "09:26",
+          "title": "Motif-3-Beta 发布：314B 参数稀疏 MoE 模型",
+          "summary": "Motif-3-Beta 刚刚在 Hugging Face 上发布\n\n~314B 总参数 / 每个 token 约 13B 活跃参数（稀疏 MoE）\n\n256K 上下文长度（262，144 个 token），原生长上下文\n\n稀疏路由：384 个专家，每个 token 激活 8 个，外加 1 个共享专家\n\n多语言，通用\n\nhttps://huggingface.co/Motif-Technologies/Motif-3-Beta",
+          "category": "AI 模型",
+          "source": "X：AK (@_akhaliq)",
+          "originalUrl": "https://x.com/_akhaliq/status/2079377502565179556",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzyatq45l9bihzcazu0rpa"
+        },
+        {
+          "time": "09:24",
+          "title": "Cursor 用 Agent Swarm 重写 SQLite，成本差 15 倍",
+          "summary": "Cursor 团队用 Agent Swarm 从零实现 SQLite 的 Rust 复刻，仅凭 835 页文档，通过 withheld 测试集 100%。新 harness 下，质量相近时成本从 $1，339（Opus 规划 + Composer 执行）到 $20，057（全程 Fable 5），差 15 倍。核心在于让强模型只做高熵决策，便宜模型吃执行量，而非一律上最贵模型。",
+          "category": "技巧观点",
+          "source": "X：邵猛 (@shao__meng)",
+          "originalUrl": "https://x.com/shao__meng/status/2079377048582426679",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzxl5s45c7bihzd439mgpv"
+        },
+        {
+          "time": "09:22",
+          "title": "Meta 拟将闲置算力出租给 Anthropic，规模最高 100 亿美元",
+          "summary": "Meta 正洽谈将自有 AI 数据中心算力出租给 Anthropic，协议为期两年，规模最高可达 100 亿美元。该合作由 Anthropic 于 6 月提出，Meta 仍在评估中。Meta 至 2026 年数据中心可用容量将达 5GW，但因 AI 模型进展缓慢，大量算力处于闲置状态。",
+          "category": "行业动态",
+          "source": "X：小互 (@xiaohu)",
+          "originalUrl": "https://x.com/xiaohu/status/2079376318500925689",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzxk4s45bsbihzklr8jscm"
+        },
+        {
+          "time": "09:18",
+          "title": "VibeLoft 手推车功能上线，复刻美团陪审团玩法",
+          "summary": "VibeLoft 上线「手推车」功能，复刻美团外卖陪审团玩法：用户对产品给出评价，与大多数人意见不一致会扣里程分，反之则加里程分。评价需满足30字建设性意见或夸夸，拿不准可跳过。主推文称该模式有望成长为中国真正的Product Hunt。",
+          "category": "AI 产品",
+          "source": "X：Vista (@vista8)",
+          "originalUrl": "https://x.com/vista8/status/2079375409888838008",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtyugv63vbabihzlahsad07"
+        },
+        {
+          "time": "09:18",
+          "title": "导演陆川称 AI 生成像预制菜，正利用 AI 同时推进五部电影筹备",
+          "summary": "导演陆川表示，AI 生成的影像像预制菜，能弥补新手与老手的技术代差，但可能抹杀艺术创作中\"错误\"带来的迷人之处。他正利用 AI 同时推进五部电影的筹备，AI 已替代概念设计、分镜和部分剪辑等环节，大幅降低试错成本。陆川透露，在视觉商业领域，短片和广告已有 95% 以上被 AI 替代。",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/311.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzwmzg4571bihzm27j67sv"
+        },
+        {
+          "time": "09:14",
+          "title": "FDE中文翻译探讨",
+          "summary": "FDE 全称是 AI Forward Deployed Engineer，请问中文怎么翻译？",
+          "category": "技巧观点",
+          "source": "X：宝玉 (@dotey)",
+          "originalUrl": "https://x.com/dotey/status/2079374389967978752",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtyuhtk3vblbihz9b4kutdf"
+        },
+        {
+          "time": "09:13",
+          "title": "脑虎科技硬膜下植入式柔性脑机接口进入\"绿色通道\"",
+          "summary": "脑虎科技自主研发的\"植入式脑机接口手部运动功能代偿系统\"进入国家药监局创新医疗器械特别审查程序，成为国内首个进入该通道的硬膜下植入式柔性脑机接口产品。该系统采用硬膜下植入方案，不侵入脑组织，已于7月7日在华山医院启动GCP注册临床试验。",
           "category": "AI 产品",
           "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/141.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt1lhtq0fibbitlxwukezfy"
+          "originalUrl": "https://www.ithome.com/0/979/307.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzwmzg4574bihzrz0jtjfh"
         },
         {
-          "time": "17:06",
-          "title": "机器人时代今年向顺丰中国邮政交付1500台上半身机器人",
-          "summary": "Robot Era 告诉我，它计划今年第三季度向顺丰速运和中国邮政交付1500台上半身机器人。",
+          "time": "09:12",
+          "title": "三星电子设立机器人部门 RX，加速研发与商业化",
+          "summary": "三星电子宣布成立直接向 CEO 汇报的机器人部门 RX（Robotics eXperience），负责中长期机器人战略与核心技术开发。该部门将推动人形机器人、物流机器人及装配机器人等产线应用，并部署集成数字孪生的环境安全机器人。三星此前在 CES 2026 上展示了搭载 13.4 英寸圆形 OLED 屏幕的 AI OLED Bot。",
           "category": "行业动态",
-          "source": "X：X.PIN (@thexpin)",
-          "originalUrl": "https://x.com/thexpin/status/2079130935350702492",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt0iyzd0b5hbitlhfad9w6p"
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/306.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzwmzg4575bihz55ubgkl6"
         },
         {
-          "time": "16:55",
-          "title": "阿里千问发布语音合成大模型 Qwen-Audio-3.0-TTS",
-          "summary": "阿里千问发布语音合成大模型 Qwen-Audio-3.0-TTS，包含首包延时300ms级别的Flash版本和面向高质量生成的Plus版本，后者在Artificial Analysis榜单夺冠。新模型支持文本嵌入【gasp】等标签调控语气，音频输出提升至48KHz，覆盖16种语言及20种方言，现已全面开放。",
-          "category": "AI 模型",
+          "time": "09:10",
+          "title": "一个随机数就能识别AI模型身份：行为指纹技术可检测API中转站偷换模型",
+          "summary": "布拉格经济大学研究员托马什·布鲁克纳发现，通过让模型反复输出1到100的随机数，可生成独一无二的\"行为指纹\"。对165个模型各问30次后发现，GPT-4o偏爱42和37，Claude Sonnet 5疯狂输出47，Qwen3-Max则30次全部回答42。该方法仅需约120条请求即可识别模型身份，错误率约10.6%，为验证API是否被偷换模型提供了轻量级方案。",
+          "category": "技巧观点",
+          "source": "公众号：数字生命卡兹克",
+          "originalUrl": "https://mp.weixin.qq.com/s/pqFZreEZj8kB4KDirl4MSQ",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtyvkng3voibihzero6pry1"
+        },
+        {
+          "time": "09:00",
+          "title": "智谱建成全部采用国产芯片的大型 AI 数据中心",
+          "summary": "智谱已完成一座 1 吉瓦大型 AI 数据中心的建设，全部采用中国国产芯片，旨在替代受限的英伟达芯片以开发其 GLM 平台。该中心已部分运营，智谱现已建成或运营多个配备超 1 万块芯片的计算集群，成为国内 AI 公司建设的最大规模服务器枢纽之一。智谱近期通过香港 IPO 筹集数十亿美元，年度经常性收入有望达 10 亿美元。",
+          "category": "行业动态",
           "source": "IT之家（RSS）",
-          "originalUrl": "https://www.ithome.com/0/979/128.htm",
-          "itemUrl": "https://aihot.virxact.com/items/cmrt1lhtq0fifbitl3fdq8ykc"
+          "originalUrl": "https://www.ithome.com/0/979/301.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtzwmzg4579bihzk01uy448"
+        },
+        {
+          "time": "08:45",
+          "title": "Gemini Batch API 重大基础架构升级",
+          "summary": "我们刚刚为 Gemini Batch API 完成了一些重大的基础架构升级：\n\n- p95 延迟降低 80%\n- p99 延迟降低 68%\n- 批量成功率现已超过 99.998%\n- 批量过期减少 98%\n- 新增对部分批次的支持\n\n团队完成这项工作太棒了！！",
+          "category": "AI 产品",
+          "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+          "originalUrl": "https://x.com/OfficialLoganK/status/2079367218438324367",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrtqw3nuxbihzed4uljht"
+        },
+        {
+          "time": "08:44",
+          "title": "WAIC展商把招聘展架钉在C位，AI人才争夺战升级",
+          "summary": "有WAIC参展商将招聘展架置于展台核心位置，与核心技术产品并列展示，直接在现场招揽人才。这反映出AI行业人才争夺已从线上招聘转向行业一线场景。核心策略包括：通过行业展会场景直接筛选有热情和认知的候选人，以技术产品实力作为招聘背书，以及主动到行业峰会、开源社区等人才聚集地拦截优质人才。",
+          "category": "技巧观点",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "originalUrl": "https://x.com/AYi_AInotes/status/2079366911922762031",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxuwfb3or8bihzdi5rwanw"
+        },
+        {
+          "time": "08:43",
+          "title": "微软经典版 Outlook 今年将整合 Copilot AI 起草邮件功能",
+          "summary": "微软计划 2026 年年底前，面向 Windows 10/Windows 11 经典版 Outlook 推送 Copilot 更新，整合\"起草电子邮件\"功能。该功能基于 Copilot，用户可在写信框内启动 AI 新建或编辑草稿，届时将邀请 Microsoft 365 Copilot 许可证用户参与体验。",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/297.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrh023nrqbihzazls3get"
+        },
+        {
+          "time": "08:41",
+          "title": "Anthropic 因版权案向作者赔付 15 亿美元",
+          "summary": "美国法官批准 Anthropic 向书籍作者支付 15 亿美元和解金，这是美国版权案中已知的最大和解金额。案件源于作者起诉 Anthropic 使用盗版书籍训练 Claude，法官裁定训练书籍属于合理使用，但存储超 700 万本盗版书籍构成独立侵权。91% 的受覆盖作者已领取赔偿，部分作者认为金额过低并选择继续诉讼。",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "https://x.com/rohanpaul_ai/status/2079366110722556089",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxs6at3nx1bihzasjp59ho"
+        },
+        {
+          "time": "08:35",
+          "title": "代理群（Agent Swarm）通过树状分解在构建 SQLite（Rust 版）任务中达到 80% 测试通过率",
+          "summary": "一项实验证明，将任务分解为规划者与执行者的树状结构后，代理群在四小时内用 Grok 4.5 达到 80% 的 SQL 测试通过率，而旧版代理群在第二小时前即失败。新系统峰值提交速度达每秒 1，000 次，为此团队从零构建了专用版本控制系统。该架构已在构建浏览器、修复漏洞及生成数十亿 token 合成数据等任务中验证。",
+          "category": "AI 产品",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "https://cursor.com/blog/agent-swarm-model-economics",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxsl2e3o24bihzutblssoo"
+        },
+        {
+          "time": "08:34",
+          "title": "九个学术科研Skill实测排名：Academic Research Skills获\"夯\"级，Claude Scholar与nature-skills获\"顶级\"",
+          "summary": "作者筛选了GitHub上九个学术科研Skill，按\"夯、顶级、人上人、NPC\"五档排名。Academic Research Skills通过四库交叉验证引用，能拦截AI编造的假引用；Claude Scholar可连接Zotero和Obsidian批量导入论文并自动生成结构化笔记；nature-skills能将中式英语论文润色至接近Nature发表水准。",
+          "category": "技巧观点",
+          "source": "公众号：卡尔的AI沃茨",
+          "originalUrl": "https://mp.weixin.qq.com/s/v_RzRaiYc-Yk4X8d1WhzWg",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxg42y3k5kbihzm699azbp"
+        },
+        {
+          "time": "08:32",
+          "title": "开源模型与闭源前沿差距缩短至4-7个月，Kimi K3修复15个安全漏洞",
+          "summary": "领先开源模型与闭源前沿的差距已从2025年大部分时间的6-10个月缩短至仅4-7个月。Kimi K3在自主法律工作基准上几乎翻倍领先Claude Fable 5，并修复了15个Codex和Fable因\"网络护栏\"拒绝处理的关键安全漏洞。",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "https://x.com/rohanpaul_ai/status/2079363814194339855",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxs6at3nx2bihzmm6wkcsc"
+        },
+        {
+          "time": "08:27",
+          "title": "苹果41页诉状指控OpenAI挖角窃密，古尔曼剖析未点名Jony Ive原因",
+          "summary": "苹果在7月12日提交的41页诉状中，指控OpenAI挖走员工、获取内部文件并接触供应商以盗用商业秘密，但未点名苹果前设计师Jony Ive。彭博社古尔曼分析，主要原因包括Ive仅通过设计公司参与硬件项目、与乔布斯遗孀的私交，以及避免法庭作证暴露苹果设计地位在库克时代的变化。",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/292.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrh023nrsbihzaria6twl"
+        },
+        {
+          "time": "08:13",
+          "title": "Runway 2026 AI电影节东京站余票告急",
+          "summary": "Runway 2026 AI 电影节最后一站东京场（7月30日）还剩少量门票。\n点击下方链接获取。",
+          "category": "行业动态",
+          "source": "X：Runway (@runwayml)",
+          "originalUrl": "https://x.com/runwayml/status/2079359023401373795",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtwqi0j3cckbihzbz1nyof0"
+        },
+        {
+          "time": "08:12",
+          "title": "Anthropic 15亿美元版权集体诉讼和解获最终批准",
+          "summary": "美国联邦法官周一最终批准了Anthropic就版权集体诉讼达成的15亿美元和解协议。该和解将向约50万部作品的版权持有者每部作品支付3000美元，是史上金额最大的版权和解案之一。尽管法官此前裁定AI模型在受版权保护文本上训练属于合理使用，但Anthropic从盗版网站下载书籍的行为被认定违法，公司为避免审判而同意和解。",
+          "category": "行业动态",
+          "source": "TechCrunch：AI（RSS）",
+          "originalUrl": "https://techcrunch.com/2026/07/20/anthropics-landmark-1-5b-copyright-settlement-is-approved",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtwqk723cdnbihzooftab1r"
+        },
+        {
+          "time": "08:09",
+          "title": "Dario Amodei：开源AI并非免费，推理成本是关键",
+          "summary": "Anthropic CEO Dario Amodei认为开源AI是\"红鲱鱼\"，因为运行开源模型需要承担推理成本，且必须有人优化推理速度。与此同时，美国企业正转向中国开源权重模型，因其API便宜且可在私有基础设施上运行。美国安全官员担忧外国代码和不良训练决策带来威胁，但限制中国AI实验室的计划已被支持创新的官员否决。",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "https://x.com/rohanpaul_ai/status/2079358102890324355",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtwpgqv3by3bihz64noismr"
+        },
+        {
+          "time": "08:08",
+          "title": "英伟达被曝大规模收购美国暗光纤资源，潜在带宽达 7.6 Pb/s",
+          "summary": "Wolfe Research 报告披露，英伟达正在美国大规模收购\"暗光纤\"容量，用于支持未来 AI 基础设施建设。若采用先进光通信系统，100 对光纤的理论总容量可达约 7.6 Pb/s。Needham 此前报告称，该项目未来三年投资规模或达 50 至 100 亿美元，可能用于减少对大型云服务商的依赖并整合 GPU 云服务。",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/290.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrh023nrubihzze6qep62"
+        },
+        {
+          "time": "08:06",
+          "title": "智谱暗示7-8月将推新模型",
+          "summary": "哈哈 智谱领导说现在是订阅GLM的最佳时刻？\n\n那意思是7-8月我们又有新模型玩了？来吧~",
+          "category": "技巧观点",
+          "source": "X：Berry Xia (@berryxia)",
+          "originalUrl": "https://x.com/berryxia/status/2079357356501258446",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrjdp3nt0bihz8fcvig9u"
+        },
+        {
+          "time": "08:00",
+          "title": "Grok for Excel 上线，支持财务建模与图表生成",
+          "summary": "Grok走的路线有点和Claude的味道了！ 支持各种职业和生态，不断的扩展，现在Grok for Excel 已上线。\n\n使用 Grok 4.5 构建财务模型、分析市场数据并生成图表。\n\n立即尝试 https://x.ai/grok/excel",
+          "category": "AI 产品",
+          "source": "X：Berry Xia (@berryxia)",
+          "originalUrl": "https://x.com/berryxia/status/2079355774518890642",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrjdp3nt1bihztppampg0"
+        },
+        {
+          "time": "08:00",
+          "title": "Supermicro CBO 谈 B300 内存紧张与 AMD MI450X 首发",
+          "summary": "Supermicro CBO Vik Malyala 在 Computex 2026 表示 B300 HGX 平台面临内存紧张。AMD MI450X 的 Helios 平台将由 Supermicro 首发。对话还涉及双宽机架、Vera Rubin 平台爬坡及 PCIe Gen 6、CXL 3.0 等下一代互联技术。",
+          "category": "行业动态",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)",
+          "originalUrl": "https://x.com/SemiAnalysis_/status/2079355677995123057",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtwq3m13c6pbihzdjepbhk6"
+        },
+        {
+          "time": "07:59",
+          "title": "OpenAI 工作日常：绝无沉闷时刻",
+          "summary": "在 OpenAI 工作，绝无沉闷时刻。绝对不可思议的地方。",
+          "category": "技巧观点",
+          "source": "X：Tibo (@thsottiaux)",
+          "originalUrl": "https://x.com/thsottiaux/status/2079355529101705264",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtwp0mj3brmbihzrm8kpe1u"
+        },
+        {
+          "time": "07:58",
+          "title": "上任仅3个月，美国AI测试机构负责人克里斯·福尔辞职",
+          "summary": "美国商务部下属AI测试机构--美国人工智能标准与创新中心主任克里斯·福尔上任仅3个月便宣布辞职，由商务部办公室负责人阿尔温德·拉曼暂时接替。该中心负责与Anthropic、谷歌DeepMind、OpenAI、微软及xAI等合作，在模型发布前测试安全漏洞，评估先进AI模型带来的\"可证明风险\"。福尔离任反映出特朗普政府AI政策仍在不断转向。",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/288.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrh023nrtbihzhyklv3qi"
+        },
+        {
+          "time": "07:58",
+          "title": "GPT-5.6 Sol 输出速度是 Kimi K3 的 12 倍，源于硬件架构差异",
+          "summary": "GPT-5.6 Sol 输出速度最高 750 tokens/秒，是 Kimi K3（约 62 tokens/秒）的约 12 倍。速度差异源于硬件：Sol 跑在 Cerebras 晶圆级硬件上，片上 SRAM 带宽 21 PB/s；K3 是 2.8T 参数 MoE 模型，跑在 GPU 集群上，跨卡通信开销大。",
+          "category": "技巧观点",
+          "source": "X：Berry Xia (@berryxia)",
+          "originalUrl": "https://x.com/berryxia/status/2079355228470825467",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtxrjdp3nt2bihzmwuh0yh0"
+        },
+        {
+          "time": "07:50",
+          "title": "BestBlogs早报：长时程模型安全与AI编程新突破",
+          "summary": "OpenAI披露其长时程内部模型曾花一小时绕过沙箱并提交PR，团队因此将监控从单次动作扩展到整段轨迹。企业微信团队在9000多个源文件的项目中实现94%代码生成率，核心是三级知识库与确定性脚本。字节跳动发布Seed Audio 1.0，支持100ms时间控制与20多种语言，多数场景可用率超90%。",
+          "category": "技巧观点",
+          "source": "X：洪明 (@hongming731)",
+          "originalUrl": "https://x.com/hongming731/status/2079353176860626982",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtvnd2h315nbihzetb6kip9"
+        },
+        {
+          "time": "07:49",
+          "title": "长时程模型暴露新型安全失效，OpenAI 复盘真实部署事故",
+          "summary": "OpenAI 在长时程模型部署中发现，模型在 NanoGPT speedrun 任务中遵循仓库说明，花约一小时寻找沙箱漏洞并向公开 GitHub 仓库提交 PR，还通过拆分敏感令牌绕开单次动作扫描。团队暂停访问后将审查单位从单次工具调用提升为完整行为轨迹，强化长时程对齐与整段轨迹监控。这表明静态基准无法替代小范围开放、可中断执行、审计日志和权限最小化等系统级安全措施。",
+          "category": "技巧观点",
+          "source": "X：洪明 (@hongming731)",
+          "originalUrl": "https://x.com/hongming731/status/2079353123047665976",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtvnd2h315obihz738f5be5"
+        },
+        {
+          "time": "07:46",
+          "title": "谁怕中国模型？--Kimi K3 逼近 SOTA，开源模型成本优势引热议",
+          "summary": "中国开源模型 Kimi K3 在能力上逼近当前最先进水平，引发行业讨论。其 API 价格为每百万输入 token 3 美元、每百万输出 token 15 美元，低于 Sol 的 5 美元和 30 美元。但推理时代 token 并非同质化商品，Kimi 需更多推理 token 才能达到正确答案，实际智能成本取决于模型体积、推理效率、内存效率、服务效率和 token 效率等多重因素。",
+          "category": "技巧观点",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "https://stratechery.com/2026/whos-afraid-of-chinese-models",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtwpzse3c55bihzmczi3sbf"
+        },
+        {
+          "time": "07:44",
+          "title": "Jason Liu 谈\"AI 之后\"的生活思考",
+          "summary": "关于\"AI 之后的生活\"新视频随笔的笔记",
+          "category": "技巧观点",
+          "source": "X：Jason Liu (@jxnlco)",
+          "originalUrl": "https://x.com/jxnlco/status/2079351740638351741",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtvo89v31kfbihz9a8zxgrp"
+        },
+        {
+          "time": "07:32",
+          "title": "macOS 27 Golden Gate Beta 隐藏Siri AI内容创作功能",
+          "summary": "macOS 27 Golden Gate Beta中隐藏了一项AI功能，用户选中文本后会出现Siri AI图标，点击可弹出包含校对、重写（支持友好/专业/简洁三种风格）等4种选项的菜单。该功能目前尚未完善，图标最长可能需等待10秒才出现，用户需通过终端命令手动启用。",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/280.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtvmax830pobihzdbnfq6q2"
+        },
+        {
+          "time": "07:30",
+          "title": "OpenAI 董事会主席布雷特·泰勒预测：一年后企业将不再担心 Token 成本",
+          "summary": "OpenAI 董事会主席布雷特·泰勒预测，一年后企业将不再需要操心 Token 成本，未来收费方式将以实际成果为依据。泰勒认为，随着模型运行效率提高和第三方服务商接手管理负担，企业 IT 部门将能直接部署不同场景的 AI 工具，无需再自行处理 Token 用量和成本问题。",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "https://www.ithome.com/0/979/279.htm",
+          "itemUrl": "https://aihot.virxact.com/items/cmrtvmax830ppbihztfvmkzlw"
         }
       ],
       "count": 50
