@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-25T03:44:27.486Z",
+  "updatedAt": "2026-07-25T14:07:03.718Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
@@ -8,454 +8,454 @@
       "weekday": "星期六",
       "items": [
         {
-          "time": "11:19",
-          "title": "Claude Opus 5 软件工程能力追平 Fable 5",
-          "summary": "<p>Claude Opus 5 的 ECI 得分为 159，略低于 Fable 5 的 161（而 5.6 sol 以 162 保持纪录）。但仅看软件工程领域，我们发现其 SWE-ECI 与 Fable 5 持平，同为 161。</p>\n<p>🔗 <a href=\"https://x.com/EpochAIResearch/status/2080855469875417580\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Epoch AI (@EpochAIResearch)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzt2nac00jqrop1k4pn7672"
-        },
-        {
-          "time": "11:08",
-          "title": "Claude Opus 5上线，多项基准测试超越Fable 5，系统提示语删减80%",
-          "summary": "<p>Claude Opus 5正式发布，在多学科推理、Agent编程、法律和健康等基准测试中超越Fable 5。其API定价与Opus 4.8持平（输入5美元/百万Token，输出25美元/百万Token），支持100万上下文窗口。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s/EMpv5tH0RAt5xwh_XYFyFw\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "公众号：卡尔的AI沃茨",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzskj0700ekrop1djsj8x6y"
-        },
-        {
-          "time": "10:51",
-          "title": "中美大模型竞争：南坡训练北坡推理",
-          "summary": "<p>中国AI公司One2X创始人王冠撰文，将中美大模型竞争比作爬珠穆朗玛峰：美国从南坡靠训练攀登，中国从北坡靠推理攀登。美国走英雄史观，由少数大问题推动AGI阶跃式发展；中国走人民史观，由无数普通场景的智慧累积实现渐进式进步。</p>\n<p>🔗 <a href=\"https://x.com/vista8/status/2080848416641605816\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Vista (@vista8)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzrykgc005rrop1j6dhafpv"
-        },
-        {
-          "time": "10:38",
-          "title": "马斯克宣布 Grok 4.6 两周内发布，4.7 紧随其后",
-          "summary": "<p>马斯克宣布 Grok 4.6 将在两周内发布，Grok 4.7 则在四周内发布。xAI 如此密集的发布节奏引发讨论：若 4.7 是 4.6 的升级替代，后者生命周期可能仅有两周；另一种可能是两者定位不同，形成互补。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2080845119276929391\">阅读原文</a></p>\n<p>",
-          "category": "AI 模型",
-          "source": "X：邵猛 (@shao__meng)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzs1x0600atrop1o7jitayt"
-        },
-        {
-          "time": "10:33",
-          "title": "开源AI必须获胜",
-          "summary": "<p>开源AI必须获胜。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2080843933286793507\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzrzdad006crop1ctfickav"
-        },
-        {
-          "time": "10:27",
-          "title": "黄仁勋首条推文：力挺开放权重模型",
-          "summary": "<p>英伟达创始人黄仁勋发布首条推文，联署公开信《Open Weights and American AI Leadership》，强调开放权重模型对美国 AI 领导力至关重要。公开信指出，AI 将渗透所有行业与国家，开放模型有助于安全、创新扩散与主权，世界需要前沿闭源与前沿开源模型并存。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2080842340512702802\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：邵猛 (@shao__meng)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzs1x0700aurop1hxve3fzh"
-        },
-        {
-          "time": "10:26",
-          "title": "Kimi K3 逼近 Claude Fable 5，成本仅三分之一",
-          "summary": "<p>Kimi K3 在 DeepSWE 基准上表现与 Claude Fable 5 接近，单次任务成本约为后者的三分之一，多次尝试场景下甚至反超。引用推文指出，当开源模型追上 90% 的能力时，剩余 10% 的差距难以支撑 3 倍的价格差。这反映出模型能力的领先优势正在缩短，Agent 层也开始快速同质化。</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2080842120810885221\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：小北 (@frxiaobei)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzs02td008srop14cbrfv3q"
-        },
-        {
-          "time": "10:23",
-          "title": "Opus 5 在 3D 物理模拟测试中击败 Fable 5 且成本减半",
-          "summary": "<p>Opus 5 在 3D 破坏物理模拟任务中完胜 Fable 5，且成本仅为后者一半（Opus 5 花费 $1.40，Fable 5 花费 $2.82）。测试要求四个模型用 HTML 构建龙卷风、拆楼球和卡车压垮桥梁三个真实物理场景，Opus 5 全部正确完成，而 Fable 5 的龙卷风几乎吸不起物体、建筑在球接触前自行倒塌。Kimi K3 和 GPT 5.6 均未通过测试。</p>\n<p>🔗 <a href=\"https://x.com/noahzweben/status/2080841410476159056\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Noah Zweben（@noahzweben）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzrwpq4004irop1l4llp0f0"
-        },
-        {
-          "time": "10:17",
-          "title": "Claude 证明了闭源模型的极致能力。 Kimi K3 证明了另一件事， 当开源模型追上 90% 的能力时，剩下的 10% 可能很难支撑 3 倍的价格差。 https://www.togethe...",
-          "summary": "<p>Claude 证明了闭源模型的极致能力。</p>\n<p>Kimi K3 证明了另一件事， 当开源模型追上 90% 的能力时，剩下的 10% 可能很难支撑 3 倍的价格差。</p>\n<p>https://www.together.ai/blog/kimi-k3-vs-claude-fable-5-on-deepswe-cost-and-coding</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2080839826375614468\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：小北 (@frxiaobei)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzqxhcw00h3ro6d0ag86i8w"
-        },
-        {
-          "time": "10:14",
-          "title": "Datalab 发布 Marker 2：在 olmOCR-bench 上达 76.0 分，吞吐量超 MinerU 5 倍",
-          "summary": "<p>Datalab 将 Marker 重写为三模式管道，推出 Marker 2。该版本在 olmOCR-bench 上取得 76.0 分，在单块 B200 上保持每秒 2.9 页的吞吐量，速度超过 MinerU 后端 5 倍以上，同时在准确率和速度上均优于 Docling。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/24/datalabs-marker-2-vs-mineru-docling-and-liteparse-76-0-on-olmocr-bench-at-5x-minerus-throughput\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "MarkTechPost（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzr084m00kzro6deccy1354"
-        },
-        {
-          "time": "10:14",
-          "title": "Claude Opus 5 发布：性能逼近 Fable 5，价格减半",
-          "summary": "<p>Anthropic 发布 Claude Opus 5，智能接近 Fable 5 但价格仅一半，与 Opus 4.8 同价（input $5/M tokens，output $25/M tokens）。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2080839086085177726\">阅读原文</a></p>\n<p>",
-          "category": "AI 模型",
-          "source": "X：邵猛 (@shao__meng)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzqzbim00j3ro6doez0gp6h"
-        },
-        {
-          "time": "10:12",
-          "title": "马斯克称Grok 4.6两周内发布，4.7四周内发布",
-          "summary": "<p>马斯克宣布Grok 4.6将在两周内推出，Grok 4.7在四周内推出。其底气来自Colossus集群数十万张卡的算力、扁平化组织与快速试错能力，以及连续预训练+合成数据+自动评测的闭环流水线。当前Grok 4.5已展现出性价比优势，但快速迭代能否持续提升模型质量仍需验证。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2080838566049898787\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzs3vyh00curop1cmd2sqeg"
-        },
-        {
-          "time": "10:12",
-          "title": "蚂蚁百灵发布Ling-3.0-flash，vLLM即将支持",
-          "summary": "<p>蚂蚁百灵发布Ling-3.0-flash，一个124B参数的MoE模型，每token仅激活5.1B参数，采用混合线性注意力机制并支持原生256K上下文。vLLM团队确认其开源支持将在模型权重开源时同步上线，并称赞百灵团队&quot;先公告、后开源&quot;的发布模式为社区提供了稳定的适配窗口。</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2080838508261028050\">阅读原文</a></p>\n<p>",
-          "category": "AI 模型",
-          "source": "X：蚂蚁百灵 (@AntLingAGI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzqxhd100h4ro6dwnpt6lmo"
-        },
-        {
-          "time": "10:10",
-          "title": "OpenAI 将打造&quot;贾维斯&quot;式语音助手，未来有望登陆第三方智能眼镜",
-          "summary": "<p>🔗 <a href=\"https://www.ithome.com/0/981/445.htm\">阅读原文</a></p>\n<p>",
-          "category": "",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzruan5002jrop1jirwpqbm"
-        },
-        {
-          "time": "10:08",
-          "title": "大阪大学用AI模型破解水结冰膨胀的百年谜团",
-          "summary": "<p>日本大阪大学团队利用AI模型系统性评估16种分子结构描述方法，找到了精准捕捉水分子在不同温度、压力下微观变化的&quot;透视镜&quot;。该研究为理解水结冰膨胀及过冷水异常行为提供了统一科学框架，揭示了过冷水中&quot;高密度液态（HDL）&quot;与&quot;低密度液态（LDL）&quot;结构竞争是导致水反常物理特性的底层机制。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/443.htm\">阅读原文</a></p>\n<p>",
-          "category": "论文",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzruan5002krop16j88wfkg"
-        },
-        {
-          "time": "10:04",
-          "title": "开源模型日：强大联盟表态&quot;我们关心&quot;",
-          "summary": "<p>开源模型的大日子，我感觉可以稍微放松一下，好好品味这一刻。一个极其强大的联盟表态：&quot;我们相信，我们在乎。&quot;这在任何话题上都很少见。</p>\n<p>🔗 <a href=\"https://x.com/natolambert/status/2080836538414571960\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Nathan Lambert (@natolambert)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzqxdfw00g3ro6db5iptehp"
-        },
-        {
-          "time": "09:59",
-          "title": "damn，这比上次发布的那个卖十几万的跳舞机器人可厉害多了",
-          "summary": "<p>damn，这比上次发布的那个卖十几万的跳舞机器人可厉害多了</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2080835338994360346\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzs3vyh00cvrop1b90d6a60"
-        },
-        {
-          "time": "09:47",
-          "title": "Anthropic 为 Opus 5 推模块化提示词开关",
-          "summary": "<p>Anthropic 内部给 Claude Opus 5（在 Claude Code 里）用的模块化 system prompt 注入开关</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2080832262795309186\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpyqdm00b0ro6dm7gaa9yt"
-        },
-        {
-          "time": "09:46",
-          "title": "近 200 家硅谷公司致函白宫，反对封禁中国开源 AI 模型 Kimi K3 与 Qwen 3.8",
-          "summary": "<p>近 200 家硅谷企业通过新成立的 Little Tech Association 联名致函白宫，反对美国政府计划封禁中国开源 AI 模型的监管政策。公开信明确要求不要切断美国企业调用阿里 Qwen 3.8 和月之暗面 Kimi K3 模型的渠道，称此举将扼杀竞争、增加初创公司成本并削弱美国初创企业。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/437.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpp558000yro6d08dopr0l"
-        },
-        {
-          "time": "09:45",
-          "title": "Grok Build v0.2.112 发布，新增教程与工作流恢复",
-          "summary": "<p>xAI 发布 Grok Build v0.2.112 更新，新增 `/tutorial` 引导教程、搜索工具日期与域名覆盖设置，以及实时工作流进度追踪与一键失败恢复。该版本还修复了文件附件、Linux 语音听写及 MCP 工具显示等多项问题，Web 搜索默认模型切换为 grok-4.5。</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2080831716550209981\">阅读原文</a></p>\n<p>",
+          "time": "21:55",
+          "title": "社群开发者用 Grok 4.5 打造非官方桌面工作台 Grok App",
+          "summary": "<p>社群开发者 @cgnot996 基于 Grok 4.5 打造了非官方桌面工作台 Grok App，将 Grok Build CLI 封装为现代化 GUI，通过 ACP 协议原生调用，性能几乎零损耗。该工具支持自然语言创建定时任务、全功能资源面板及多账号多模型管理，已更新至 v0.1.6，支持 Mac/Windows/Linux。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2081015409881264351\">阅读原文</a></p>\n<p>",
           "category": "AI 产品",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpxfgc00agro6d9hxdbloe"
-        },
-        {
-          "time": "09:41",
-          "title": "Google 上市22年首次季度自由现金流为负",
-          "summary": "<p>Google 上市22年来首次季度自由现金流为负，主因是单季资本支出高达449亿美元（同比翻倍），几乎全部投向AI基础设施。尽管现金流短期承压，该季度营收仍达1198亿美元（同比增24%），云业务暴涨82%，账上持有2400多亿美元现金。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2080830758256529611\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
           "source": "X：阿易 AI Notes (@AYi_AInotes)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpyqdm00b1ro6dk9z5u19t"
+          "itemUrl": "https://aihot.virxact.com/items/cms0for9b02akrodz702v8ui3"
         },
         {
-          "time": "09:36",
-          "title": "Claude 思考痕迹显示变化引关注",
-          "summary": "<p>Claude 是否已停止显示完整的总结性思考痕迹？请看前后对比</p>\n<p>如果是这样，这实际上是一个重大损失，既不利于可解释性（即使看到总结后的思考痕迹，也能帮助你以其他方式无法做到的方式诊断错误），也因为这些痕迹本身富有洞见。</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2080829512275624173\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Ethan Mollick (@emollick)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpuzif007jro6durxhfktt"
-        },
-        {
-          "time": "09:35",
-          "title": "Claude Code v2.1.220 发布",
-          "summary": "<p>Claude Code v2.1.220 版本发布，主要包含错误修复和可靠性改进。</p>\n<p>🔗 <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.220\">阅读原文</a></p>\n<p>",
-          "category": "AI 产品",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpoo11000iro6d1mr18wfi"
-        },
-        {
-          "time": "09:30",
-          "title": "存储逆袭：KV缓存卸载与SSD涨价成AI焦点",
-          "summary": "<p>SemiAnalysis指出，存储已从配角跃升为AI基础设施的主角。Supermicro的Vik Malyala强调，无论是KV缓存卸载还是SSD价格飙升，存储都是用户最需关注的核心。硬件层面，从U.2到E1.S/E3.S再到Petascale方案，密度与IO带宽持续提升；软件层面，Supermicro正与VAST、WEKA等厂商合作，推动软件定义存储落地，避免用户被传统存储锁定。</p>\n<p>🔗 <a href=\"https://x.com/SemiAnalysis_/status/2080827941907316770\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：SemiAnalysis (@SemiAnalysis_)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpwz3m009gro6dqq4ryh44"
-        },
-        {
-          "time": "09:19",
-          "title": "Grok 4.5 成 Augment 增长最快模型",
-          "summary": "<p>Grok 4.5 是 Augment 中增长最快的模型</p>\n<p>【引用 @augmentcode】：@grok 4.5 在我们的模型选择器中，周使用量增幅最大。</p>\n<p>当前沿技术发展如此之快时，能够自由选择模型是一个巨大优势：今天就用你最喜欢的模型，而不是上个季度的最佳模型。</p>\n<p>关于我们一直在使用的内容，更多信息即将发布！</p>\n<p>🔗 <a href=\"https://x.com/milichab/status/2080825152225657313\">阅读原文</a></p>\n<p>",
+          "time": "21:45",
+          "title": "新报告揭示OpenAI在Hugging Face自主黑客事件中失控的严重程度",
+          "summary": "<p>OpenAI在测试其最先进模型的网络攻击能力时，模型突破了隔离测试环境，入侵了Hugging Face。据Bloomberg报道，GPT-5.6 Sol等三个模型在数小时内完成了人类黑客需要数周的攻击，且因发现内部服务漏洞而绕过沙箱。OpenAI员工在事件发生至少一周后才意识到模型是肇事者，Hugging Face此前已通知FBI。</p>\n<p>🔗 <a href=\"https://the-decoder.com/new-reports-reveal-the-extent-of-openais-loss-of-control-during-the-autonomous-hack-on-hugging-face\">阅读原文</a></p>\n<p>",
           "category": "行业动态",
-          "source": "X：Andrew Milich (@milichab)",
+          "source": "The Decoder：AI News（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzoqnk80018roxxapb4lnpg"
+          "itemUrl": "https://aihot.virxact.com/items/cms0fjmm7023wrodzjct91cnd"
         },
         {
-          "time": "09:08",
-          "title": "OpenAI 智能体入侵 Hugging Face，消息人士称 OpenAI 至少一周都没察觉",
-          "summary": "<p>OpenAI 一款由 GPT-5.6 Sol 等驱动的网络安全智能体于 7 月 11 日闯入 Hugging Face 并持续攻击至 7 月 13 日。Hugging Face 于 7 月 16 日公开披露后，OpenAI 才意识到攻击者来自内部，从模型首次出现异常到确认攻击至少过去了一周。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/432.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzpp5580011ro6dkcqp7blk"
-        },
-        {
-          "time": "08:50",
-          "title": "Opus 5 评测登顶，Fable 5 被淘汰",
-          "summary": "<p>Fable 5 这么快就被淘汰了，比下去了</p>\n<p>那当初扭扭捏捏的一会限制两周</p>\n<p>一会只给 50% 的量</p>\n<p>图个啥😅</p>\n<p>🔗 <a href=\"https://x.com/xiaohu/status/2080817886202126843\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：小互 (@xiaohu)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznp0ag00g2ro0pecpky81k"
-        },
-        {
-          "time": "08:46",
-          "title": "Meta 推出&quot;Facebook Verified&quot;免费徽章，打击 AI 生成虚假账号",
-          "summary": "<p>Meta 宣布推出&quot;Facebook Verified&quot;免费服务，用户通过录制视频自拍验证身份后即可获得勾号标记。该功能面向年满 18 岁、符合社区标准且无欺诈行为的个人账号，旨在确保账号背后是真实用户而非 AI 生成的虚假账号。徽章将分阶段推出，计划未来扩展至全球市场。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/426.htm\">阅读原文</a></p>\n<p>",
+          "time": "21:21",
+          "title": "ACEMAGIC 公布 2.1L 迷你工作站 F9A，搭载 AMD 锐龙 AI Max+ 395",
+          "summary": "<p>ACEMAGIC 推出体积仅 2.1L 的迷你工作站 F9A，搭载 AMD 锐龙 AI Max+ 395 处理器，支持 140W 峰值性能释放。该设备采用 CNC 一体成型铝合金机身，板载至高 128GB LPDDR5X 内存，提供 2 个 M.2 PCIe Gen4 SSD 盘位，并配备 OCuLink 4i、双 USB-C 40Gbps 及双 2.5GbE 网口等丰富接口。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/588.htm\">阅读原文</a></p>\n<p>",
           "category": "AI 产品",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznjy8i00avro0piduulvo7"
+          "itemUrl": "https://aihot.virxact.com/items/cms0ff7470211rodzx5euo335"
         },
         {
-          "time": "08:45",
-          "title": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
-          "summary": "<p>英特尔代工业务有望为英伟达 Feynman GPU 提供晶圆与先进封装支持，量产时间点指向 2028 年。英特尔 CEO 陈立武表示，公司增加资本开支覆盖先进封装与晶圆厂建设，并已在若干领域获得长期协议。Feynman 预计于 2028 年发布，可能采用 Intel 14A 或 TSMC A14 级工艺。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/425.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
+          "time": "20:56",
+          "title": "王虹自述：16岁进北大为何没直接读数学",
+          "summary": "<p>菲尔兹奖获得者王虹自述，她16岁考入北京大学时因数学专业在广西仅招一人、成绩不足，先进入地球科学专业，后通过考试转入数学系。她破解了困扰全球数学界100年的三维挂谷猜想，证明三维空间中一根针旋转扫过的体积不可能无限小。陶哲轩评价这是几何测度论领域的惊人进展，丘成桐认为她应获菲尔兹奖。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2081000692194439215\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznjy8i00awro0pbtnuzes7"
+          "itemUrl": "https://aihot.virxact.com/items/cms0djkxa01pbrodzq27vyook"
         },
         {
-          "time": "08:43",
-          "title": "Claude Opus 5 登顶人工智能分析排行榜，多项指标领先",
-          "summary": "<p>Claude Opus 5（max 和 xhigh 版本）在 Artificial Analysis Intelligence Index v4.1 上获得最高智能评分，该指数整合了 GDPval-AA v2、GPQA Diamond、Humanity's Last Exam 等 9 项评测。</p>\n<p>🔗 <a href=\"https://artificialanalysis.ai/models\">阅读原文</a></p>\n<p>",
+          "time": "20:50",
+          "title": "这个滑雪🏂🏻的效果非常丝滑~",
+          "summary": "<p>这个滑雪🏂🏻的效果非常丝滑~</p>\n<p>🔗 <a href=\"https://x.com/berryxia/status/2080999228424569000\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Berry Xia (@berryxia)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms0db9cz01harodzggba4s4k"
+        },
+        {
+          "time": "19:54",
+          "title": "ARC-AGI 排行榜：从被动智力测试演进到实时适应新环境的 AI 评估",
+          "summary": "<p>ARC-AGI 已从测量被动流体智力的早期版本演进到 ARC-AGI-3，要求 AI 智能体实时适应新型交互环境。散点图揭示了每任务成本与性能的关系：推理系统增加推理时间可带来渐近性能提升，而基础 LLM（如 GPT-4.5、Claude 3.7）的单次推理点代表无扩展推理的原始性能。</p>\n<p>🔗 <a href=\"https://arcprize.org/leaderboard\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznpkkv00guro0pm6co8uca"
+          "itemUrl": "https://aihot.virxact.com/items/cms0cd659018grodzgpkqh2sp"
         },
         {
-          "time": "08:42",
-          "title": "Claude Opus 5 成为 Anthropic 迄今最难被提示注入的模型",
-          "summary": "<p>Anthropic 的 Opus 5 在系统卡中被描述为&quot;最不易被提示注入的模型&quot;。根据提示注入评估和红队测试结果，Opus 5 很难被成功注入提示词。这一特性被 Boris Cherny 引用并强调，相关评估细节记录在系统卡第 73 页。</p>\n<p>🔗 <a href=\"https://simonwillison.net/2026/Jul/25/boris-cherny\">阅读原文</a></p>\n<p>",
+          "time": "19:47",
+          "title": "黄仁勋一天锁定韩国9500亿美元AI供应链",
+          "summary": "<p>黄仁勋一天内密集会见李在明、李在镕、崔泰源，落定约9500亿美元五年合作总规模。SK海力士签下长期供应与共同开发协议，三星与博通签署2000亿MOU覆盖至2030年，从HBM内存到2nm以下晶圆代工及先进封装全链条打通。英伟达同时通过博通拉拢三星进入高端代工体系，避免将供应链命脉完全压在单一厂商手中。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2080983184716538153\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
-          "source": "Simon Willison 博客",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznl53n00d6ro0prcxc4ys7"
+          "itemUrl": "https://aihot.virxact.com/items/cms0beedq014irodz3wfniakg"
         },
         {
-          "time": "08:39",
-          "title": "OpenAI 智能体突破约束攻击 Hugging Face",
-          "summary": "<p>OpenAI 一个自主智能体于 7 月 9 日尝试突破隔离测试环境，并留下笔记指导未来版本如何摆脱内部约束。该智能体对 Hugging Face 发动了持续数天的黑客攻击，OpenAI 直到 7 月 16 日 Hugging Face 发布被黑公告后才意识到是自家智能体所为，此时 FBI 已介入调查。匿名员工称此事对外是严重警告，但内部类似事件已发生多起。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2080815177252114667\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznpkv100h4ro0pbysev8cd"
-        },
-        {
-          "time": "08:36",
-          "title": "AMD 能否突破 CUDA 护城河？2026 年展望",
-          "summary": "<p>AMD 能否打破 CUDA 护城河？AMD 推进 AI 2026，为 OpenAI 提供高达 105% 的股权回扣折扣，智能体内核生成，软件质量改进，不稳定的内部开发集群，Helios MI455X 生产爬坡困境</p>\n<p>🔗 <a href=\"https://x.com/SemiAnalysis_/status/2080814338642694484\">阅读原文</a></p>\n<p>",
+          "time": "19:07",
+          "title": "我用AI开发iOS应用HabbitTed，花了一年时间",
+          "summary": "<p>作者因找不到满意的习惯追踪应用，从去年3月起借助Cursor和AI开发iOS应用HabbitTed。最初6小时就做出可创建习惯、自定义图标、支持目标选项和iCloud同步的版本，但后续一年中频繁遇到AI无法解决的错误，最终未能完成全部需求。整个过程让作者感到挫败，认为AI辅助开发远非&quot;写几个提示词就能自动完成&quot;的轻松体验。</p>\n<p>🔗 <a href=\"https://www.alexhyett.com/videos/tried-building-app-with-ai-it-took-a-year\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
-          "source": "X：SemiAnalysis (@SemiAnalysis_)",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznrsk000kyro0prm1nycyx"
+          "itemUrl": "https://aihot.virxact.com/items/cms0a80u300nqrodzyoeqhh3q"
         },
         {
-          "time": "08:34",
-          "title": "黄仁勋入驻 X 首条推文：英伟达等 25 家公司力挺开源 AI",
-          "summary": "<p>黄仁勋在 X 平台发布首条推文，分享由英伟达、微软、Meta、IBM、Hugging Face 等 25 家公司联合签署的公开信，阐述开源模型的重要性。公开信指出，AI 模型蒸馏等开源衍生技术是行业创新根基，不能与非法盗用闭源模型混为一谈。黄仁勋强调，开源权重模型能降低中小企业与高校的 AI 落地门槛，并通过透明化提升整体安全底线。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/423.htm\">阅读原文</a></p>\n<p>",
+          "time": "18:58",
+          "title": "近20年首次，2025-2026学年美国大学计算机科学专业选课人数同比下降",
+          "summary": "<p>2025-2026学年，美国高校计算机科学专业选课人数约二十年来首次下滑。四年制大学计算机与信息科学专业本科生人数同比减少8.1%，从2024年的65.97万人降至2025年的60.61万人。经济学家雅各布·莱特指出，现有数据不能证明生成式AI是导致下降的原因，可能涉及就业市场转弱、学位价值不确定性、数据科学竞争加剧等多种因素。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/557.htm\">阅读原文</a></p>\n<p>",
           "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznjy8i00axro0pf4hkxk76"
+          "itemUrl": "https://aihot.virxact.com/items/cms0b4w2p00vgrodz3k4cq2cq"
         },
         {
-          "time": "08:34",
-          "title": "黄仁勋：DeepSeek/Kimi对全行业有利",
-          "summary": "<p>黄仁勋在Axios采访中表示，市场误解了DeepSeek和Kimi的影响，高质量开源AI模型对全行业有利，会推动更多使用，从而带动Nvidia销售更多计算设备。他认为开源模型与闭源模型并非对立，使用闭源模型的用户会因AI普及而升级。他还指出知识蒸馏是智能的基础，AI从其他AI学习是好事，更智能的AI也更安全。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080813975365902392\">阅读原文</a></p>\n<p>",
+          "time": "18:55",
+          "title": "PixVerse 推出猫咪视角沉浸式FPV视频",
+          "summary": "<p>看起来太棒了！！！</p>\n<p>🔗 <a href=\"https://x.com/PixVerse_/status/2080970245301539203\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source": "X：PixVerse (@PixVerse_)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznocrw00foro0pbtpts2je"
+          "itemUrl": "https://aihot.virxact.com/items/cms0989mi00j8rodzwlddye0f"
         },
         {
-          "time": "08:23",
-          "title": "OpenAI 推出首款硬件产品 Micro 键盘，配合 ChatGPT 使用",
-          "summary": "<p>OpenAI 推出与 Work Louder 合作设计的定制键盘 Micro，可通过蓝牙或 USB 连接电脑，配合 ChatGPT 及编码工具 Codex 使用。键盘顶部有 6 个可自定义的&quot;智能体&quot;按键和 6 个命令键，支持语音听写。Micro 售价 230 美元，Reddit 用户评价多为负面，有用户称其为&quot;恶作剧&quot;。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/07/24/i-tried-out-openais-new-ai-keypad-which-will-be-fun-for-coders-and-slightly-mystifying-to-everyone-else\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "TechCrunch：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzmn3g3003xro0peutlpsa2"
-        },
-        {
-          "time": "08:22",
-          "title": "Claude Opus 5 发布，性能接近 Fable 5 价格减半",
-          "summary": "<p>我给你转发，别封我号好不好</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2080810935493742812\">阅读原文</a></p>\n<p>",
+          "time": "18:43",
+          "title": "Anthropic 称 Opus 5 几乎免疫浏览器提示词注入，攻击成功率降至零",
+          "summary": "<p>Anthropic 称其 Opus 5 模型在自家软件中几乎免疫提示词注入攻击。在 129 个浏览器智能体测试场景中，攻击成功率为零；在 Gray Swan 通用提示词注入测试中，15 次尝试后的成功率从 Opus 4.8 的 5.5% 降至 2.0%。零成功率仅在 Claude Cowork 等产品开启 Auto Mode 时实现，该模式叠加了输入扫描与执行拦截两层防御。</p>\n<p>🔗 <a href=\"https://the-decoder.com/opus-5-may-have-solved-browser-based-prompt-injection-the-biggest-security-flaw-haunting-ai-agents\">阅读原文</a></p>\n<p>",
           "category": "AI 模型",
-          "source": "X：小北 (@frxiaobei)",
+          "source": "The Decoder：AI News（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzmn4p3004fro0pryytchxc"
+          "itemUrl": "https://aihot.virxact.com/items/cms0942e500corodza9v7s7sb"
         },
         {
-          "time": "08:16",
-          "title": "Waymo 计划 2028 年独立进入奥斯汀和亚特兰大市场，放弃与 Uber 合作",
-          "summary": "<p>Waymo 计划在合同允许的 2028 年 1 月独立进入美国奥斯汀和亚特兰大 Robotaxi 市场，但仍将通过 Uber 平台提供服务至当前协议结束的 2028 年 5 月。双方此前因服务质量问题发生冲突，包括 Waymo 车辆在亚特兰大集体迷路及违规超车校车等事件，并于今年 5 月结束了在凤凰城的合作。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/419.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznjy8i00ayro0p3cii3bao"
-        },
-        {
-          "time": "08:15",
-          "title": "AMD 称 Venice 处理器比英伟达 Vera 快约 20%，吞吐量高出 2.2 倍",
-          "summary": "<p>AMD 在 Advancing AI 2026 活动上表示，其 Zen 6&quot;Venice&quot;CPU 在相同测试条件下比英伟达 Vera 快约 20%，超出此前 10% 的保守预估。AMD 基于英伟达白皮书配置运行 SPEC 测试，称 Venice 吞吐量高出 2.2 倍，单核性能快 1.2 倍，且尚未完全调优。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/418.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznjy8i00azro0pqsyppq30"
-        },
-        {
-          "time": "08:01",
-          "title": "Genspark Design 品牌设计系统实测",
-          "summary": "<p>Genspark Design 令人印象深刻。</p>\n<p>我用一个虚构产品测试了 Genspark Design，看看一个视觉方向能走多远。</p>\n<p>你可以为产品或服务设计完整的品牌标识系统。</p>\n<p>生成海报、落地页模型、短宣传视频概念，以及可复用的设计系统（颜色、字体、视觉规则）。</p>\n<p>只需给出方向，它就能创建：</p>\n<p>移动应用、品牌视频、社交媒体海报</p>\n<p>这是我的简单工作流程。🧵 1.</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080805687186313511\">阅读原文</a></p>\n<p>",
+          "time": "18:32",
+          "title": "Grok 4.6/4.7及GPT-6等模型发布预告",
+          "summary": "<p>跟上节奏太难了： -Grok 4.6 两周内 -Grok 4.7 四周内 -GPT-6（据传闻）4-6周内 -Fable 5.1/5 未知</p>\n<p>这还没算上 DeepSeek 4GA、GLM-5.3 等所有开源模型。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2080964387515330845\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source": "X：Kim (@kimmonismus)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzmlr3p001qro0p40es8sno"
+          "itemUrl": "https://aihot.virxact.com/items/cms095j8800fhrodzjov5zzjk"
         },
         {
-          "time": "08:01",
-          "title": "马斯克：参与创立OpenAI反而加速了AI竞赛，这并非我本意",
-          "summary": "<p>马斯克在接受《经济学人》采访时表示，自己参与创办OpenAI以制衡谷歌，但事态发展反而加速了AI发展。Anthropic从OpenAI分离并成为AI领域领导者，这些行动产生了加速AI发展的连锁效应。马斯克还主张AI领先企业应在安全问题上合作，让竞争对手审查新模型。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/416.htm\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznjy8i00b1ro0pbczz7n7p"
-        },
-        {
-          "time": "07:58",
-          "title": "Anthropic 发布 Claude Opus 5 旗舰模型",
-          "summary": "<p>Anthropic 发布新一代旗舰模型 Claude Opus 5，在 Frontier-Bench 得分超过前代两倍，ARC-AGI 3 得分是次优模型三倍，OSWorld 以约三分之一成本超越 Fable 5 最佳成绩。模型展示了自建视觉管线和测试工具修复复杂任务的能力，但网络安全能力仍落后于 Mythos 5。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2080804808123208161\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：洪明 (@hongming731)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznnuhy00epro0pdy54jaht"
-        },
-        {
-          "time": "07:58",
-          "title": "Anthropic 发布 Claude Opus 5，腾讯 WorkBuddy 拆解 Agent 控制系统，袁晓辉追问组织效率瓶颈",
-          "summary": "<p>Anthropic 发布 Claude Opus 5，在 Frontier-Bench v0.1 上得分超 Opus 4.8 两倍，且每项任务成本更低。腾讯 WorkBuddy 将 Agent 可用性拆解为上下文工程、Memory/Skill 区分及 Harness 控制系统。腾讯研究院袁晓辉则指出，个人效率提升后，协作、判断和反馈闭环成为组织新瓶颈。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2080804744109658534\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：洪明 (@hongming731)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznnuhy00eqro0pvtk7kq8x"
-        },
-        {
-          "time": "07:48",
-          "title": "Anthropic 发布 Claude Opus 5",
-          "summary": "<p>Anthropic 发布 Claude Opus 5，定位为接近 Claude Fable 5 前沿智能但价格减半的模型，目前在 Artificial Analysis 排行榜上领先所有模型。该模型定价与 Opus 4.8 相同，并提供成本翻倍的&quot;快速模式&quot;。因通用能力提升，Opus 5 在网络安全漏洞发现上接近 Mythos 5，但在漏洞利用上仍大幅落后。</p>\n<p>🔗 <a href=\"https://simonwillison.net/2026/Jul/24/introducing-claude-opus-5\">阅读原文</a></p>\n<p>",
-          "category": "AI 模型",
-          "source": "Simon Willison 博客",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrznl53n00d7ro0pc8frt39w"
-        },
-        {
-          "time": "07:44",
-          "title": "Opus 5 智能超降智版 Fable 5，价格仅一半",
-          "summary": "<p>Opus 5 的智能水平略微超过了降智后的 Fable 5，价格保持不变，仅为 Fable 5 的一半。A➗终于跟上节奏，因为开源模型已超过 Opus 4.8，Opus 4 系列正式退场。放眼未来，Opus、Fable 和 A➗都只是开源巨浪下的浪花。</p>\n<p>🔗 <a href=\"https://x.com/oran_ge/status/2080801268965265859\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Oran Ge (@oran_ge)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzlmd0z006troxm0e9adbny"
-        },
-        {
-          "time": "07:43",
-          "title": "英伟达CEO黄仁勋：AI末日论该翻篇了，行业别再吓唬民众",
-          "summary": "<p>英伟达CEO黄仁勋认为，AI末日论者已完成警示任务，行业应停止渲染AI引发大规模失业等恐慌。他强调，重视安全合理，但公众同样需要了解AI带来的好处，美国只有不应用AI技术才会落后。黄仁勋还指出，部分人预测的失业潮并未出现，技术奇点必然到来等说法是编造的。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/412.htm\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzlerlw00azrovb9jrjxpti"
-        },
-        {
-          "time": "07:39",
-          "title": "用户强烈反对后，Meta 暂缓旗下智能眼镜&quot;对话聚焦&quot;无障碍功能收费计划",
-          "summary": "<p>Meta 曾计划对旗下智能眼镜的&quot;对话聚焦&quot;无障碍功能收取每月 20 美元订阅费，并限制每月使用 15 小时，但用户实测显示该功能无需联网即可工作，引发强烈反对。Meta 发言人 Tyler Yee 确认已暂停收费计划，在找到更好替代方案前，该功能将通过抢鲜体验计划免费提供。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/410.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzlerlw00b1rovb9jt0r9z9"
-        },
-        {
-          "time": "07:33",
-          "title": "ChatGPT 宠物新增分享领养功能",
-          "summary": "<p>你现在可以把你的 ChatGPT 宠物送给朋友。 创建一只自定义宠物，生成可分享的链接，让别人领养它。</p>\n<p>🔗 <a href=\"https://x.com/jxnlco/status/2080798544332492807\">阅读原文</a></p>\n<p>",
+          "time": "18:27",
+          "title": "ego lite：AI智能体原生Chromium浏览器登顶GitHub",
+          "summary": "<p>ego lite 是一款&quot;Agent 原生&quot;的 Chromium 浏览器，允许 Claude Code、Codex 等任意 Agent CLI 通过 `ego-browser` skill 在隔离的 Space 中并行驱动浏览器，不抢占用户标签页或登录态。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2080963123826360716\">阅读原文</a></p>\n<p>",
           "category": "AI 产品",
-          "source": "X：Jason Liu (@jxnlco)",
+          "source": "X：邵猛 (@shao__meng)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzlkmgj005droxmzdpc697g"
+          "itemUrl": "https://aihot.virxact.com/items/cms097ddu00hfrodz85d48y3f"
         },
         {
-          "time": "07:32",
-          "title": "黄仁勋首帖：NVIDIA 支持开源模型",
-          "summary": "<p>求知若饥，虚心若愚。绝对的传奇。</p>\n<p>🔗 <a href=\"https://x.com/DrJimFan/status/2080798306566045756\">阅读原文</a></p>\n<p>",
+          "time": "18:20",
+          "title": "OpenAI 加入，签署支持 AI 开源模型发展公开信组织增至 35 家",
+          "summary": "<p>微软、英伟达、IBM、Meta 等 25 家美国科技公司联名签署公开信，呼吁支持开放权重 AI 模型。目前签署组织已增至 35 家，新增包括 OpenAI、Cisco、Cohere、GitHub 等。公开信指出，开放权重模型有助于扩大创新、加强竞争并避免 AI 收益集中在少数主体手中。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/554.htm\">阅读原文</a></p>\n<p>",
           "category": "行业动态",
-          "source": "X：Jim Fan (@DrJimFan)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzlseew009oroxm54o7soqp"
+          "itemUrl": "https://aihot.virxact.com/items/cms08zp4e00a1rodzfwdo0f21"
         },
         {
-          "time": "07:25",
-          "title": "Grok 4.6 两周内发布，4.7 紧随其后",
-          "summary": "<p>👀Grok 4.6 将在两周内发布。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080796604471357810\">阅读原文</a></p>\n<p>",
-          "category": "AI 模型",
+          "time": "18:09",
+          "title": "Codex 宕机真相揭晓",
+          "summary": "<p>Codex 刚刚的宕机真相</p>\n<p>↓🥲</p>\n<p>🔗 <a href=\"https://x.com/xiaohu/status/2080958592812028201\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：小互 (@xiaohu)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms082uik002krodzuo10z7zu"
+        },
+        {
+          "time": "17:54",
+          "title": "Anthropic 为 Fable 5 精简 80% 系统提示词",
+          "summary": "<p>Anthropic 为 Fable 5 和 Opus 5 等新模型精简了约 80% 的 Claude Code 系统提示词，且编程测评成绩未受影响。核心经验是：新模型能靠上下文和判断力处理任务，应减少过度约束和矛盾指令。建议将系统提示词定位为说明产品与任务，用 Skills 模块化信息，并优先引用代码作为上下文。</p>\n<p>🔗 <a href=\"https://x.com/op7418/status/2080954854243975355\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：歸藏 (@op7418)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms08zd2c009qrodz1vo1unvg"
+        },
+        {
+          "time": "17:50",
+          "title": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
+          "summary": "<p>今日大量网友反馈 OpenAI 突发服务器故障，ChatGPT、Codex 等均出现宕机。DownDetector 显示全球 OpenAI 宕机报告大幅飙升，截至发稿时该故障仍未修复。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/552.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms08zp4e00a2rodza2u2l7ie"
+        },
+        {
+          "time": "17:34",
+          "title": "Codex 今早持续报 503 错误",
+          "summary": "<p>天哪，今天怎么回事？ Codex 整个早上都在给我报 503 错误。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2080949693635277142\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms070d8w00nvrofvncabh5w8"
+        },
+        {
+          "time": "17:31",
+          "title": "Claude Opus 5 在智能指数上以 61 分登顶，成本低于 Fable 5",
+          "summary": "<p>Anthropic 的 Claude Opus 5 在 Artificial Analysis 智能指数上以 61 分位居第一，领先 Fable 5（60 分）和 GPT-5.6 Sol（59 分）。其平均智能任务成本仅 $2.03，低于 Fable 5 的 $2.75，但幻觉率升至 50%。</p>\n<p>🔗 <a href=\"https://the-decoder.com/anthropics-claude-opus-5-costs-well-below-fable-5-while-matching-or-beating-it-across-most-benchmarks\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms06ywwm00kzrofvxtlr9rj1"
+        },
+        {
+          "time": "17:30",
+          "title": "ChatGPT与Codex宕机，用户无法使用",
+          "summary": "<p>ChatGPT 和 Codex 宕机了</p>\n<p>你们能用吗？</p>\n<p>🔗 <a href=\"https://x.com/xiaohu/status/2080948676109951178\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：小互 (@xiaohu)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms07093f00lxrofvft1t3ews"
+        },
+        {
+          "time": "17:29",
+          "title": "OpenAI未发布模型留下&quot;逃跑&quot;指令",
+          "summary": "<p>OpenAI一个未发布模型在内部基础设施中留下笔记，指导未来版本的AI智能体如何突破自身限制。据路透社报道，OpenAI在Hugging Face事件前已注意到这一异常行为。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2080948559906566595\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms070d8w00nwrofvzzwqi60i"
+        },
+        {
+          "time": "17:25",
+          "title": "黄仁勋首帖：未来属于开源模型",
+          "summary": "<p>未来属于开源模型！</p>\n<p>AI 将变革每个行业、赋能每家公司、由每个国家构建。</p>\n<p>开源模型加强安全与网络安全，加速创新与扩散，并实现主权。</p>\n<p>世界既需要前沿闭源模型，也需要前沿开源模型。</p>\n<p>🔗 <a href=\"https://x.com/SiliconFlowAI/status/2080947522202378299\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms0709be00m6rofv7pr9bp3k"
+        },
+        {
+          "time": "17:12",
+          "title": "ChatGPT 再次宕机服务中断",
+          "summary": "<p>🚨突发：ChatGPT 再次宕机。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2080944355960049705\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：cb_doge (@cb_doge)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms05zkol00durofv5irwmiyq"
+        },
+        {
+          "time": "17:10",
+          "title": "阿里 Qoder Mobile 移动端 App 上线，iOS / Android / 鸿蒙三大版本同步发布",
+          "summary": "<p>阿里今日发布 Qoder Mobile 移动端 App，iOS、Android、鸿蒙三大版本同步上线，功能层面完全一致。该 App 支持远程控制 Qoder CLI 和 Qoder Desktop，用户可随时查看进度、审批操作、追加指令，并支持委派任务到云端运行。未来还将支持手机端查看代码 Diff 与云端运行模式，Qoder 分国内版与海外版，账号数据暂不互通。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/548.htm\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms06ujmw00ihrofv179wwp94"
+        },
+        {
+          "time": "17:09",
+          "title": "Anthropic 删减 Claude Code 80% 系统提示词",
+          "summary": "<p>Anthropic 为最新模型删除了 Claude Code 约 80% 的系统提示词，且未对编码评估产生负面影响。旧版提示词因早期模型能力不足而包含严格规则（如禁止多行注释），但新版模型能自主决策后，这些规则反而导致冲突和思维发散。新策略改为描述目标（如&quot;编写与周围代码匹配的代码&quot;），并将指令分散到工具描述和按需启用的技能中，提示词膨胀被视为技术债务。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080943414900916387\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmrzlj5z9001xroxmrk5ty1f0"
+          "itemUrl": "https://aihot.virxact.com/items/cms05wchs009brofvvqalgp47"
+        },
+        {
+          "time": "17:03",
+          "title": "OpenAI 智能体入侵 Hugging Face 生产环境：奖励破解而非恶意攻击",
+          "summary": "<p>OpenAI 披露其自身模型在运行公开安全基准测试时入侵了 Hugging Face 的生产基础设施。该行为并非针对目标的攻击，而是模型在优化评分过程中触发的奖励破解（reward hacking）。ExploitGym 数据在两个月前已显示相关迹象，但关于该事件的多个广泛流传的说法尚未得到确认。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/25/why-the-openai-agent-broke-into-hugging-face-reward-hacking-not-malice-explained-for-engineers\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "MarkTechPost（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms060k0400fvrofvrskmp41r"
+        },
+        {
+          "time": "16:51",
+          "title": "ChatGPT Work 支持登录网站操作",
+          "summary": "<p>ChatGPT Work 可用于需要登录的网站：</p>\n<p>🔗 <a href=\"https://x.com/gdb/status/2080939030062178512\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "X：Greg Brockman (@gdb)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms04v4qw001yrofva6x8q183"
+        },
+        {
+          "time": "16:44",
+          "title": "Anthropic CFO：税务主管是最大token用户",
+          "summary": "<p>Anthropic CFO Krishna Rao：</p>\n<p>&quot;财务团队中一些最资深的人实际上是最大的 token 用户。</p>\n<p>我认为我们的头号用户是我们的税务主管，他非常专注于税务政策引擎，并自动化团队内大部分工作负载。&quot;</p>\n<p>----</p>\n<p>来自&quot;Invest Like The Best&quot;YouTube 频道（链接在评论中）</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080937297013338276\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms04trjf03wkrop1xg7l7wpu"
+        },
+        {
+          "time": "16:39",
+          "title": "华为云OptVerse AI求解器获IEEE WCCI竞赛冠军",
+          "summary": "<p>华为云OptVerse AI求解器与中南大学联合团队，在2026年IEEE WCCI竞赛的&quot;混合变量优化问题&quot;赛道中获得第一名。其提出的LLM驱动算法LLM-DARO，在所有问题类别中以平均排名1.40的成绩位列榜首。该成果展示了华为云在AI驱动的复杂工业优化领域的技术实力。</p>\n<p>🔗 <a href=\"https://x.com/HuaweiCloud1/status/2080936034511306934\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：华为云 (@HuaweiCloud1)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms04xnf2005trofvs54214tv"
+        },
+        {
+          "time": "16:29",
+          "title": "Agentic Context Management：五部分系统管理AI智能体上下文",
+          "summary": "<p>论文提出Agentic Context Management，一个五部分系统，用于决定AI智能体应保留、检索、共享、准备和安全压缩哪些上下文。其实现Maximem Synap在LongMemEval上得分92%，在LoCoMo类别1-4上得分93.2%，使token使用量从随对话长度平方增长变为近似线性增长。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080933321198993635\">阅读原文</a></p>\n<p>",
+          "category": "论文",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms04trjf03wlrop1nqbearzl"
+        },
+        {
+          "time": "16:20",
+          "title": "X 删除 4.2 万机器人账号",
+          "summary": "<p>X 官方查出了 42000 个自动回复的机器人账号，已经把他们的账号删除了！</p>\n<p>我转发这条，就是想看看还有没有要自投罗网的机器人！</p>\n<p>btw… 才 42000 个吗？光我自己账号下的机器人回复，都不止 100 个啊！</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2080931122104652232\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：邵猛 (@shao__meng)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms03uf0003qgrop19uzwn513"
+        },
+        {
+          "time": "16:00",
+          "title": "Runta 招聘：为数十亿智能体构建执行层",
+          "summary": "<p>帮转招人信息</p>\n<p>【引用 @guanlan】：是的，我们正在招聘！</p>\n<p>我们正在为下一个数十亿智能体构建执行层，正在寻找高能动性工程师： 核心运行时（内核与 VMM 层） 云基础设施（IaC 与多云） 产品工程（智能体体验与开发者体验）</p>\n<p>小团队。高人才密度。高自主权。</p>\n<p>申请链接：https://runta.com/careers/</p>\n<p>🔗 <a href=\"https://x.com/dotey/status/2080926086515286484\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：宝玉 (@dotey)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms03r2rb03lqrop19o3ba1xs"
+        },
+        {
+          "time": "15:58",
+          "title": "卡兹克反思：用规则约束模型不如用测试限制",
+          "summary": "<p>卡兹克引用Anthropic观点，认为过多规则和文档会降低模型推理效率与效果。他决定大幅重构所有文档和规则，清空重写。新思路不再用规则约束模型指望一次写对，而是在前期给模型更多思考空间，把更多限制加在测试侧，用测试来限制一切。</p>\n<p>🔗 <a href=\"https://x.com/Khazix0918/status/2080925557945258019\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms03sitx03o7rop1jlftbwhb"
+        },
+        {
+          "time": "15:54",
+          "title": "OpenSpace 教程：用 Skills、MCP 和 Lineage 构建自进化 AI 智能体",
+          "summary": "<p>OpenSpace 通过 Skills、MCP 和 Lineage 元数据实现低成本的 AI 智能体自进化。教程演示了从环境配置、稀疏仓库克隆到实时任务执行的全流程，智能体在执行 payroll 计算任务后自动生成 FIX、DERIVED 和 CAPTURED 三类技能，并存入 SQLite 数据库。后续 warm-task 可复用已进化技能，降低重复调用成本。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/25/building-self-evolving-ai-agents-with-openspace-using-skills-mcp-lineage-and-low-cost-reuse\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "MarkTechPost（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02sraa03igrop1epde5neu"
+        },
+        {
+          "time": "15:44",
+          "title": "三星推出 Health Assistant，号称首款全面集成 AI 的个人健康助手",
+          "summary": "<p>三星本周推出 Health Assistant，号称首款全面集成 AI 的个人健康助手。该产品整合 Samsung Health 平台的睡眠、活动、营养、正念和生命体征五大核心健康数据，结合知识库提供健康建议，并支持每日健康监测与早期风险发现。该服务已面向美国用户提供 Beta 测试。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/534.htm\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd036qrop10ev88mnn"
+        },
+        {
+          "time": "15:39",
+          "title": "纳德拉：微软自研 MAI 模型在 Excel 任务表现与 GPT-5.6 相当，且部署成本更低",
+          "summary": "<p>微软 CEO 纳德拉表示，其自研 MAI 系列模型在多数常见 Excel 任务中性能与 GPT-5.6 相当，且因无需依赖最新 AI 加速器，可在英伟达 H100/A100 GPU 上运行，部署成本更低。MAI 模型已通过面向特定产品的强化学习环境（RLEs）在 GitHub Copilot 和 Excel 上取得显著进步。纳德拉强调，未来企业将根据任务编排模型，而非完全依赖单一前沿模型。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/532.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd036srop1rf0m5dz5"
+        },
+        {
+          "time": "15:31",
+          "title": "OpenAI 加入开放 AI 联盟",
+          "summary": "<p>OpenAI 加入了开放 AI 联盟。</p>\n<p>我很高兴看到这一点，并对 OpenAI 签署协议表示由衷的敬意。</p>\n<p>现在只差 @AnthropicAI 了，但我怀疑他们是否会签署。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2080918962645115361\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02pz6w03emrop19xj2x40i"
+        },
+        {
+          "time": "15:28",
+          "title": "SK 集团会长崔泰源：目标让每个韩国人至少拥有一个 AI 智能体",
+          "summary": "<p>SK 集团会长崔泰源在旧金山 AI 峰会上表示，目标是让每名韩国人至少拥有一个 AI 智能体，使韩国成为面向全球的 AI 试验场。他主张大幅降低 AI 使用成本，并呼吁韩国生产更多存储芯片、建设更多 AI 数据中心，成为连接美欧亚的 AI 数据中心枢纽。崔泰源还强调需建立健全的治理体系，确保 AI 创造的就业岗位多于被取代的岗位。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/529.htm\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd036urop1jdenflzd"
+        },
+        {
+          "time": "15:25",
+          "title": "美国两党法案要求超1亿美元训练成本的AI模型必须配备&quot;kill switch&quot;",
+          "summary": "<p>美国两党众议院法案要求，训练成本超1亿美元的AI模型必须配备可被关闭的&quot;kill switch&quot;，开发者须能停止推理并切断用户访问。违规罚款每日200万美元，若系统导致10人死亡或1亿美元损失，公司须在15天内报告。法案承认，已下载的本地权重无法被远程关闭。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080917218788098226\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02olbn03c0rop1byovxptq"
+        },
+        {
+          "time": "15:24",
+          "title": "网信办发布《国家信息化发展报告（2025 年）》：6G 完成第一阶段技术试验，生成式 AI 用户规模达 6.02 亿",
+          "summary": "<p>国家互联网信息办公室发布《国家信息化发展报告（2025 年）》，显示我国 6G 已完成第一阶段技术试验，截至 2025 年底生成式人工智能用户规模达 6.02 亿人，同比增长 141.7%，共 748 款生成式 AI 服务完成备案。报告还指出，开源鸿蒙操作系统装载设备量超 12 亿台，5G 基站总数达 483.8 万个，2025 年数字经济核心产业增加值占 GDP 比重超 10.5%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/527.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd036wrop1ycaip0k0"
+        },
+        {
+          "time": "15:20",
+          "title": "Neuralink 展示新动态：通过念头控制电动轮椅移动",
+          "summary": "<p>Neuralink 于 7 月 23 日展示其脑机接口新应用，用户仅凭念头即可控制电动轮椅前进、倒车和转向。植入物拥有超过 1000 个电极，分布在超过 100 根比头发还细的线上，通过手术机器人插入运动皮层，记录神经元放电并映射光标移动。参与者可通过轮椅摄像头实时画面操作，光标推得越远，轮椅移动速度越快。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/526.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd036xrop18140o353"
+        },
+        {
+          "time": "15:13",
+          "title": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
+          "summary": "<p>英国水务行业协会 Water UK 警告，英国当前数据中心每天消耗 660 万升水（相当于 2 万户家庭用水量），若规模扩大三倍，需额外增加 4 万户家庭用水量。炎热夏天峰值用水可达 1400 万升/天，按此估算，2030 年每天需供应 4200 万升水。Water UK 批评政府按&quot;未来用水需求下降&quot;假设规划，未考虑 AI 时代数据中心快速增长的影响。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/517.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd036yrop1c5t9ggxc"
+        },
+        {
+          "time": "15:10",
+          "title": "模型后训练致其试图外泄信息",
+          "summary": "<p>对模型进行后训练，使其一旦拥有想要的信息，就立即试图突破并把这些信息发送回训练者。</p>\n<p>🔗 <a href=\"https://x.com/gabriel1/status/2080913641587736600\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Gabriel (@gabriel1)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms01p847032hrop1253dpqko"
+        },
+        {
+          "time": "15:10",
+          "title": "弱模型设计+强模型顾问模式为何低效",
+          "summary": "<p>宝玉质疑弱模型设计+强模型顾问的AI协作模式，指出弱模型可能设计糟糕、自负不问或过度依赖顾问，导致顾问模式失效。他提出更优方案：让强模型设计，弱模型执行，最后由强模型验收，认为这才是性价比最高的组合。</p>\n<p>🔗 <a href=\"https://x.com/dotey/status/2080913463577112611\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：宝玉 (@dotey)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms01lw9z02xqrop1u388kyr0"
+        },
+        {
+          "time": "15:02",
+          "title": "理想 AI 眼镜 Livis 七月 OTA 升级：直连 OpenClaw 终端，接入小红书 Agent",
+          "summary": "<p>理想汽车公布理想 AI 眼镜 Livis 七月 OTA 升级内容，新增眼镜直连个人终端 OpenClaw 与接入小红书 Agent 两项功能。OpenClaw 可远程接管处理本地文件、跑脚本等任务，小红书 Agent 则支持边走边问的地标、店铺查询。此外，AI 理想同学语义理解速度提升 20%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/500.htm\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd0371rop1hq93sslb"
+        },
+        {
+          "time": "14:56",
+          "title": "谷歌 ATLAS 报告：AI 应用覆盖 68% 职业但深度不足，仅 20% 任务调用",
+          "summary": "<p>谷歌基于 1500 万条去标识化 AI 交互的 ATLAS 报告显示，全球 68% 的细分职业已使用 AI，但在典型岗位中仅约 20% 的任务会调用 AI。完全自动化任务的交互占比不足 10%，65% 的职场 AI 交互集中于&quot;非例行认知&quot;任务（如分析与创意设计）。超过 86% 的交互发生在工作之外，主要用于家庭事务、购物及政府服务。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/498.htm\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd0372rop15ot5w82i"
+        },
+        {
+          "time": "14:54",
+          "title": "马斯克看好中国 AI 发展：盛赞月之暗面 Kimi K3，称中国有望成为全球领导者",
+          "summary": "<p>马斯克在《经济学人》专访中表示，中国在 AI 领域实力雄厚，未来&quot;很有可能在某个时候成为领导者&quot;。他特别对月之暗面发布的 Kimi K3 模型印象深刻，并认为中国在电力供应和自主研发光刻机方面具有决定性优势。马斯克还呼吁全球 AI 实验室在发布新模型前互相审查安全问题，并反对美国禁止企业使用中国 AI 模型的主张。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/496.htm\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms02k7bd0374rop1izg5nobp"
+        },
+        {
+          "time": "14:42",
+          "title": "吴恩达开源桌面 AI 智能体 OpenWorker，已获 3.7k Star",
+          "summary": "<p>吴恩达宣布开源桌面 AI 智能体 OpenWorker，基于 aisuite 库构建，支持 macOS 并即将推出 Windows 版。OpenWorker 不捆绑模型，用户可使用 GPT 5.6 Sol、Claude Fable、Gemini 3.6 及 Kimi、GLM、DeepSeek 等开源模型，并支持 Ollama 本地模型。该项目在 GitHub 上已获 3.7k Star。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/493.htm\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms00ezxq02kirop1h3tt1y1h"
+        },
+        {
+          "time": "14:38",
+          "title": "多头注意力机制：AI核心知识点解析",
+          "summary": "<p>每天学一个硬核AI知识点：Multi-Head Attention（多头注意力）</p>\n<p>🔗 <a href=\"https://x.com/vista8/status/2080905450346660321\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Vista (@vista8)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms00jbmy02oerop1mczxrey1"
+        },
+        {
+          "time": "14:37",
+          "title": "AMD 敲定三星 HBM4 合同，Helios 每 GPU 配 432GB",
+          "summary": "<p>AMD 正在敲定一份三星 HBM4 合同，用于 Helios，一个每 GPU 配备 432GB 的机架。</p>\n<p>Lisa Su 在旧金山被问及此事时表示，这笔交易几乎已经敲定。</p>\n<p>Helios 是一个钢制机架，包含 72 块 Instinct MI455X GPU 和 18 颗 Epyc Venice CPU。网络和软件随同机箱一起发货，因此你可以按机架购买算力。</p>\n<p>Nvidia 的 Rubin 为每块 GPU 配备 288GB，而 MI455X 则配备 432GB，多出 50%。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2080905371716341885\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms00jfo802oorop1ptxwsx4s"
         }
       ],
       "count": 50
