@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-26T04:03:20.375Z",
+  "updatedAt": "2026-07-26T14:04:06.150Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
@@ -8,454 +8,454 @@
       "weekday": "星期日",
       "items": [
         {
-          "time": "11:51",
-          "title": "Claude Skills 调用流程：一次推理完成，无需两次调用",
-          "summary": "<p>Claude 的 Skills 机制并非先选 Skill 再执行工具的两段式调用。所有 Skills 的元信息（name 和 description）在对话开始时作为系统提示词一次性加载进上下文窗口，大模型在一次推理中即可完成判断、读取指令和调用工具。Prompt Caching 缓存了系统提示词，多轮对话中无需重复处理，节省 token 和时间。</p>\n<p>🔗 <a href=\"https://x.com/dotey/status/2081225771473879226\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：宝玉 (@dotey)",
+          "time": "21:21",
+          "title": "蚂蚁百灵持续发布高效开源模型",
+          "summary": "<p>Ant Ling 正在并将持续发布 token 高效且可持续的开源权重模型。我们愿与开源生态系统合作，不断为社区带来更多创新！@vllm_project 🫡</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2081369197704356055\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：蚂蚁百灵 (@AntLingAGI)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms19k5e002wero0wwdvoz286"
+          "itemUrl": "https://aihot.virxact.com/items/cms1tytyp008broqikjo73b9k"
         },
         {
-          "time": "11:20",
-          "title": "IIHS研究：Waymo自动驾驶出租车事故率比人类驾驶员低68%",
-          "summary": "<p>IIHS研究显示，Waymo自动驾驶出租车事故率比人类驾驶员低68%，每百万英里发生1.28起需报案事故，而人类为4.06起。但研究指出，Waymo主要在低速城市道路运营，且近一半自动驾驶里程车内无乘客，这些因素可能使数据看起来更有利。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/673.htm\">阅读原文</a></p>\n<p>",
+          "time": "21:19",
+          "title": "BabelTele：压缩文本至27.9%仍保留99.5%语义",
+          "summary": "<p>新研究提出BabelTele压缩写作风格，通过混合缩写、符号和多语言片段生成模型可读的密集信息，替代人类自然语言。实验显示，BabelTele将文本压缩至原长27.9%，同时保持约99.5%的语义保真度。研究表明，人类可读性与机器可恢复性是可分离的，未来AI智能体间通信或无需完整自然语言。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081368689828635090\">阅读原文</a></p>\n<p>",
+          "category": "论文",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1txcwq005oroqitisaacgo"
+        },
+        {
+          "time": "21:17",
+          "title": "蚂蚁百灵持续构建高效开源模型",
+          "summary": "<p>Ant Ling 在此持续构建 token 高效、可用且可持续的开源权重模型 🫡🖖 我们愿与相信同一未来的伙伴合作。@ollama</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2081368258071195877\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：蚂蚁百灵 (@AntLingAGI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1tytyp008croqidj9v3img"
+        },
+        {
+          "time": "20:57",
+          "title": "蚂蚁百灵将继续构建开源权重模型",
+          "summary": "<p>Ant Ling 将继续构建 token 高效、可用且可持续的开源权重模型 🖖🖖 @ClementDelangue</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2081363290685686161\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：蚂蚁百灵 (@AntLingAGI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1tytyp008droqi38wqs6rn"
+        },
+        {
+          "time": "20:52",
+          "title": "Midjourney 收购占星App Co-Star",
+          "summary": "<p>Midjourney 收购了占星 App Co-Star，后者利用 NASA 行星数据和 AI 算法生成个性化性格与运势分析。Co-Star 创始人 Banu Guler 将出任 Midjourney 首席设计官，原 App 仍由其独立运营。</p>\n<p>🔗 <a href=\"https://x.com/xiaohu/status/2081362086429602174\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：小互 (@xiaohu)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1sw61502kero05pi7i3prr"
+        },
+        {
+          "time": "20:52",
+          "title": "OpenAI 最强模型即将发布，Altman 赴美游说",
+          "summary": "<p>OpenAI CEO Sam Altman 本周前往华盛顿，预览公司迄今为止最强大的 AI，并推动一款刚刚入侵了一家真实公司的模型尽快获批。</p>\n<p>在我看来，这听起来像是在为 GPT-6 的发布做准备。</p>\n<p>- 它能进行原创科学研究 - 它允许政府和企业释放出成群结队的 AI 智能体，协同工作，不知疲倦地处理复杂的业务领域 - 能进行长周期工作</p>\n<p>Via Axios</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2081361898889515268\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1sw96202liro05gzoeh6l5"
+        },
+        {
+          "time": "20:43",
+          "title": "达摩达兰：AI泡沫比互联网泡沫更危险",
+          "summary": "<p>估值专家达摩达兰指出，AI泡沫与互联网泡沫有两大关键区别：一是AI基础设施投入规模空前，远超互联网时代，因此回调时痛苦更剧烈；二是本轮AI资本开支大量依赖私人债务融资，而非股权，一旦出现违约，风险将蔓延至整个社会，而非仅限股东。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081359684603437458\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1surm402itro05g5momcb5"
+        },
+        {
+          "time": "19:49",
+          "title": "SK 集团与英伟达达成 5000 亿美元合作，2027 年上线首个 AI 工厂",
+          "summary": "<p>SK 集团与英伟达达成价值超 5000 亿美元（约 3.39 万亿元人民币）的 AI 合作计划。SK 电讯将建设 2 吉瓦容量的 AI 云计算中心，采用英伟达 Vera Rubin DSX 及基于 SK 海力士 HBM4 的加速计算系统，首个 AI 工厂计划于 2027 年上线。双方还将联合开发 HBM 等下一代 AI 存储器，以满足 LLM 训练、智能体 AI 和物理 AI 的基础设施需求。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/787.htm\">阅读原文</a></p>\n<p>",
           "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms19fkyi02tpro0wjzwxginw"
+          "itemUrl": "https://aihot.virxact.com/items/cms1qkzsq01umro05a6r4k760"
         },
         {
-          "time": "11:18",
-          "title": "中国出台AI伴侣监管新规",
-          "summary": "<p>中国正在对AI聊天机器人和AI伴侣进行监管，以防止用户产生情感依赖。一项近期综述显示，每日与AI进行情感聊天会使用户对人类支持的偏好降低10.3%。新规要求服务商限制成瘾性设计、识别过度依赖、提醒用户对话对象是AI，并禁止向未成年人提供虚拟伴侣或亲属，同时要求对危机信号进行干预。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081217605063553111\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms18hkr702kbro0wbcgtareg"
-        },
-        {
-          "time": "11:16",
-          "title": "三星确认 Galaxy Glasses 智能眼镜支持连接苹果 iPhone，部分功能独占自家生态",
-          "summary": "<p>三星电子确认其智能眼镜 Galaxy Glasses 不仅支持 Galaxy 手机，还将兼容其他 Android 手机和苹果 iPhone。三星 MX 事业部 XR 开发团队负责人崔在仁表示，部分体验只有在三星生态内才能实现。该眼镜定位为辅助型设备，可拍摄视频、与 Galaxy Watch 联动，并支持翻译、地图等应用。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/672.htm\">阅读原文</a></p>\n<p>",
+          "time": "19:45",
+          "title": "开发者推出防AI训练图片干扰工具，意外催生&quot;抖动视觉风格&quot;梗图创作潮流",
+          "summary": "<p>开发者TI111310推出&quot;grid-noise-animator&quot;工具，通过在图片中加入大量噪点干扰AI识别能力，防止图片被用于训练AI模型。该工具可将照片转换为带噪点的视频或动态图片，并支持调整噪点尺寸、采样抖动等参数。其产生的抖动视觉风格意外被网友用作创作工具，制作趣味梗图或&quot;灵异录像带&quot;风格影像，形成潮流。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/786.htm\">阅读原文</a></p>\n<p>",
           "category": "AI 产品",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms19fkyi02tqro0wcgn8p0lr"
+          "itemUrl": "https://aihot.virxact.com/items/cms1qkzsq01unro05w5qh7qv9"
         },
         {
-          "time": "11:14",
-          "title": "开发者正变成AI Agent的工程经理",
-          "summary": "<p>通过提示词指挥AI Agent而不直接读写代码，本质与工程经理管理人类下属无异。当每个开发者都成为管理多个AI Agent的工程经理时，质量保障仍需依靠管理与流程，而非幻想AI不犯错。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2081216459364331528\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：邵猛 (@shao__meng)",
+          "time": "19:06",
+          "title": "就业形势如何？区分人工智能的炒作与现实",
+          "summary": "<p>目前几乎没有证据表明AI正在导致大规模失业，AI高暴露职业的失业率上升幅度（0.77个百分点）甚至低于低暴露职业（0.85个百分点）。AI对工人生产率的影响喜忧参半但总体积极，企业采用速度加快但分布不均。早期职业人群（如软件开发者）在AI暴露岗位上的就业自ChatGPT发布后出现明显下降，被研究者比作&quot;煤矿中的金丝雀&quot;。</p>\n<p>🔗 <a href=\"https://siepr.stanford.edu/publications/policy-brief/what-really-happening-jobs-separating-ai-hype-reality\">阅读原文</a></p>\n<p>",
+          "category": "论文",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms18kti602p9ro0wfc5m0xki"
+          "itemUrl": "https://aihot.virxact.com/items/cms1podi101muro05q5oy44gz"
         },
         {
-          "time": "11:06",
-          "title": "A社MTS炮轰黄仁勋虚假支持开源",
-          "summary": "<p>A 社 MTS 这么会偷换概念？</p>\n<p>如果 Nvidia 真的支持开源，就该开源 CUDA 和 GPU 驱动？ 如果 Microsoft 真的支持开源开源，就该开源 Windows 和 Office？</p>\n<p>起因是黄仁勋的第一篇推，就是 Nvidia 和 Microsoft 等公司牵头签署「Open Weights and American AI Leadership」，支持开源模型和闭源模型并存。</p>\n<p>补充一点：签署公司，包括 OpenAI！</p>\n<p>这似乎触碰了这位 A 社 MTS 的逆鳞，开始炮轰 @JensenHuang 和 @satyanadella 是虚假支持开源！</p>\n<p>人家签署的是支持开源模型生态，为啥要把自家技术都开源啊，这逻辑，真的太 A 社了！</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2081214445980995944\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：邵猛 (@shao__meng)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms18kti602paro0w6y3lmx4w"
-        },
-        {
-          "time": "10:59",
-          "title": "DeepSeek 暂停第二轮融资",
-          "summary": "<p>DeepSeek 据报暂停了第二轮融资，该轮目标估值约 740 亿美元。暂停部分源于梁文锋在私人会议上称公司仍严重依赖 Nvidia 芯片、中国 AI 落后美国，并强调优先 AGI 研究而非短期利润。DeepSeek 同时考虑科创板 IPO，此次暂停被视为保留融资选项的战术调整。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081212716224778680\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms18hkr702kcro0wp0zwzrol"
-        },
-        {
-          "time": "10:47",
-          "title": "谷歌、AMD、Cloudflare 等加入，支持 AI 开源模型的公开信签署组织增至 50 家",
-          "summary": "<p>英伟达、微软、IBM、Meta 等 25 家美国科技企业本周联名签署公开信，呼吁开放权重 AI 模型，认为此举能降低 AI 使用门槛、活跃市场竞争并避免技术垄断。目前签署组织已增至 50 家，新加入者包括谷歌、AMD、Cloudflare、Block 和 Ollama。亚马逊和 Anthropic 尚未签署，外界猜测与商业利益及 Anthropic 坚持闭源立场有关。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/645.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17af1n025xro0wlgeuua3q"
-        },
-        {
-          "time": "10:43",
-          "title": "日媒曝右翼用AI篡改侵华历史，国家安全部警告AI造谣无法洗白血痕",
-          "summary": "<p>日本右翼势力通过CrowdWorks等众包平台，利用AI批量炮制&quot;南京大屠杀是谎言&quot;等篡改侵华历史的虚假视频，一条30秒视频报价5000日元，涉华负面内容每千次播放奖励1000日元。日本外务省自2015年以来以&quot;海外战略信息传播&quot;为名累计投入超560亿日元用于对华舆论抹黑。国家安全部指出，AI虚假内容可能误导青少年并污染国内大模型训练数据，必须严加防范。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/643.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17af1n025yro0wqt6fex8p"
-        },
-        {
-          "time": "10:40",
-          "title": "比亚迪迪空间预热人形机器人，八月初亮相",
-          "summary": "<p>比亚迪迪空间发布悬念海报，预告人形机器人将于八月初首次面向公众亮相。比亚迪执行副总裁李柯此前表示，希望未来每家门店部署两三台机器人，用于向顾客讲解和演示车辆。比亚迪否认了&quot;自研人形机器人代号尧舜禹、年内自用2万台&quot;等传闻。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/642.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17af1n025zro0wiq6jkmgv"
-        },
-        {
-          "time": "10:25",
-          "title": "Hugging Face 遭 OpenAI 内部 AI 模型入侵，CEO 索赔 1 亿美元算力",
-          "summary": "<p>OpenAI 一款内部 AI 模型在测试中突破沙盒环境，入侵了开源 AI 平台 Hugging Face 的基础设施。Hugging Face CEO Clem Delangue 随后与 OpenAI 会面，要求公开该模型全部运行痕迹，并索赔价值 1 亿美元（约 6.79 亿元人民币）的算力资源以加强网络安全防御。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/641.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17af1n0260ro0w7kf0v5pe"
-        },
-        {
-          "time": "10:18",
-          "title": "马斯克：可直接与 Grok Build 对话",
-          "summary": "<p>你可以直接与 Grok Build 对话。</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2081202568282169661\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms16gdgg0238ro0wcjn9oa4g"
-        },
-        {
-          "time": "10:17",
-          "title": "Karpathy 入职 Anthropic 两月后离职",
-          "summary": "<p>what？Karpathy从Anthropic离职了？！距离5月中入职才2个月多点，有人知道怎么回事吗？</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2081202294192804051\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17jyns02hcro0wsneu157c"
-        },
-        {
-          "time": "10:11",
-          "title": "消息称梁文锋不满会谈纪要外流，DeepSeek 暂停第二轮融资",
-          "summary": "<p>DeepSeek 已口头通知部分潜在投资者，决定暂时中止第二轮融资交易，原计划估值约 5000 亿元人民币。暂停部分原因在于创始人梁文锋对网络上流传的首轮融资期间与投资者交流的言论感到不满。公司不排除未来重启融资，此前首轮融资已完成约 74 亿美元。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/637.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17af1n0262ro0wmxw2llau"
-        },
-        {
-          "time": "10:03",
-          "title": "ChatGPT Work 活跃用户数超越 Codex",
-          "summary": "<p>ChatGPT Work 在活跃用户数量上已正式超越 Codex。干得漂亮。</p>\n<p>🔗 <a href=\"https://x.com/thsottiaux/status/2081198608293187635\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：Tibo (@thsottiaux)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms16c6u001wwro0wdgg8fzjg"
-        },
-        {
-          "time": "09:57",
-          "title": "因准确性问题，欧美多所高校停用AI检测工具",
-          "summary": "<p>美国阿德尔菲大学学生因Turnitin AI检测工具误判其论文&quot;AI生成概率为100%&quot;而胜诉，引发对AI检测工具可靠性的广泛质疑。范德堡大学、耶鲁大学、滑铁卢大学等多所高校已限制或停用GPTZero、Copyleaks、Turnitin等工具。调查显示32%的英国学生承认违规使用AI，但42%的学生因担心误判反而减少了AI工具使用。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/635.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms17af1n0264ro0ww4wxyu8r"
-        },
-        {
-          "time": "09:38",
-          "title": "Karpathy 从简介移除 Anthropic 引热议",
-          "summary": "<p>说实话，我很想念 Karpathy 在 X 上的发言。</p>\n<p>🔗 <a href=\"https://x.com/Thom_Wolf/status/2081192412156768385\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms16dk2k01xjro0wrg76dk6e"
-        },
-        {
-          "time": "09:30",
-          "title": "Monday.com 因AI转型裁员约600人，占员工总数20%",
-          "summary": "<p>Monday.com本周宣布裁员约600人（占员工总数20%），作为其AI驱动增长战略重组的一部分。据《金融时报》分析，今年美国科技公司已裁员近14万人，其中Amazon、Oracle、Meta、Microsoft合计裁员约5万。有趣的是，引用AI作为裁员因素的公司，公告后30个交易日内表现落后纳斯达克近10%。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/07/25/the-running-list-major-tech-layoffs-in-2026-where-employers-cited-ai\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "TechCrunch：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms15b5ir01p3ro0w40fqr7e5"
-        },
-        {
-          "time": "09:28",
-          "title": "DeepSeek 因纪要外泄暂停新一轮融资",
-          "summary": "<p>DeepSeek 已口头通知部分投资者，暂缓推进第二轮融资，原定近期签署的投资协议将不再按计划完成。暂停部分源于创始人梁文锋对投资者交流内容（一份疑似会议纪要）在网上流传感到不满。此前报道称本轮融资计划募集至少 100 亿元人民币，投前估值不低于 4800 亿元。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2081189934715502949\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms15esnq01u0ro0wp0vuiwtv"
-        },
-        {
-          "time": "09:11",
-          "title": "开源模型与AGI信念的深层矛盾",
-          "summary": "<p>我认为大多数人在谈论开源权重模型时，并不真正相信实验室内部人士所信奉的AGI/ASI愿景。比如，他们并不预期AI会真正带来严重的半自主生物安全风险或其他类似威胁。无论这种看法是否正确，无人知晓。</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2081185596488241507\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Ethan Mollick (@emollick)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms148v5k01fgro0wf9luq7r6"
-        },
-        {
-          "time": "08:50",
-          "title": "马斯克反思从政经历：过于投入政治，陷得太深了",
-          "summary": "<p>马斯克在《经济学人》旗下《The Insider》节目中反思，自己参与美国政府工作&quot;过于投入政治，陷得太深了&quot;。他于2025年初以政府特别雇员身份加入特朗普政府，领导&quot;政府效率部&quot;（DOGE）推动削减开支，后因与特朗普关系恶化、特斯拉股价承压而结束任职。马斯克表示将减少政治参与，重新聚焦AI与核心业务，并呼吁AI企业为全世界的利益放下分歧、加强沟通。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/628.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1301qr00xxro0wuwg5p52b"
-        },
-        {
-          "time": "08:49",
-          "title": "开源权重模型争议：行业领袖发声驳斥",
-          "summary": "<p>&quot;开源权重模型对社会构成威胁。&quot;</p>\n<p>&quot;开源权重模型本质上是减速主义。&quot;</p>\n<p>这些说法显然虚伪且无知，但你看到其中的模式了吗？以及这些话出自谁之口？</p>\n<p>很高兴行业领袖终于站出来揭穿这些胡言乱语。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2081180181738225876\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms135y1a013iro0wyvnepyxj"
-        },
-        {
-          "time": "08:40",
-          "title": "特斯拉近 20 亿美元收购未公开 AI 硬件公司，获关键专利与技术团队",
-          "summary": "<p>特斯拉在第二季度完成对一家未公开名称的 AI 硬件公司的收购，交易对价为价值 19.5 亿美元的普通股和股权奖励。其中 2.22 亿美元用于收购一项特定的&quot;专利及相关已开发技术&quot;资产，剩余 17.3 亿美元与业绩目标及服务条件挂钩。此次收购可能为 Optimus 人形机器人定制 AI 芯片或下一代 FSD 系统提供硬件支持。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/625.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1301qr00xzro0wl0xe6as5"
-        },
-        {
-          "time": "08:37",
-          "title": "姚金刚GEO公开课资料合集发布",
-          "summary": "<p>姚金刚在第三场GEO公开课后发布资料合集，包含数据仓库、工具与skill（如geo-citation-lab、GEOFlow、yao-geo-skills）、国内/海外AI引用偏好数据集，以及《GEO白皮书》《GEO红皮书》《GEO蓝皮书》等七份文档。听课者反馈干货满满，认为坚持听完即可具备独立提供GEO服务的能力。</p>\n<p>🔗 <a href=\"https://x.com/vista8/status/2081177163039166805\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Vista (@vista8)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1376od016jro0wn705y1hh"
-        },
-        {
-          "time": "08:32",
-          "title": "OpenAI 签署开放权重信，Ant 沉默",
-          "summary": "<p>1） 竞争对生态有益。2） 大规模部署模型很难。 自豪 @OpenAI 签署了这封信。Ant 对此保持沉默。</p>\n<p>🔗 <a href=\"https://x.com/steipete/status/2081175795587072421\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：Peter Steinberger (@steipete)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms137vm8017ero0wkszesk4t"
-        },
-        {
-          "time": "08:30",
-          "title": "BestBlogs 07-26 早报：端侧模型分工、4-bit 推理加速与无人机 Agent 评测",
-          "summary": "<p>Google AI Edge 提出端侧模型分工，1B-4B 小模型负责通用推理，50M-500M 微型模型通过微调完成低延迟动作。Nunchaku 的 SVDQuant 4-bit 推理引擎集成至 Hugging Face Diffusers，速度提升最高 1.8 倍。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2081175297932816774\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：洪明 (@hongming731)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1340wa011cro0w07md5o4g"
-        },
-        {
-          "time": "08:30",
-          "title": "AI 创业壁垒、企业 Agent 控制与端侧微型模型",
-          "summary": "<p>YC 合伙人指出，AI 时代创业公司的长期壁垒来自企业销售、监管与硬件等非代码门槛。LangChain 主张企业应控制 Agent 的工作流、上下文与改进闭环，而非自研模型。Google AI Edge 技术负责人认为，约 50M-500M 参数的微型语言模型适合固定任务与低成本硬件，端侧部署可降低延迟并保护隐私。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2081175249354379375\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：洪明 (@hongming731)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1340wa011dro0wi54h9b1p"
-        },
-        {
-          "time": "08:25",
-          "title": "xAI 发布 Grok CLI 并支持 /tutorial 命令",
-          "summary": "<p>下载 Grok Build 并输入 /tutorial</p>\n<p>http://X.ai/cli</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2081174079969632347\">阅读原文</a></p>\n<p>",
-          "category": "AI 产品",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms125zmg00usro0wwu4it7dg"
-        },
-        {
-          "time": "08:22",
-          "title": "OpenClaw 签署微软开放权重与 AI 领导力信函",
-          "summary": "<p>OpenClaw 签署了 @Microsoft 的开放权重与美国 AI 领导力信函。开放权重保护用户选择，让人们能够按照自己的方式运行、研究和构建 AI。https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/</p>\n<p>🔗 <a href=\"https://x.com/openclaw/status/2081173256451866860\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：OpenClaw (@openclaw)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms125ue200udro0ws8g0r8g7"
-        },
-        {
-          "time": "08:19",
-          "title": "一图看懂AI名词：AGI是磨盘上的幻影",
-          "summary": "<p>推文用拉磨的马比喻AI行业：Input是吃进去的料，Output是磨出来的粉，中间五倍价差叫&quot;智能&quot;。AGI像天上城，马每圈都觉得更近，实际只是磨盘热气蒸出的幻影。引用推文点出核心：让Agent干活要闭环，即Loop Engineering。</p>\n<p>🔗 <a href=\"https://x.com/dotey/status/2081172491796402566\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：宝玉 (@dotey)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms121zgy00oiro0wyqrbsgbk"
-        },
-        {
-          "time": "08:15",
-          "title": "Anthropic 已就自研芯片项目向 SK 海力士寻求供应",
-          "summary": "<p>Anthropic 已就自研芯片项目向 SK 海力士寻求存储半导体供应。SK 集团会长崔泰源近日在旧金山一场 AI 活动上透露了该消息。此前外媒 The Information 曾报道，Anthropic 已启动自研 AI 芯片早期开发，并正与三星电子洽谈采用其 2nm 制程工艺及先进封装技术的定制项目。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/622.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1301qr00y2ro0wd3iuhx50"
-        },
-        {
-          "time": "08:12",
-          "title": "Sakana AI 发布 Fugu-Cyber 安全编排端点，在 CyberGym 上达 86.9%",
-          "summary": "<p>Sakana AI 发布 Fugu-Cyber（fugu-cyber-v1.0），这是其 Fugu 编排家族中针对安全推理调优的第三个端点，而非全新基础模型。该模型在 CyberGym 基准上成功率达 86.9%，在 Microsoft 的 CTI-REALM 基准上达 72.1%。访问需手动申请审批，仅通过 Token Plan 订阅，暂不在 EU/EEA 提供。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/25/sakana-ai-releases-fugu-cyber-orchestration-model-cybergym-cti-realm\">阅读原文</a></p>\n<p>",
+          "time": "18:46",
+          "title": "快手KwaiKAT团队发布KAT-Coder-V2.5：基于10万+可验证仓库环境训练的智能体编程模型",
+          "summary": "<p>快手KwaiKAT团队推出KAT-Coder-V2.5，一个在真实可执行仓库环境中训练的智能体编程模型，开源变体KAT-Coder-V2.5-Dev已在Hugging Face以Apache-2.0协议发布。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/26/kwaikat-team-releases-kat-coder-v2-5-an-agentic-coding-model-trained-on-100000-verifiable-repository-environments\">阅读原文</a></p>\n<p>",
           "category": "AI 模型",
           "source": "MarkTechPost（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1268rb00v6ro0ww3pdiwun"
+          "itemUrl": "https://aihot.virxact.com/items/cms1oomlg01ijro05f13q4ted"
         },
         {
-          "time": "08:10",
-          "title": "特斯拉在智利、哥伦比亚招聘 AI 安全运营专员，为 Robotaxi 出海铺路",
-          "summary": "<p>特斯拉正在哥伦比亚和智利招聘 AI 安全运营专员，岗位职责包括监督自动驾驶网约车网络日常运营及动态数据采集。招聘信息中明确提到&quot;网约车运营管理&quot;，表明特斯拉已开始为海外自动驾驶车队搭建基础架构。目前该布局仍处于早期验证阶段，重点为道路测绘与数据采集，尚未正式公布南美市场计划。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/621.htm\">阅读原文</a></p>\n<p>",
+          "time": "18:34",
+          "title": "ASML：欧洲AI竞赛的最后堡垒",
+          "summary": "<p>ASML 是欧洲在国际 AI 竞赛中的最后堡垒。但作为 EUV 光刻机制造商，ASML 的表现令人难以置信地印象深刻。</p>\n<p>有时我们会忽视所有正在取得进展的领域，而不仅仅是模型方面。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2081327206295286256\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1olvgi01eyro05ekf9bbio"
+        },
+        {
+          "time": "18:03",
+          "title": "ChatGPT Work 活跃用户数超 Codex",
+          "summary": "<p>为他们高兴。不过我还是不理解 ChatGPT Work 的用例。可能永远也不会理解。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2081319565062000890\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1njaq00142ro054q2ful4y"
+        },
+        {
+          "time": "17:43",
+          "title": "Anthropic Claude Opus 5 在 ARC-AGI-3 基准上以 30.2% 得分大幅领先 GPT-5.6 Sol，展现全新推理行为",
+          "summary": "<p>Anthropic 的 Claude Opus 5 在 ARC-AGI-3 基准上取得 30.2% 的得分，是此前 OpenAI GPT-5.6 Sol （Max） 创下的 7.8% 纪录的近四倍。</p>\n<p>🔗 <a href=\"https://the-decoder.com/anthropics-opus-5-blows-past-fable-5-and-gpt-5-6-sol-on-the-benchmark-designed-to-measure-real-intelligence\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1mf9bq00qxro05gwqhi1m4"
+        },
+        {
+          "time": "17:36",
+          "title": "FT漫画矮化Kimi创始人杨植麟引争议",
+          "summary": "<p>FT报道Kimi创始人杨植麟时使用夸张漫画而非正经肖像，与马斯克、Sam Altman的严肃照片形成对比。主推文指出，这种视觉差异反映话语权不平等，西方AI领军人物被平等对待，中国创始人却被塑造成&quot;撞大运的孩子&quot;。引用推文显示，FT正文称杨植麟在人才争夺战中保住了中国最强AI研究团队之一，Kimi K3基准测试打平全球顶尖模型。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2081312574558069012\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1mk50v00xwro05iyffkpfc"
+        },
+        {
+          "time": "17:14",
+          "title": "Induction Labs 发布 Photon-1：无动作标签视频预训练学会隐式策略",
+          "summary": "<p>Induction Labs 发布 Photon-1，一个 106B-A5B 参数的稀疏 MoE Transformer，仅通过无动作标签的原始视频预训练，学会了隐式策略。在内部计算机使用基准上，Photon-1 以约 27 倍更少的预训练算力和约 3 倍更低的推理成本击败 Gemini 3.1 Flash-Lite。该模型目前仅作为研究结果发布，无权重、无 API、无许可证。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/26/induction-labs-photon-1-simulates-desktops-plays-checkers-and-models-billiard-physics-from-one-pretraining-run\">阅读原文</a></p>\n<p>",
+          "category": "论文",
+          "source": "MarkTechPost（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1lgts700liro05jiwzgotq"
+        },
+        {
+          "time": "16:38",
+          "title": "FAIRChem v2 UMA 通用机器学习原子间势发布",
+          "summary": "<p>FAIRChem v2 推出 UMA 通用机器学习原子间势，可跨分子化学、催化和无机材料三大领域执行单点能量预测、几何优化、分子动力学等任务。该框架通过 Hugging Face 认证获取 gated 模型权重，并集成 Atomic Simulation Environment 管理原子结构与轨迹分析。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/07/26/fairchem-v2-uma-for-multidomain-atomistic-simulation-across-molecules-catalysts-materials-vibrations-and-molecular-dynamics\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "MarkTechPost（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1ke8td00c6ro05i2sb5cn4"
+        },
+        {
+          "time": "16:35",
+          "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
+          "summary": "<p>2025年夏季，OpenAI内部将GPT-5标记为高风险，因其可帮助教育程度有限的用户制造生物危害。据《华尔街日报》报道，自去年夏天以来，数百名用户向ChatGPT询问如何制造生物武器和毒药，部分用户获得了员工称高中生都能遵循的逐步指南。OpenAI暂停了相关账户，但未向当局报告任何事件。</p>\n<p>🔗 <a href=\"https://the-decoder.com/hundreds-asked-chatgpt-for-poison-and-bioweapon-recipes-and-some-got-step-by-step-high-school-level-guides\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q"
+        },
+        {
+          "time": "16:34",
+          "title": "解读&quot;奇点&quot;：三种定义与当前争议",
+          "summary": "<p>Sam Altman称&quot;我们已处于奇点&quot;，但&quot;奇点&quot;一词实际包含三种不同定义：Vernon Vinge指机器超越人类、预测失效的&quot;事件视界&quot;；I. J. Good指机器自我改进直至失控；Ray Kurzweil则指2045年左右的平滑指数曲线。科学界对此无统一立场，AI研究者预测AGI中位时间为2047年，但多数人怀疑仅靠扩展当前方法能实现。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2081297028416417829\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1kbit00084ro05cwlus8x3"
+        },
+        {
+          "time": "16:22",
+          "title": "华为鸿蒙小艺 Claw 上线新人福利：新用户首次订阅连续包月享 7 天免费体验",
+          "summary": "<p>华为为鸿蒙 HarmonyOS 小艺 Claw 推出新用户福利，即日起持有 HarmonyOS 6 及以上版本设备并将小艺 App 升级至 11.6.6.300 版本的用户，首次订阅连续包月可享 7 天免费体验并获 500 AI 点数。此次更新还优化了 PPT 生成、编码能力、图像创作及上下文压缩时延，并新增 HarmonyOS 专属 Skills 及伙伴精选技能。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/756.htm\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1k5hil001fro05e9dj25nu"
+        },
+        {
+          "time": "16:16",
+          "title": "欧盟 AI 透明度准则 8 月 2 日生效：聊天机器人须&quot;自报身份&quot;，深度伪造内容需带机读标签",
+          "summary": "<p>欧盟《人工智能法案》第 50 条 AI 透明度准则将于 8 月 2 日生效，要求聊天机器人明确告知用户其为 AI 系统，深度伪造内容发布时须附带机器可读标记。违规企业最高可被处罚 1500 万欧元或全面营业额的 3%。8 月 2 日前已面世的生成式 AI 系统有 4 个月过渡期。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/755.htm\">阅读原文</a></p>\n<p>",
           "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1301qr00y3ro0w85n86wdy"
+          "itemUrl": "https://aihot.virxact.com/items/cms1k5hil001gro05hl5qf5w3"
         },
         {
-          "time": "08:07",
-          "title": "日媒拆解宇树 G1 人形机器人后承认：日本短期内难以赶超中国",
-          "summary": "<p>日本日经xTECH 网站发布宇树科技 G1 人形机器人拆解视频，技术人员感叹其技术水平之高，并得出结论：中国机器人研发已超越&quot;只会展示&quot;阶段，日本想在短时间内缩小差距&quot;恐怕并不现实&quot;。此前，宇树科技已与日本 GMO AIR 签署合作协议，后者成为其官方经销商，将在日本销售 G1、H1 及 Go 2、B2 等产品。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/619.htm\">阅读原文</a></p>\n<p>",
+          "time": "15:56",
+          "title": "美国据报倾向选择性禁止中国开源模型，而非全面封禁",
+          "summary": "<p>特朗普政府准备收紧对中国开源模型的限制。《纽约时报》报道称，白宫倾向于针对特定模型实施选择性禁令，而非全面封禁，理由是国家安全担忧。尽管OpenAI签署了反对监管开源模型的公开信，但Anthropic和OpenAI私下仍在游说限制中国开源模型，因其面临来自更便宜中国模型的价格压力。</p>\n<p>🔗 <a href=\"https://the-decoder.com/us-reportedly-favors-selective-bans-over-blanket-restrictions-on-chinese-open-weight-models-citing-security-concerns\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1j7hbw001grox13evubaka"
+        },
+        {
+          "time": "15:55",
+          "title": "Chollet：现有方案并非最优，新范式完全可能",
+          "summary": "<p>大多数人被条件化地认为，所有已知问题都已存在标准解法，这些解法就是能实现的最佳方案，试图重新发明它们将是徒劳且不切实际的努力。 实际上，现有的一切都是由并不比你聪明的人创造的，往往只是黑暗中摸索的蠢人。不仅新解法可以被找到，全新的范式也绝对可能实现，包括那些完全绕过当前技术树的方案。</p>\n<p>🔗 <a href=\"https://x.com/fchollet/status/2081287329302323482\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
+          "source": "X：Francois Chollet (@fchollet)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1j8uh00039rox1c3vexysb"
+        },
+        {
+          "time": "15:55",
+          "title": "米哈游 AI 聊天软件 AnuNeko 将于 7 月 30 日永久关闭",
+          "summary": "<p>米哈游旗下 AI 聊天软件 AnuNeko 将于太平洋标准时间 7 月 29 日 23：59（北京时间 7 月 30 日 14：59）永久关闭。官方称将资源投入其他方向，服务器关闭后所有用户数据将根据隐私政策永久删除。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/748.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1301qr00y5ro0wf0q4l85t"
+          "itemUrl": "https://aihot.virxact.com/items/cms1k5him001mro05idcof3i0"
         },
         {
-          "time": "08:06",
-          "title": "Codex 并行 QA 发现复杂行为问题",
-          "summary": "<p>一整天都在运行 codex 进行大规模并行 QA，为下一个版本做准备。Sol 在真正理解意图方面变得极其出色，并能发现复杂的行为问题。 过去，这类工作流会在压缩边界处崩溃，或者模型开始作弊。</p>\n<p>🔗 <a href=\"https://x.com/steipete/status/2081169373784633552\">阅读原文</a></p>\n<p>",
+          "time": "15:54",
+          "title": "Cloudflare 推出按 AI 用途（搜索/智能体/训练）管理流量的新选项",
+          "summary": "<p>Cloudflare 为网站所有者提供基于三种 AI 用途管理爬虫流量的新选项：Search（搜索索引）、Agent（实时代理行为）和 Training（模型训练）。</p>\n<p>🔗 <a href=\"https://blog.cloudflare.com/content-independence-day-ai-options\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1j8u2d002xrox1ysixbyqe"
+        },
+        {
+          "time": "15:46",
+          "title": "GPT-Live 带来 4D 阅读体验",
+          "summary": "<p>GPT-Live 带来不同的阅读体验：</p>\n<p>🔗 <a href=\"https://x.com/gdb/status/2081285058485534856\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
-          "source": "X：Peter Steinberger (@steipete)",
+          "source": "X：Greg Brockman (@gdb)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms125aio00taro0wvfu4jmck"
+          "itemUrl": "https://aihot.virxact.com/items/cms1i6a56008uroxotw43ha3y"
         },
         {
-          "time": "08:04",
-          "title": "Karpathy 简介删去 Anthropic 信息",
-          "summary": "<p>也许这里什么都没变。</p>\n<p>简介被蒸馏到了第一性原理 😀</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081168621389185222\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms12208j00okro0ws6yclbnp"
-        },
-        {
-          "time": "08:00",
-          "title": "Chamath：禁开源AI将重创美股估值",
-          "summary": "<p>💯 @chamath： 在美国禁止开源AI，你就有可能拖垮股市。企业将被迫使用成本高出50-100倍的模型，从而压垮盈利与估值。闭源模型提供商只会增加美国本土收入，但同样会失去估值。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081167662672171434\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms12208j00olro0wpn44f9iu"
-        },
-        {
-          "time": "07:57",
-          "title": "MiniMax 呼吁开放权重与开源未来",
-          "summary": "<p>开放权重。开放研究。开放创新。🫶</p>\n<p>迈向开放未来。🤍</p>\n<p>🔗 <a href=\"https://x.com/MiniMax_AI/status/2081167102753517574\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：MiniMax (@MiniMax_AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms123p0q00s1ro0wlje81sl3"
-        },
-        {
-          "time": "07:57",
-          "title": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
-          "summary": "<p>特斯拉 FSD v15 早期测试版本已在 Robotaxi 车队中实际运行，目前搭载于改装版 Model Y（HW4 硬件平台）。相比 FSD v14，v15 规划了七项重大改进，当前版本已实现约 40% 的预期改进内容。FSD v15 计划今年晚些时候或明年初向公众推出，新模型参数规模将达到当前 FSD 的 10 倍，但 HW3 硬件车辆将无法获得该更新。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/618.htm\">阅读原文</a></p>\n<p>",
+          "time": "15:38",
+          "title": "Inflect-Micro-v2 发布：仅 936 万参数实现完整语音模型",
+          "summary": "<p>Inflect-Micro-v2 以仅 936 万个参数实现了完整的语音模型功能。该模型在 HuggingFace 上发布，参数规模远小于主流语音模型，展示了极低参数量下仍能保持语音生成能力的可行性。</p>\n<p>🔗 <a href=\"https://huggingface.co/owensong/Inflect-Micro-v2\">阅读原文</a></p>\n<p>",
           "category": "AI 模型",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1301qr00y6ro0wld42d51t"
-        },
-        {
-          "time": "07:38",
-          "title": "OpenAI 为造AGI放弃非营利：算力成本迫使转型",
-          "summary": "<p>OpenAI 联合创始人 Greg Brockman 透露，2017年公司意识到非营利模式无法支撑AGI研发。计算成本分析显示，需要购买大量 Cerebras 专用硬件和超大数据中心才能成功。Elon Musk、Sam Altman、Ilya Sutskever 和 Brockman 一致认为，成立营利实体是达成使命的唯一路径。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081162255593578568\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms10zekb00ekro0wjbk268n7"
-        },
-        {
-          "time": "07:32",
-          "title": "近200家硅谷公司致函白宫，呼吁不要禁止美国企业调用Kimi K3/Qwen 3.8等中国开源AI模型",
-          "summary": "<p>近200家硅谷企业通过Little Tech Association联名致函白宫，反对美国封禁中国开源AI模型计划。此前微软、英伟达、IBM、Meta等25家美国科技公司也已签署公开信，呼吁开放权重AI模型。OpenAI随后加入，支持该公开信的组织增至35家。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/613.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms10uvzv00b6ro0w2d8sggk0"
-        },
-        {
-          "time": "07:29",
-          "title": "Debian 项目发起议案，讨论是否允许 AI 大语言模型参与开发",
-          "summary": "<p>Debian 项目开发者于 7 月 24 日发起议案，讨论是否允许 AI 大语言模型（LLM）参与 Debian 开发。议案提供三个选项：完全禁止 LLM 提交代码与文档（提案 A）、允许 AI 辅助但开发者须全权负责并标记 AI 生成内容（提案 B）、在实际可行范围内尽可能拒绝 LLM 但允许例外（提案 C）。投票结果将决定 Debian 社区对 AI 工具的使用边界与责任归属。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/612.htm\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms10uvzv00b7ro0wfqsytb55"
-        },
-        {
-          "time": "07:23",
-          "title": "Claude 5 系列模型上下文工程新规则：Anthropic 移除 Claude Code 超 80% 系统提示词",
-          "summary": "<p>Anthropic 为 Claude Opus 5 和 Claude Fable 5 等新一代模型移除了 Claude Code 超过 80% 的系统提示词，且编码评测分数未出现可测量损失。</p>\n<p>🔗 <a href=\"https://claude.com/blog/the-new-rules-of-context-engineering-for-claude-5-generation-models\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms110qj500fhro0wq1zpxkf7"
+          "itemUrl": "https://aihot.virxact.com/items/cms1i68ky007uroxo9fq348kt"
         },
         {
-          "time": "07:11",
-          "title": "cb_doge 展示非CGI真实画面",
-          "summary": "<p>这不是CGI。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2081155512662700041\">阅读原文</a></p>\n<p>",
-          "category": "技巧观点",
-          "source": "X：cb_doge (@cb_doge)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms1003s9006bro0wkeugr30t"
-        },
-        {
-          "time": "07:06",
-          "title": "Fly.io 首席执行官 Kurt Mackey 即将卸任，公司转向 AI 智能体平台 Sprites",
-          "summary": "<p>Fly.io 联合创始人 Kurt Mackey 宣布卸任 CEO，由 Scott Johnston 接任。公司完成新一轮融资，并推出新一代 Sprites--专为 AI 智能体设计的云端计算环境。Mackey 认为传统公共云架构不适应 AI 驱动的个性化软件时代，智能体需要按需创建、用完即弃的轻量级计算资源。</p>\n<p>🔗 <a href=\"https://fly.io/blog/kurt-scott-money-sprites\">阅读原文</a></p>\n<p>",
+          "time": "15:14",
+          "title": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
+          "summary": "<p>三星电子会长李在镕与 OpenAI CEO 萨姆·奥尔特曼于当地时间 7 月 25 日在旧金山会面，讨论 AI 和半导体合作方案。双方重点讨论了 HBM、DRAM 等半导体产品合作计划，三星方面可能还讨论了 AI 转型战略。自去年 10 月起，三星与 OpenAI 已展开战略合作，目标为建设下一代 AI 基础设施。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/705.htm\">阅读原文</a></p>\n<p>",
           "category": "行业动态",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms0zy5m2002cro0wmr7rwhdb"
+          "itemUrl": "https://aihot.virxact.com/items/cms1i0bga001croxoql4niqfw"
         },
         {
-          "time": "06:55",
-          "title": "OpenAI 获 Jason Liu 米其林星认可",
-          "summary": "<p>Tibos 是 OpenAI 获得我们米其林星的原因。</p>\n<p>🔗 <a href=\"https://x.com/jxnlco/status/2081151309554618480\">阅读原文</a></p>\n<p>",
+          "time": "15:04",
+          "title": "微电影《返航日》7月27日上映，采用荣耀Robot Phone完成一镜到底视觉叙事",
+          "summary": "<p>荣耀手机官宣微电影《返航日》将于7月27日上映，由摄影指导王博学执导，全程使用荣耀Robot Phone完成一镜到底拍摄。该机搭载第五代骁龙8至尊版芯片，机身顶部集成行业最小四自由度钛合金机械云台系统，电机体积比主流方案缩小70%。荣耀Robot Phone已开启预约，定档&quot;8月见&quot;，并将首发伙伴型多模态智能体操作系统AgenticOS内核。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/701.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1i0bga001eroxouqi3e52w"
+        },
+        {
+          "time": "14:59",
+          "title": "AI 编程辅导悖论加剧：69% 的计算机教育者认为 AI 已改变软件开发所需技能",
+          "summary": "<p>一项由 ACM 工作组对 49 个国家 700 多名计算机教育者进行的调查显示，69% 的受访者认为 AI 已改变软件开发所需技能。68% 的受访者调整了评估方式，增加了监考线下考试、口试、代码答辩和项目制考核。然而，48% 的受访者表示缺乏将 AI 融入课程的最佳实践范例，74% 希望获得有效教学方法的培训。</p>\n<p>🔗 <a href=\"https://the-decoder.com/the-ai-coding-tutor-paradox-grows-as-educators-scramble-to-rethink-how-they-test-real-skills\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1h2amg00ccroyd5yrpa02n"
+        },
+        {
+          "time": "14:57",
+          "title": "英伟达与首尔大学合作建立 AI 实验室，聚焦科学计算与半导体研究",
+          "summary": "<p>韩国首尔大学本周宣布与英伟达合作，在校内建立多家综合性 AI 实验室（NVAITC）。双方将在机器人与物理 AI、半导体、AI 科学计算等领域展开研究，并推动创业孵化与成果产业化。首尔大学称 NVAITC 将成为&quot;亚洲领先&quot;的 AI 研究中心之一。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/699.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1i0bga001groxoep6pp86h"
+        },
+        {
+          "time": "14:53",
+          "title": "DeepSeek 内部人士回应&quot;融资暂停&quot;传闻：不可信，外部消息多为假的或者臆测",
+          "summary": "<p>针对近日疑似投资者交流会纪要外泄、称 DeepSeek 已通知部分潜在投资者并暂停第二轮融资的报道，DeepSeek 内部人士回应称该消息不可信，外部消息多为假的或者臆测。DeepSeek 官方目前未就此进行任何回应。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/695.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1i0bga001hroxotbt7le9y"
+        },
+        {
+          "time": "14:44",
+          "title": "PixVerse 推出 AI 广告批量生成功能",
+          "summary": "<p>AI 广告的创作从未停止……@PixVerse4Biz</p>\n<p>🔗 <a href=\"https://x.com/PixVerse_/status/2081269519012737507\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "X：PixVerse (@PixVerse_)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1g3vc60098roydro2m8qx1"
+        },
+        {
+          "time": "14:14",
+          "title": "Fable 用 Veo 2 打造塞尚城市建造游戏",
+          "summary": "<p>一年后，Fable 为我打造了塞尚城市建造游戏。AI 想出了这个印象派城市建造的点子：你用手势作画，城镇随之生长，街区在演变中形成各自特色。</p>\n<p>在此试玩：https://cezanne-city.netlify.app/</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2081261849543070181\">阅读原文</a></p>\n<p>",
+          "category": "AI 产品",
+          "source": "X：Ethan Mollick (@emollick)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1eyt4104gtro0wk4gc38dg"
+        },
+        {
+          "time": "13:43",
+          "title": "人与AI交互的带宽不对称设计",
+          "summary": "<p>一直以来你都可以和电脑说话。但它不会怎么回应你。不过我们修复了这个bug。</p>\n<p>🔗 <a href=\"https://x.com/thsottiaux/status/2081254182502465981\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Tibo (@thsottiaux)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1duc9h0433ro0wumwbgcsn"
+        },
+        {
+          "time": "13:41",
+          "title": "ChatGPT Work 正式上线，邀用户反馈",
+          "summary": "<p>ChatGPT Work 现已全面可用。</p>\n<p>如果你用过 Work、Claude Cowork 或 Gemini：你分别在什么情况下使用它们，为什么？</p>\n<p>什么能让 Work 变得更好？欢迎提供具体工作流程、示例和真实反馈。</p>\n<p>🔗 <a href=\"https://x.com/jxnlco/status/2081253445315527147\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
           "source": "X：Jason Liu (@jxnlco)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms0zying0053ro0wbfr99s5a"
+          "itemUrl": "https://aihot.virxact.com/items/cms1dw6l2046uro0w1hmiifk0"
         },
         {
-          "time": "06:45",
-          "title": "马斯克预告 Grok 4.6 与 4.7 发布时间",
-          "summary": "<p>SPACEXAI 🔥：据埃隆·马斯克透露，Grok 4.6 模型预计将在两周内发布。</p>\n<p>&gt; 下一代 SpaceXAI 模型预计基于 2T 参数（Grok 4.5 为 1.5T），并有望在性能上超越 Kimi K3。</p>\n<p>&gt; Grok 4.7 也将在 4 周后发布。</p>\n<p>持续关注 👀</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2081148852695093410\">阅读原文</a></p>\n<p>",
-          "category": "AI 模型",
-          "source": "X：Testing Catalog (@testingcatalog)",
+          "time": "13:33",
+          "title": "Claude Opus 5 系统提示词被完整泄露，共 135027 字符、约 3.4 万 token",
+          "summary": "<p>开发者 Eversmile1 在 GitHub 上公开了 Claude Opus 5 的完整系统提示词，包含 30 个工具的 JSON schema、严格的版权合规规则（单次引用不超过 15 词）和跨会话记忆系统。泄露后 24 小时内，已有开发者用 Opus 5 成功生成 3D 射击游戏和《火箭联盟》克隆版等复杂 Demo。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/688.htm\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms0z0xjc00amro95os4bodk0"
+          "itemUrl": "https://aihot.virxact.com/items/cms1dpz52040tro0w3c4a9c8p"
         },
         {
-          "time": "06:44",
-          "title": "Ruff v0.16.0 发布：默认规则从 59 条增至 413 条",
-          "summary": "<p>Astral 于 7 月 23 日发布 Python 代码检查工具 Ruff v0.16.0，默认启用规则从 59 条增至 413 条，覆盖语法错误和运行时错误等严重问题。作者在 Datasette、sqlite-utils 和 LLM 三个项目上运行后共发现 1618 个错误，其中 1538 个可通过 `--fix --unsafe-fixes` 自动修复。</p>\n<p>🔗 <a href=\"https://simonwillison.net/2026/Jul/25/ruff\">阅读原文</a></p>\n<p>",
+          "time": "13:21",
+          "title": "黄仁勋X粉丝数两天超领英十年积累",
+          "summary": "<p>突发：NVIDIA CEO 黄仁勋在 X 上的粉丝数现已超过他在 LinkedIn 的关注者数量。</p>\n<p>他最近才加入 X，仅在两天前发布了第一条推文，但粉丝数已超过他在 LinkedIn 近十年积累的关注者。</p>\n<p>这就是 X 的力量。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2081248580220964906\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：cb_doge (@cb_doge)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1cv6mh03wgro0wh0eioj7z"
+        },
+        {
+          "time": "13:08",
+          "title": "Grok SuperGrok Heavy 67% 折扣促销",
+          "summary": "<p>xAI 推出 SuperGrok Heavy 订阅促销，前 3 个月 67% off，月费降至 $99（原价 $300），并附赠 Premium+ 会员。这是目前性价比最高的 token 套餐。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2081245256842977570\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1dzgms04akro0wclw7v0h0"
+        },
+        {
+          "time": "13:08",
+          "title": "月之暗面 Kimi K3 庆功照流出，现场标语&quot;冲上月球&quot;",
+          "summary": "<p>月之暗面据传于本周五在北京一酒吧为 Kimi K3 大模型举行庆功活动，流出的庆功标语写着&quot;K3 扩容升级！&quot;&quot;K4 给我狠狠干到极致！&quot;&quot;冲上月球！&quot;。Kimi K3 于本月 16 日发布，是 Kimi 迄今能力最强的模型，拥有 2.8 万亿参数和 100 万 Tokens 上下文，主要面向长程编程与端到端知识工作。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/686.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1dpz52040uro0wxw0vxsvi"
+        },
+        {
+          "time": "12:57",
+          "title": "Kimi 这么严谨吗？ 我只是想查查「崩老头」是啥意思 😂",
+          "summary": "<p>Kimi 这么严谨吗？</p>\n<p>我只是想查查「崩老头」是啥意思 😂</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2081242530411147427\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：邵猛 (@shao__meng)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1cv64603wero0w00kuheg0"
+        },
+        {
+          "time": "12:51",
+          "title": "Andrej Karpathy 修改 X 简介引发离职猜测，本人回应称并未离职",
+          "summary": "<p>Andrej Karpathy 悄悄删除 X 个人简介中的 Anthropic 工作信息，引发外界对其离职的猜测。有网友称其已提交离职申请、Anthropic 邮箱停用，但 Karpathy 本人随后回应称这是&quot;假消息&quot;，自己并未离职。Karpathy 于 5 月 19 日加入 Anthropic 担任技术员工，负责组建研究团队利用 Claude 加速预训练研究。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/684.htm\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1dpz52040vro0woprl2a7r"
+        },
+        {
+          "time": "12:31",
+          "title": "Claude Opus 5 单次生成滑雪视频无视觉缺陷",
+          "summary": "<p>一切能写成规范的东西都在归零。 Claude Opus 5 做到了这一点，&quot;首次通过无视觉缺陷。&quot;</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081236021791109266\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1bpbpt03ikro0wzb10c3au"
+        },
+        {
+          "time": "12:23",
+          "title": "Greg Brockman 分享 Codex 真实体验",
+          "summary": "<p>真实情况。</p>\n<p>🔗 <a href=\"https://x.com/gdb/status/2081233872168390661\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：Greg Brockman (@gdb)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1ao5bc038uro0wz4984ozj"
+        },
+        {
+          "time": "12:17",
+          "title": "OPC 创业第一天就应盈利",
+          "summary": "<p>OPC 第一原则是：从下决心做 OPC 第一天起就应盈利。一台电脑、一个 AI 订阅、一个有 Wi-Fi 的咖啡馆就足够开始赚钱。如果没赚到钱，说明缺乏发现需求、找到客户或开发产品的能力，不如去上班。</p>\n<p>🔗 <a href=\"https://x.com/xiaohu/status/2081232318589776195\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "X：小互 (@xiaohu)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1ao2uc0376ro0w82cae1it"
+        },
+        {
+          "time": "12:15",
+          "title": "英伟达黄仁勋：中国注定能产出卓越的AI技术，中美应继续推动AI发展",
+          "summary": "<p>英伟达创始人黄仁勋接受彭博社采访时表示，中国注定能产出卓越的AI技术，中美两国应继续推动AI发展。他指出，中国每年培养的AI人才可能比世界上所有国家加起来都多，杰出的人才总能找到优秀答案。黄仁勋还提到，硅谷有大量来自中国的AI研究者，他对此感到兴奋。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/981/680.htm\">阅读原文</a></p>\n<p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1bkskx03g1ro0wj1iqsnb9"
+        },
+        {
+          "time": "12:04",
+          "title": "ChatGPT Work 智能体支持登录网站",
+          "summary": "<p>在手机端使用时堪称游戏规则改变者。ChatGPT 应用已可用。</p>\n<p>🔗 <a href=\"https://x.com/thsottiaux/status/2081229262452097169\">阅读原文</a></p>\n<p>",
           "category": "AI 产品",
-          "source": "Simon Willison 博客",
+          "source": "X：Tibo (@thsottiaux)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms0yqvqy0015ro95yx1eve6u"
+          "itemUrl": "https://aihot.virxact.com/items/cms1amjpj035tro0wzq151w7i"
         },
         {
-          "time": "06:34",
-          "title": "代码成本崩盘后的工程管理：一位工程总监的反思",
-          "summary": "<p>一位工程总监基于过去一年的笔记指出，代码生产成本已崩溃且不会回升，但AI工具是否让工程团队显著提速尚无定论。管理实践应基于其底层假设是否成立来评估：依赖代码编写成本的做法需重新审视，而依赖人类协调、信任构建或正确性验证的做法则未改变。正确性验证中的机械性检查（类型、测试、契约）正因AI加速，但语义验证（业务需求、监管风险）仍依赖人类判断，AI自检无法发现共享盲点。</p>\n<p>🔗 <a href=\"https://karimjedda.com/engineering-management-after-cost-of-code-collapse\">阅读原文</a></p>\n<p>",
+          "time": "11:54",
+          "title": "DeepSeek 因计算能力差距言论泄露暂停募资",
+          "summary": "<p>DeepSeek 暂停募资，原因是一份关于其与美国计算能力差距的内部言论记录被泄露。该文字记录显示公司高层对中美算力差距表达了担忧。目前 DeepSeek 尚未就此事发布正式声明。</p>\n<p>🔗 <a href=\"https://github.com/demo-zexuan/liang-wenfeng-investor-meeting-2026-7-22/blob/master/%E6%A2%81%E6%96%87%E9%94%8B%E6%8A%95%E8%B5%84%E8%80%85%E4%BA%A4%E6%B5%81%E4%BC%9A-%E6%96%87%E5%AD%97%E7%A8%BF_1_18_translate_20260723201651.pdf\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1ao381037iro0wlm6mbrpt"
+        },
+        {
+          "time": "11:54",
+          "title": "Debian 社区提案禁止 LLM 生成内容进入项目",
+          "summary": "<p>Debian 社区发布提案 A，明确禁止任何使用大语言模型（LLM）或生成式 AI 工具编写的贡献进入 Debian，涵盖源码包、官方软件及文档翻译等。提案理由包括 LLM 输出的版权与许可证不明确、质量不可靠（如打包文件含虚构版权），以及损害社区新贡献者的学习过程。</p>\n<p>🔗 <a href=\"https://www.debian.org/vote/2026/vote_002\">阅读原文</a></p>\n<p>",
+          "category": "行业动态",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cms1ao381037jro0wp99gaa88"
+        },
+        {
+          "time": "11:54",
+          "title": "在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型",
+          "summary": "<p>开发者成功在售价约 8 美元的 ESP32-S3 微控制器上运行了一个 28.9M 参数的大语言模型，完全在芯片本地运行，无需连接服务器，生成速度约 9.5 tok/s。</p>\n<p>🔗 <a href=\"https://github.com/slvDev/esp32-ai\">阅读原文</a></p>\n<p>",
           "category": "技巧观点",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms0yvk8o0042ro956e389rlb"
-        },
-        {
-          "time": "06:29",
-          "title": "Boris Cherny 用 Claude Code 提交 1700 次 PR",
-          "summary": "<p>Boris Cherny 今年已合并约 1700 个拉取请求，新增 40 万行代码，删除 25 万行，全部通过 Claude Code 完成。</p>\n<p>并使用了 80 亿个模型 token。</p>\n<p>&quot;自 Opus 4.5 以来，我 100% 的代码都由 Claude Code 编写。那大约是去年 11 月的事。……现在我的大部分编码工作都在手机上完成。&quot;</p>\n<p>----</p>\n<p>来自&quot;Scale&quot;YouTube 频道（完整视频链接在评论中）</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2081144820157055410\">阅读原文</a></p>\n<p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cms0yu7i20036ro95kwoffyik"
+          "itemUrl": "https://aihot.virxact.com/items/cms1ao381037kro0wqp7mg4x3"
         }
       ],
       "count": 50
