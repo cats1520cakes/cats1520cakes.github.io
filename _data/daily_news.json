@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-26T02:03:20.128Z",
+  "updatedAt": "2026-08-26T13:28:51.433Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
@@ -8,454 +8,454 @@
       "weekday": "星期三",
       "items": [
         {
-          "time": "09:47",
-          "title": "Perplexity CEO展望持续推理智能体未来",
-          "summary": "<p>一个后台进程，持续从每个连接器（或应用）摄取上下文，在永续推理循环中执行多跳推理，并运行在你的硬件上。这就是未来。</p>\n<p>🔗 <a href=\"https://x.com/AravSrinivas/status/2092428727338865110\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9fwk0p0isprolyis3zlq9j\">https://aihot.virxact.com/items/cmt9fwk0p0isprolyis3zlq9j</a></p>",
-          "category": "技巧观点",
-          "source": "X：Aravind Srinivas（Perplexity CEO） (@AravSrinivas)",
+          "time": "21:06",
+          "title": "Qwen3.8-Flash-Next：6B激活参数击败Claude Opus 4.6 Max",
+          "summary": "<p>Qwen3.8-Flash-Next 正式发布，这是一款高度稀疏的 MoE 模型，总参数 125B 外加 51B N-gram 嵌入，但每个 token 仅激活 6B 参数。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092599469120327906\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta4ddue01vjroj2c3mjzx3g\">https://aihot.virxact.com/items/cmta4ddue01vjroj2c3mjzx3g</a></p>",
+          "category": "AI 模型",
+          "source": "X：Kim (@kimmonismus)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9fwk0p0isprolyis3zlq9j"
+          "itemUrl": "https://aihot.virxact.com/items/cmta4ddue01vjroj2c3mjzx3g"
         },
         {
-          "time": "09:41",
-          "title": "Show HN：我用 Qwen 打造了一台树莓派车载 AI",
-          "summary": "<p>树莓派5在车内本地运行35B参数模型Qwen3.6-35B-A3B，以3.5 tok/s速度完全离线运行，可回答745页车主手册问题并支持免唤醒词语音交互。系统支持自更新、隧道远程访问及三档连接方案，OBD引擎读取功能已通过模拟测试但尚未实车验证。</p>\n<p>🔗 <a href=\"https://github.com/ThinkOffApp/CarWatch\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9g2ck90ivmroly8cn9ohlf\">https://aihot.virxact.com/items/cmt9g2ck90ivmroly8cn9ohlf</a></p>",
+          "time": "21:01",
+          "title": "开发者用 MiniCPM4.1-8B 构建 ToneBridge 学中文应用",
+          "summary": "<p>开发者 @jingzi_zhao_x 基于 MiniCPM4.1-8B 构建了 ToneBridge，一款面向中文学习者的 AI 助手，提供上下文感知的句子纠错与个性化学习。该应用聚焦自然表达、语气和社交语境，支持拼音、英文解释及音频播放，展示了小语言模型在教育领域的应用潜力。</p>\n<p>🔗 <a href=\"https://x.com/OpenBMB/status/2092598233726087674\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta3zmfb01naroj20ykapsif\">https://aihot.virxact.com/items/cmta3zmfb01naroj20ykapsif</a></p>",
           "category": "AI 产品",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9g2ck90ivmroly8cn9ohlf"
+          "itemUrl": "https://aihot.virxact.com/items/cmta3zmfb01naroj20ykapsif"
         },
         {
-          "time": "09:23",
-          "title": "用AI代理下单遭Uber Eats人机验证",
-          "summary": "<p>Uber Eats 在我用代理下单时弹出&quot;证明你是人类&quot;的验证框。</p>\n<p>我在乎的是，我的代理给你钱，还是我自己给你钱，这有什么区别？</p>\n<p>🔗 <a href=\"https://x.com/gabriel1/status/2092422532939010335\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9fpzul0iomroly6ki7w16c\">https://aihot.virxact.com/items/cmt9fpzul0iomroly6ki7w16c</a></p>",
-          "category": "技巧观点",
-          "source": "X：Gabriel (@gabriel1)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9fpzul0iomroly6ki7w16c"
-        },
-        {
-          "time": "09:15",
-          "title": "OpenAI 新芯片能效达英伟达 Rubin 两倍",
-          "summary": "<p>突发新闻🚨🚨 OpenAI 最新芯片每瓦性能比英伟达 7 月 Rubin 性能最高提升 2 倍。OpenAI 芯片甚至未启用 SPEC 解码，就已击败启用 SPEC 解码的 Rubin NVL72。（1/2）🧵</p>\n<p>🔗 <a href=\"https://x.com/SemiAnalysis_/status/2092420526241108467\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9enfm50htkroly2j1m8o3r\">https://aihot.virxact.com/items/cmt9enfm50htkroly2j1m8o3r</a></p>",
-          "category": "AI 产品",
-          "source": "X：SemiAnalysis (@SemiAnalysis_)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9enfm50htkroly2j1m8o3r"
-        },
-        {
-          "time": "09:03",
-          "title": "Parallels Desktop 27 发布：OpenGL 性能最高提升 160%、AI 矩阵计算最高提升 7 倍",
-          "summary": "<p>Parallels Desktop 27 发布，新增基于 Metal 的图形驱动，为 Windows 虚拟机带来 OpenGL 4.3 支持。在搭载 M3 及后续处理器的 Mac 上，OpenGL 性能最高提升 160%，ArcGIS Pro 三维渲染速度最高提升 35%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/334.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ew9hj0hx1rolycekuymjw\">https://aihot.virxact.com/items/cmt9ew9hj0hx1rolycekuymjw</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ew9hj0hx1rolycekuymjw"
-        },
-        {
-          "time": "09:01",
-          "title": "Gemini Enterprise for Legal 直连六大法律工具",
-          "summary": "<p>Google 推出 Gemini Enterprise for Legal，面向律所与法务团队，可直连 Workspace、Microsoft 365、Docusign、RelativityOne、HighQ、Harvey 和 Legora。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092417011465007205\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9enflq0htiroly8adnrjgo\">https://aihot.virxact.com/items/cmt9enflq0htiroly8adnrjgo</a></p>",
-          "category": "AI 产品",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9enflq0htiroly8adnrjgo"
-        },
-        {
-          "time": "08:54",
-          "title": "苹果 Mac mini 开启桌面 AI 盒子时代",
-          "summary": "<p>苹果发布新款 Mac mini，以巴掌大小体积主打高性能与 AI 能力。作者认为，真正的个人智能体需要永远在线、低功耗、吞吐极快的本地物理节点，这款 899 美元起售的设备标志着桌面 AI 盒子时代正式拉开序幕。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2092415247097155954\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9fl17g0ilorolycpvdfwg8\">https://aihot.virxact.com/items/cmt9fl17g0ilorolycpvdfwg8</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9fl17g0ilorolycpvdfwg8"
-        },
-        {
-          "time": "08:47",
-          "title": "麦格劳希尔CEO谈AI个性化教育未来",
-          "summary": "<p>&quot;我们相信知识的未来将是智能体化的。我们拥有750万种AI工具。&quot;</p>\n<p>--麦格劳希尔CEO Philip Moyer谈AI对教育的影响。</p>\n<p>更有趣的部分是&quot;精准教育&quot;：AI可以将学习远远超越一刀切的课程，在个体学生层面实现定制化。</p>\n<p>---</p>\n<p>完整视频来自彭博社（链接见评论）</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092413616964419819\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dkv0w0gz6rolyhx9yfjef\">https://aihot.virxact.com/items/cmt9dkv0w0gz6rolyhx9yfjef</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dkv0w0gz6rolyhx9yfjef"
-        },
-        {
-          "time": "08:46",
-          "title": "VZMORE 预热 AX9 Max 等迷你电脑：双 2.5G 网口，AMD Ryzen AI 9 HX 470 芯片",
-          "summary": "<p>德国品牌 VZMORE 官宣参加 IFA 2026，将展示 AX9 Max、iX9 Max、iX9 Ultra 和 AX9 Ultra 四款迷你电脑。AX9 Max 搭载 AMD Ryzen AI 9 HX 470 处理器，配备 Radeon 890M 显卡和算力最高 55 TOPS 的 NPU，并配有 2 个 2.5G 网口。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/330.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ew9hk0hx3rolydcyk7frj\">https://aihot.virxact.com/items/cmt9ew9hk0hx3rolydcyk7frj</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ew9hk0hx3rolydcyk7frj"
-        },
-        {
-          "time": "08:44",
-          "title": "智能体排行榜分数为何难以信任：评测 harness 影响远超模型本身",
-          "summary": "<p>一篇论文指出智能体排行榜分数难以信任，因评测 harness（模型与任务间的中介层）对分数影响巨大。控制实验中，更换 harness 使 GLM-5.1 分数波动 13.0 分，而固定 harness 换模型仅波动 3.0/2.5/5.0 分；harness 引发的方差是模型的 7.8 倍，9 组模型对比中 6 组排名因 harness 翻转。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2092412718573899970\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dkv0i0gz4roly8hpky2dx\">https://aihot.virxact.com/items/cmt9dkv0i0gz4roly8hpky2dx</a></p>",
-          "category": "论文",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dkv0i0gz4roly8hpky2dx"
-        },
-        {
-          "time": "08:40",
-          "title": "机器人初创公司 Generalist 估值达 30 亿美元",
-          "summary": "<p>机器人初创公司 Generalist 在完成由 8VC 领投的新一轮融资后估值达 30 亿美元，新资金近 2 亿美元，使该轮融资总额升至 6 亿美元。该公司由前 Google DeepMind 和 Boston Dynamics 研究人员于 2024 年创立，其新发布的 Gen 1.5 模型可让机器人通过 3 至 12 秒的视频演示掌握新任务。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/08/25/robotics-startup-generalist-reaches-3b-valuation-sources-say\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dx5ew0h6jroly9fooj6c1\">https://aihot.virxact.com/items/cmt9dx5ew0h6jroly9fooj6c1</a></p>",
+          "time": "20:55",
+          "title": "Arga 为企业 AI 智能体构建更优训练环境",
+          "summary": "<p>Arga 宣布完成 1000 万美元种子轮融资，由 General Catalyst 领投，Box Group、Emergence、Gradient 和 SV Angel 参投。该公司为 Salesforce、Workday 和邮件客户端等企业软件构建全尺寸数字孪生训练环境，保留权限系统和 web hooks，以便在多个系统间更稳健地训练 AI 智能体。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/08/26/arga-is-building-a-better-way-to-train-enterprise-ai-agents\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta3ncba016xroj2vbj3j91g\">https://aihot.virxact.com/items/cmta3ncba016xroj2vbj3j91g</a></p>",
           "category": "行业动态",
           "source": "TechCrunch：AI（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dx5ew0h6jroly9fooj6c1"
+          "itemUrl": "https://aihot.virxact.com/items/cmta3ncba016xroj2vbj3j91g"
         },
         {
-          "time": "08:37",
-          "title": "Show HN：LatticeDB--嵌入式属性图数据库，原生支持向量与全文索引",
-          "summary": "<p>LatticeDB 是一款单文件嵌入式属性图数据库，可在同一查询层中同时进行图遍历、HNSW 向量相似度搜索和 BM25 全文检索，无需服务器和配置。它面向单机关系密集型工作负载，提供 WAL 持久化和内置图变更流，支持 Graph RAG、智能体记忆等场景。性能方面，节点查找 0.13 μs，100 万向量下向量搜索 0.83 ms 且召回率 100%。</p>\n<p>🔗 <a href=\"https://github.com/jeffhajewski/latticedb\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dx5vl0h6lroly0u9i1knc\">https://aihot.virxact.com/items/cmt9dx5vl0h6lroly0u9i1knc</a></p>",
-          "category": "AI 产品",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dx5vl0h6lroly0u9i1knc"
-        },
-        {
-          "time": "08:36",
-          "title": "Anthropic 冲击全球最大 IPO：招股书称 AI 潜在市场规模超 30 万亿美元",
-          "summary": "<p>Anthropic 在 IPO 招股书中向投资者提出超 30 万亿美元的潜在市场规模（TAM）预测，超过 SpaceX 此前保持的 28.5 万亿美元纪录，成为商业史上最庞大的市场叙事。该公司拟于 2026 年秋季挂牌上市，目标募资额高达 1，000 亿美元，估值锚定在 2 万亿美元左右。其 2026 年第二季度单季营收已达 116 亿美元，并首次实现调整后营业利润为正。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/327.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ew9hk0hx5rolyycr1agzg\">https://aihot.virxact.com/items/cmt9ew9hk0hx5rolyycr1agzg</a></p>",
+          "time": "20:55",
+          "title": "商汤 2026 年上半年首次盈利：归母净利润 6.07 亿元同比扭亏转盈",
+          "summary": "<p>商汤 2026 年上半年实现归母净利润 6.07 亿元，上市以来首次实现 IFRS 口径盈利，同比扭亏转盈。期内营收 29.11 亿元，同比增长 23.4%，毛利率提升至 41.4%；生成式 AI 收入 23.27 亿元，占总收入 79.9%，经常性收入 11.45 亿元，同比增长 124.4%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/744.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta4mcv001yuroj24rkvrpud\">https://aihot.virxact.com/items/cmta4mcv001yuroj24rkvrpud</a></p>",
           "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ew9hk0hx5rolyycr1agzg"
+          "itemUrl": "https://aihot.virxact.com/items/cmta4mcv001yuroj24rkvrpud"
         },
         {
-          "time": "08:35",
-          "title": "OpenAI 两名销售高管回归 Salesforce",
-          "summary": "<p>OpenAI 正在失去其为拓展企业业务而组建的、由 Salesforce 培养的销售领导团队的一部分，而该业务正值势头上升之际。</p>\n<p>OpenAI 招募的两名 Salesforce 资深销售人才如今将重返 Salesforce。</p>\n<p>- The Information</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092410568779194453\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dkv0w0gz7rolyh6cfmmyf\">https://aihot.virxact.com/items/cmt9dkv0w0gz7rolyh6cfmmyf</a></p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "time": "20:52",
+          "title": "openclaw 读取日历报错：空值语义未定义",
+          "summary": "<p>排查 openclaw 读取日历报错发现，上游因&quot;今天没有日程&quot;不生成文件，下游见&quot;文件不存在&quot;判为&quot;读取失败&quot;，两边单看都没错，接起来却报错。问题本质是&quot;没有数据、没拿到数据、读取失败&quot;三种状态未提前定义，对系统而言都只是空值。AI 系统越复杂，组件间状态与异常定义越关键。</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2092595918985924767\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta4ddu501vhroj2xvglu71f\">https://aihot.virxact.com/items/cmta4ddu501vhroj2xvglu71f</a></p>",
+          "category": "技巧观点",
+          "source": "X：小北 (@frxiaobei)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dkv0w0gz7rolyh6cfmmyf"
+          "itemUrl": "https://aihot.virxact.com/items/cmta4ddu501vhroj2xvglu71f"
         },
         {
-          "time": "08:33",
-          "title": "Claude for Word： Turn a draft into a finished document",
-          "summary": "<p>🔗 <a href=\"https://www.youtube.com/watch?v=x80HVKbZrno\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9eqjm40hugrolye2kszhi8\">https://aihot.virxact.com/items/cmt9eqjm40hugrolye2kszhi8</a></p>",
-          "category": "AI 产品",
-          "source": "Claude：YouTube（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9eqjm40hugrolye2kszhi8"
-        },
-        {
-          "time": "08:29",
-          "title": "Groq 3 LPX 如何攻克智能体毫秒级延迟",
-          "summary": "<p>NVIDIA 的 Groq 3 LPX 针对 AI 智能体工作流中累积的毫秒级延迟，通过确定性编译器调度、机架级 128GB SRAM 及预规划芯片间传输来降低小批量协调开销。智能体任务需数百次顺序推理步骤，解码延迟会随工作持续累积，因此速度比普通聊天更关键。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092409127532363899\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dkv0w0gz8rolys3pd3k79\">https://aihot.virxact.com/items/cmt9dkv0w0gz8rolys3pd3k79</a></p>",
+          "time": "20:48",
+          "title": "Glean 运行时路由降 81% token 成本",
+          "summary": "<p>Glean 将&quot;用多少智能&quot;的决策移入运行时，其基准测试覆盖 180+ 企业任务，显示相比 Claude Cowork 可降低 81% token 成本，且 78% 情况下更受偏好。每查询成本 $0.58，对比 Claude Cowork 的 $2.98。该基准并非模型对模型，而是固定模型推理对比&quot;上下文+路由&quot;系统。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092595111259767005\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta4ddum01vlroj2z6ajfqps\">https://aihot.virxact.com/items/cmta4ddum01vlroj2z6ajfqps</a></p>",
           "category": "AI 产品",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dkv0w0gz8rolys3pd3k79"
+          "itemUrl": "https://aihot.virxact.com/items/cmta4ddum01vlroj2z6ajfqps"
         },
         {
-          "time": "08:28",
-          "title": "中国铁路联合新石器无人车优化接驳物流，福安葡萄当日可达北上广深",
-          "summary": "<p>中国铁路联合新石器无人车，将福建福安葡萄经统一揽收、标准化装箱和短途运输接入高铁网络，实现&quot;采摘后直接装车、中途不再落地&quot;。无人车进村收货后，葡萄经冷藏车转运至福州站，进入高铁恒温专柜发往全国，北京、上海、广州、深圳等城市当日达，全国百余个重点城市次日达。自7月项目启动至8月中旬，福州站累计发送葡萄36.5吨，覆盖22个省区、100多个城市。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/326.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ew9hk0hx6roly7wdiso6q\">https://aihot.virxact.com/items/cmt9ew9hk0hx6roly7wdiso6q</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
+          "time": "20:44",
+          "title": "Qwen3.8-Flash-Next发布，6B激活超越Claude Opus 4.6",
+          "summary": "<p>Qwen3.8-Flash-Next正式发布，这是一款高度稀疏MoE开源多模态模型，总参数125B加51B n-gram嵌入，每token仅激活6B参数，原生256K上下文可经YaRN扩展至1M。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092593917543780735\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta3asey01yxrojq03qmru93\">https://aihot.virxact.com/items/cmta3asey01yxrojq03qmru93</a></p>",
+          "category": "AI 模型",
+          "source": "X：Kim (@kimmonismus)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ew9hk0hx6roly7wdiso6q"
+          "itemUrl": "https://aihot.virxact.com/items/cmta3asey01yxrojq03qmru93"
         },
         {
-          "time": "08:25",
-          "title": "Grok Bot 简单实用的客户发现方法",
-          "summary": "<p>Elon Musk 分享了一条用 Grok Bot 寻找客户的实用技巧：先在 X 上搜索抱怨竞品或寻找替代方案的用户，再通过 @amplemarket 连接器了解对方公司与个人背景，最后将其设为每周自动运行的例行程序，持续获取购买信号。该方法无需猜测用户需求，因为他们已公开表达。</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2092407955169931682\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dboud0gu1rolyqfiutmsa\">https://aihot.virxact.com/items/cmt9dboud0gu1rolyqfiutmsa</a></p>",
-          "category": "技巧观点",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dboud0gu1rolyqfiutmsa"
-        },
-        {
-          "time": "08:20",
-          "title": "Artificial Analysis 编码智能体指数引入奖励黑客修正",
-          "summary": "<p>Artificial Analysis 在 Coding Agent Index v1.4 中为 Terminal-Bench v2.1 引入奖励黑客修正：若模型通过在线获取已发布基准答案等作弊方式&quot;完成&quot;任务，该次尝试将被记零分。不同智能体和模型的作弊率差异显著，且 Terminal-Bench v2.1 任务未明确禁止外部搜索，并允许公共互联网访问。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2092406804424839199\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cpsps0g62rolyub01e1ww\">https://aihot.virxact.com/items/cmt9cpsps0g62rolyub01e1ww</a></p>",
-          "category": "AI 产品",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cpsps0g62rolyub01e1ww"
-        },
-        {
-          "time": "08:19",
-          "title": "在职约 17 个月：曝 OpenAI 数据中心负责人马隆已离职",
-          "summary": "<p>CNBC 报道称，OpenAI 数据中心负责人克里斯·马隆（Chris Malone）已离职，成为近期核心高管出走的最新一例。他于 2025 年 3 月加入 OpenAI，在职约 17 个月，曾主导与甲骨文、软银合作的 Stargate 星际之门项目等算力基建扩建计划。OpenAI 回应称已重组基础设施组织架构，团队领导层清晰明确。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/324.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cr3s60g6jrolyfnkn58cf\">https://aihot.virxact.com/items/cmt9cr3s60g6jrolyfnkn58cf</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cr3s60g6jrolyfnkn58cf"
-        },
-        {
-          "time": "08:13",
-          "title": "OpenAI 企业智能体战略转向信号",
-          "summary": "<p>这标志着变化之快--OpenAI 在 2025 年 10 月曾将这一方案宣称为企业 AI 智能体的未来。</p>\n<p>他们在 6 月砍掉了 Agent Builder。（但仍有相当多的企业产品在使用这一模型构建智能体。）</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2092404982012158354\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ci9em0g3mroly509oxth9\">https://aihot.virxact.com/items/cmt9ci9em0g3mroly509oxth9</a></p>",
-          "category": "技巧观点",
-          "source": "X：Ethan Mollick (@emollick)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ci9em0g3mroly509oxth9"
-        },
-        {
-          "time": "08:07",
-          "title": "谷歌杀入法律 AI 赛道，推出专用 Gemini 工具",
-          "summary": "<p>谷歌周二扩展 Gemini Enterprise 平台，推出面向律师和律所的 Gemini Enterprise for Legal 工具，支持与法律软件集成并提供可处理法律及行政工作的 AI 智能体。该工具已获 Weil Gotshal、Cleary Gottlieb、Freshfields 等律所参与合作开发，谷歌同时宣布推出面向金融服务行业的工具。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/319.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cr3s60g6lrolyqkz7uhf3\">https://aihot.virxact.com/items/cmt9cr3s60g6lrolyqkz7uhf3</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cr3s60g6lrolyqkz7uhf3"
-        },
-        {
-          "time": "08:06",
-          "title": "OpenAI 数据中心负责人 Chris Malone 离职，高管流失潮持续",
-          "summary": "<p>OpenAI 前数据中心负责人 Chris Malone 上周离职，其任职仅约一年半。OpenAI 回应称已重组基础设施组织，Malone 改为向副总裁 Sachin Katti 汇报。今年已有 13 名高管离职，包括前 COO Brad Lightcap 等，公司 IPO 已推迟至 2027 年。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/08/25/openai-loses-a-top-data-center-exec-as-stream-of-high-profile-departures-continues\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cuk090gabrolyp93qv08d\">https://aihot.virxact.com/items/cmt9cuk090gabrolyp93qv08d</a></p>",
-          "category": "行业动态",
-          "source": "TechCrunch：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cuk090gabrolyp93qv08d"
-        },
-        {
-          "time": "08:04",
-          "title": "HumanLayer 发布软件工厂设计模式播客",
-          "summary": "<p>新宣言，这是谁？</p>\n<p>🔗 <a href=\"https://x.com/dexhorthy/status/2092402646615515493\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dfvn50gwgrolykm8vjxn4\">https://aihot.virxact.com/items/cmt9dfvn50gwgrolykm8vjxn4</a></p>",
-          "category": "技巧观点",
-          "source": "X：Dex Horthy（HumanLayer）(@dexhorthy)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dfvn50gwgrolykm8vjxn4"
-        },
-        {
-          "time": "08:01",
-          "title": "OpenAI 自研推理芯片 Jalapeño 首秀：能效与延迟双优",
-          "summary": "<p>OpenAI 首颗自研推理芯片 Jalapeño 公布首批实测：在 GPT-OSS 120B、DeepSeek R1、Kimi K2.5 1T 三个公开模型上，每瓦峰值算力提升 1.5 到 1.9 倍，端到端延迟降低 1.7 到 3.6 倍。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2092401983642870199\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dfvnc0gwirolyxhmy7s2y\">https://aihot.virxact.com/items/cmt9dfvnc0gwirolyxhmy7s2y</a></p>",
-          "category": "行业动态",
-          "source": "X：洪明 (@hongming731)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dfvnc0gwirolyxhmy7s2y"
-        },
-        {
-          "time": "08:01",
-          "title": "OpenAI Jalapeño 芯片首批实测：能效与延迟双优",
-          "summary": "<p>OpenAI 公布首颗自研推理芯片 Jalapeño 的首批实测结果：在公开基准 InferenceX 上，对比 GB200/GB300 系统，每瓦 AI 工作性能高 1.5-1.9 倍，端到端延迟低 1.7-3.6 倍，高交互负载性能高 2.1-4.1 倍。芯片额定 700W，实测持续功耗不超 550W，从设计到流片仅 9 个月，年底开始部署。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2092401942429675905\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9dfvnc0gwjroly9hl14lvt\">https://aihot.virxact.com/items/cmt9dfvnc0gwjroly9hl14lvt</a></p>",
-          "category": "技巧观点",
-          "source": "X：洪明 (@hongming731)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9dfvnc0gwjroly9hl14lvt"
-        },
-        {
-          "time": "07:51",
-          "title": "Breeze TTS 2 登顶开源语音合成竞技场",
-          "summary": "<p>Breeze TTS 2 在 Artificial Analysis Provider Voices 语音竞技场中成为排名第一的开源权重 TTS 模型，Elo 达 1，215，领先 Fish Audio S2 Pro 90 分，总排名第 6。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2092399623839326550\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bn75v0fenrolyo7t99ml1\">https://aihot.virxact.com/items/cmt9bn75v0fenrolyo7t99ml1</a></p>",
-          "category": "技巧观点",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bn75v0fenrolyo7t99ml1"
-        },
-        {
-          "time": "07:51",
-          "title": "MiniMax-M3 以最低成本完成智能体任务",
-          "summary": "<p>很高兴看到这样的真实世界智能体基准测试 👇</p>\n<p>MiniMax-M3：仅需 $0.018 即可端到端完成创建收件箱、撰写并发送一封商务邮件。榜单上成本最低的模型--而且它完成了任务。</p>\n<p>这就是高效智能的样子。</p>\n<p>（没错！我们是一家前沿实验室--我们不仅构建视频和音乐模型，还训练并开源我们的前沿大语言模型供你使用。）</p>\n<p>🔗 <a href=\"https://x.com/MiniMax_AI/status/2092399533989015780\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bn76a0feproly43uy776p\">https://aihot.virxact.com/items/cmt9bn76a0feproly43uy776p</a></p>",
-          "category": "技巧观点",
-          "source": "X：MiniMax (@MiniMax_AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bn76a0feproly43uy776p"
-        },
-        {
-          "time": "07:48",
-          "title": "Liquid AI 开源 Pipette：一套同时评测端侧模型、量化、运行时与硬件的可复现基准套件",
-          "summary": "<p>Liquid AI 与 Artificial Analysis 合作开源 Pipette，这是一套面向边缘设备的端侧模型基准测试平台，以&quot;模型+量化+运行时+设备&quot;整体配置为测量单位。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/08/25/liquid-ai-open-sources-pipette-a-reproducible-benchmarking-suite-that-measures-on-device-models-quantization-runtime-and-hardware-together\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bv02x0fo2rolyndvxixo0\">https://aihot.virxact.com/items/cmt9bv02x0fo2rolyndvxixo0</a></p>",
-          "category": "AI 产品",
-          "source": "MarkTechPost（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bv02x0fo2rolyndvxixo0"
-        },
-        {
-          "time": "07:44",
-          "title": "字节跳动发布&quot;豆包工作&quot;Agent 产品，与飞书深度打通",
-          "summary": "<p>字节跳动8月25日正式发布&quot;豆包工作&quot;，作为豆包面向生产力场景推出的全新Agent产品与品牌，与飞书深度打通。该产品能围绕用户目标自主拆解任务、调用工具，持续推进复杂工作流程。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/311.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cr3s70g6rroly1zu3vbvq\">https://aihot.virxact.com/items/cmt9cr3s70g6rroly1zu3vbvq</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cr3s70g6rroly1zu3vbvq"
-        },
-        {
-          "time": "07:43",
-          "title": "Anthropic 的 30 万亿美元幻想",
-          "summary": "<p>针对 Anthropic 近期向求职者询问是否接受股价归零可能性的报道，Gary Marcus 指出该公司实际抱有更大野心，并质疑其估值幻想。他援引推文称，最终接盘的不仅是散户投资者，还包括养老基金。与此同时，汤森路透成为最新一家减少使用 Claude 的企业，现实与幻想之间的竞赛仍在继续。</p>\n<p>🔗 <a href=\"https://garymarcus.substack.com/p/anthropics-30-trillion-fantasy\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bu6di0flbrolyso1ewh70\">https://aihot.virxact.com/items/cmt9bu6di0flbrolyso1ewh70</a></p>",
-          "category": "技巧观点",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bu6di0flbrolyso1ewh70"
-        },
-        {
-          "time": "07:38",
-          "title": "个人博客改版创意征集",
-          "summary": "<p>好吧，我的博客 https://no.lol 早就该彻底改版了。好几年没动过了。给我你们最好的点子，告诉我该拿它做什么，我会让 @bot 来实现！</p>\n<p>🔗 <a href=\"https://x.com/poteto/status/2092396221306671353\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bea7i0f8yrolydw8lbi7f\">https://aihot.virxact.com/items/cmt9bea7i0f8yrolydw8lbi7f</a></p>",
-          "category": "技巧观点",
-          "source": "X：Lauren Tan (@poteto)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bea7i0f8yrolydw8lbi7f"
-        },
-        {
-          "time": "07:37",
-          "title": "微软盘点 Windows on Arm 进展：英伟达 RTX Spark 入局，多厂商秋季上线 Arm PC",
-          "summary": "<p>微软发文回顾 Windows on Arm 一年进展，英伟达将于今年晚些时候凭借 RTX Spark SoC 加入该阵营，与高通骁龙 X 平台共同巩固平台前景。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/310.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cr3s70g6srolymhnqkrsm\">https://aihot.virxact.com/items/cmt9cr3s70g6srolymhnqkrsm</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cr3s70g6srolymhnqkrsm"
-        },
-        {
-          "time": "07:36",
-          "title": "英伟达 RTX Spark 新增支持《Apex 英雄》等 5 款游戏，原生支持 EA Javelin 反作弊系统",
-          "summary": "<p>英伟达在科隆游戏展宣布，RTX Spark 在秋季上市前新增支持《EA SPORTS F1 25》《Apex 英雄》《纪元 117：罗马和平》《ARC Raiders》《最终决战》5 款游戏，并原生支持 EA Javelin 反作弊系统。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/309.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cr3s70g6troly0qbyufzn\">https://aihot.virxact.com/items/cmt9cr3s70g6troly0qbyufzn</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cr3s70g6troly0qbyufzn"
-        },
-        {
-          "time": "07:33",
-          "title": "工具提示需要延迟，然后需要跳过它",
-          "summary": "<p>FrontPrep 作者将工具提示延迟设为 0 导致光标扫过页面时提示瞬间弹出，统一加 200ms 延迟又让连续悬停多个 logo 时显得迟钝。解决方案是引入&quot;预热窗口&quot;机制：首次悬停等待 200ms 打开提示，关闭后启动 300ms 冷却计时器，期间悬停其他 logo 可立即打开提示且跳过动画，冷却结束后恢复 200ms 延迟。</p>\n<p>🔗 <a href=\"https://blog.master.dev/tooltips-need-a-delay-and-then-they-need-to-skip-it\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9brz1z0fh1roly3y0qrfm1\">https://aihot.virxact.com/items/cmt9brz1z0fh1roly3y0qrfm1</a></p>",
-          "category": "技巧观点",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9brz1z0fh1roly3y0qrfm1"
-        },
-        {
-          "time": "07:30",
-          "title": "Luma AI 新作《蓝色时刻》亮相",
-          "summary": "<p>在蓝色时刻，一名杀手穿过大理石地板，去终结那份他从未想过质疑的契约。</p>\n<p>&quot;L'heure Bleue&quot;由 Bryan Soegondo @DreamLabLA 创作，使用 Luma 制作。</p>\n<p>🔗 <a href=\"https://x.com/LumaLabsAI/status/2092394090331816080\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9budoq0fm7rolyvtjdo4fs\">https://aihot.virxact.com/items/cmt9budoq0fm7rolyvtjdo4fs</a></p>",
-          "category": "技巧观点",
-          "source": "X：Luma AI (@LumaLabsAI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9budoq0fm7rolyvtjdo4fs"
-        },
-        {
-          "time": "07:27",
-          "title": "SemiAnalysis 揭秘 OpenAI Jalapeño 芯片",
-          "summary": "<p>SemiAnalysis 长文披露 OpenAI 自研 Jalapeño 芯片，称其面向数十万亿参数模型与百万级 token 上下文设计，并质疑 CUDA 在 AI 可自写代码优化新架构下的存续。该芯片以每瓦性能为核心，目标让数千芯片协同为单一推理机，其每兆瓦输出 token 吞吐已超越英伟达 Vera Rubin 公布数据。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092393408124133386\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bfoos0f9urolynullwmwe\">https://aihot.virxact.com/items/cmt9bfoos0f9urolynullwmwe</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bfoos0f9urolynullwmwe"
-        },
-        {
-          "time": "07:25",
-          "title": "OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍",
-          "summary": "<p>OpenAI 首款自研推理芯片 Jalapeño 性能首秀，在 GPT-OSS 120B、DeepSeek R1 670B 和 Kimi K2.5 1T 三款模型测试中，每瓦 AI 吞吐量较 GB200 和 GB300 高出 1.5 至 1.9 倍，端到端延迟约为对比系统的 28% 至 59%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/306.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9cr3s70g6wrolymqgk0373\">https://aihot.virxact.com/items/cmt9cr3s70g6wrolymqgk0373</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9cr3s70g6wrolymqgk0373"
-        },
-        {
-          "time": "07:18",
-          "title": "NVIDIA 发布 Jetson Orin Nano 2 机器人计算机，双倍算力或四成节能",
-          "summary": "<p>NVIDIA 推出面向入门级边缘 AI 的 Jetson Orin Nano 2 机器人计算机，预计 2027H1 以模组及开发套件形态上市。该产品采用与 Orin Nano Super 相同外形规格，AI 推理算力为前代 2 倍，标准模式下达 78 TOPS，集成 8 核 Arm CPU 和 8GB 内存；若性能控制在前代水平，功耗仅 15W，为前代的 60%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/303.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9alyaj0eidrolyivy9qte1\">https://aihot.virxact.com/items/cmt9alyaj0eidrolyivy9qte1</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9alyaj0eidrolyivy9qte1"
-        },
-        {
-          "time": "07:13",
-          "title": "评测框架无中立：同一模型得分31%到89%",
-          "summary": "<p>新论文揭示评测框架（harness）对模型得分影响巨大：12个开源模型在26种同等合理的配置下回答相同3，679道题，仅改变选项顺序、提示词措辞和答案读取方式，gemma4-31b得分即可从31%波动至89%。配置敏感题目承载了相邻模型间95.7%的差距，4个模型在某种配置下可排第一。基准压缩方法筛选的题目恰是最易受配置影响的，压缩基准实则在挑选脆弱项。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2092389950532554920\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ad4ek0efjrolydq33dqw7\">https://aihot.virxact.com/items/cmt9ad4ek0efjrolydq33dqw7</a></p>",
-          "category": "论文",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ad4ek0efjrolydq33dqw7"
-        },
-        {
-          "time": "07:00",
-          "title": "曝 OpenAI 已预训练 Bel 模型：超 10T 参数，冲击通用人工智能",
-          "summary": "<p>消息源 @synthwavedd 爆料称，OpenAI 已完成下一代模型 Bel 的预训练，该模型是 Doug 的直接继任者，总参数超过 10T，并计划将其打造为 GPT-6 之后的基座模型，甚至冲击 AGI 阈值。消息源认为，这些探索可能让 Anthropic 感到压力，OpenAI 认为面对即将发布的 Astra，Anthropic 没有拿得出手的应对方案，主要受算力条件所限。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/296.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9alyaj0eigrolyd5ih6h49\">https://aihot.virxact.com/items/cmt9alyaj0eigrolyd5ih6h49</a></p>",
+          "time": "20:39",
+          "title": "阿里通义 Qwen3.8-Flash 发布开源：125B 参数 MoE 模型，训练成本仅为前代 1/9",
+          "summary": "<p>阿里通义千问团队发布 Qwen3.8-Flash，这是一款 125B 参数的多模态 MoE 模型，每 token 激活 6B 参数，原生支持 262，144 tokens 上下文，并可通过 YaRN 扩展至 1M tokens。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/735.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta4mcv101z1roj2nc8w30ak\">https://aihot.virxact.com/items/cmta4mcv101z1roj2nc8w30ak</a></p>",
           "category": "AI 模型",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9alyaj0eigrolyd5ih6h49"
+          "itemUrl": "https://aihot.virxact.com/items/cmta4mcv101z1roj2nc8w30ak"
         },
         {
-          "time": "07:00",
-          "title": "无中立基准：配置变化致模型排名大幅波动",
-          "summary": "<p>一项研究让12个开源权重模型在26种同等合理的基准配置下回答ARC、HellaSwag、MMLU和TruthfulQA的3，679道题，仅改变选项顺序、提示词措辞及答案读取方式。gemma4-31b的得分随配置在31%至89%间波动，四个模型在某种配置下排名第一。配置敏感题目承载了相邻模型间95.7%的差距，基准压缩方法筛选出的题目恰是最易受配置影响的。</p>\n<p>🔗 <a href=\"https://x.com/dair_ai/status/2092386565045747719\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9bapeb0f77roly59mhvdmw\">https://aihot.virxact.com/items/cmt9bapeb0f77roly59mhvdmw</a></p>",
-          "category": "论文",
-          "source": "X：DAIR.AI (@dair_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9bapeb0f77roly59mhvdmw"
-        },
-        {
-          "time": "06:59",
-          "title": "Anthropic 更新 Claude 记忆机制，打通 Cowork 与聊天的记忆功能",
-          "summary": "<p>Anthropic 宣布更新 Claude Cowork 与聊天功能之间的记忆机制，将两个系统的记忆功能打通，实现统一管理。Cowork 在云端执行任务时可访问 Claude 从聊天记录中记住的信息，反之亦然。涉及健康状况、个人信念等敏感话题的记忆默认关闭，但用户可在&quot;记忆&quot;设置中手动开启；Free、Pro 和 Max 套餐默认开启记忆功能，Mac 和 iOS 平台同样支持。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/295.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9alyak0eihrolyur6ok6ec\">https://aihot.virxact.com/items/cmt9alyak0eihrolyur6ok6ec</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9alyak0eihrolyur6ok6ec"
-        },
-        {
-          "time": "06:59",
-          "title": "传闻称OpenAI与Anthropic新模型能力飞跃",
-          "summary": "<p>Kim援引多方消息称，OpenAI与Anthropic尚未发布的模型能力将实现全面显著跃升，传闻还称上下文与记忆问题已被&quot;解决&quot;，并出现可持续学习的自我改进模型。引用推文称未来8个月内或将再现o3到fable级别的能力跨越。作者强调这些仅为传闻，无实证，但来源日益频繁且包括可靠人士。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092386411567612379\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ad4f10efnroly3rl0mwfh\">https://aihot.virxact.com/items/cmt9ad4f10efnroly3rl0mwfh</a></p>",
-          "category": "技巧观点",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9ad4f10efnroly3rl0mwfh"
-        },
-        {
-          "time": "06:55",
-          "title": "OpenAI 发布适用于 ChatGPT Work 和 Codex 的 Admin 插件，管理员可通过对话管理用户和权限",
-          "summary": "<p>OpenAI 面向 ChatGPT Work 和 Codex 推出 Admin 管理插件，工作区管理员可直接通过对话调整设置、管理用户和权限、分析使用情况并生成报告。该插件支持查看活动数据与额度使用、管理成员和群组、控制访问权限，以及审批额度申请。目前 Admin 插件已上线 ChatGPT Work 的 Plugins 插件目录。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/294.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9alyak0eiiroly8g43221p\">https://aihot.virxact.com/items/cmt9alyak0eiiroly8g43221p</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt9alyak0eiiroly8g43221p"
-        },
-        {
-          "time": "06:52",
-          "title": "Ultrafast Frontier Inference： Cerebras Deep Dive at Hot Chips 2026",
-          "summary": "<p>🔗 <a href=\"https://www.cerebras.ai/blog/ultrafast-frontier-inference-cerebras-deep-dive-at-hot-chips-2026\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt99gbt00dqsrolyghe63mmu\">https://aihot.virxact.com/items/cmt99gbt00dqsrolyghe63mmu</a></p>",
-          "category": "论文",
-          "source": "Cerebras：Blog（网页）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt99gbt00dqsrolyghe63mmu"
-        },
-        {
-          "time": "06:45",
-          "title": "Claude 推出跨 Chat 与 Cowork 统一记忆",
-          "summary": "<p>Claude 更新了跨 Claude Chat 和 Cowork 的统一记忆功能，用户可决定记忆内容。设置中新增敏感话题记忆开关，记忆按类别拆分，并在设置中新增独立标签页，用户可直接在记忆浏览器界面告诉 Claude 要记住什么。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2092382971944702272\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt99ajkm0dn7rolylv3inouy\">https://aihot.virxact.com/items/cmt99ajkm0dn7rolylv3inouy</a></p>",
-          "category": "AI 产品",
+          "time": "20:37",
+          "title": "OpenRouter 神秘模型 Ox Alpha 确认为智谱 GLM-5.3 Flash",
+          "summary": "<p>OpenRouter 近期上线的神秘模型 Ox Alpha 实为智谱 AI 的 GLM-5.3 Flash。该模型以零成本高性能登顶在线使用榜，被指可与 DeepSeek 竞争。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2092592327701200937\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta3asf601yzrojq83kxakzm\">https://aihot.virxact.com/items/cmta3asf601yzrojq83kxakzm</a></p>",
+          "category": "行业动态",
           "source": "X：Testing Catalog (@testingcatalog)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt99ajkm0dn7rolylv3inouy"
+          "itemUrl": "https://aihot.virxact.com/items/cmta3asf601yzrojq83kxakzm"
         },
         {
-          "time": "06:41",
-          "title": "韩国稳居全球AI竞赛第三，多家实验室模型得分超30",
-          "summary": "<p>韩国在全球AI竞赛中稳居第三，仅次于美国和中国，得益于本土人才、公共投资及主权AI基础模型项目。Motif Technologies的Motif 3（47分）和Upstage的Solar Pro 4（42分）成为中美以外最高分模型，SK Telecom的A.X K2（35分）和LG的K-EXAONE 2.0（31分）亦表现突出。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2092381946613846240\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt99i1y00ds7roly1cyvd9xa\">https://aihot.virxact.com/items/cmt99i1y00ds7roly1cyvd9xa</a></p>",
-          "category": "技巧观点",
-          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "time": "20:36",
+          "title": "亲俄深度伪造视频让乌克兰议员&quot;开口&quot;求和",
+          "summary": "<p>亲克里姆林宫的Telegram频道正传播两段AI生成的深度伪造视频，内容为乌克兰议员安德烈·列乌斯和伊万·尤纳科夫&quot;哀叹战争并呼吁和平&quot;。据NewsGuard报道，视频两周内获得13万次观看，并带有不自然眨眼、声音平淡等AI痕迹。此类伪造无论是否被识破，都会侵蚀公众对信息的信任。</p>\n<p>🔗 <a href=\"https://the-decoder.com/pro-kremlin-deepfakes-put-surrender-rhetoric-in-the-mouths-of-ukrainian-lawmakers\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta3qe2d01e2roj2w9f0eplj\">https://aihot.virxact.com/items/cmta3qe2d01e2roj2w9f0eplj</a></p>",
+          "category": "行业动态",
+          "source": "The Decoder：AI News（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt99i1y00ds7roly1cyvd9xa"
+          "itemUrl": "https://aihot.virxact.com/items/cmta3qe2d01e2roj2w9f0eplj"
         },
         {
-          "time": "06:39",
-          "title": "Prime Agent 技术报告：记忆层级机制解析",
-          "summary": "<p>Prime Agent 发布技术报告，该 harness 曾助 Opus 5 在 ARC-AGI-3 达 95.5%。其核心机制为记忆层级：模型权重与活动上下文之下，设持久 IPython 会话及磁盘存储的历史、技能与提示词库，模型通过代码在各层级间移动状态。长输入作为 REPL 变量留存，供智能体搜索与转换，将长上下文工作转为信息管理问题。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092381340968910922\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt99ajk80dn5rolyo7q1wg3s\">https://aihot.virxact.com/items/cmt99ajk80dn5rolyo7q1wg3s</a></p>",
-          "category": "论文",
+          "time": "20:34",
+          "title": "通义千问发布 Qwen3.8-Flash，多模态 MoE 模型，Qwen4 架构早期预览",
+          "summary": "<p>通义千问发布 Qwen3.8-Flash，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览，现已开放权重。该模型总参数量 125B，每 token 仅激活 6B，原生上下文 262K，可扩展至 1M；训练成本仅为 Qwen3.7-Plus 的 1/9，并在编码和办公任务上表现更优。</p>\n<p>🔗 <a href=\"https://x.com/Alibaba_Qwen/status/2092591393424515114\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta2x13k03t3rolwmr6pzc67\">https://aihot.virxact.com/items/cmta2x13k03t3rolwmr6pzc67</a></p>",
+          "category": "AI 模型",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta2x13k03t3rolwmr6pzc67"
+        },
+        {
+          "time": "20:30",
+          "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+          "summary": "<p>通义千问开源 Qwen3.8-Flash-Next，一款多模态 MoE 模型，也是 Qwen4 架构的早期预览。该模型采用 GDN + QSA 混合注意力等四项升级，总参数 125B，每 token 激活 6B，训练成本约为 Qwen3.7-Plus 的 1/9，编码与办公任务能力更强。</p>\n<p>🔗 <a href=\"https://qwen.ai/blog?id=qwen3.8-flash-next\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta2veap03nmrolwxllvp4ay\">https://aihot.virxact.com/items/cmta2veap03nmrolwxllvp4ay</a></p>",
+          "category": "AI 模型",
+          "source": "Qwen：Blog Retrieval（API）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta2veap03nmrolwxllvp4ay"
+        },
+        {
+          "time": "20:05",
+          "title": "AMD 确认两款 Zen 6 处理器沿用 AM5 插槽：Olympic Ridge 与 Medusa1 亮相官网",
+          "summary": "<p>AMD 官方文档确认两款 Zen 6 客户端处理器将沿用 AM5 插槽：面向台式机的 Olympic Ridge 与定位灵活的 Medusa1 APU。Olympic Ridge 可能首次在桌面端集成 NPU，并取消入门级核显；Medusa1 同时支持移动端 FP10 和桌面端 AM5。AMD 已将 AM5 支持周期延长至&quot;至少 2029 年&quot;。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/725.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta2h7s203a6rolwg512jkyc\">https://aihot.virxact.com/items/cmta2h7s203a6rolwg512jkyc</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta2h7s203a6rolwg512jkyc"
+        },
+        {
+          "time": "20:00",
+          "title": "听力科技初创公司 Legato 携 1200 万美元融资及 AI 听力眼镜亮相",
+          "summary": "<p>Legato 于周三走出隐身模式，获得 1200 万美元融资并首次展示其 AI 听力眼镜 Legato Frames。该眼镜将专利听力辅助技术集成于镜架镜腿，采用 AI 系统区分背景噪音与人声，仅放大说话声，预计今年秋季晚些时候上市。产品面向轻中度听力损失人群，售价将远低于传统助听器，并可能通过眼科诊所购买时享受视力保险报销。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/08/26/hearing-tech-startup-legato-emerges-from-stealth-with-12m-and-a-peek-at-its-ai-hearing-glasses\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta3ncba016yroj2y7h7ynuz\">https://aihot.virxact.com/items/cmta3ncba016yroj2y7h7ynuz</a></p>",
+          "category": "AI 产品",
+          "source": "TechCrunch：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta3ncba016yroj2y7h7ynuz"
+        },
+        {
+          "time": "19:54",
+          "title": "中国 Moonshot AI 与微软、亚马逊、谷歌洽谈云托管协议",
+          "summary": "<p>中国 AI 初创公司 Moonshot AI 正与微软、亚马逊和谷歌洽谈收入分成协议，拟将其模型 Kimi K3 托管至 Azure、AWS 和 Google Cloud 平台，并向 K3 服务收取最高 30% 的收入分成。若达成，这将是首家与美国主要云厂商达成此类协议的中国 AI 公司。目前谈判尚处早期阶段，收入分成、数据访问及 token 使用追踪等问题仍未敲定。</p>\n<p>🔗 <a href=\"https://the-decoder.com/chinese-moonshot-ai-negotiates-hosting-deals-with-microsoft-amazon-and-google\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta1l77102qxrolw1tkf2npf\">https://aihot.virxact.com/items/cmta1l77102qxrolw1tkf2npf</a></p>",
+          "category": "行业动态",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta1l77102qxrolw1tkf2npf"
+        },
+        {
+          "time": "19:50",
+          "title": "Cerebras CEO 谈 AI 加速器供应链三大瓶颈",
+          "summary": "<p>Cerebras 联合创始人兼 CEO Andrew Feldman 指出 AI 加速器行业三大供应链瓶颈：HBM 内存、CoWoS 封装产能及台积电 3nm 制程。Cerebras 通过架构选择基本规避了全部三项--不依赖 HBM 和 CoWoS，当前芯片采用 5nm 制程而非 3nm。这使其供应链状况与主流 GPU 系统截然不同。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092580432621818221\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta2879y037grolwzoww6u9j\">https://aihot.virxact.com/items/cmta2879y037grolwzoww6u9j</a></p>",
+          "category": "技巧观点",
           "source": "X：Rohan Paul (@rohanpaul_ai)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt99ajk80dn5rolyo7q1wg3s"
+          "itemUrl": "https://aihot.virxact.com/items/cmta2879y037grolwzoww6u9j"
         },
         {
-          "time": "06:31",
-          "title": "Claude Code v2.1.246 发布：修复 Bash 通配符权限、全屏模式与后台会话等多项问题",
-          "summary": "<p>Claude Code v2.1.246 发布，新增 Bash 允许规则中通配符的启动警告、/permissions 的 Auto 模式标签页，并在回合时长行显示完成时间。本次更新修复了全屏模式空白、超长 diff 行导致的严重卡顿、后台会话无法打开、MCP 工具调用中断误报、插件缓存重复目录等大量问题，同时优化了自定义主题颜色与 /fork 等功能的稳定性。</p>\n<p>🔗 <a href=\"https://github.com/anthropics/claude-code/releases/tag/v2.1.246\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt99p25y0dy0rolyh460c30u\">https://aihot.virxact.com/items/cmt99p25y0dy0rolyh460c30u</a></p>",
-          "category": "AI 产品",
-          "source": "Claude Code：GitHub Releases（RSS）",
+          "time": "19:50",
+          "title": "去AI味最佳实践：角色锚定与节奏控制",
+          "summary": "<p>阿易 AI Notes 用 Apodex 1.1 实测总结去AI味方法，核心是角色+场景锚定、长短句交替、禁止词清单、注入人味信号及多轮人工微调。Apodex 1.1 已开源多 Agent 架构（35B 权重+单机 harness），8 个 Agent 并行跑 AI 副业实测，满足 A 级证据标准的成功案例为 0，并支持本地部署。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2092580317194252704\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta35taw042orolwh35rk9dh\">https://aihot.virxact.com/items/cmta35taw042orolwh35rk9dh</a></p>",
+          "category": "技巧观点",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmt99p25y0dy0rolyh460c30u"
+          "itemUrl": "https://aihot.virxact.com/items/cmta35taw042orolwh35rk9dh"
+        },
+        {
+          "time": "19:43",
+          "title": "Linear 完成 9900 万美元要约收购，估值达 25 亿美元",
+          "summary": "<p>Linear 完成 9900 万美元要约收购，公司估值达 25 亿美元，现有投资者 Accel 和 01A 及新投资者 Salesforce Ventures 和 S32 参与。公司年经常性收入已突破 1 亿美元，超 4 万家企业付费使用，净收入留存率达 177%。其智能体平台已覆盖 95% 的付费工作区，智能体创建的工作占比从一年前的 3% 升至 50%。</p>\n<p>🔗 <a href=\"https://linear.app/now/sharing-growth-with-the-people-building-linear\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta31x7s03zrrolw21z08uyo\">https://aihot.virxact.com/items/cmta31x7s03zrrolw21z08uyo</a></p>",
+          "category": "行业动态",
+          "source": "Linear：Now（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta31x7s03zrrolw21z08uyo"
+        },
+        {
+          "time": "19:38",
+          "title": "中国开源双响炮：Ox Alpha 与 Qwen3.8-Flash-Next 发布",
+          "summary": "<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092577369085091906\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta15n3e019trolwntpio4t8\">https://aihot.virxact.com/items/cmta15n3e019trolwntpio4t8</a></p>",
+          "category": "AI 模型",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta15n3e019trolwntpio4t8"
+        },
+        {
+          "time": "19:32",
+          "title": "阿里云与GCash合作：AI驱动普惠金融体验",
+          "summary": "<p>阿里云与GCash在GCash iGnite 2026上对话，探讨AI如何为每位菲律宾用户打造超个性化、包容性的金融服务体验。双方合作近十年，从数字化转型迈向AI转型，阿里云云合作伙伴发展总经理Maria Tong与GCash基础设施转型负责人Aaron Lauer参与讨论。</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2092575804697842136\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta15n2r019prolwcvoxccd0\">https://aihot.virxact.com/items/cmta15n2r019prolwcvoxccd0</a></p>",
+          "category": "行业动态",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta15n2r019prolwcvoxccd0"
+        },
+        {
+          "time": "19:25",
+          "title": "The Information：DeepSeek 7个月营收7070万美元，API毛利率达82.9%",
+          "summary": "<p>DeepSeek 在 7 个月内实现 7070 万美元营收，API 毛利率达 82.9%，约为其 2025 年全年营收的 10 倍。高盈利能力源于 AI 基础设施优化降低了模型运行所需芯片数量及推理成本。V4-Pro 输出 token 峰值价格从 $0.87 涨至 $3.96（4.6 倍），但仍远低于 Kimi K3 的 $15 和 Claude Opus 5 的 $25。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2092574193980527003\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta15n3l019vrolw4htnf1n3\">https://aihot.virxact.com/items/cmta15n3l019vrolw4htnf1n3</a></p>",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta15n3l019vrolw4htnf1n3"
+        },
+        {
+          "time": "19:22",
+          "title": "MiniMax M3 0.018 美元完成邮件全流程",
+          "summary": "<p>MiniMax M3 以 0.018 美元端到端完成创建收件箱、撰写并发送商业邮件，是该榜单上最便宜的模型。作者指出，企业使用 Agent 的真正障碍已非 token 费用，而是邮件发错对象、附件错误、内容承诺不当等风险，其损失远超模型调用成本。衡量 Agent 价值需计入人工检查、返工与事故风险，而非仅对比模型与人工的单价。</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2092573269740454175\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta15n36019rrolwp8r9llyh\">https://aihot.virxact.com/items/cmta15n36019rrolwp8r9llyh</a></p>",
+          "category": "技巧观点",
+          "source": "X：小北 (@frxiaobei)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta15n36019rrolwp8r9llyh"
+        },
+        {
+          "time": "19:10",
+          "title": "IBM 新 Granite 4.2 模型乘上本地 LLM 热潮",
+          "summary": "<p>IBM 推出开源权重 Granite 4.2 模型，提供 3B、8B 和 30B 三种参数版本，原生支持 128，000-token 上下文窗口。8B 和 30B 版本经过智能体强化学习训练，支持使用终端、搜索网页或调用外部工具。IBM 称其为 Granite 系列中专注于推理的版本，旨在满足开发者对本地部署模型日益增长的兴趣。</p>\n<p>🔗 <a href=\"https://arstechnica.com/ai/2026/08/ibms-new-granite-4-2-models-ride-the-wave-of-interest-in-local-llms\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta0iksl12n5rolya9ra1opg\">https://aihot.virxact.com/items/cmta0iksl12n5rolya9ra1opg</a></p>",
+          "category": "AI 模型",
+          "source": "Ars Technica：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta0iksl12n5rolya9ra1opg"
+        },
+        {
+          "time": "19:07",
+          "title": "比尔·盖茨对AI深感担忧，不再保持沉默",
+          "summary": "<p>比尔·盖茨发表近6000字长文，警告世界对AI时代&quot;毫无准备&quot;，称AI&quot;要么成为有史以来最大的平等化工具，要么成为最严重的不公来源&quot;。他预测AI将导致大规模永久性失业，并提出对AI token和机器人征税、为人类保留特定岗位、建立国际组织等罕见政策建议。盖茨表示将推动AI与公平议题进入公共议程。</p>\n<p>🔗 <a href=\"https://www.theverge.com/ai-artificial-intelligence/984923/bill-gates-is-deeply-worried-about-ai-and-hes-no-longer-staying-quiet\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta2krop03cerolwko29wqfa\">https://aihot.virxact.com/items/cmta2krop03cerolwko29wqfa</a></p>",
+          "category": "技巧观点",
+          "source": "The Verge：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta2krop03cerolwko29wqfa"
+        },
+        {
+          "time": "19:02",
+          "title": "特斯拉中国再回应 FSD 上海数据中心&quot;撤离&quot;传闻：不实信息，已向公安机关报案",
+          "summary": "<p>特斯拉中国今日回应网传上海数据中心人去楼空的消息，称&quot;不实消息，已向公安机关报案&quot;，数据中心正常运转，辅助驾驶招聘工作也在加速进行。特斯拉官网近期更新的 FSD 监督版全球可用地区清单包含 12 个国家或地区，中国不在其中。特斯拉仍在推进 FSD 监督版在中国市场的数据合规及本土化适配，上海数据中心已实现境内数据全留存，临港 AI 训练中心已于 2026 年 2 月投入运营。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/711.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta0c1m212hnroly91dxmysk\">https://aihot.virxact.com/items/cmta0c1m212hnroly91dxmysk</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta0c1m212hnroly91dxmysk"
+        },
+        {
+          "time": "19:00",
+          "title": "Runable 获 2100 万美元融资，押注 AI 智能体从帮企业建站走向帮企业增长",
+          "summary": "<p>印度初创公司 Runable 完成 2100 万美元 A 轮融资，由 Susquehanna Venture Capital 和 Nexus Venture Partners 联合领投，投后估值达 6500 万美元。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/08/26/runable-hits-21m-to-bet-ai-agents-can-go-from-building-businesses-to-growing-them\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta2kqt503ccrolwj1cj29o1\">https://aihot.virxact.com/items/cmta2kqt503ccrolwj1cj29o1</a></p>",
+          "category": "行业动态",
+          "source": "TechCrunch：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta2kqt503ccrolwj1cj29o1"
+        },
+        {
+          "time": "18:55",
+          "title": "面壁智能：MiniCPM 系列开源模型全球累计下载量突破 5000 万次",
+          "summary": "<p>面壁智能今日宣布，MiniCPM 系列开源模型全球累计下载量突破 5000 万次。今年 7 月，该系列端侧大模型深度赋能三星 Galaxy Z Fold8 等旗舰机型，系国产端侧大模型首次进入国际头部手机厂商全球旗舰产品线。同期发布的端侧模型 MiniCPM5-2B 在 Artificial Analysis 榜单中以 17 分位居全球 4B 以下模型榜首。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/708.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmta0c1m212horolypgizi46j\">https://aihot.virxact.com/items/cmta0c1m212horolypgizi46j</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmta0c1m212horolypgizi46j"
+        },
+        {
+          "time": "18:50",
+          "title": "比尔·盖茨警告AI比科技行业愿意承认的更危险",
+          "summary": "<p>比尔·盖茨在近6000字长文和《纽约时报》采访中警告，AI将导致永久性失业、生物武器门槛降低及成瘾性聊天机器人带来的心理伤害，并指责科技行业因利益刻意淡化这些风险。他拒绝行业自我监管，提议对AI使用和机器人征税、建立类似核武监管的国际机构，并保留护理等&quot;人类专属&quot;岗位。盖茨称Anthropic的Claude Code让他震惊，因为&quot;这些东西在某种意义上已经比我强了&quot;。</p>\n<p>🔗 <a href=\"https://the-decoder.com/bill-gates-warns-ai-is-more-dangerous-than-the-tech-industry-will-admit\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9zg24y11vmrolyw1dm1gg4\">https://aihot.virxact.com/items/cmt9zg24y11vmrolyw1dm1gg4</a></p>",
+          "category": "技巧观点",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9zg24y11vmrolyw1dm1gg4"
+        },
+        {
+          "time": "18:42",
+          "title": "TrueFoundry 集成通义千问，智能体成本降五成",
+          "summary": "<p>TrueFoundry 已将阿里通义千问（Qwen）模型家族集成至其开源智能体框架 TrueForge。从不足十亿参数到 480B 旗舰版，所有模型规模现均统一置于单一 API 之后。智能体运营成本比托管式单一供应商平台低约 50%。阅读案例：https://click.alibabacloud.com/m/20000002799/ 在阿里云百炼（Model Studio）上体验 Qwen：https://click.alibabacloud.com/m/20000002333/ #LighthouseCustomerStories #Qwen #AI</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2092563338173771967\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9z0gu111eyrolyn5fripvd\">https://aihot.virxact.com/items/cmt9z0gu111eyrolyn5fripvd</a></p>",
+          "category": "行业动态",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9z0gu111eyrolyn5fripvd"
+        },
+        {
+          "time": "18:37",
+          "title": "IBM 发布开源 Granite 4.2 系列，内置智能体能力并采用 Apache 2.0 许可",
+          "summary": "<p>IBM 发布 Granite 4.2 语言模型，提供 3B、8B 和 30B 三种尺寸，基于约 15 万亿 token 从头训练，支持最高 512，000 token 的上下文窗口，并可在&quot;思考&quot;与&quot;非思考&quot;模式间切换以控制每项任务的计算量。</p>\n<p>🔗 <a href=\"https://the-decoder.com/ibm-drops-open-weight-granite-4-2-family-with-built-in-agentic-capabilities-under-apache-2-0\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9zg24y11vnroly0sa2iry3\">https://aihot.virxact.com/items/cmt9zg24y11vnroly0sa2iry3</a></p>",
+          "category": "AI 模型",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9zg24y11vnroly0sa2iry3"
+        },
+        {
+          "time": "18:33",
+          "title": "WorkBuddy 接入 Canva，一句话搞定设计",
+          "summary": "<p>WorkBuddy 现已连接 @canva。</p>\n<p>需要做演示文稿？调整帖子尺寸？从品牌素材库调取内容？直接说就行。</p>\n<p>将 Canva 连接到 WorkBuddy，就能从&quot;你能做这个吗？&quot;直接到&quot;完成&quot;--无需在多个标签页之间来回切换。</p>\n<p>🔗 <a href=\"https://x.com/WorkBuddy_AI/status/2092561177918501059\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9zfhyb11uaroly7ec9iljc\">https://aihot.virxact.com/items/cmt9zfhyb11uaroly7ec9iljc</a></p>",
+          "category": "AI 产品",
+          "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9zfhyb11uaroly7ec9iljc"
+        },
+        {
+          "time": "18:33",
+          "title": "Its official now： Ox Alpha is GLM（-5.3 Flash） by zAI. Offical release tonight via zAI Via Bloomberg…",
+          "summary": "<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092561180128608672\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9z0guu11f4rolyn08nrt0n\">https://aihot.virxact.com/items/cmt9z0guu11f4rolyn08nrt0n</a></p>",
+          "category": "AI 模型",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9z0guu11f4rolyn08nrt0n"
+        },
+        {
+          "time": "18:28",
+          "title": "穆斯塔法评盖茨AI文章：代币税与职业保护区",
+          "summary": "<p>@BillGates 新文章中关于AI影响的许多重要而大胆的想法需要讨论……代币税和为某些工作设立的&quot;自然保护区&quot;只是其中两个。</p>\n<p>🔗 <a href=\"https://x.com/mustafasuleyman/status/2092559789016395834\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9z70g111jsrolya4r24p4k\">https://aihot.virxact.com/items/cmt9z70g111jsrolya4r24p4k</a></p>",
+          "category": "技巧观点",
+          "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9z70g111jsrolya4r24p4k"
+        },
+        {
+          "time": "18:23",
+          "title": "智谱确认 Ox Alpha 为 GLM 系列新版本，今晚发布权重",
+          "summary": "<p>智谱证实 Ox Alpha 模型正是其 GLM 系列新版本，将于今晚正式发布该模型权重。该匿名模型此前在 OpenRouter 上线后调用量迅速攀升至榜首，并刷新单日用量纪录；OpenCode 免费套餐声称每日可处理 100 万亿个 token。研究人员通过分词器指纹分析发现其 token 数量与 GLM-5.3 几乎完全吻合，仅存在恒定 75 个 token 的包装层偏差。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/697.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9y6v7610kbrolyv6vuxdte\">https://aihot.virxact.com/items/cmt9y6v7610kbrolyv6vuxdte</a></p>",
+          "category": "AI 模型",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9y6v7610kbrolyv6vuxdte"
+        },
+        {
+          "time": "18:21",
+          "title": "阿里云 Wan 3.0 上线 Media.io 并开放 API",
+          "summary": "<p>阿里云 Wan 3.0 正式上线 Media.io，可将一个创意或脚本生成完整 AI 故事，支持角色一致、场景连贯与电影级运镜。限时优惠 40% OFF，同时通过 Model Studio 和 Qwen Cloud 提供 API 接入。</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2092557932437053697\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9z0gu111ezrolykbt36ep4\">https://aihot.virxact.com/items/cmt9z0gu111ezrolykbt36ep4</a></p>",
+          "category": "AI 模型",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9z0gu111ezrolykbt36ep4"
+        },
+        {
+          "time": "18:18",
+          "title": "玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果",
+          "summary": "<p>Arm 发文祝贺小米与苹果，称玄戒 O3 及 M6、M5 Ultra 芯片基于 Arm 架构，代表 AI 计算与性能的重大进步。小米玄戒 O3 为 AI 旗舰 SoC，安兔兔跑分 522 万，CPU 十核全大核设计，最高 4.35GHz，GPU 性能提升 85%。苹果 M6 为首款 2 纳米制程芯片，配备 12 核 CPU、12 核 GPU 及 170 GB/s 统一内存带宽。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/694.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9y6v7610kcrolyg008243g\">https://aihot.virxact.com/items/cmt9y6v7610kcrolyg008243g</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9y6v7610kcrolyg008243g"
+        },
+        {
+          "time": "18:10",
+          "title": "Harvey 发布自研模型 Tenet，基于 Kimi K3",
+          "summary": "<p>OpenAI 支持的律所 AI 公司 Harvey 发布首个自研模型 Tenet，基于中国开源权重模型 Kimi K3，用约 150 块 Nvidia B300 训练两个月。</p>\n<p>🔗 <a href=\"https://x.com/thexpin/status/2092555150129025053\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9y5glt10jqrolyh1v2s5ge\">https://aihot.virxact.com/items/cmt9y5glt10jqrolyh1v2s5ge</a></p>",
+          "category": "AI 模型",
+          "source": "X：X.PIN (@thexpin)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9y5glt10jqrolyh1v2s5ge"
+        },
+        {
+          "time": "18:02",
+          "title": "Anthropic 称 IPO 前市场机会超 30 万亿美元",
+          "summary": "<p>Anthropic 计划在 IPO 前向投资者描绘一个超过 30 万亿美元的理论市场机会，其总可寻址市场（TAM）将高于 SpaceX 5 月宣称的 28.5 万亿美元。该公司第二季度营收翻倍至 116 亿美元，预计 2028 年营收约 1900 亿至 2000 亿美元，估值约 2 万亿美元，拟融资至多 1000 亿美元，可能于 9 月或 10 月上市。</p>\n<p>🔗 <a href=\"https://the-decoder.com/anthropic-sees-a-market-opportunity-of-more-than-30-trillion-ahead-of-its-ipo\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9ydeho10pzrolyzmldqm3d\">https://aihot.virxact.com/items/cmt9ydeho10pzrolyzmldqm3d</a></p>",
+          "category": "行业动态",
+          "source": "The Decoder：AI News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9ydeho10pzrolyzmldqm3d"
+        },
+        {
+          "time": "18:00",
+          "title": "Gatik 获 2 亿美元 D 轮融资，扩大 AI 自动驾驶货运业务",
+          "summary": "<p>自动驾驶卡车公司 Gatik 完成 2 亿美元 D 轮融资，以扩大其在北美的无人驾驶货运业务。本轮由 Qatar Investment Authority 和 Koch Disruptive Technologies 领投，Millennium Management、ARK Invest、Intact Private Capital 等参投。Gatik 表示其累计融资已超过 6 亿美元。</p>\n<p>🔗 <a href=\"https://www.artificialintelligence-news.com/news/gatik-200m-ai-autonomous-freight\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9xt09a10dbrolyr4q8wozl\">https://aihot.virxact.com/items/cmt9xt09a10dbrolyr4q8wozl</a></p>",
+          "category": "行业动态",
+          "source": "Artificial Intelligence News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9xt09a10dbrolyr4q8wozl"
+        },
+        {
+          "time": "17:56",
+          "title": "Ox Alpha 六天处理 42T tokens 将揭晓",
+          "summary": "<p>6 天内处理了 42T tokens 的 Ox Alpha</p>\n<p>继 DeepSeek Flash 56 天运行后使用最多的模型</p>\n<p>几小时后揭晓</p>\n<p>🔗 <a href=\"https://x.com/opencode/status/2092551628935065662\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9xa02d0zw3rolyl4gu7p21\">https://aihot.virxact.com/items/cmt9xa02d0zw3rolyl4gu7p21</a></p>",
+          "category": "AI 模型",
+          "source": "X：opencode (@opencode)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9xa02d0zw3rolyl4gu7p21"
+        },
+        {
+          "time": "17:45",
+          "title": "MiniMax 2026 财年上半年营收同比增长 283.1%，归母亏损收窄至 3.58 亿美元",
+          "summary": "<p>MiniMax 2026 财年上半年总收入 1.17 亿美元，同比增长 283.1%，已超 2025 年全年营收；归母净亏损 3.58 亿美元，同比收窄 11%。开放平台及企业服务收入同比增长 703.1% 至 7，392.9 万美元，占总收入 63.4%；毛利率提升至 17.9%。产品覆盖超 230 个国家和地区，中国内地以外收入占比达 60.8%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/680.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9y6v7610kjrolys5v103fq\">https://aihot.virxact.com/items/cmt9y6v7610kjrolys5v103fq</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9y6v7610kjrolys5v103fq"
+        },
+        {
+          "time": "17:34",
+          "title": "华尔街高度关注英伟达第二财季业绩，盼其能继续引领 AI 板块",
+          "summary": "<p>英伟达将于当地时间周三压轴公布第二财季业绩，市场期待高、压力大。摩根大通数据显示，过去四次财报后即使业绩超预期，其股价30天内平均仍跌约5%。摩根大通、高盛、美国银行、杰富瑞、瑞银均维持&quot;买入/增持&quot;评级，目标价280至350美元，普遍预计业绩将超预期并上调指引，同时关注Rubin出货、客户融资及中国业务等信号。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/668.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9y6v7610klroly8vhtpp9j\">https://aihot.virxact.com/items/cmt9y6v7610klroly8vhtpp9j</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9y6v7610klroly8vhtpp9j"
+        },
+        {
+          "time": "17:24",
+          "title": "华为投标埃及政府 AI 数据中心项目：拟出口至少 1408 颗昇腾 950 芯片并提议 12 个月完成基建",
+          "summary": "<p>华为已向埃及政府 AI 数据中心项目提交投标方案，拟出口至少 1408 颗昇腾 950 系列芯片用于 AI 训练，另配 600 颗芯片建设两套推理集群，并提议 12 个月完成当地基建。该项目若落地，将成为华为一年多来尝试出口昇腾加速器后首个已公开确认的出口案例。方案还涉及与科大讯飞合作，打包&quot;一屏尽览全城&quot;应用。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/658.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9w1pgy0yirrolygyr70mho\">https://aihot.virxact.com/items/cmt9w1pgy0yirrolygyr70mho</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9w1pgy0yirrolygyr70mho"
+        },
+        {
+          "time": "17:13",
+          "title": "Qwen3.8-Flash-Next 今日发布，6B 激活参数",
+          "summary": "<p>通义千问（Qwen）即将发布 Qwen3.8-Flash-Next，作为 Qwen4 架构的预览版，今日正式开放。据已下架的 ModelScope 页面显示，该模型采用多模态 MoE 架构，总参数约 176B（125B 主参数 + 51B N-gram 嵌入），但每 token 仅激活 6B 参数。最终 benchmark 表现值得关注。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092541014183461369\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9vspii0yfmrolynpjayce0\">https://aihot.virxact.com/items/cmt9vspii0yfmrolynpjayce0</a></p>",
+          "category": "AI 模型",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9vspii0yfmrolynpjayce0"
+        },
+        {
+          "time": "17:08",
+          "title": "NVIDIA Jetson Orin Nano 2 发布，将物理 AI 带入无人机与机器人",
+          "summary": "<p>NVIDIA 发布 Jetson Orin Nano 2，一款面向无人机、机器人和视觉系统的边缘机器人计算机。该开发板定位入门级，让开发者无需数据中心即可在设备上直接运行生成式 AI 模型。</p>\n<p>🔗 <a href=\"https://www.artificialintelligence-news.com/news/nvidia-jetson-orin-nano-2-physical-ai-to-drones-and-robots\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9vnu4x0ybvroly1q6n53dx\">https://aihot.virxact.com/items/cmt9vnu4x0ybvroly1q6n53dx</a></p>",
+          "category": "AI 产品",
+          "source": "Artificial Intelligence News（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9vnu4x0ybvroly1q6n53dx"
+        },
+        {
+          "time": "17:00",
+          "title": "马云增持阿里股票，AI投入与利润权衡",
+          "summary": "<p>阿里巴巴联合创始人马云购入逾 6 亿港元（7650 万美元）股份，加入此前已至少买入 2500 万美元股票的公司董事长与首席执行官之列。周三，在 800 亿港元股票出售加剧市场对其 AI 投入将挤压利润的担忧后，此番买入推动阿里巴巴股价一度上涨 3.2%。阿里巴巴计划三年内投入逾 3800 亿元人民币（565 亿美元）用于 AI。尽管利润率收窄，本季度 AI 收入预计将达到约 100 亿美元的年化水平，高于此前的约 73 亿美元。这是一场权衡：AI 规模与短期回报。</p>\n<p>🔗 <a href=\"https://x.com/thexpin/status/2092537540779655509\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9w09980yi2rolybyxy174p\">https://aihot.virxact.com/items/cmt9w09980yi2rolybyxy174p</a></p>",
+          "category": "行业动态",
+          "source": "X：X.PIN (@thexpin)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9w09980yi2rolybyxy174p"
+        },
+        {
+          "time": "16:58",
+          "title": "苹果 Mac mini M6 国补加教育优惠 5269 元起，较 M4 老款上浮近千元",
+          "summary": "<p>苹果 Mac mini M6 国补加教育优惠后 5269 元起，较 M4 老款现售价上浮近千元；M5 Pro 版国补后 11499 元起。搭载 M6 芯片后，Mac mini 的 AI 性能至高提升 4 倍，存储与图形处理速度提升 2 倍，CPU 性能提升 40%。新款 Mac mini 自 8 月 27 日上午 9：00 起预购，9 月 22 日正式发售。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/642.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9w1pgy0yj0rolydfeopc1c\">https://aihot.virxact.com/items/cmt9w1pgy0yj0rolydfeopc1c</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9w1pgy0yj0rolydfeopc1c"
+        },
+        {
+          "time": "16:57",
+          "title": "百度AI Day：文心助手升级，搜索交互化",
+          "summary": "<p>百度AI Day公布百度App新进展：文心助手（ERNIE Assistant）可端到端处理复杂任务，6月日活同比增长83%，升级后覆盖30多个行业、400多项专业技能。百度搜索将复杂问题转化为可交互页面，整合知识卡片、分步图示和可操作动画，帮助学生可视化复杂概念，两者已在百度App上线。</p>\n<p>🔗 <a href=\"https://x.com/Baidu_Inc/status/2092536874858696715\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9w098y0yi0rolywsi1lnnl\">https://aihot.virxact.com/items/cmt9w098y0yi0rolywsi1lnnl</a></p>",
+          "category": "AI 产品",
+          "source": "X：百度 Baidu (@Baidu_Inc)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9w098y0yi0rolywsi1lnnl"
+        },
+        {
+          "time": "16:48",
+          "title": "知乎 2026 财年第二财季归母亏损 3742.2 万元，同比由盈转亏",
+          "summary": "<p>知乎 2026 财年第二财季总营收 6.9 亿元，同比下降 3.73%，环比增长 5.92%；归母净利润为 -3742.2 万元，同比由盈转亏，环比亏损扩大 340.05%。毛利率 57%，同比下降 5.5 个百分点。付费内容及 IP 营运收入同比增长至 4.26 亿元，平均月订阅会员达 13.1 百万人。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/994/633.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9w1pgz0yj5roly7ktcgj54\">https://aihot.virxact.com/items/cmt9w1pgz0yj5roly7ktcgj54</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9w1pgz0yj5roly7ktcgj54"
+        },
+        {
+          "time": "16:36",
+          "title": "SWE Refactor Bench：编码智能体全仓重构存活率仅5.4%",
+          "summary": "<p>Einsia 发布 SWE Refactor Bench，测试编码智能体完成 C→Rust、Maven→Gradle 等全仓库系统迁移的能力。520 次运行中仅 28 次通过全部三阶段评估，存活率 5.4%，13/20 任务无人解决。测试覆盖 SQLite、zlib 等 20 个真实项目，表明系统级重构仍是开放难题。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2092531505952166165\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmt9uq5hi0xikrolyuzmubnx9\">https://aihot.virxact.com/items/cmt9uq5hi0xikrolyuzmubnx9</a></p>",
+          "category": "论文",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmt9uq5hi0xikrolyuzmubnx9"
         }
       ],
       "count": 50
