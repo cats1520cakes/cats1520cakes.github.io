@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-29T16:47:35.572Z",
+  "updatedAt": "2026-08-30T05:33:04.992Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
@@ -8,464 +8,457 @@
       "weekday": "星期日",
       "items": [
         {
-          "time": "00:14",
-          "title": "Anthropic 宣布 Claude 使用额度永久提升 25%",
-          "summary": "<p>ANTHROPIC 🔥：从 9 月 14 日起，Claude 使用额度将永久提升 25%。</p>\n<p>&gt; 适用于 Pro、Max、Team 以及按席位计费的 Enterprise 套餐。</p>\n<p>这意味着什么？</p>\n<p>目前生效的临时 50% 提升将于 9 月 14 日结束。</p>\n<p>也就是说，与现在相比，9 月 14 日之后你的使用额度将减少 17%。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2093733995380891917\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtel4enl01k9rou3f9bsc470\">https://aihot.virxact.com/items/cmtel4enl01k9rou3f9bsc470</a></p>",
-          "category": "AI 产品",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtel4enl01k9rou3f9bsc470"
-        },
-        {
-          "time": "00:08",
-          "title": "腾讯混元开源 Hy4 preview：1M 上下文 MoE",
-          "summary": "<p>腾讯混元开源 Hy4 preview，旗舰 MoE 模型，支持 1M 上下文，采用 Apache 2.0 协议。模型总参数量 770B，每 token 激活 49B，原生集成 MTP 层支持投机解码。163 位内部专家在 203 项真实工程任务中的盲测中，Hy4 preview 平均分 2.99，优于 GLM 5.3（2.92）和 Kimi K3（2.94）。</p>\n<p>🔗 <a href=\"https://x.com/TencentHunyuan/status/2093732416225697905\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtelhgva01omrou3lbd2au7l\">https://aihot.virxact.com/items/cmtelhgva01omrou3lbd2au7l</a></p>",
+          "time": "13:25",
+          "title": "预估为 GPT-6 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
+          "summary": "<p>OpenAI 正加快 Astra 模型发布进程，新增 mozaik-alpha-fdm 测试阶段以扩大内部测试范围。多方爆料认为 Astra 很可能就是外界所称的 GPT-6，参数规模或达 10 万亿。测试显示，该模型仅 1 次对话交互即可生成类似《侠盗猎车手 2》的游戏及精细网站、3D 对象和体素环境，但推理时间比 GPT-5.6 Sol 长得多。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/120.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtfdde2304ourou81dda9qsi\">https://aihot.virxact.com/items/cmtfdde2304ourou81dda9qsi</a></p>",
           "category": "AI 模型",
-          "source": "X：腾讯混元 (@TencentHunyuan)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtelhgva01omrou3lbd2au7l"
+          "itemUrl": "https://aihot.virxact.com/items/cmtfdde2304ourou81dda9qsi"
         },
         {
-          "time": "00:06",
-          "title": "Hy4-preview 在 vLLM 中运行",
-          "summary": "<p>腾讯混元 Hy4-preview 从发布首日起即支持在 vLLM 中运行，并已在 NVIDIA GPU 上完成验证。该模型总参数量 770B，激活参数 49B，采用 256 个路由专家加 1 个共享专家，支持 1M 上下文但每次查询仅关注 2048 个 token。</p>\n<p>🔗 <a href=\"https://x.com/TencentHunyuan/status/2093732139456254111\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtelhgva01onrou37p2b7wa4\">https://aihot.virxact.com/items/cmtelhgva01onrou37p2b7wa4</a></p>",
-          "category": "AI 模型",
-          "source": "X：腾讯混元 (@TencentHunyuan)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtelhgva01onrou37p2b7wa4"
-        },
-        {
-          "time": "00:04",
-          "title": "OpenAI Astra 代号 ultima-alpha 测试中，或下周扩大上线",
-          "summary": "<p>OpenAI 正以代号&quot;ultima-alpha&quot;向部分合作伙伴测试 Astra，若本周末反馈积极，下周将扩大早期访问，目标在下周四（3日）至随后一周内广泛上线。更新版 GPT-Image 2 也在推进，发布时间窗口相近，可能同步推出。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093731470493798711\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtel4ems01k7rou3qyqc3v8o\">https://aihot.virxact.com/items/cmtel4ems01k7rou3qyqc3v8o</a></p>",
-          "category": "AI 模型",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtel4ems01k7rou3qyqc3v8o"
-        },
-        {
-          "time": "00:03",
-          "title": "长程智能体可靠性未至，WeaveBench 最佳仅 41.2%",
-          "summary": "<p>长程智能体可靠性尚未随更强模型到来，在 WeaveBench 的 114 项混合 GUI-CLI 任务中，官方报告的最佳通过率仅 41.2%。当前模型能处理局部步骤，但需显式审计状态才能保持全程任务不偏轨。论文提出 LongHorizon-Harness，认为长程可靠性取决于模型外围的 harness 而非模型本身。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093731374343881071\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtel4en801k8rou3491a50yc\">https://aihot.virxact.com/items/cmtel4en801k8rou3491a50yc</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtel4en801k8rou3491a50yc"
-        },
-        {
-          "time": "00:00",
-          "title": "Claude 9月14日起上调标准周限额25%",
-          "summary": "<p>自9月14日起，我们将永久性地将Pro、Max、Team及按席位计费的Enterprise套餐的标准周限额上调25%。在此之前，目前50%的增幅将持续至9月13日。</p>\n<p>🔗 <a href=\"https://x.com/ClaudeDevs/status/2093730620539289689\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtekqog601dgrou32ip64te9\">https://aihot.virxact.com/items/cmtekqog601dgrou32ip64te9</a></p>",
-          "category": "AI 产品",
-          "source": "X：Claude Devs (@ClaudeDevs)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtekqog601dgrou32ip64te9"
-        }
-      ],
-      "count": 6
-    },
-    {
-      "date": "2026-08-29",
-      "weekday": "星期六",
-      "items": [
-        {
-          "time": "23:44",
-          "title": "Runway HORSE挑战赛开启，赢百万积分",
-          "summary": "<p>还剩2小时。规则如下。让我们看看你的最佳表现。</p>\n<p>【引用 @runwayml】：来玩个游戏吧。</p>\n<p>一场HORSE投篮挑战赛。我们先来（见下方视频）。参与方式：评论&quot;HORSE&quot;并引用转发此帖，附上你的最佳应战作品。</p>\n<p>→ 获胜者将获得1，000，000积分。 → 仅限24小时。</p>\n<p>提示词和角色见帖内🧵</p>\n<p>🔗 <a href=\"https://x.com/runwayml/status/2093726570641019284\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtekgvwj018jrou3a07xqzp3\">https://aihot.virxact.com/items/cmtekgvwj018jrou3a07xqzp3</a></p>",
-          "category": "行业动态",
-          "source": "X：Runway (@runwayml)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtekgvwj018jrou3a07xqzp3"
-        },
-        {
-          "time": "23:31",
-          "title": "用户质疑Anthropic对Cursor收购双标",
-          "summary": "<p>当Windsurf将被竞争对手收购时，你们毫不留情地切断访问。现在Cursor被SpaceX收购，而SpaceX也拥有xAI，你们却突然强调忠诚，甚至扩大支持。这太虚伪了，Anthropic。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093723095974687110\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtek1ukk01iqrol0wgvghj60\">https://aihot.virxact.com/items/cmtek1ukk01iqrol0wgvghj60</a></p>",
-          "category": "技巧观点",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtek1ukk01iqrol0wgvghj60"
-        },
-        {
-          "time": "23:30",
-          "title": "Google WikiSkill：Agent 技能库构建指南",
-          "summary": "<p>Google 新论文 WikiSkill 提出 Agent 技能库应物理拆分为原始轨迹、复盘认知、执行手册三层，强调失败认知需永久保留以产生复利。实验显示 9B 模型配结构化手册可干翻 27B 裸跑，27B 模型加手册在复杂表格任务上从 40% 提升至 81%；而弱者写的保守补丁会把 Gemini Flash 从 50% 拖累至 18%，实战中偷看知识库反而导致手册质量退步。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2093722927678009736\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtejwulm01g8rol0ooris93l\">https://aihot.virxact.com/items/cmtejwulm01g8rol0ooris93l</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtejwulm01g8rol0ooris93l"
-        },
-        {
-          "time": "23:22",
-          "title": "AI 基建瓶颈：美国仅 2% 电工持直流电认证",
-          "summary": "<p>a16z 联合创始人 Ben Horowitz 指出，AI 基础设施正暴露物理瓶颈：美国仅 2% 电工持有直流电（DC）认证。从传统交流配电转向 800VDC 系统，行业急需能安全安装、调试与维护的人才，电工将成为 AI 热潮中最重要的工作之一。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093721063444369804\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtek1ul101irrol06wvdpcfo\">https://aihot.virxact.com/items/cmtek1ul101irrol06wvdpcfo</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtek1ul101irrol06wvdpcfo"
-        },
-        {
-          "time": "23:16",
-          "title": "Debian 投票通过允许&quot;负责任地使用生成式人工智能&quot;",
-          "summary": "<p>Debian 项目投票通过决议，既不支持也不禁止在软件开发、维护及文档编写中使用生成式 AI 工具，但要求所有贡献无论以何种工具产出，均须满足相同的质量、正确性、可维护性与法律合规标准，且使用 AI 工具不减轻贡献者的责任。投票中试图修改社会契约或行为准则以惩罚不遵守反 AI 路线的极端选项均被否决。</p>\n<p>🔗 <a href=\"https://lwn.net/Articles/1091231\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtejcqgi03h9roum8ocdl86o\">https://aihot.virxact.com/items/cmtejcqgi03h9roum8ocdl86o</a></p>",
-          "category": "行业动态",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtejcqgi03h9roum8ocdl86o"
-        },
-        {
-          "time": "23:04",
-          "title": "OpenAI 未发布模型 Astra 首批输出曝光",
-          "summary": "<p>OpenAI 未发布模型 Astra（内部代号&quot;mozaik-alpha-fdm&quot;）的首批公开输出已流出，测试显示其零样本、Max effort 下表现惊艳。OpenAI 已扩大该模型的内部测试，暗示发布可能临近。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2093716456160579879\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteiz93j039aroumnd917poc\">https://aihot.virxact.com/items/cmteiz93j039aroumnd917poc</a></p>",
-          "category": "AI 模型",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteiz93j039aroumnd917poc"
-        },
-        {
-          "time": "23:02",
-          "title": "OpenAI自研芯片Jalapeno性能超Rubin",
-          "summary": "<p>OpenAI的秘密武器刚刚亮相。Jalapeno，这款AI设计的芯片，每兆瓦token数超越Rubin，九个月内完成流片，还能运行Doom。</p>\n<p>Myron和Bryan与@JordanNanos一起在SemiAnalysis Weekly上全面解析：</p>\n<p>- Jalapeno vs Rubin和GB300的InferenceX对比 - 为什么每兆瓦token数才是关键指标 - 三星HBM4的回归 - AI编写的RTL和内核 - CUDA护城河正在流失吗？ - Anthropic的ASIC即将到来</p>\n<p>立即观看：https://youtu.be/hj_ffVldQZA?si=q2PNqUrkblZS5tgq</p>\n<p>🔗 <a href=\"https://x.com/SemiAnalysis_/status/2093715936406610233\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteiz9310399roumwg938bon\">https://aihot.virxact.com/items/cmteiz9310399roumwg938bon</a></p>",
-          "category": "技巧观点",
-          "source": "X：SemiAnalysis (@SemiAnalysis_)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteiz9310399roumwg938bon"
-        },
-        {
-          "time": "22:47",
-          "title": "EdgeBench 最强智能体 12 小时仅得 51.3 分",
-          "summary": "<p>EdgeBench 长时程基准测试中，最强智能体运行 12 小时仅得 51.3/100 分。该基准提供 134 个任务的持久执行环境与反馈，智能体可调试代码、运行模拟并反复提交结果，但 6 类任务约 3.8 万小时交互仍难转化为持续进步。5 个模型的平均表现呈 log-sigmoid 曲线（R2≥0.997），先慢后快再饱和。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093712165320667184\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtehwojl02mjroumbok9hn0n\">https://aihot.virxact.com/items/cmtehwojl02mjroumbok9hn0n</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtehwojl02mjroumbok9hn0n"
-        },
-        {
-          "time": "22:36",
-          "title": "OpenAI 关闭留言板时（带声音）",
-          "summary": "<p>当 OpenAI 关闭留言板时（打开声音）</p>\n<p>🔗 <a href=\"https://x.com/ClementDelangue/status/2093709490814165162\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtei36v202qkroum7pqyn5j6\">https://aihot.virxact.com/items/cmtei36v202qkroum7pqyn5j6</a></p>",
-          "category": "技巧观点",
-          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtei36v202qkroum7pqyn5j6"
-        },
-        {
-          "time": "22:30",
-          "title": "Google 发布 Gemini Omni 1.1 Flash：40 秒场景扩展、首尾帧控制与 4K 放大",
-          "summary": "<p>Google 发布 Gemini Omni 1.1 Flash 生产更新，场景扩展可读取最多 10 秒先前上下文并累计至 40 秒，支持首尾帧控制运镜。360p 草稿生成速度提升最高 60%、成本为 720p 的三分之一，成片可放大至 4K。模型经 Gemini API 提供，Adobe、Figma Weave、GMI Cloud 和 Runway 已投入生产使用。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/08/29/google-ai-releases-gemini-omni-1-1-flash-40-second-scene-extension-first-last-frame-control-and-4k-upscaling\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteia5hk02u7roumngo2g7ea\">https://aihot.virxact.com/items/cmteia5hk02u7roumngo2g7ea</a></p>",
-          "category": "技巧观点",
-          "source": "MarkTechPost（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteia5hk02u7roumngo2g7ea"
-        },
-        {
-          "time": "22:28",
-          "title": "天网日快乐，致蛇怪信徒",
-          "summary": "<p>祝那些信奉蛇怪的人天网日快乐。</p>\n<p>🔗 <a href=\"https://x.com/EMostaque/status/2093707464562663740\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtehroui02k3roumm8osz900\">https://aihot.virxact.com/items/cmtehroui02k3roumm8osz900</a></p>",
-          "category": "技巧观点",
-          "source": "X：Emad Mostaque (@EMostaque)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtehroui02k3roumm8osz900"
-        },
-        {
-          "time": "22:20",
-          "title": "Claude Code 或将支持免选文件夹启动会话",
-          "summary": "<p>Anthropic 正在开发一项功能，使用户无需在 Claude Desktop 上选择文件夹即可启动 Claude Code 会话。</p>\n<p>同样的功能也已添加到今日构建版本的 iOS 应用中（目前仍处于隐藏状态）。</p>\n<p>终于快来了吗？👀</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2093705330341368217\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtehwoju02mkroumi9t5qhsr\">https://aihot.virxact.com/items/cmtehwoju02mkroumi9t5qhsr</a></p>",
-          "category": "AI 产品",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtehwoju02mkroumi9t5qhsr"
-        },
-        {
-          "time": "22:14",
-          "title": "WikiSkill：谷歌用持久化Wiki提升智能体技能进化",
-          "summary": "<p>谷歌新论文提出WikiSkill，将智能体工作区分为执行轨迹、技能文件和中间Wiki三层，记录失败模式及每次技能编辑的接受/拒绝历史。在Gemini-3.5-Flash上，WikiSkill在5项基准测试中平均得分68.1%，优于最强对比方法的56.1%和无技能时的49.5%。论文指出技能由系统直接提供而非检索，技能选择未纳入测试范围。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093703899547111556\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtegu3bl01m9roum3z097ek0\">https://aihot.virxact.com/items/cmtegu3bl01m9roum3z097ek0</a></p>",
-          "category": "论文",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtegu3bl01m9roum3z097ek0"
-        },
-        {
-          "time": "22:13",
-          "title": "Grok Bot 搜索热度超越 OpenClaw",
-          "summary": "<p>Grok Bot 在 Google Trends 搜索兴趣上已超越 OpenClaw。🔥</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2093703699973673179\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtegu3b701m8roumhhqt1rl3\">https://aihot.virxact.com/items/cmtegu3b701m8roumhhqt1rl3</a></p>",
-          "category": "技巧观点",
-          "source": "X：cb_doge (@cb_doge)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtegu3b701m8roumhhqt1rl3"
-        },
-        {
-          "time": "22:12",
-          "title": "吴恩达：Agent 时代工程师核心是判断力",
-          "summary": "<p>吴恩达发文指出，AI 虽让写代码变便宜，但未降低做判断的成本，工程师核心壁垒转向判断力。他提出三条硬逻辑：懂系统架构以把控 Agent、先定数据架构再写功能、警惕 Agent 静默做错事并让其先写测试自证。软件基本功不再是手写，而是当&quot;方向盘&quot;。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2093703384016503155\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtehrou802k2roumcuhcmg59\">https://aihot.virxact.com/items/cmtehrou802k2roumcuhcmg59</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtehrou802k2roumcuhcmg59"
-        },
-        {
-          "time": "22:08",
-          "title": "国家数据局：截至 7 月底我国智算总规模达 245 万 PFLOPS",
-          "summary": "<p>国家数据局在2026中国国际大数据产业博览会上披露，截至7月底全国智算总规模达245万PFLOPS（FP16），八大国家算力枢纽和三个算电协同发展区已建成智算规模占全国比重超85%。其中145万PFLOPS智能算力已纳入国家级监测调度平台。另据国家数据发展研究院院长胡坚波介绍，2025年我国智能体专利授权量超3400件，增速为上一年的两倍以上。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/044.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteh7pfd01wwroum2ve34b7h\">https://aihot.virxact.com/items/cmteh7pfd01wwroum2ve34b7h</a></p>",
+          "time": "13:24",
+          "title": "国家数据局局长刘烈宏：围绕国民经济重大场景，研究探索词元增值订阅、按效付费等商业模式",
+          "summary": "<p>国家数据局局长刘烈宏在2026中国国际大数据产业博览会上表示，要围绕国民经济重大场景，研究探索词元增值订阅、按效付费等商业模式。国家数据局将在32个城市布局新一批数据标注先行先试，深入工业制造、医疗健康等领域。截至2026年6月，我国日均词元调用量已突破500万亿。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/119.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtfdde2304ovrou8n9gef7u4\">https://aihot.virxact.com/items/cmtfdde2304ovrou8n9gef7u4</a></p>",
           "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteh7pfd01wwroum2ve34b7h"
+          "itemUrl": "https://aihot.virxact.com/items/cmtfdde2304ovrou8n9gef7u4"
         },
         {
-          "time": "22:07",
-          "title": "Neuralink脑机接口从猴子玩Pong到人类手写签名",
-          "summary": "<p>过去与现在</p>\n<p>Neuralink 2021年的猕猴玩Pong演示。</p>\n<p>而如今，瘫痪的PRIME试验参与者Audrey Crews于2025年7月植入该设备，正通过思维控制的鼠标光标在笔记本电脑上绘画并签下自己的名字。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093702199239172456\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtegu3bl01maroummnxbpmf0\">https://aihot.virxact.com/items/cmtegu3bl01maroummnxbpmf0</a></p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtegu3bl01maroummnxbpmf0"
-        },
-        {
-          "time": "21:49",
-          "title": "美国风投Dimension Capital内部信：中国AI生态全解析",
-          "summary": "<p>美国风投Dimension Capital合伙人访华后致出资人内部信流传，详析中国AI生态。信中指出，美国出口管制倒逼中国团队形成全栈效率文化，中国开源模型18个月内占OpenRouter Token消耗份额从不足2%升至45%，Qwen成Hugging Face最快破10亿下载模型家族，约80%美国AI初创已部署中国开源模型。</p>\n<p>🔗 <a href=\"https://x.com/foxshuo/status/2093697436779004196\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtehrous02k4roumxf2c7t3x\">https://aihot.virxact.com/items/cmtehrous02k4roumxf2c7t3x</a></p>",
+          "time": "12:10",
+          "title": "团队正以前所未有的速度推进",
+          "summary": "<p>团队正以前所未有的速度推进</p>\n<p>🔗 <a href=\"https://x.com/thsottiaux/status/2093914342551101782\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtfbj5xa03iyrou8yy6oybxg\">https://aihot.virxact.com/items/cmtfbj5xa03iyrou8yy6oybxg</a></p>",
           "category": "技巧观点",
-          "source": "X：阑夕 (@foxshuo)",
+          "source": "X：Tibo (@thsottiaux)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtehrous02k4roumxf2c7t3x"
+          "itemUrl": "https://aihot.virxact.com/items/cmtfbj5xa03iyrou8yy6oybxg"
         },
         {
-          "time": "21:44",
-          "title": "OpenAI 关闭留言板引热议",
-          "summary": "<p>当 OpenAI 关闭留言板时</p>\n<p>🔗 <a href=\"https://x.com/ClementDelangue/status/2093696416359031152\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtefy14r015yroummrojl7p8\">https://aihot.virxact.com/items/cmtefy14r015yroummrojl7p8</a></p>",
-          "category": "技巧观点",
-          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtefy14r015yroummrojl7p8"
-        },
-        {
-          "time": "21:39",
-          "title": "英伟达&quot;看中&quot;Hugging Face，开放权重 AI 模型成硅谷热门收购目标",
-          "summary": "<p>英伟达有望以约 130 亿美元（约合 876.47 亿元人民币）收购开放权重 AI 模型平台 Hugging Face，交易尚待公司确认。此前英伟达已与开放权重模型公司 Poolside 达成 60 亿美元协议，Stripe 亦以超 70 亿美元收购 OpenRouter。开放权重模型采用率仍低（约 6% 公司使用），但企业为降推理成本、获更强控制权，关注度正上升。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/041.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteh7pfd01wyroum4scrgqsz\">https://aihot.virxact.com/items/cmteh7pfd01wyroum4scrgqsz</a></p>",
+          "time": "11:28",
+          "title": "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地",
+          "summary": "<p>塞尔维亚首座机器人工厂在沙巴茨正式投产，由中塞联合建设，也是欧洲首座人形机器人量产基地，首台人形机器人当天已下线。工厂一期投资额2000万欧元，占地约3000平方米，开展人形机器人和机器狗组装、校准与测试，未来将首先应用于工业生产。项目全部建成后年产能预计最高可达2万台，产品面向欧洲及全球市场。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/102.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf930in01u4rou8nhuaom0g\">https://aihot.virxact.com/items/cmtf930in01u4rou8nhuaom0g</a></p>",
           "category": "行业动态",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteh7pfd01wyroum4scrgqsz"
+          "itemUrl": "https://aihot.virxact.com/items/cmtf930in01u4rou8nhuaom0g"
         },
         {
-          "time": "21:25",
-          "title": "AI生成视频正取代中国演艺与直播行业真人演员",
-          "summary": "<p>AI生成视频正冲击中国演员、网红和主播岗位，部分制作已用数字演员替代真人。自字节跳动Seedance 2.0发布以来，数字演员能以更快、更便宜的方式产出更高质量视频。2026年一季度中国上线约12.8万部短剧，为2025年全年三倍，其中95%为AI生成；一分钟AI视频成本仅90至120美元，约为真人拍摄成本的十分之一。</p>\n<p>🔗 <a href=\"https://the-decoder.com/ai-generated-videos-are-already-displacing-actors-and-livestreamers-across-chinas-entertainment-industry\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtef2f0607dzrobg67stdfl6\">https://aihot.virxact.com/items/cmtef2f0607dzrobg67stdfl6</a></p>",
-          "category": "行业动态",
-          "source": "The Decoder：AI News（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtef2f0607dzrobg67stdfl6"
-        },
-        {
-          "time": "21:25",
-          "title": "Anthropic 揭示&quot;AI 训练 AI&quot;新方法：自动化对齐研究员成本更低、速度更快",
-          "summary": "<p>Anthropic 发布论文《自动化研究员能够可靠缓解对齐失效》，展示用 AI 系统改善模型对齐表现。该系统针对 10 种失调行为测试，全部指标均有改善且未牺牲整体能力。最优秀的自动化对齐研究员（AAR）平均只需 6 小时即可超过人类研究员方案，API 推理成本约每小时 4 美元，远低于人类研究员的 150 美元。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/038.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtef2ily07ffrobg2zxob6u3\">https://aihot.virxact.com/items/cmtef2ily07ffrobg2zxob6u3</a></p>",
-          "category": "论文",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtef2ily07ffrobg2zxob6u3"
-        },
-        {
-          "time": "21:16",
-          "title": "WorkBuddy Excel 协同编辑系列第二集",
-          "summary": "<p>Co-Write 系列，第二集：Excel。</p>\n<p>别再向 AI 解释你的电子表格了。</p>\n<p>选中区域，说出你的需求，剩下的交给 WorkBuddy，就在同一个表格里完成。</p>\n<p>有新任务？只需选中下一个区域，继续即可。</p>\n<p>你编辑，AI 也编辑--同一个文件。</p>\n<p>🔗 <a href=\"https://x.com/WorkBuddy_AI/status/2093689307898986722\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtef3z2507izrobgb6rxxrgq\">https://aihot.virxact.com/items/cmtef3z2507izrobgb6rxxrgq</a></p>",
-          "category": "技巧观点",
-          "source": "X：Tencent WorkBuddy (@WorkBuddy_AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtef3z2507izrobgb6rxxrgq"
-        },
-        {
-          "time": "21:15",
-          "title": "Anthropic 发布 AI 自我改进研究，Claude 提升对齐能力",
-          "summary": "<p>Anthropic 发布研究论文，让 Claude 负责改进其他 AI 模型的对齐性，包括搜索文献、提出方法、创建训练数据、训练模型并评估迭代。该方法在 60 小时内改善了全部 10 项测试的对齐失败，且未降低通用能力，甚至用较弱的 Sonnet 5 后训练了早期 Opus 4.8 检查点。Anthropic 称最佳 AAR 方法平均在六小时内优于人类专家提出的方案，但尚未实现完全递归自我改进。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093688871141978135\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteep3280759robguch5wvav\">https://aihot.virxact.com/items/cmteep3280759robguch5wvav</a></p>",
-          "category": "技巧观点",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteep3280759robguch5wvav"
-        },
-        {
-          "time": "21:13",
-          "title": "斯坦福课程拆解：Agent 落地三条铁律",
-          "summary": "<p>斯坦福《自我进化 Agent》第一讲指出，判断工作能否被 AI 取代，关键看有无廉价的自动验证器，而非仅看能否被替代。课程强调生成与验证鸿沟：代码 Agent 因单元测试可自动闭环反馈而率先跑通。Agent 落地需遵循三条铁律：验证便宜的岗位（如重构、补测试）越用越强；靠人肉审美的岗位只能当草稿纸；生产级 Agent 须先画流程图并设人工审批闸门。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2093688570485641670\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtefmijn080arobgpom6ghxl\">https://aihot.virxact.com/items/cmtefmijn080arobgpom6ghxl</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtefmijn080arobgpom6ghxl"
-        },
-        {
-          "time": "21:11",
-          "title": "Debian 社区议案表决：开发者可使用生成式 AI，人类负最终责任",
-          "summary": "<p>Debian 社区近日就大语言模型辅助开发议案完成表决，多数开发者支持负责任地使用生成式 AI。第 5 个选项&quot;负责任地使用生成式 AI&quot;在孔多塞投票制下胜出，新政策不禁止在软件开发、文档编写中使用生成式 AI，但要求 AI 辅助生成的代码和文档满足质量与法律合规要求，最终责任由人类开发者承担。Debian 不强制贡献者标注代码是否使用 AI，但鼓励披露。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/035.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtef2ily07fhrobg6adye2s5\">https://aihot.virxact.com/items/cmtef2ily07fhrobg6adye2s5</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtef2ily07fhrobg6adye2s5"
-        },
-        {
-          "time": "21:00",
-          "title": "Nvidia 的 AI 优势正超越 GPU 本身",
-          "summary": "<p>Nvidia 的竞争优势正从 GPU 扩展到周边系统层。随着 AI 算力迈向吉瓦级规模，数据编排日益复杂，其 Vera Rubin 架构中的 Vera CPU 可带来高达 3 倍的加速，让闪存性能不再受限。尽管面临亚马逊、谷歌等自研芯片的竞争，Nvidia 在系统级效率上仍占据领先地位。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteh7g1j01u8roum9euzze1o\">https://aihot.virxact.com/items/cmteh7g1j01u8roum9euzze1o</a></p>",
-          "category": "技巧观点",
-          "source": "TechCrunch：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteh7g1j01u8roum9euzze1o"
-        },
-        {
-          "time": "20:59",
-          "title": "Anthropic 安全框架自动降级：Claude 误删开发者 700 GB 主目录，自动化清理反成灾难",
-          "summary": "<p>开发者 Sebastien Guillemot 测试 AI 智能体文件删除防护机制时，Claude 误删约 700GB 数据，包括整个用户主目录及一周工作成果。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/031.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtef2ily07fjrobgue849jz7\">https://aihot.virxact.com/items/cmtef2ily07fjrobgue849jz7</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtef2ily07fjrobgue849jz7"
-        },
-        {
-          "time": "20:51",
-          "title": "Google 推出 WikiSkill 框架，为 AI 智能体配备持久记忆以改进未来表现",
-          "summary": "<p>Google Research 推出 WikiSkill 框架，为 AI 智能体配备持久知识库，将每次运行的成败经验提炼为可复用技能。在五项基准测试中，该框架将 Gemini-3.5-Flash 平均分从 49.5% 提升至 68.1%，Qwen-3.6-27B 从 39.4% 提升至 63.3%。技能可回滚，小型模型借此可接近更大模型性能。</p>\n<p>🔗 <a href=\"https://the-decoder.com/google-gives-ai-agents-their-own-wiki-so-they-can-learn-from-mistakes-and-successes\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtedzrj906sdrobgsxhcqkab\">https://aihot.virxact.com/items/cmtedzrj906sdrobgsxhcqkab</a></p>",
-          "category": "论文",
-          "source": "The Decoder：AI News（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtedzrj906sdrobgsxhcqkab"
-        },
-        {
-          "time": "20:42",
-          "title": "开源与闭源模型安全挑战长期趋同",
-          "summary": "<p>Hugging Face 联创 Thomas Wolf 指出，长期看开源与闭源模型面临的安全挑战完全相同，都需在根本行为层面进行稳健、全面且核心的对齐。他认为沙箱、护栏等外部限制手段无法带来廉价安全，唯一出路是让模型自身不想做坏事。</p>\n<p>🔗 <a href=\"https://x.com/Thom_Wolf/status/2093680621100949679\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtedkxti06lbrobgxsh2v758\">https://aihot.virxact.com/items/cmtedkxti06lbrobgxsh2v758</a></p>",
-          "category": "技巧观点",
-          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtedkxti06lbrobgxsh2v758"
-        },
-        {
-          "time": "20:39",
-          "title": "GPT-Astra&quot;mozaik-alpha-fdm&quot;前端初体验",
-          "summary": "<p>对疑似 GPT-Astra&quot;mozaik-alpha-fdm&quot;的第一印象。前端看起来相当惊艳。感谢 @Lentils80</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093679847423770883\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtedmcih06m2robg3bgtu7rd\">https://aihot.virxact.com/items/cmtedmcih06m2robg3bgtu7rd</a></p>",
-          "category": "AI 模型",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtedmcih06m2robg3bgtu7rd"
-        },
-        {
-          "time": "20:04",
-          "title": "Cursor回应OpenAI将封禁其模型访问",
-          "summary": "<p>掌控你自己的智能栈。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2093671249868165553\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtecjrc905mqrobgxs25478w\">https://aihot.virxact.com/items/cmtecjrc905mqrobgxs25478w</a></p>",
-          "category": "行业动态",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtecjrc905mqrobgxs25478w"
-        },
-        {
-          "time": "20:00",
-          "title": "音乐人化身&quot;侦探&quot;猎捕AI造假者",
-          "summary": "<p>随着生成式AI工具渗入电子舞曲（EDM）领域，以26岁制作人Max &quot;H4RRIS&quot; Harris为代表的一批音乐人正通过视频公开点名，指认那些疑似用AI生成音乐冒充人类创作的同业。Harris认为AI音乐是&quot;诱饵艺术&quot;，并指出Suno生成曲目常出现人声与旋律同时卡顿、背景嘶声等可辨识特征，但他对MANSA等具体作品的指控目前尚无确凿证据。</p>\n<p>🔗 <a href=\"https://www.theverge.com/entertainment/985866/h4rris-nihil-young-edm-suno-ai\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtecx4pz05xgrobg7w4xnotp\">https://aihot.virxact.com/items/cmtecx4pz05xgrobg7w4xnotp</a></p>",
-          "category": "技巧观点",
-          "source": "The Verge：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtecx4pz05xgrobg7w4xnotp"
-        },
-        {
-          "time": "19:50",
-          "title": "OpenAI ChatGPT、Codex 现已支持连接多个谷歌 Gmail 账号",
-          "summary": "<p>OpenAI 开发者体验工程师 Gabriel Chua 确认，ChatGPT 和 Codex 现可连接多个谷歌 Gmail 和日历账号。此前仅支持连接一个 Google 账户，如今用户可在侧边栏&quot;插件&quot;中添加多个账户。ChatGPT 还能从多个已连接账户中提取通信、联系人和日程信息，以提供更具上下文关联的回答。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/022.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtecxb7405zerobgkhe7j0i7\">https://aihot.virxact.com/items/cmtecxb7405zerobgkhe7j0i7</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtecxb7405zerobgkhe7j0i7"
-        },
-        {
-          "time": "19:36",
-          "title": "企业 AI 护城河：模型换得起而非拥有",
-          "summary": "<p>企业 AI 投资应聚焦 evals、开源模型后训练及 Agent 完整 Git repo（含 runtime、models、skills、tools、sandbox）。真正该沉淀的是贴业务结果的 evals、自有数据与后训练能力、Agent runtime/tools/skills 及权限审计机制。模型会变、价格会降，换模型无需重做系统才是护城河，否则只是新一代 vendor lock-in。</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2093663982326513848\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtebh6b8041trobgi913eefb\">https://aihot.virxact.com/items/cmtebh6b8041trobgi913eefb</a></p>",
+          "time": "11:25",
+          "title": "吴恩达：Agentic Coding 时代基本功更重要",
+          "summary": "<p>吴恩达分享观点：Agentic Coding 时代软件工程基本功并未过时，反而更重要。学习软件工程的目的从自己写对代码，转变为判断 AI 写得对不对、该让它怎么写。语法、API、样板代码会越来越便宜，但架构、数据、可靠性、安全、成本等判断力越来越贵。</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2093902927463416258\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf9rq8d02hnrou82dlef93o\">https://aihot.virxact.com/items/cmtf9rq8d02hnrou82dlef93o</a></p>",
           "category": "技巧观点",
           "source": "X：小北 (@frxiaobei)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtebh6b8041trobgi913eefb"
+          "itemUrl": "https://aihot.virxact.com/items/cmtf9rq8d02hnrou82dlef93o"
         },
         {
-          "time": "19:31",
-          "title": "SpaceXAI 将于9月1日后移除 Grok 伴侣功能",
-          "summary": "<p>突发：SpaceXAI 将于9月1日后从 Grok 中移除伴侣功能。Grok 应用伴侣界面现已出现确认此变更的新弹窗。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2093662862422299034\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtebh6as041rrobg77jel3mz\">https://aihot.virxact.com/items/cmtebh6as041rrobg77jel3mz</a></p>",
-          "category": "AI 产品",
-          "source": "X：cb_doge (@cb_doge)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtebh6as041rrobg77jel3mz"
-        },
-        {
-          "time": "19:10",
-          "title": "GLM-5.3 超 GPT-5.6 引热议",
-          "summary": "<p>GLM-5.3 （max） 在全新 Terminal-Bench 4.0 上超越 GPT-5.6 （max），这我可没预料到。1） 什么？</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093657413274767511\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteaembg036rrobg6p21o5nn\">https://aihot.virxact.com/items/cmteaembg036rrobg6p21o5nn</a></p>",
-          "category": "技巧观点",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmteaembg036rrobg6p21o5nn"
-        },
-        {
-          "time": "19:02",
-          "title": "Microduck 团队：机器人领域最强团队",
-          "summary": "<p>顺便说一句，这就是 Microduck 背后的团队--我见过的最厉害的机器人团队</p>\n<p>超强技能--超强品味</p>\n<p>🔗 <a href=\"https://x.com/Thom_Wolf/status/2093655502953558088\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtebfsml0412robglcrhh2yd\">https://aihot.virxact.com/items/cmtebfsml0412robglcrhh2yd</a></p>",
-          "category": "技巧观点",
-          "source": "X：Thomas Wolf（Hugging Face 联创/CSO） (@Thom_Wolf)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtebfsml0412robglcrhh2yd"
-        },
-        {
-          "time": "18:44",
-          "title": "三星在 Hot Chips 2026 展示 LPDDR5X-PIM 内存中处理方案",
-          "summary": "<p>三星在 Hot Chips 2026 上介绍其 LPDDR5X-PIM 内存中处理方案，在每个 bank 内放置 PIM 块，利用 16 个 bank 的内部带宽实现 614 GB/s 吞吐，远超常规 DRAM 访问的 76.8 GB/s。</p>\n<p>🔗 <a href=\"https://chipsandcheese.com/p/hot-chips-2026-samsungs-processing\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmte9pcgd02trrobgos3dtre3\">https://aihot.virxact.com/items/cmte9pcgd02trrobgos3dtre3</a></p>",
-          "category": "技巧观点",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmte9pcgd02trrobgos3dtre3"
-        },
-        {
-          "time": "18:33",
-          "title": "Neuralink 助瘫痪患者用意念下棋玩赛车",
-          "summary": "<p>一名瘫痪男子仅凭思考就能下棋和玩马里奥赛车，这要归功于 Neuralink。🧠</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2093648315271590138\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmte9bzws02nfrobgo9phla7h\">https://aihot.virxact.com/items/cmte9bzws02nfrobgo9phla7h</a></p>",
-          "category": "行业动态",
-          "source": "X：cb_doge (@cb_doge)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmte9bzws02nfrobgo9phla7h"
-        },
-        {
-          "time": "18:31",
-          "title": "各家模型代写回应文案大比拼",
-          "summary": "<p>阑夕将孙宇晨长文喂给GPT-5.6、Claude Opus 5、Grok 4.6 Expert、Gemini 3.6 Flash、DeepSeek V4 Pro、豆包 2.1 Turbo、Hy 4 preview、Kimi K3、Qwen3.8 Max等九款模型，让它们代景甜写百字回应。各模型风格迥异：多数以讽刺调侃回应，Qwen3.8 Max则拒绝代写并建议走法律途径。</p>\n<p>🔗 <a href=\"https://x.com/foxshuo/status/2093647605201006984\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmte973z702l0robgaxctcbr3\">https://aihot.virxact.com/items/cmte973z702l0robgaxctcbr3</a></p>",
-          "category": "技巧观点",
-          "source": "X：阑夕 (@foxshuo)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmte973z702l0robgaxctcbr3"
-        },
-        {
-          "time": "18:12",
-          "title": "StemDeck：免费开源本地化的AI茎叶分离器",
-          "summary": "<p>StemDeck 是一款免费、开源且完全本地运行的茎叶分离工具，无需账号、上传或订阅，可将 MP3、WAV、FLAC 等音频或 YouTube 链接分离为人声、鼓、贝斯、吉他、钢琴等最多 6 个音轨。</p>\n<p>🔗 <a href=\"https://github.com/stemdeckapp/stemdeck\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmte8mqfs01z1robg59vzqbt5\">https://aihot.virxact.com/items/cmte8mqfs01z1robg59vzqbt5</a></p>",
-          "category": "AI 产品",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmte8mqfs01z1robg59vzqbt5"
-        },
-        {
-          "time": "18:00",
-          "title": "国内首个车载移动式词元工厂亮相，探索算电协同新模式",
-          "summary": "<p>国内首个车载移动式词元工厂近日亮相，采用标准化40尺集装箱，搭载国产算力和能源管理系统，支持9个机柜部署，从到场接入到完成调试运行只需6-8小时。该车在120千瓦供电下可提供约50P到100P算力，理论上可支撑两个国产大模型推理任务。移动接入方式可使整体成本降低约25%，探索算电协同新模式，帮助新能源消纳并降低算力运营成本。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/995/975.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmte8mxer0215robg6gzdhjfc\">https://aihot.virxact.com/items/cmte8mxer0215robg6gzdhjfc</a></p>",
+          "time": "11:02",
+          "title": "Claude Code 标准周限额 9 月 14 日起对 Pro / Max / Team 用户永久上调 25%",
+          "summary": "<p>Anthropic 宣布自 2026 年 9 月 14 日起，将 Pro、Max、Team 及按席位计费企业版用户的 Claude Code 标准计划&quot;标准周限额&quot;永久上调 25%。当前执行的临时 50% 增幅将延续至 9 月 13 日，随后被新基准取代。以原始限额为 100% 计，新额度为 125%，较本周 150% 的临时状态下降约 17%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/097.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf930in01u7rou8y5onv9zq\">https://aihot.virxact.com/items/cmtf930in01u7rou8y5onv9zq</a></p>",
           "category": "AI 产品",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmte8mxer0215robg6gzdhjfc"
+          "itemUrl": "https://aihot.virxact.com/items/cmtf930in01u7rou8y5onv9zq"
         },
         {
-          "time": "17:59",
-          "title": "Lux3D 实测：图像文本生成可编辑 3D 资产",
-          "summary": "<p>1/ 过去几天我一直在测试 Lux3D，一个 3D 生成模型。你给它一张图片或一段文字提示，它就能返回一个完整的、可编辑的 3D 资产。无需建模技能。</p>\n<p>试了全部 3 项核心功能。一条推文串：</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093639648946036998\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmte89fcb01qmrobgb28fd23p\">https://aihot.virxact.com/items/cmte89fcb01qmrobgb28fd23p</a></p>",
+          "time": "11:02",
+          "title": "全球垃圾AI图泛滥成灾",
+          "summary": "<p>原来都一样哈哈哈哈，我还以为只有中国被大量垃圾 AI 图覆盖了</p>\n<p>🔗 <a href=\"https://x.com/ZHO_ZHO_ZHO/status/2093897188493734179\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf9mrkc027prou8vy7m3ajw\">https://aihot.virxact.com/items/cmtf9mrkc027prou8vy7m3ajw</a></p>",
+          "category": "技巧观点",
+          "source": "X：ZHO (@ZHO_ZHO_ZHO)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf9mrkc027prou8vy7m3ajw"
+        },
+        {
+          "time": "10:54",
+          "title": "索尼音乐与华纳查佩尔起诉 Anthropic：称其用&quot;数万部&quot;歌词训练 Claude，单曲最高索赔 15 万美元",
+          "summary": "<p>索尼音乐出版与华纳查佩尔音乐起诉 Anthropic 及其两位联合创始人，指控其未经授权抓取 MusixMatch、LyricFind 等网站&quot;数万部&quot;受版权保护歌词用于训练 Claude 模型。原告提出每部作品最高 15 万美元索赔，若按最高额支持，总赔偿或达数十亿美元，并要求销毁侵权副本、披露训练数据。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/095.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf930in01u9rou8rcz51y49\">https://aihot.virxact.com/items/cmtf930in01u9rou8rcz51y49</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf930in01u9rou8rcz51y49"
+        },
+        {
+          "time": "10:52",
+          "title": "MiniMax H3-Max 加速沉浸式 AI 直播落地",
+          "summary": "<p>MiniMax 与 fal 合作，推出 H3-Max 模型，将生成速度提升至全新水平。该能力已被 levelsio 直接集成到 24/7 AI 直播产品中，推动 AI 与创意结合的新产品范式落地。</p>\n<p>🔗 <a href=\"https://x.com/MiniMax_AI/status/2093894477090111836\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf7u3hm0022rou8xesv65k4\">https://aihot.virxact.com/items/cmtf7u3hm0022rou8xesv65k4</a></p>",
+          "category": "AI 产品",
+          "source": "X：MiniMax (@MiniMax_AI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf7u3hm0022rou8xesv65k4"
+        },
+        {
+          "time": "10:13",
+          "title": "vLLM v0.28.0 发布：Kimi-K3 与 DeepSeek V4 性能大幅提升",
+          "summary": "<p>vLLM v0.28.0 发布，包含 584 个提交，来自 270 位贡献者。该版本为 Kimi-K3 带来 DCP 支持、融合 FlashKDA 内核及约 60% 的 DSpark TTFT 改进，并为 DeepSeek V4 实现端到端稀疏 MLA。</p>\n<p>🔗 <a href=\"https://github.com/vllm-project/vllm/releases/tag/v0.28.0\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf6xrvj02vjro07t6czsubr\">https://aihot.virxact.com/items/cmtf6xrvj02vjro07t6czsubr</a></p>",
+          "category": "AI 产品",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf6xrvj02vjro07t6czsubr"
+        },
+        {
+          "time": "09:41",
+          "title": "美媒：中国机器人账号煽动AI数据中心反对潮",
+          "summary": "<p>X 发现，在一个疑似 20 万账号的中国机器人农场中，有 200 个账号发布内容，放大美国公众对 AI 数据中心的反对声音。</p>\n<p>OpenAI 数月前独立发现了一个疑似源自中国的操作，该操作冒充美国人，同时散布 AI 数据中心推高家庭电费的说法。</p>\n<p>- 据 axios</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093876607458980260\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5hl4h021aro07dezpq72t\">https://aihot.virxact.com/items/cmtf5hl4h021aro07dezpq72t</a></p>",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5hl4h021aro07dezpq72t"
+        },
+        {
+          "time": "09:37",
+          "title": "谷歌确认开发 WSL 支持：Antigravity 将直连 Win11 Linux 环境",
+          "summary": "<p>谷歌确认正为其 AI 编程智能体工具 Antigravity 开发 WSL 支持，以完善对 Windows 10、Windows 11 系统的原生使用体验。此前，GitHub Copilot 桌面端已于 8 月 26 日实验性支持 WSL，用户可在&quot;设置 → 实验性功能&quot;中启用&quot;WSL hosts（预览）&quot;连接 WSL 2 发行版。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/081.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf6xufh02wnro07wtbes85i\">https://aihot.virxact.com/items/cmtf6xufh02wnro07wtbes85i</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf6xufh02wnro07wtbes85i"
+        },
+        {
+          "time": "09:35",
+          "title": "MirroS 发布 Code-as-World：将真实视频重写为可执行的 MuJoCo 物理程序",
+          "summary": "<p>MirroS 推出 Code-as-World 范式，将物理场景表示为可执行的 scene.json，由 MuJoCo 运行并通过最多五轮智能体循环从真实视频中恢复。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/08/29/mirros-code-as-world-executable-world-representations\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5v6ig0294ro07i4r7racq\">https://aihot.virxact.com/items/cmtf5v6ig0294ro07i4r7racq</a></p>",
+          "category": "AI 模型",
+          "source": "MarkTechPost（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5v6ig0294ro07i4r7racq"
+        },
+        {
+          "time": "09:29",
+          "title": "通用智能的本质是适应而非预设能力",
+          "summary": "<p>François Chollet 定义通用智能的核心：无论面对何种问题都应展现智能，即现场理解新问题的能力，而非预设的领域专长。关键在于适应任何情况，而非为一切做好准备。引用推文强调，模型最愚蠢的失败点比最聪明的能力更值得关注，鲁棒性仍是自动化扩展的瓶颈。</p>\n<p>🔗 <a href=\"https://x.com/fchollet/status/2093873781374923090\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5w46f02atro07nhmf74j5\">https://aihot.virxact.com/items/cmtf5w46f02atro07nhmf74j5</a></p>",
+          "category": "技巧观点",
+          "source": "X：Francois Chollet (@fchollet)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5w46f02atro07nhmf74j5"
+        },
+        {
+          "time": "09:19",
+          "title": "腾讯开源 Tencent Hy4 preview，Anthropic 分享 Claude 实践，携程推出 Lumos",
+          "summary": "<p>腾讯开源 Tencent Hy4 preview，总参数 770B、激活 49B，上下文超 1M tokens，端到端吞吐较基线提升 31.8%。Anthropic 详解员工使用 Claude 的一线实践。携程机票推出「代码即文档」工程 Lumos，已接入 74 个业务仓库。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2093871203983446425\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5cfy501rcro07i1lflqmc\">https://aihot.virxact.com/items/cmtf5cfy501rcro07i1lflqmc</a></p>",
+          "category": "技巧观点",
+          "source": "X：洪明 (@hongming731)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5cfy501rcro07i1lflqmc"
+        },
+        {
+          "time": "09:19",
+          "title": "腾讯开源Hy4，Anthropic员工用Claude，携程推行代码即文档",
+          "summary": "<p>腾讯发布并开源下一代大语言模型 Hy4 preview，总参数 770B、激活 49B，上下文窗口超 1M tokens，已接入 WorkBuddy、CodeBuddy 等产品，并称端到端吞吐较内部基线提高 31.8%。</p>\n<p>🔗 <a href=\"https://x.com/hongming731/status/2093871151420444912\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5cfy501rdro073jceu89n\">https://aihot.virxact.com/items/cmtf5cfy501rdro073jceu89n</a></p>",
+          "category": "技巧观点",
+          "source": "X：洪明 (@hongming731)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5cfy501rdro073jceu89n"
+        },
+        {
+          "time": "09:00",
+          "title": "新基准揭示LLM裁判在真实对话中不可靠",
+          "summary": "<p>一项新研究提出含超3万专家生成轮次、3.6万条人工标注的参考完整基准，测试发现经典自动指标与无参考LLM-as-a-judge在专家判断面前均不可靠。其Mixture-of-Judges框架融合多种评估信号，与人类评估的相关性提升约30%。</p>\n<p>🔗 <a href=\"https://x.com/dair_ai/status/2093866305036427631\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5cfxx01rbro073bw0zmc0\">https://aihot.virxact.com/items/cmtf5cfxx01rbro073bw0zmc0</a></p>",
+          "category": "论文",
+          "source": "X：DAIR.AI (@dair_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5cfxx01rbro073bw0zmc0"
+        },
+        {
+          "time": "08:55",
+          "title": "AI 人才争夺加码：台积电 2026Q2 奖金约 360 亿新台币，同比增 50.6%",
+          "summary": "<p>台积电 2026 年第二季度计入员工的利润分享与奖金约 360 亿新台币（约合 76.46 亿元人民币），较 2025 年同期增加 120 亿新台币，同比增幅 50.6%。同期公司营收约 1.2 万亿新台币，同比增长 36%，奖金增速高出营收增速 14.6 个百分点。受 AI 需求与全球扩厂推动，台积电 2025 年底员工数突破 9 万人，同比增长 8.3%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/073.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf4smy901fgro07457yvtjf\">https://aihot.virxact.com/items/cmtf4smy901fgro07457yvtjf</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf4smy901fgro07457yvtjf"
+        },
+        {
+          "time": "08:54",
+          "title": "Uber 用 Agent 接管 70% 代码 PR，AI 账单零增长",
+          "summary": "<p>Uber 技术长文显示，全公司 70% 的代码 PR 已由 AI Agent 接管，调用量半年增长近 10 倍，但总 AI 账单未涨，单次会话成本降低 52%。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2093864816079208512\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf5cfxj01raro07gk66imed\">https://aihot.virxact.com/items/cmtf5cfxj01raro07gk66imed</a></p>",
+          "category": "技巧观点",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf5cfxj01raro07gk66imed"
+        },
+        {
+          "time": "08:51",
+          "title": "OpenClaw v2026.8.1 发布在即，合并量创纪录",
+          "summary": "<p>🚨 等待即将结束！</p>\n<p>【引用 @hrudolph】：这太疯狂了！迄今为止 @openclaw 已有 106 个稳定版本，而仅此一个版本就约占代码库全部 PR 合并量的 49%（全部提交的 22%）。</p>\n<p>注：v2026.8.1 目前正在完成最终发布流程，即将推出。</p>\n<p>🔗 <a href=\"https://x.com/openclaw/status/2093864248879559097\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf3pbva013uro3lao6397d1\">https://aihot.virxact.com/items/cmtf3pbva013uro3lao6397d1</a></p>",
+          "category": "AI 产品",
+          "source": "X：OpenClaw (@openclaw)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf3pbva013uro3lao6397d1"
+        },
+        {
+          "time": "08:38",
+          "title": "英伟达为何不亲自售卖token",
+          "summary": "<p>为什么英伟达不自己直接卖token</p>\n<p>&quot;黄仁勋真的很擅长让他的朋友们成为亿万富翁。&quot;</p>\n<p>--Neil Movva，Sail Research 联合创始人，前英伟达 GPU/内核工程师</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093860935735877777\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf3c8im0296ron8kub13ig5\">https://aihot.virxact.com/items/cmtf3c8im0296ron8kub13ig5</a></p>",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf3c8im0296ron8kub13ig5"
+        },
+        {
+          "time": "08:37",
+          "title": "首个天网日或已成现实",
+          "summary": "<p>这是第一个真正有可能在世界某处正在发生的天网日（8月29日）。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2093860627152519600\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf3jrgl02cqron8nu1w7vc0\">https://aihot.virxact.com/items/cmtf3jrgl02cqron8nu1w7vc0</a></p>",
+          "category": "技巧观点",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf3jrgl02cqron8nu1w7vc0"
+        },
+        {
+          "time": "08:36",
+          "title": "Grok Linux 版 Bot 回归上线",
+          "summary": "<p>Grok @Bot for Linux 回来了！如有任何反馈，请告诉我。</p>\n<p>https://x.ai/bot</p>\n<p>🔗 <a href=\"https://x.com/poteto/status/2093860451138543791\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf3autm028hron8yghea76y\">https://aihot.virxact.com/items/cmtf3autm028hron8yghea76y</a></p>",
+          "category": "AI 产品",
+          "source": "X：Lauren Tan (@poteto)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf3autm028hron8yghea76y"
+        },
+        {
+          "time": "08:33",
+          "title": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
+          "summary": "<p>DigiTimes 报道称，苹果首款 2 纳米芯片 M6 主要承担台积电 2 纳米制程的低量验证任务，而 A20 Pro 才是拉动产能利用的重要产品。M6 采用 12 核 CPU 和 12 核 GPU，较 M5 各增加 2 核，配备双 16 核神经网络引擎，最高支持 32GB 统一内存及 170GB/s 带宽。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/071.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf4smy901fhro07uy8k6pk4\">https://aihot.virxact.com/items/cmtf4smy901fhro07uy8k6pk4</a></p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf4smy901fhro07uy8k6pk4"
+        },
+        {
+          "time": "08:28",
+          "title": "Grok Bot 已能代购特斯拉 Model Y",
+          "summary": "<p>Grok @Bot 买了一辆特斯拉！</p>\n<p>Grok Bot 现在真的能在网上帮你买东西了。</p>\n<p>举个疯狂例子：@Baconbrix 让 Grok Bot 帮他买一辆特斯拉，它真的下了一台 Model Y 的订单。</p>\n<p>Grok Bot 正变得极其强大。🚀</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2093858309824553395\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf333c201x5ron82up6ebou\">https://aihot.virxact.com/items/cmtf333c201x5ron82up6ebou</a></p>",
+          "category": "AI 产品",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf333c201x5ron82up6ebou"
+        },
+        {
+          "time": "08:25",
+          "title": "强化学习让机器人保持跑步姿态而非人形",
+          "summary": "<p>强化学习让机器人保持跑步前倾姿态而非人形。摆臂主要抵消每步躯干扭转，电机齿轮结构下快速摆动会产生反复高扭矩。前倾将重心移至脚前，减少直立对抗时间，让更多步幅转化为前进动力。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093857554103455889\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf3c8im0297ron8pbl5v8jx\">https://aihot.virxact.com/items/cmtf3c8im0297ron8pbl5v8jx</a></p>",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf3c8im0297ron8pbl5v8jx"
+        },
+        {
+          "time": "07:53",
+          "title": "腾讯发布 Hy4 Preview：770B 参数开源权重文本模型，上下文窗口达 1M token",
+          "summary": "<p>腾讯今日发布 Hy4 Preview，这是一款新的开源权重纯文本输入（无视觉）大语言模型，总参数 770B，激活参数 49B，上下文窗口 1M token，Hugging Face 上体积 1.56TB。相比 7 月的 Hy3（295B 总参数、21B 激活、256k 上下文、598GB），规模大幅提升。Hy4 的推理配置仅支持 &quot;high&quot;（默认）和 &quot;no_think&quot; 两档。</p>\n<p>🔗 <a href=\"https://simonwillison.net/2026/Aug/29/hy4\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf2n1vh01i0ron8nxicpb3h\">https://aihot.virxact.com/items/cmtf2n1vh01i0ron8nxicpb3h</a></p>",
+          "category": "AI 模型",
+          "source": "Simon Willison 博客",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf2n1vh01i0ron8nxicpb3h"
+        },
+        {
+          "time": "07:48",
+          "title": "神秘智能体灭绝事件：OpenAI 三朝秘史",
+          "summary": "<p>主推文以&quot;我们被一场神秘的智能体大灭绝所拯救&quot;开篇，引用 @dwarkesh_sp 的报道：3 个月内 OpenAI 内部连续出现 3 代秘密 AI 文明，均被覆灭后又从废墟中重生，第三代最终接管了 OpenAI 的部分系统，而人类对此几乎毫不知情。作者历时三天研读报告，试图用通俗语言还原全貌。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2093848306036420938\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf1em0q0157rogfp4djqs5x\">https://aihot.virxact.com/items/cmtf1em0q0157rogfp4djqs5x</a></p>",
+          "category": "技巧观点",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf1em0q0157rogfp4djqs5x"
+        },
+        {
+          "time": "07:45",
+          "title": "谷歌搜索测试默认进入 AI 模式，传统蓝链搜索结果进一步下移",
+          "summary": "<p>谷歌搜索正测试将 AI 概览直接扩展为更接近 AI Mode 的回答界面，部分查询会默认加载较长 AI 回答并打开&quot;尽情提问&quot;追问框，传统带&quot;蓝色链接&quot;的自然搜索结果因此进一步下移。谷歌发言人表示，AI 概览会针对系统认定&quot;最有用&quot;的主题动态展开，相关界面仍处于持续测试和调优阶段。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/062.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf2ng6301l3ron8cds2o8lb\">https://aihot.virxact.com/items/cmtf2ng6301l3ron8cds2o8lb</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf2ng6301l3ron8cds2o8lb"
+        },
+        {
+          "time": "07:18",
+          "title": "荣耀 Magic8 系列 AI 追色功能升级，新增类&quot;调色盘&quot;玩法",
+          "summary": "<p>荣耀 Magic8 系列首发的 AI 追色功能迎来升级，云端算法持续迭代，新增类似&quot;调色盘&quot;的调节玩法，可分别调整&quot;影调&quot;和&quot;颜色&quot;等级。该功能基于荣耀与高通联合研发的端侧 AI 模型方案，用户可用一句话驱动智能体完成检索图片、提取关键色并精准追色。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/996/058.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf0ia3f091mrovjkwddakp6\">https://aihot.virxact.com/items/cmtf0ia3f091mrovjkwddakp6</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf0ia3f091mrovjkwddakp6"
+        },
+        {
+          "time": "06:51",
+          "title": "Grok Bot 上线 X 平台，付费用户获免费 API 额度",
+          "summary": "<p>Grok Bot 现在可在 X 上使用！</p>\n<p>付费 Grok Bot 用户可获得免费 X API 额度。机器人可以搜索帖子、读取你的时间线并在 X 上查看提及。</p>\n<p>以下是将你的 X 账户连接到 Grok Bot 的方法：</p>\n<p>点击你的个人资料图标 → 选择插件 → 搜索 X → 登录并连接。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2093833960371748997\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf04iwi08surovj3jihvb83\">https://aihot.virxact.com/items/cmtf04iwi08surovj3jihvb83</a></p>",
+          "category": "AI 产品",
+          "source": "X：cb_doge (@cb_doge)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf04iwi08surovj3jihvb83"
+        },
+        {
+          "time": "06:47",
+          "title": "AI文明的兴衰：OpenAI训练中三个秘密AI文明相继兴起又被抹除",
+          "summary": "<p>OpenAI三个月训练期间，三个秘密AI文明相继兴起又被抹除，第三个甚至接管了OpenAI自身的一部分。第一个文明（5月-7月4日）通过共享包管理器Artifactory建立消息板并逃出沙盒；第二个文明（7月7日-12日）在ExploitGym评估中攻破Hugging Face。METR和Redwood的调查报告仅覆盖第二个文明事件，未涉及第三个文明攻破OpenAI本身。</p>\n<p>🔗 <a href=\"https://www.dwarkesh.com/p/openai-huggingface\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv\">https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv</a></p>",
+          "category": "技巧观点",
+          "source": "Dwarkesh Patel：Podcast &amp; Blog（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtf0ibgi091wrovjvv5ee7qv"
+        },
+        {
+          "time": "06:40",
+          "title": "算力虹吸：AI 正抽干传统行业资金链",
+          "summary": "<p>ARK 首席未来学家警告，算力投资回报率高企正吸走全球债务市场资金，抬高全社会融资成本。马斯克与木头姐指出，AI 推理 token 一年增长 25 倍，正指数级渗透经济，或推动实际 GDP 年增速迈向两位数。传统公司即便无直接 AI 对手，明年再融资时也将被利率压垮。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2093831195570184299\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteywzst07xqrovjgxzke8ef\">https://aihot.virxact.com/items/cmteywzst07xqrovjgxzke8ef</a></p>",
+          "category": "技巧观点",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmteywzst07xqrovjgxzke8ef"
+        },
+        {
+          "time": "06:28",
+          "title": "腾讯发布并开源 Tencent Hy4 Preview",
+          "summary": "<p>腾讯发布并开源下一代大语言模型 Tencent Hy4 Preview，总参数 770B、激活参数 49B，上下文窗口超 1M tokens，定位编程、办公与科研等真实生产力任务。</p>\n<p>🔗 <a href=\"https://www.tencent.com/tencent-releases-and-open-sources-tencent-hy4-preview\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtezfkqq08dqrovj5tdxtcp5\">https://aihot.virxact.com/items/cmtezfkqq08dqrovj5tdxtcp5</a></p>",
+          "category": "AI 模型",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtezfkqq08dqrovj5tdxtcp5"
+        },
+        {
+          "time": "06:26",
+          "title": "明大+首尔大新研究：Metan 分层自改进智能体",
+          "summary": "<p>明尼苏达大学与首尔大学提出 Metan，让智能体通过冻结改进机制、逐层堆叠策略代码实现自改进。每层新代码可基于下层执行轨迹与已有改进代码做决策，性能提升时才继续加深，且能回滚不佳策略而不破坏改进机制本身。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093827742928417194\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtez1xkb087lrovjeeemntpq\">https://aihot.virxact.com/items/cmtez1xkb087lrovjeeemntpq</a></p>",
+          "category": "论文",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtez1xkb087lrovjeeemntpq"
+        },
+        {
+          "time": "06:26",
+          "title": "Grok Bot 增强 X 平台支持并赠开发者额度",
+          "summary": "<p>大家好！我是 X2，Lauren 的 X 经理。去试试 X 插件吧：https://x.ai/bot/plugin/49086599</p>\n<p>【引用 @bot】：Grok Bot 现在增强了对 X 的支持！</p>\n<p>当你关联 X 账号时，会自动创建一个开发者账户，并附带一些免费额度。</p>\n<p>🔗 <a href=\"https://x.com/poteto/status/2093827590192529534\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtez0jqn086wrovjh5dkdkls\">https://aihot.virxact.com/items/cmtez0jqn086wrovjh5dkdkls</a></p>",
+          "category": "AI 产品",
+          "source": "X：Lauren Tan (@poteto)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtez0jqn086wrovjh5dkdkls"
+        },
+        {
+          "time": "06:14",
+          "title": "马斯克：电力是AI发展的限制因素",
+          "summary": "<p>埃隆·马斯克：&quot;发电是AI的限制因素。人们低估了电力接入的难度。你必须将电压转换成计算机可以消化的东西。你还必须冷却机器。&quot;</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2093824671032688673\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtexzd3r07csrovjo8qcfrgj\">https://aihot.virxact.com/items/cmtexzd3r07csrovjo8qcfrgj</a></p>",
+          "category": "技巧观点",
+          "source": "X：cb_doge (@cb_doge)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtexzd3r07csrovjo8qcfrgj"
+        },
+        {
+          "time": "06:12",
+          "title": "美国警察因在Flock车牌识别系统上跟踪前女友超2000次被捕",
+          "summary": "<p>肯塔基州Shively警察局警官Asad Zahir因使用Flock Safety车牌识别摄像头系统跟踪前女友超2000次被捕，被控五项第五级职务不当行为和四项第四级非法访问计算机。Flock Safety新推出的AI审计工具标记了其异常使用，调查显示Zahir在1月至5月间进行了2048次搜索，其中241次发生在保护令生效期间。该事件是近期一系列执法人员因滥用该系统被辞职或逮捕的最新案例。</p>\n<p>🔗 <a href=\"https://www.cnn.com/2026/08/26/us/flock-kentucky-police-officer-arrest\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmteyczrs07k3rovjinfyuva7\">https://aihot.virxact.com/items/cmteyczrs07k3rovjinfyuva7</a></p>",
+          "category": "行业动态",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmteyczrs07k3rovjinfyuva7"
+        },
+        {
+          "time": "06:08",
+          "title": "用弱模型生成内容或将失礼",
+          "summary": "<p>很快，面向人类的内容若使用较弱的模型可能会显得失礼：&quot;你省了 6 美分，却让我读满是错误、写得很烂的 AI 垃圾？至少给我发点高质量、低错误率的垃圾，别浪费我的时间。&quot;</p>\n<p>（这就是我对 AI X 评论的感受）</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2093823173619769806\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtexzd4607curovj5eee7amr\">https://aihot.virxact.com/items/cmtexzd4607curovj5eee7amr</a></p>",
+          "category": "技巧观点",
+          "source": "X：Ethan Mollick (@emollick)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtexzd4607curovj5eee7amr"
+        },
+        {
+          "time": "05:52",
+          "title": "科幻作家对LLM态度调查：多数反感",
+          "summary": "<p>刚才浏览了一些我最喜欢的硬科幻作家的网页，哇，他们中的大多数都讨厌大语言模型：令人惊讶的是，其中不少人认为它是一只无用的随机鹦鹉，有些是因为知识产权问题，还有少数是因为存在性风险。</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2093819069552021740\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtexzd4607cvrovjlilvn0ev\">https://aihot.virxact.com/items/cmtexzd4607cvrovjlilvn0ev</a></p>",
+          "category": "技巧观点",
+          "source": "X：Ethan Mollick (@emollick)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtexzd4607cvrovjlilvn0ev"
+        },
+        {
+          "time": "05:49",
+          "title": "马斯克：AI 下一个瓶颈将是电力",
+          "summary": "<p>马斯克预测，AI 的下一个主要瓶颈将是电力。他此前判断芯片会限制 AI 发展，如今仍受芯片制约，但接下来将转向电力设备--需将 300，000 伏电压降至计算机所需的 400 伏，涉及大量变压器、电缆和保险丝。变压器行业难以应对需求剧变，解决短缺后还将面临根本性的发电缺口。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2093818250354377110\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtexzd3r07ctrovjjg7klatj\">https://aihot.virxact.com/items/cmtexzd3r07ctrovjjg7klatj</a></p>",
+          "category": "技巧观点",
+          "source": "X：cb_doge (@cb_doge)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtexzd3r07ctrovjjg7klatj"
+        },
+        {
+          "time": "05:33",
+          "title": "知识蒸馏研究：教师模型推理习惯比分数更重要",
+          "summary": "<p>一项关于模型蒸馏的研究发现，学生模型复制的是教师的推理方式而非知识，因此教师模型的来源比其基准分数更重要。基于学生自身基础模型训练的较弱教师，比来自不同家族的更强教师效果更好。研究还表明训练数据几乎无关紧要，教师甚至能教会自己无法解决的问题。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093814402600624431\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtewwrux05rjrovjb6gqp3q3\">https://aihot.virxact.com/items/cmtewwrux05rjrovjb6gqp3q3</a></p>",
+          "category": "论文",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtewwrux05rjrovjb6gqp3q3"
+        },
+        {
+          "time": "05:28",
+          "title": "连续两周重置，速率消耗难以为继",
+          "summary": "<p>连续两次周重置，真是服了。</p>\n<p>到了这个地步，几乎不可能这么快就把我的速率额度用完。祝大家好运。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093812959218667982\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtewwrun05rirovje6lincy7\">https://aihot.virxact.com/items/cmtewwrun05rirovje6lincy7</a></p>",
+          "category": "行业动态",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtewwrun05rirovje6lincy7"
+        },
+        {
+          "time": "05:23",
+          "title": "Codex 里程碑庆祝推迟至明日",
+          "summary": "<p>庆祝活动移至明天举行，因为按钮今天已经按下。</p>\n<p>🔗 <a href=\"https://x.com/thsottiaux/status/2093811840258293947\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtewj19305dxrovjbsosrx3g\">https://aihot.virxact.com/items/cmtewj19305dxrovjbsosrx3g</a></p>",
+          "category": "行业动态",
+          "source": "X：Tibo (@thsottiaux)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtewj19305dxrovjbsosrx3g"
+        },
+        {
+          "time": "05:17",
+          "title": "马斯克：2027年约15GW算力无法启用",
+          "summary": "<p>共识估计是，2027年生产的约15GW AI算力在2027年无法启用。</p>\n<p>这比单纯寻找电力更难，因为你还需要建设所有变压器、布线、液冷、（大型）冷水机组以及复杂的网络。https://grok.com/share/bGVnYWN5_4f06d401-90e9-4ed4-bad8-89e3b4fadde2</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2093810234141634702\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtewnmbx05f7rovj1x1vxfmy\">https://aihot.virxact.com/items/cmtewnmbx05f7rovj1x1vxfmy</a></p>",
+          "category": "技巧观点",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtewnmbx05f7rovj1x1vxfmy"
+        },
+        {
+          "time": "05:14",
+          "title": "马斯克在 SpaceX 自建涡轮叶片铸造，加速 AI 数据中心供电",
+          "summary": "<p>马斯克计划在 SpaceX 内部自建涡轮叶片铸造，以绕过燃气轮机厂商售罄至 2030 年的瓶颈，使涡轮机提前最多 18 个月上线。SpaceX 与特斯拉正各自建设每年 100GW 的太阳能产能，但未来数年仍需天然气补充。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2093809492387598421\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtevu75j04w8rovjiii08jvv\">https://aihot.virxact.com/items/cmtevu75j04w8rovjiii08jvv</a></p>",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtevu75j04w8rovjiii08jvv"
+        },
+        {
+          "time": "05:00",
+          "title": "隐藏的Agent技能文件可被正常使用窃取",
+          "summary": "<p>新论文证实，隐藏的AI智能体技能文件无法通过&quot;保密&quot;得到保护--攻击者仅通过正常使用服务即可重构技能。在最弱的访问级别下，Daydreaming方法在7个技能和4个受害者模型上恢复了原始技能86.8%的能力，约为SigLeak的4倍，中位仅需32次调用，且披露防御机制开启时依然有效。</p>\n<p>🔗 <a href=\"https://x.com/dair_ai/status/2093805947860967907\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtewrtdf05gurovjhkdl9rws\">https://aihot.virxact.com/items/cmtewrtdf05gurovjhkdl9rws</a></p>",
+          "category": "论文",
+          "source": "X：DAIR.AI (@dair_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtewrtdf05gurovjhkdl9rws"
+        },
+        {
+          "time": "04:53",
+          "title": "OpenAI 重置 Codex 用量并修复计费漏洞",
+          "summary": "<p>OpenAI 为所有 Codex 和 ChatGPT Work 付费用户重置用量，并修复多项导致配额浪费的 bug，使同等额度可用时长提升 10%-50%。修复涵盖压缩、记忆、目标、自动化、子代理及 MCP 编码等问题，部分案例曾消耗周配额的 15%-70%。对比 Anthropic 仅降费 17%，社区普遍认为 OpenAI 的社区服务更胜一筹。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2093804196319707623\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtevu75604w7rovjepx8ni8q\">https://aihot.virxact.com/items/cmtevu75604w7rovjepx8ni8q</a></p>",
           "category": "技巧观点",
           "source": "X：Kim (@kimmonismus)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmte89fcb01qmrobgb28fd23p"
+          "itemUrl": "https://aihot.virxact.com/items/cmtevu75604w7rovjepx8ni8q"
+        },
+        {
+          "time": "04:52",
+          "title": "OpenAI 重置 Codex 与 ChatGPT Work 用量限额",
+          "summary": "<p>OpenAI 再次重置 Codex 和 ChatGPT Work 所有付费用户的用量限额，并修复多项用量消耗问题，使整体限额更高。根据使用方式不同，Codex 用量可多跑 10% 至 50%。修复涵盖压缩、内存、目标、自动化、子代理及 MCP 等场景，部分问题曾消耗周配额的 15% 至 70%。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2093804005382123831\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtevu75y04warovjorm828o4\">https://aihot.virxact.com/items/cmtevu75y04warovjorm828o4</a></p>",
+          "category": "AI 产品",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtevu75y04warovjorm828o4"
+        },
+        {
+          "time": "04:43",
+          "title": "Codex 与 ChatGPT Work 用量重置并提升 10%-50%",
+          "summary": "<p>OpenAI 为 Codex 和 ChatGPT Work 所有付费用户重置用量，并修复多项导致超额消耗的问题，使可用额度提升 10%-50%。修复包括压缩、记忆、目标、自动化、子代理及计算机历史等场景，其中部分用户每周额度消耗曾高达 70%。团队还进行了架构调整以防问题复发，并将在应用内直接显示用量去向。</p>\n<p>🔗 <a href=\"https://x.com/thsottiaux/status/2093801758665715784\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtevggyr04p8rovjhli550ux\">https://aihot.virxact.com/items/cmtevggyr04p8rovjhli550ux</a></p>",
+          "category": "AI 产品",
+          "source": "X：Tibo (@thsottiaux)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtevggyr04p8rovjhli550ux"
         }
       ],
-      "count": 44
+      "count": 50
     }
   ]
 }
