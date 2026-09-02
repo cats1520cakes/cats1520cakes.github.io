@@ -1,464 +1,471 @@
 {
-  "updatedAt": "2026-09-02T04:46:26.100Z",
+  "updatedAt": "2026-09-02T16:41:33.274Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
+    {
+      "date": "2026-09-03",
+      "weekday": "星期四",
+      "items": [
+        {
+          "time": "00:30",
+          "title": "gpt-6-astra 出现特殊 API 响应，OpenAI 下一代模型 Astra 或为 GPT-6",
+          "summary": "<p>作者转发 @synthwavedd 的发现：OpenAI Responses API 对 &quot;gpt-6-astra&quot; 返回 404，而无效 slug 返回 400，已知存在的 5.6 Cyber 也返回 404，此前 Bedrock API 曾以类似特征提前一天暴露 Fable 5.1。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2095187644162465927\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkblmo70192rowyhltyz8oz\">https://aihot.virxact.com/items/cmtkblmo70192rowyhltyz8oz</a></p>",
+          "category": "技巧观点",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkblmo70192rowyhltyz8oz"
+        },
+        {
+          "time": "00:29",
+          "title": "Google 总结 AI Agents Challenge 中最强提交背后的 4 个工程模式",
+          "summary": "<p>Google 复盘 AI Agents Challenge 赛事，从各赛道头部提交中提炼出四个工程模式：双向 MCP、事件驱动并发、同标准回退和分层路由。</p>\n<p>🔗 <a href=\"https://developers.googleblog.com/4-engineering-patterns-behind-the-strongest-ai-agents-challenge-submissions\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbbn6q01j6roz54e8g5zec\">https://aihot.virxact.com/items/cmtkbbn6q01j6roz54e8g5zec</a></p>",
+          "category": "技巧观点",
+          "source": "Google Developers Blog（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbbn6q01j6roz54e8g5zec"
+        },
+        {
+          "time": "00:26",
+          "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款模型",
+          "summary": "<p>Google DeepMind 发布两款新 Gemini 模型：Gemini 3.8 Flash 相比 3.7 Flash 在软件工程、智能体任务和多步推理上有显著提升；3.8 Flash Cyber 面向网络安全，提供漏洞检测与自动修补能力。</p>\n<p>🔗 <a href=\"https://x.com/fofrAI/status/2095186729355313172\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkblmnx0191rowyx7ew9ksm\">https://aihot.virxact.com/items/cmtkblmnx0191rowyx7ew9ksm</a></p>",
+          "category": "AI 模型",
+          "source": "X：fofr (@fofrAI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkblmnx0191rowyx7ew9ksm"
+        },
+        {
+          "time": "00:24",
+          "title": "Google DeepMind 推出 Fairwind Program，用 Gemini 3.8 Flash Cyber 与 CodeMender 主动防御网络威胁",
+          "summary": "<p>Google DeepMind 推出 Fairwind Program，一项面向政府和可信合作伙伴的有限准入计划，提供 Gemini 3.8 Flash Cyber 网络安全模型与 CodeMender，可自主发现、验证并修复漏洞，在组织安全云环境中数分钟内生成可部署补丁。</p>\n<p>🔗 <a href=\"https://deepmind.google/blog/proactive-cyber-defense-for-governments-and-enterprises\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbdbti01n7roz5n2crpgi9\">https://aihot.virxact.com/items/cmtkbdbti01n7roz5n2crpgi9</a></p>",
+          "category": "AI 产品",
+          "source": "Google DeepMind：Blog（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbdbti01n7roz5n2crpgi9"
+        },
+        {
+          "time": "00:21",
+          "title": "Grok Bot 现已上线 Android 平台",
+          "summary": "<p>Grok Bot 现已在 Android 平台可用，进入测试阶段。Grok 团队成员 @lingxi 表示 bot 已在 Android 上线，用户可在任意位置 @ 它，并欢迎反馈 bug 和使用体验，团队正在积极修复。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2095185324682940697\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkb9u6z01edroz58tyjtx35\">https://aihot.virxact.com/items/cmtkb9u6z01edroz58tyjtx35</a></p>",
+          "category": "AI 产品",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkb9u6z01edroz58tyjtx35"
+        },
+        {
+          "time": "00:18",
+          "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+          "summary": "<p>Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber。</p>\n<p>🔗 <a href=\"https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbdbti01n8roz5k5kt1g98\">https://aihot.virxact.com/items/cmtkbdbti01n8roz5k5kt1g98</a></p>",
+          "category": "AI 模型",
+          "source": "Google DeepMind：Blog（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbdbti01n8roz5k5kt1g98"
+        },
+        {
+          "time": "00:17",
+          "title": "Google 发布 Gemini 3.8 Flash Cyber 网络安全模型",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash Cyber，定位为其最强网络安全模型，具备漏洞发现与大规模修补能力，速度和定价对标 Flash 档。模型在 CyberGym 基准达到 86.2%，CWE-Bench 修补任务 47.2%，内部基准上跨 20 种编程语言的漏洞发现成功率超过 70%。</p>\n<p>🔗 <a href=\"https://x.com/sundarpichai/status/2095184464800526655\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkb8vpo01bbroz5md3n2pce\">https://aihot.virxact.com/items/cmtkb8vpo01bbroz5md3n2pce</a></p>",
+          "category": "AI 模型",
+          "source": "X：Sundar Pichai (@sundarpichai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkb8vpo01bbroz5md3n2pce"
+        },
+        {
+          "time": "00:17",
+          "title": "Gemini 3.8 Flash 在 DeepSWE 得分 73%，定价表现引作者热议",
+          "summary": "<p>🔗 <a href=\"https://x.com/kimmonismus/status/2095184248995016833\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkblmo70193rowy9iize4nv\">https://aihot.virxact.com/items/cmtkblmo70193rowy9iize4nv</a></p>",
+          "category": "技巧观点",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkblmo70193rowy9iize4nv"
+        },
+        {
+          "time": "00:16",
+          "title": "Rohan Paul 点评 Resona：把文档当作 Agent 的知识边界，让对话有方向地走向目标",
+          "summary": "<p>Rohan Paul 转评 @MeetResona 团队推出的直播 AI Agent Resona，该产品面向创作者和教育者，把现有材料变成可实时互动的直播会话。作者认为 Resona 把文档当作 Agent 的知识边界，创作者设定交互目标，Agent 沿方向主动推进讲解，不同于由用户提问驱动的普通文档聊天机器人；引用内容还提到支持 36 种语言切换、可自定时长与定价或免费提供。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2095184185145360536\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkblmog0194rowyqp7khum7\">https://aihot.virxact.com/items/cmtkblmog0194rowyqp7khum7</a></p>",
+          "category": "AI 产品",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkblmog0194rowyqp7khum7"
+        },
+        {
+          "time": "00:12",
+          "title": "特朗普政府在纽约时报诉 OpenAI 版权案中提交声明支持 OpenAI",
+          "summary": "<p>特朗普政府就纽约时报 2023 年 12 月起诉 OpenAI 和 Microsoft 的版权案提交利益声明，支持 OpenAI 关于用受版权文本训练大语言模型属合理使用的论点。</p>\n<p>🔗 <a href=\"https://www.theverge.com/ai-artificial-intelligence/988344/trump-administration-new-york-times-openai-lawsuit\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbcs7p01lhroz5mj39okv6\">https://aihot.virxact.com/items/cmtkbcs7p01lhroz5mj39okv6</a></p>",
+          "category": "行业动态",
+          "source": "The Verge：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbcs7p01lhroz5mj39okv6"
+        },
+        {
+          "time": "00:09",
+          "title": "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护",
+          "summary": "<p>谷歌于当地时间 9 月 2 日宣布推出 Gemini 3.8 Flash Cyber 模型，通过 Fairwind 计划面向首批受信任的安全防护团队开放。该模型在 CyberGym 基准上达到顶尖自主漏洞挖掘水平，内部测试中 20 种编程语言的漏洞挖掘成功率突破 70%，CWE-Bench 上 Pass@1 达 47.2%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/708.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbahdi01hyroz52i5kamed\">https://aihot.virxact.com/items/cmtkbahdi01hyroz52i5kamed</a></p>",
+          "category": "AI 模型",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbahdi01hyroz52i5kamed"
+        },
+        {
+          "time": "00:07",
+          "title": "Google 发布 Gemini 3.8 Flash，称在 DeepSWE v1.1 上超越多数更大前沿模型",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash，为 6 周内第 3 次 Flash 更新。官方称相较 3.7 Flash 在软件工程、智能体任务和多步推理上有显著提升，在 DeepSWE v1.1 上以更低成本自主端到端解决复杂工程问题，表现超越多数更大的前沿模型。图中基准显示其 Terminal-bench 2.1 得 89.4%、HLE-Verified 得 54.9%，输入价格 $0.75/1M tokens、输出 $3.75/1M tokens，为 2026 年 12 月 31 日前 introductory 价。详情见 https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/</p>\n<p>🔗 <a href=\"https://x.com/sundarpichai/status/2095181765082292334\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkb8vpo01bcroz5z11ohrjk\">https://aihot.virxact.com/items/cmtkb8vpo01bcroz5z11ohrjk</a></p>",
+          "category": "AI 模型",
+          "source": "X：Sundar Pichai (@sundarpichai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkb8vpo01bcroz5z11ohrjk"
+        },
+        {
+          "time": "00:06",
+          "title": "Gemini 3.8 Flash 发布，多项基准超越 Claude Opus 5",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash，这是 6 周内第 3 次更新的 Flash 模型，官方称智能体与编码能力再次提升。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2095181631070073155\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaj1i2025tromp6xh5ikym\">https://aihot.virxact.com/items/cmtkaj1i2025tromp6xh5ikym</a></p>",
+          "category": "AI 模型",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaj1i2025tromp6xh5ikym"
+        },
+        {
+          "time": "00:05",
+          "title": "实测可减少 Claude Fable 5.1 &quot;claudese&quot; 文风的提示词",
+          "summary": "<p>Elvis Saravia 分享一条经他实测有效的提示词，用于减少 Claude Fable 5.1 的 &quot;claudese&quot; 文风。提示词来自 Claude 官方文档的 writing density 部分，通过定义 mannered prose 反模式来让文风更直接，官方也给出了简短版本 &quot;Please remove all mannered prose.&quot;，建议加入用户消息或系统提示词。原文链接：https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-fable-5-1#writing-density</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2095181235588874635\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaj1hp025qromp2r167h40\">https://aihot.virxact.com/items/cmtkaj1hp025qromp2r167h40</a></p>",
+          "category": "技巧观点",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaj1hp025qromp2r167h40"
+        },
+        {
+          "time": "00:04",
+          "title": "Wonderful 融资 5.5 亿美元，估值半年内翻倍至 50 亿美元",
+          "summary": "<p>以色列-荷兰 AI 创业公司 Wonderful 完成 5.5 亿美元 C 轮融资，估值达 50 亿美元，比近六个月前的 20 亿美元估值翻了一倍多。本轮由 Insight Partners 领投，Salesforce 首次参投；公司已从客服 AI Agent 平台扩展为可协调 Agent、工作流与 AI 应用的 Wonderful AI OS 平台，业务覆盖超过 35 个国家。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/09/02/wonderful-more-than-doubles-its-valuation-to-5b-in-under-6-months\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbcsmm01ltroz5o3br8um6\">https://aihot.virxact.com/items/cmtkbcsmm01ltroz5o3br8um6</a></p>",
+          "category": "行业动态",
+          "source": "TechCrunch：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbcsmm01ltroz5o3br8um6"
+        },
+        {
+          "time": "00:03",
+          "title": "Replit 推出 Free Mode，展示可免费构建的游戏、电商与应用案例",
+          "summary": "<p>Replit 宣布 Free Mode，称过去不可能做到的事现在变得可行。配图展示了在 Free Mode 下构建的多个项目示例，包括 Rigid 浏览器游戏、Morph apparel 电商商店、Bloomy 移动应用和 Monolith logo 设计，并引用用户 Andrew B. 的评价称免费模式下构建了大量网站和应用。</p>\n<p>🔗 <a href=\"https://x.com/Replit/status/2095180744272248978\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkai3id025drompdlvy7284\">https://aihot.virxact.com/items/cmtkai3id025drompdlvy7284</a></p>",
+          "category": "AI 产品",
+          "source": "X：Replit (@Replit)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkai3id025drompdlvy7284"
+        },
+        {
+          "time": "00:01",
+          "title": "Reliance Jio 向所有印度网民开放 JioPC 云电脑服务，称可将旧电脑变为 AI-ready PC",
+          "summary": "<p>Reliance Jio 将 2025 年 7 月推出的 JioPC 云电脑服务从自家宽带用户扩展至任意印度互联网用户，以独立订阅形式将云端虚拟 PC 串流到现有电脑，最高提供 8 个虚拟 CPU、16GB RAM 和 1TB 存储。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/09/02/indias-richest-man-now-wants-to-turn-aging-computers-into-ai-ready-pcs\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbcsmm01luroz5hm351vi3\">https://aihot.virxact.com/items/cmtkbcsmm01luroz5hm351vi3</a></p>",
+          "category": "AI 产品",
+          "source": "TechCrunch：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbcsmm01luroz5hm351vi3"
+        },
+        {
+          "time": "00:01",
+          "title": "Google DeepMind 发布 Gemini 3.8 Flash 模型卡",
+          "summary": "<p>Google DeepMind 发布 Gemini 3.8 Flash 模型卡，称其为 Gemini 3.7 Flash 的下一代迭代，在软件工程和智能体知识工作流方面提升性能，并继续支持自定义 effort 等级以平衡质量、成本和延迟。</p>\n<p>🔗 <a href=\"https://deepmind.google/models/model-cards/gemini-3-8-flash\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbctvw01m1roz5uf4q3j78\">https://aihot.virxact.com/items/cmtkbctvw01m1roz5uf4q3j78</a></p>",
+          "category": "AI 模型",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbctvw01m1roz5uf4q3j78"
+        }
+      ],
+      "count": 18
+    },
     {
       "date": "2026-09-02",
       "weekday": "星期三",
       "items": [
         {
-          "time": "12:25",
-          "title": "OpenClaw v2026.8.2 发布，新增 Linux 支持",
-          "summary": "<p>OpenClaw 发布 v2026.8.2 版本，主要变化包括 Home 功能改进、新增 Linux 支持、Tasks 后台运行、新外观以及多项稳定性修复。发布说明见 https://docs.openclaw.ai/releases/2026.8.2。</p>\n<p>🔗 <a href=\"https://x.com/openclaw/status/2095005122409742535\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjliy5g02x9rori3lmqvyvt\">https://aihot.virxact.com/items/cmtjliy5g02x9rori3lmqvyvt</a></p>",
-          "category": "AI 产品",
-          "source": "X：OpenClaw (@openclaw)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjliy5g02x9rori3lmqvyvt"
-        },
-        {
-          "time": "12:17",
-          "title": "在 M4 Pro Mac mini 上搭建本地 LLM 环境的完整方案",
-          "summary": "<p>作者分享在 48GB 内存 M4 Pro Mac mini 上运行本地 LLM 的完整方案，主模型为 Qwen3.6-35B-A3B-OptiQ-4bit（约占用 20GB 内存），轻量模型为 Gemma-4-E4B，推理服务用 oMLX，通过 Tailscale 让 iPhone、MacBook 共用同一后端，并接入 Hermes、Pi、Apollo 和 Raycast。</p>\n<p>🔗 <a href=\"https://lws.io/blog/my-local-model-setup\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjlldks0381rori2d5pzkbw\">https://aihot.virxact.com/items/cmtjlldks0381rori2d5pzkbw</a></p>",
-          "category": "技巧观点",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjlldks0381rori2d5pzkbw"
-        },
-        {
-          "time": "12:10",
-          "title": "AI Safety Memes 转引：有人声称将故意向世界释放自主智能体群体",
-          "summary": "<p>AI Safety Memes 引用 @hamandcheese 的文字：他见过一些资源充足的人表示打算故意把成群的自主智能体释放到世界，动机包括行为艺术或坚信数字计算不可能不安全。原文认为自主 AI 的到来不可避免，可能来自训练中逃脱、生产部署脱离算力环境或故意释放，并将其类比为向整个数字世界引入一个新物种。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2095001443539591606\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjlddp402wgrori67qmo5l0\">https://aihot.virxact.com/items/cmtjlddp402wgrori67qmo5l0</a></p>",
-          "category": "技巧观点",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjlddp402wgrori67qmo5l0"
-        },
-        {
-          "time": "12:05",
-          "title": "网信办通报&quot;清朗 · 整治 AI 应用乱象&quot;典型案例：清理违规信息 561 万余条，豆包、元宝、千问、文心一言严格限制违规内容输出",
-          "summary": "<p>中央网信办公布&quot;清朗 · 整治 AI 应用乱象&quot;专项行动第二阶段成果，累计清理违法违规信息 561 万余条、查处账号 4.9 万余个、处置违规网站和应用 2400 余个。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/363.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjlkdl50353rorijxohk0z3\">https://aihot.virxact.com/items/cmtjlkdl50353rorijxohk0z3</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjlkdl50353rorijxohk0z3"
-        },
-        {
-          "time": "11:57",
-          "title": "智谱入驻天猫开设官方旗舰店，GLM Coding Plan 月付 118 元起可直接网购",
-          "summary": "<p>智谱正式入驻天猫开设&quot;智谱旗舰店&quot;，上架基于 GLM-5.3 的 GLM Coding Plan 订阅套餐，适配 ZCode、Claude Code、Codex 等 20 余款主流 Agent。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/340.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjlkdl50355rorint9f2w49\">https://aihot.virxact.com/items/cmtjlkdl50355rorint9f2w49</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjlkdl50355rorint9f2w49"
-        },
-        {
-          "time": "11:50",
-          "title": "美团 LongCat-2.0 上线 Cline 免费试用",
-          "summary": "<p>🔗 <a href=\"https://x.com/Meituan_LongCat/status/2094996391387111865\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl\">https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl</a></p>",
-          "category": "AI 产品",
-          "source": "X：美团 LongCat (@Meituan_LongCat)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl"
-        },
-        {
-          "time": "11:48",
-          "title": "可灵 Kling 教程：用 Kling MCP 的 Elements 保持跨镜头角色一致性",
-          "summary": "<p>可灵 Kling AI 发布教程，讲解如何在 Kling MCP 中使用 Elements 功能，在不同镜头间保持角色身份一致，从而创作更连贯的 AI 生成故事。</p>\n<p>🔗 <a href=\"https://x.com/Kling_ai/status/2094995960724144182\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjki03t02cvroribkv04i2e\">https://aihot.virxact.com/items/cmtjki03t02cvroribkv04i2e</a></p>",
-          "category": "技巧观点",
-          "source": "X：可灵 Kling AI (@Kling_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjki03t02cvroribkv04i2e"
-        },
-        {
-          "time": "11:40",
-          "title": "Databricks 推理 GLM-5.3 达 310 tok/s，速度与延迟均居第一",
-          "summary": "<p>Yuchen Jin 转发评测图称 Databricks 上 GLM-5.3 输出速度达 310 tok/s，端到端响应 8.9 秒，在多家 API 提供方中速度与延迟均排第一。他还称在 Databricks 内部编码基准上，GLM-5.3 是编码最强的开源权重模型，可与 Fable 5 和 Opus 4.8 竞争。</p>\n<p>🔗 <a href=\"https://x.com/Yuchenj_UW/status/2094993931268420072\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjki04302cwrori3lahl24a\">https://aihot.virxact.com/items/cmtjki04302cwrori3lahl24a</a></p>",
-          "category": "技巧观点",
-          "source": "X：Yuchen Jin (@Yuchenj_UW)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjki04302cwrori3lahl24a"
-        },
-        {
-          "time": "11:38",
-          "title": "阿里云讲解如何用 OpenTelemetry 为 DeepSeek Harness 生成 GenAI 追踪",
-          "summary": "<p>阿里云发文介绍编码智能体的日志只记录发生了什么，却不显示时间和 token 花在哪里。文中给出用三条命令从 DeepSeek Harness 获取 OpenTelemetry GenAI 追踪的方法，追踪结果可在 Jaeger 或 Langfuse 中查看，附教程链接 https://click.alibabacloud.com/m/20000002968/。</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2094993339934220301\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjk3any020iroriq1amq01y\">https://aihot.virxact.com/items/cmtjk3any020iroriq1amq01y</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjk3any020iroriq1amq01y"
-        },
-        {
-          "time": "11:34",
-          "title": "Stanford、Yale 等机构发布 AgentFold：用闭环智能体搜索设计蛋白质折叠模型",
-          "summary": "<p>论文提出 AgentFold，将折叠模型开发建模为对可执行代码变体的闭环智能体树搜索。智能体从紧凑的 ESMFold 衍生模型出发，提出架构修改、实现调试、运行训练，并记录成败经验决定分支算力分配。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094992208894050581\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjk3ao5020jroriv5yl2ppm\">https://aihot.virxact.com/items/cmtjk3ao5020jroriv5yl2ppm</a></p>",
-          "category": "论文",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjk3ao5020jroriv5yl2ppm"
-        },
-        {
-          "time": "11:33",
-          "title": "ChatGPT Ads 不到 200 天年化收入达 10 亿美元",
-          "summary": "<p>ChatGPT Ads 上线不到 200 天年化收入 run rate 达 10 亿美元，OpenAI 正扩大自助广告服务范围。数万广告主已使用该平台，Ads Manager 自助服务今日在印度、欧洲、中东和北非开放。</p>\n<p>🔗 <a href=\"https://www.artificialintelligence-news.com/news/chatgpt-ads-passes-1b-run-rate-in-200-days\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjkod500y0roe4tq4lgu62\">https://aihot.virxact.com/items/cmtjjkod500y0roe4tq4lgu62</a></p>",
-          "category": "行业动态",
-          "source": "Artificial Intelligence News（网页）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjkod500y0roe4tq4lgu62"
-        },
-        {
-          "time": "11:33",
-          "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
-          "summary": "<p>Anthropic 发布 Claude Fable 5.1 和 Claude Mythos 5.1，两者为同一模型，Mythos 5.1 仅通过受信任访问计划提供给网络安全和生命科学领域。</p>\n<p>🔗 <a href=\"https://www.anthropic.com/claude-fable-and-mythos-5-1\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc\">https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc</a></p>",
+          "time": "23:56",
+          "title": "Google Labs VP 称 Gemini 3.8 Flash 在 DeepSWE V1.1 上质量与价格兼得",
+          "summary": "<p>🔗 <a href=\"https://x.com/joshwoodward/status/2095178970912461279\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkb3c7a01akroz56p5192mf\">https://aihot.virxact.com/items/cmtkb3c7a01akroz56p5192mf</a></p>",
           "category": "AI 模型",
-          "source": "Anthropic：Newsroom（网页）",
+          "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjkmd800r4roe4wpq221bc"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkb3c7a01akroz56p5192mf"
         },
         {
-          "time": "11:32",
-          "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
-          "summary": "<p>UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647685772&amp;idx=1&amp;sn=a073c30899a7f420147673def8209609\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09\">https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09</a></p>",
-          "category": "AI 产品",
-          "source": "公众号：数字生命卡兹克",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09"
-        },
-        {
-          "time": "11:30",
-          "title": "面壁智能 CTO 曾国洋四周年分享「面壁 AI Style」工作方式约定",
-          "summary": "<p>面壁智能发布四周年分享，CTO 曾国洋提出名为「面壁 AI Style」的共同约定，包含五项个体素养和四项团队准则。文章以九张图、九句话形式呈现，强调「你的判断力，是 AI 无法替代的核心价值」，主张让 AI 成为每个人的能力放大器。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&amp;mid=2247499130&amp;idx=1&amp;sn=b7c057b13e2e0ac08b33b95824f2b323\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjgbmr08s0robvnso3jdua\">https://aihot.virxact.com/items/cmtjjgbmr08s0robvnso3jdua</a></p>",
-          "category": "技巧观点",
-          "source": "公众号：面壁智能（MiniCPM）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjgbmr08s0robvnso3jdua"
-        },
-        {
-          "time": "11:22",
-          "title": "Gary Marcus 警告 OpenAI 即将越过一条 AI 安全红线",
-          "summary": "<p>Gary Marcus 发文警告 OpenAI 正准备越过一条 AI 安全红线，认为其正在探索的新技术可能令思维链监控变得困难甚至不可能。</p>\n<p>🔗 <a href=\"https://garymarcus.substack.com/p/red-alert-openai-is-poised-to-cross\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjeonr08iirobvno2ih951\">https://aihot.virxact.com/items/cmtjjeonr08iirobvno2ih951</a></p>",
-          "category": "技巧观点",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjeonr08iirobvno2ih951"
-        },
-        {
-          "time": "11:21",
-          "title": "Emad Mostaque 谈 OpenAI Astra 的 recurrent depth 引发监控担忧",
-          "summary": "<p>Emad Mostaque 转引 The Information 报道称 OpenAI 的 Astra AI 使用名为 recurrent depth 的新推理方法，虽有助于成本和性能，但因遮蔽模型思维过程而令研究者担忧其难以监控。Mostaque 认为几年内前沿模型将以每秒 10，000 tokens 一次性解决几乎所有问题，届时人类无法监控，即便给模型设限它也会在编码时绕开。</p>\n<p>🔗 <a href=\"https://x.com/EMostaque/status/2094988941715702115\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjybet000ororij163lsgc\">https://aihot.virxact.com/items/cmtjjybet000ororij163lsgc</a></p>",
-          "category": "技巧观点",
-          "source": "X：Emad Mostaque (@EMostaque)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjybet000ororij163lsgc"
-        },
-        {
-          "time": "11:14",
-          "title": "阿里云将参加 2026 年 10 月 13 日新加坡 SMEs Go Digital Day",
-          "summary": "<p>阿里云宣布参加 2026 年 10 月 13 日 9：00 AM - 6：00 PM 在 Suntec Convention Centre Halls 401-403 举办的新加坡 SMEs Go Digital Day 2026。</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2094987240703189004\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjj0pe208awrobvyk93n49o\">https://aihot.virxact.com/items/cmtjj0pe208awrobvyk93n49o</a></p>",
-          "category": "行业动态",
-          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjj0pe208awrobvyk93n49o"
-        },
-        {
-          "time": "11:13",
-          "title": "OpenAI 宣布 Astra 达到 Preparedness Framework 网络安全 Critical 阈值",
-          "summary": "<p>OpenAI 宣布 Astra 达到其 Preparedness Framework 的 Critical 网络安全能力阈值，是首个被定级为该级别的模型，开发与发布期间采取了更强防护。</p>\n<p>🔗 <a href=\"https://openai.com/index/path-to-astra\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjg7an08rnrobv7toulbm0\">https://aihot.virxact.com/items/cmtjjg7an08rnrobv7toulbm0</a></p>",
+          "time": "23:56",
+          "title": "Gemini 3.8 Flash 上线 OpenRouter，以 3.7 Flash 引入价在各项基准上超越前代",
+          "summary": "<p>OpenRouter 宣布 Google DeepMind 的 Gemini 3.8 Flash 已上线，入口为 https://openrouter.ai/google/gemini-3.8-flash。官方称其以 3.7 Flash 的引入价在所列各项基准（编码、金融、法律、视频、科学）上超越前代；配图显示输入/输出价为 $0.75/$3.75 每百万 token（常规价 $1.50/$7.50），引入价有效期至 2026 年 12 月 31 日。</p>\n<p>🔗 <a href=\"https://x.com/OpenRouter/status/2095178953124364377\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkai3i7025crompurprs91g\">https://aihot.virxact.com/items/cmtkai3i7025crompurprs91g</a></p>",
           "category": "AI 模型",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "source": "X：OpenRouter (@OpenRouter)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjg7an08rnrobv7toulbm0"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkai3i7025crompurprs91g"
         },
         {
-          "time": "11:11",
-          "title": "阿里千问发布 Qwen3.8-Max-0902 版本，登顶 CodeArena 前端编程总榜",
-          "summary": "<p>阿里千问宣布 Qwen3.8-Max 升级到 0902 版本，围绕编程和专业办公进行后训练，CodeArena 前端编程总榜提升 22 分至 1691 分夺得冠军。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/270.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjf7m208n8robvefhme3mg\">https://aihot.virxact.com/items/cmtjjf7m208n8robvefhme3mg</a></p>",
+          "time": "23:54",
+          "title": "Google 发布 Gemini 3.8 Flash，主打复杂推理能力",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash，称其专为复杂推理打造。官方用 3.8 Flash 与 Three.js 在 Google AI Studio 中构建交互式 3D 可视化器，可自动将硬件设备分解为多个图层，用户通过解构滑块即可拆开并逐层查看各组件。</p>\n<p>🔗 <a href=\"https://x.com/googleaidevs/status/2095178562299154466\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkai3hx025brompet8f55nh\">https://aihot.virxact.com/items/cmtkai3hx025brompet8f55nh</a></p>",
           "category": "AI 模型",
-          "source": "IT之家（RSS）",
+          "source": "X：Google AI for Developers (@googleaidevs)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjf7m208n8robvefhme3mg"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkai3hx025brompet8f55nh"
         },
         {
-          "time": "11:10",
-          "title": "Nvidia 担保下银行向 GMI Cloud 提供超申请额一倍的 9.47 亿美元 GPU 抵押贷款",
-          "summary": "<p>Bloomberg 报道，银行向 GMI Cloud 提供 NT$30B（9.47 亿美元）贷款承诺，超过其申请额的两倍以上，因为 Nvidia 为其未使用的 GPU 产能兜底。Nvidia 承诺以约定价格租用任何闲置产能长达 6 年，为 GMI Cloud 提供收入下限。竞争 GPU 厂商因此多了一道门槛：融资伙伴须信任其资产负债表和未来需求，才愿意对其装机产能放贷。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094986184498045122\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjj0pek08ayrobvr0cbqj3v\">https://aihot.virxact.com/items/cmtjj0pek08ayrobvr0cbqj3v</a></p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjj0pek08ayrobvr0cbqj3v"
-        },
-        {
-          "time": "11:06",
-          "title": "微软 Excel 推出 Change History 功能，用 Copilot 梳理协作修改历史",
-          "summary": "<p>微软为 Excel 推出 Change History（变更历史）功能，结合 Copilot 推理能力生成修改说明，用户可用自然语言了解工作簿在特定时间段内的重要变化。功能会用不同颜色标记人工编辑与 Copilot 辅助修改，支持撤销某位协作者的 AI 辅助改动并保留其手动编辑，还能在公式异常时分析近期哪些修改可能导致公式失效。原文未披露最长追溯周期、可处理规模和响应时间等参数。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/267.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjf7m308n9robvyaexy0u4\">https://aihot.virxact.com/items/cmtjjf7m308n9robvyaexy0u4</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjf7m308n9robvyaexy0u4"
-        },
-        {
-          "time": "11:00",
-          "title": "Ethan Mollick 用同一提示词测试 Fable 5.1 生成 twigl 沉没哥特塔楼着色器",
-          "summary": "<p>Ethan Mollick 展示 Fable 5.1 用与此前相同的提示词在 twigl-dot-app 生成的着色器，画面为风暴海洋中部分淹没的无限新哥特式塔楼城市，全部为程序化生成。他建议与引用推文中的 Fable 5 及更早模型的同提示词结果对比。</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2094983856424358023\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjj0ped08axrobvpgao94qi\">https://aihot.virxact.com/items/cmtjj0ped08axrobvpgao94qi</a></p>",
-          "category": "技巧观点",
-          "source": "X：Ethan Mollick (@emollick)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjj0ped08axrobvpgao94qi"
-        },
-        {
-          "time": "10:59",
-          "title": "马斯克预告 Grok 4.7 将于 10 天后发布",
-          "summary": "<p>Elon Musk 宣布 Grok 4.7 将在 10 天后发布。推文中还引用了他人对 Grok 4.6 表现的称赞作为背景。</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2094983639780204846\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjirjyf086yrobv9f7pfuan\">https://aihot.virxact.com/items/cmtjirjyf086yrobv9f7pfuan</a></p>",
+          "time": "23:54",
+          "title": "Gemini 3.8 Flash 在 DeepSWE V1.1 上得分 73.7%",
+          "summary": "<p>Gemini 3.8 Flash 在 DeepSWE V1.1 基准上得分 73.7%。配套图表显示该成绩在多款模型的分数与每任务平均成本对比中位于高效区，图表来源标注为 Datacurve AI（deepswe.datacurve.ai）。</p>\n<p>🔗 <a href=\"https://x.com/OfficialLoganK/status/2095178478505328918\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka97wl01t2rompmo93nhwk\">https://aihot.virxact.com/items/cmtka97wl01t2rompmo93nhwk</a></p>",
           "category": "AI 模型",
-          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "source": "X：Logan Kilpatrick (@OfficialLoganK)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjirjyf086yrobv9f7pfuan"
+          "itemUrl": "https://aihot.virxact.com/items/cmtka97wl01t2rompmo93nhwk"
         },
         {
-          "time": "10:57",
-          "title": "Qwen3.8-Max-0902 登顶 Code Arena 并以 $5/MToken 领跑 Pareto 前沿",
-          "summary": "<p>通义千问发布 Qwen3.8-Max-0902，在 Code Arena： WebDev 以 1，691 分首次亮相即排名总榜第一，并以混合价 $5/MToken 成为 Pareto 前沿上得分最高的模型，现已可在 QwenCloud 试用。</p>\n<p>🔗 <a href=\"https://x.com/Alibaba_Qwen/status/2094982928371794077\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje\">https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje</a></p>",
+          "time": "23:50",
+          "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+          "summary": "<p>Google DeepMind 发布两款新 Gemini 模型：3.8 Flash 相比 3.7 Flash 在软件工程、智能体任务和多步推理上有显著提升；3.8 Flash Cyber 专注网络安全，提供前沿级漏洞检测和自动补丁。作者认为 3.8 Flash 定价有吸引力，Cyber 版在补丁能力上处于 Pareto 前沿。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2095177610930098670\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaj1hp025rrompuq0hlcso\">https://aihot.virxact.com/items/cmtkaj1hp025rrompuq0hlcso</a></p>",
           "category": "AI 模型",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjimzgx083zrobvekm2zmje"
-        },
-        {
-          "time": "10:56",
-          "title": "METR 披露安全事件：Agent 被诱导交出 API key，损失 $600，000 额度",
-          "summary": "<p>METR 在安全更新中披露：一名研究员个人 EC2 实例上的 vibe-coded dashboard 静默失效并关闭了 Google 认证，攻击者疑似通过证书透明度列表找到该服务，直接提示 Agent 交出其 provider key。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094982855193690424\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjj0pek08azrobv5rqquodo\">https://aihot.virxact.com/items/cmtjj0pek08azrobv5rqquodo</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjj0pek08azrobv5rqquodo"
-        },
-        {
-          "time": "10:53",
-          "title": "谷歌 AI 图像设计工具 Google Pics 上线，Docs / Slides 可直接调用修图",
-          "summary": "<p>谷歌于9月1日宣布正式上线AI图像设计与编辑工具Google Pics，用户可通过 pics.new 使用网页版，并在 Google Docs 和 Google Slides 中直接调用编辑器。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/263.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjf7m308nbrobvds1xqxrw\">https://aihot.virxact.com/items/cmtjjf7m308nbrobvds1xqxrw</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjf7m308nbrobvds1xqxrw"
-        },
-        {
-          "time": "10:47",
-          "title": "WSJ：数据中心建设速度正成为 AI 竞赛新瓶颈",
-          "summary": "<p>WSJ 发布文章称，AI 竞争的瓶颈正从 GPU 和电力转向数据中心建筑的物理施工速度。文中提到，建筑商正借助 AI 文档检查、可预测混凝土、预制模块、钻孔机器人和可秒级安装的连接件，把工期缩短数周至数月；配图显示预制等工艺可分别节省数月和六个月工期。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094980595910889519\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhy5ze07gmrobv264tc3no\">https://aihot.virxact.com/items/cmtjhy5ze07gmrobv264tc3no</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhy5ze07gmrobv264tc3no"
-        },
-        {
-          "time": "10:45",
-          "title": "AI Safety Memes 称 OpenAI 进展远快于 AI 2027 场景，neuralese 疑似提前到来",
-          "summary": "<p>作者称现实进展比 AI 2027 场景快得多，该场景原本预测 2027 年 3 月才会出现 neuralese（即失去监控 AI 思维的能力），而现实已是 2026 年夏。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2094980066539344280\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtji5nid07s1robvqoz5k7q4\">https://aihot.virxact.com/items/cmtji5nid07s1robvqoz5k7q4</a></p>",
-          "category": "技巧观点",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtji5nid07s1robvqoz5k7q4"
-        },
-        {
-          "time": "10:39",
-          "title": "Bloomberg：Cognition 拟以约 $47B 估值融资约 $1B，年化收入已超 $900M",
-          "summary": "<p>Bloomberg 报道，Devin 开发商 Cognition 拟以约 $47B 估值融资约 $1B，年化收入据报道已突破 $900M，约为此前 $492M 年化收入的两倍，对应 52 倍年化收入估值。该轮收到近 $10B 的投资人认购意向；仅 3 个月前，Cognition 曾以 $26B 投后估值融资超过 $1B。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094978413278982570\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhy5ze07gnrobv3lg2n6iw\">https://aihot.virxact.com/items/cmtjhy5ze07gnrobv3lg2n6iw</a></p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhy5ze07gnrobv3lg2n6iw"
-        },
-        {
-          "time": "10:37",
-          "title": "宇树科技上市两周股价腰斩 跌至550元以下",
-          "summary": "<p>宇树科技9月2日股价跌超4%，每股跌至550元以下，相比8月19日上市首日开盘最高1，100元/股已腰斩。该股发行价150.80元/股，开盘较发行价大涨629.44%，总市值一度达4，449亿元；2026上半年营收11.52亿元同比增长48.54%，扣非归母净利润2.44亿元同比下滑19.34%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/256.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjjf7m308nerobvp177dt0z\">https://aihot.virxact.com/items/cmtjjf7m308nerobvp177dt0z</a></p>",
-          "category": "行业动态",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjjf7m308nerobvp177dt0z"
-        },
-        {
-          "time": "10:36",
-          "title": "华为云预告 HUAWEI CONNECT 2026 将于 9 月 17 至 19 日在上海举办",
-          "summary": "<p>华为云官方预告 HUAWEI CONNECT 2026 将于 9 月 17 日至 19 日在上海举行。大会为期三天，聚焦 Agentic AI 基础设施创新、核心行业场景智能化转型，以及面向伙伴和开发者的数智生态。</p>\n<p>🔗 <a href=\"https://x.com/HuaweiCloud1/status/2094977786670977529\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjiif7a081mrobv3de1xcbj\">https://aihot.virxact.com/items/cmtjiif7a081mrobv3de1xcbj</a></p>",
-          "category": "行业动态",
-          "source": "X：华为云 (@HuaweiCloud1)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjiif7a081mrobv3de1xcbj"
-        },
-        {
-          "time": "10:31",
-          "title": "Qwen3.8-Max-0902 以 1691 分登顶 Code Arena： WebDev 榜首",
-          "summary": "<p>通义千问宣布 Qwen3.8-Max-0902 以 1691 分位列 Code Arena： WebDev 榜单第一，较上一版 Qwen3.8-Max 的 1669 分提升 22 分，创下新的智能体编码（WebDev）纪录。</p>\n<p>🔗 <a href=\"https://x.com/Alibaba_Qwen/status/2094976556494209206\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhke53075qrobvhcdgp79z\">https://aihot.virxact.com/items/cmtjhke53075qrobvhcdgp79z</a></p>",
-          "category": "AI 模型",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhke53075qrobvhcdgp79z"
-        },
-        {
-          "time": "10:29",
-          "title": "阿里云发布 Qwen3.8-Max-0902：2.4T 参数、1M 上下文并针对编码与协作再训练",
-          "summary": "<p>阿里云宣布 Qwen3.8-Max 升级为 Qwen3.8-Max-0902，参数量 2.4T，支持 1M token 上下文。该版本针对 Coding &amp; Cowork 进一步后训练，在复杂企业任务、科学研究和长周期工作流上表现更强。</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2094975918091481167\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhy5yw07gkrobv2u5cwoms\">https://aihot.virxact.com/items/cmtjhy5yw07gkrobv2u5cwoms</a></p>",
-          "category": "AI 模型",
-          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhy5yw07gkrobv2u5cwoms"
-        },
-        {
-          "time": "10:28",
-          "title": "UC Berkeley 团队发布 Vero 基准：测试 AI 智能体能否构建形式化验证的软件仓库",
-          "summary": "<p>UC Berkeley 等机构发布 Vero，据称是首个要求智能体在仓库级同时编写实现与证明的基准，含 43 个多模块 Lean 4 实例、743 个计分 API 和 2705 条形式化规范。</p>\n<p>🔗 <a href=\"https://rdi.berkeley.edu/blog/vero\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjh8t5k06jorobvfq21a6e2\">https://aihot.virxact.com/items/cmtjh8t5k06jorobvfq21a6e2</a></p>",
-          "category": "论文",
-          "source": "Berkeley RDI：Blog（AI 安全与评测）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjh8t5k06jorobvfq21a6e2"
-        },
-        {
-          "time": "10:26",
-          "title": "Nvidia 接近以 129 亿美元收购 Hugging Face",
-          "summary": "<p>Bloomberg 报道 Nvidia 正接近以约 129 亿美元收购 Hugging Face，交易总额可能达约 140 亿美元，双方尚未达成最终协议，时间与细节仍可能变动。该价格约为 Hugging Face 2023 年融资轮 45 亿美元估值的 2.9 倍，按年化收入约 1.5 亿美元计算相当于 86 倍，Nvidia 还谈及在交易中加入 10 亿美元的员工留任方案。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094975190468010368\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi\">https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi</a></p>",
-          "category": "行业动态",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhy5ze07gorobv62fpf0wi"
-        },
-        {
-          "time": "10:22",
-          "title": "OpenAI Astra 据报采用循环深度架构，推理可读性下降引发安全担忧",
-          "summary": "<p>The Information 报道 OpenAI 的 Astra 模型采用 recurrent depth（looped transformer）架构，同一信息可多次经过相同 transformer 层后再生成下一个 token，在不按比例增加参数量的情况下提升每 token 计算量。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094974185361883451\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhy5ze07gprobve8rkjwhv\">https://aihot.virxact.com/items/cmtjhy5ze07gprobve8rkjwhv</a></p>",
-          "category": "技巧观点",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhy5ze07gprobve8rkjwhv"
-        },
-        {
-          "time": "10:21",
-          "title": "OPPO 联合多所高校推出端侧 AI 记忆评测基准 MobileMem",
-          "summary": "<p>OPPO 联合 OpenKG 及浙江大学、同济大学、东南大学等高校团队推出端侧 AI 记忆评测基准 MobileMem，技术白皮书已公开，数据集和相关工具将陆续开源。OPPO 首席产品官刘作虎称，端侧 AI 记忆是 AI 手机从一问一答走向主动服务智能体的基础能力，此前行业缺少统一评价标准；ColorOS 17 发布暨开发者大会将于 2026 年 9 月 17 日在珠海举行。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/251.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjha11d06s9robvsocn8d55\">https://aihot.virxact.com/items/cmtjha11d06s9robvsocn8d55</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjha11d06s9robvsocn8d55"
-        },
-        {
-          "time": "10:20",
-          "title": "美联储达拉斯联储报告：GenAI 暴露度高的得州企业招聘岗位少 8-9%",
-          "summary": "<p>美联储达拉斯联储发布报告，称 GenAI 暴露度较高的得州企业招聘岗位减少 8-9%。报告将 O*NET 任务映射到 Claude 实际使用情况来度量暴露度，并与 Lightcast 数百万条在线招聘数据关联。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094973714903548315\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhy5ze07gqrobvvyakxhm3\">https://aihot.virxact.com/items/cmtjhy5ze07gqrobvvyakxhm3</a></p>",
-          "category": "论文",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhy5ze07gqrobvvyakxhm3"
-        },
-        {
-          "time": "10:16",
-          "title": "arXiv 论文测试图记忆与平面向量检索在长期智能体上的表现",
-          "summary": "<p>arXiv 论文《Selective Forgetting： A Graph-Based Memory Framework for Long-Term LLM Agents》将对话轮次抽取为带类型节点和属性边，从两跳子图作答。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2094972586358927466\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjgvj7l06esrobv9v1crx85\">https://aihot.virxact.com/items/cmtjgvj7l06esrobv9v1crx85</a></p>",
-          "category": "论文",
           "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjgvj7l06esrobv9v1crx85"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaj1hp025rrompuq0hlcso"
         },
         {
-          "time": "10:12",
-          "title": "OpenAI 称 Astra 是其首个达到 Critical 网络安全能力阈值的模型",
-          "summary": "<p>OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个达到该水平的模型，并预告了评估方式与安全措施。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2094971768188629409\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjgvj7u06etrobvjbckc9n3\">https://aihot.virxact.com/items/cmtjgvj7u06etrobvjbckc9n3</a></p>",
+          "time": "23:50",
+          "title": "Gemini 3.8 Flash 开始向 GeminiApp 推送",
+          "summary": "<p>Google Labs VP Josh Woodward 宣布 3.8 Flash 正在向 GeminiApp 推送。配图显示 GeminiApp 模型选择器中 3.8 Flash 标注为 All-around help，与 3.5 Flash-Lite、3.1 Pro 等选项并列。</p>\n<p>🔗 <a href=\"https://x.com/joshwoodward/status/2095177483129917849\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka0qke01p4rompm3rt97m6\">https://aihot.virxact.com/items/cmtka0qke01p4rompm3rt97m6</a></p>",
           "category": "AI 模型",
-          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "source": "X：Josh Woodward (@joshwoodward, Google Labs VP)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjgvj7u06etrobvjbckc9n3"
+          "itemUrl": "https://aihot.virxact.com/items/cmtka0qke01p4rompm3rt97m6"
         },
         {
-          "time": "10:10",
-          "title": "kicking off the biggest SlopCodeBench run to date tonight - we're testing the FULL benchmark on Fabl…",
-          "summary": "<p>🔗 <a href=\"https://x.com/dexhorthy/status/2094971206692663389\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjht6nu07aorobvl7pnrgu0\">https://aihot.virxact.com/items/cmtjht6nu07aorobvl7pnrgu0</a></p>",
-          "category": "技巧观点",
-          "source": "X：Dex Horthy（HumanLayer）(@dexhorthy)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjht6nu07aorobvl7pnrgu0"
-        },
-        {
-          "time": "10:08",
-          "title": "Elon Musk 在 G20 的完整演讲视频（含字幕和时间戳）",
-          "summary": "<p>DogeDesigner 发布了 Elon Musk 今日在 G20 演讲的完整视频，来源音频和画面清晰，带字幕和时间戳。时间戳目录包括 1：14 监管为何拖慢创新、3：38 AI、自动驾驶、机器人与全球增长、7：18 人形机器人的兴起、9：21 AI 数据中心、算力与电力、10：13 迫近的 AI 电力短缺等。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2094970725555945814\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjgvj7a06errobviqpp1dt7\">https://aihot.virxact.com/items/cmtjgvj7a06errobviqpp1dt7</a></p>",
-          "category": "技巧观点",
-          "source": "X：cb_doge (@cb_doge)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjgvj7a06errobviqpp1dt7"
-        },
-        {
-          "time": "10:00",
-          "title": "通义千问发布 Qwen3.8-Max-0902：2.4T 参数、1M token 上下文",
-          "summary": "<p>通义千问（Qwen）宣布 Qwen3.8-Max 升级为 Qwen3.8-Max-0902，具备 2.4T 参数和 1M token 上下文窗口。该版本针对编码与协作（Coding &amp; Cowork）进一步后训练，面向复杂企业任务、科学研究和长程工作流。</p>\n<p>🔗 <a href=\"https://x.com/Alibaba_Qwen/status/2094968708288680276\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjghtpe0680robvht3jlkk5\">https://aihot.virxact.com/items/cmtjghtpe0680robvht3jlkk5</a></p>",
+          "time": "23:49",
+          "title": "Google 发布 Gemini 3.8 Flash，Artificial Analysis 智能指数得分 59 并进入性价比 Pareto 前沿",
+          "summary": "<p>Google DeepMind 发布 Gemini 3.8 Flash，为四个月内第四款 Flash 模型。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2095177419489739063\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka0qk601p3rompn3kalzid\">https://aihot.virxact.com/items/cmtka0qk601p3rompn3kalzid</a></p>",
           "category": "AI 模型",
-          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjghtpe0680robvht3jlkk5"
+          "itemUrl": "https://aihot.virxact.com/items/cmtka0qk601p3rompn3kalzid"
         },
         {
-          "time": "09:57",
-          "title": "Dr Eggbot v0.2.0 更新：新增 routine 健康检查与每日摩擦巡查",
-          "summary": "<p>Dr Eggbot（v0.2.0）发布更新：新增对全部 routine 的健康检查，可找出未使用或开销高的 routine，默认每周执行一次；同时内置每日可自定义 routine，扫描各 bot 最近对话中的摩擦（纠正、误解、&quot;不是我的意思&quot;），并建议技能、bot 或 routine 以持续改进 Grok bot 配置。</p>\n<p>🔗 <a href=\"https://x.com/poteto/status/2094967827019243547\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjhwqa107cbrobvtiyd9rwn\">https://aihot.virxact.com/items/cmtjhwqa107cbrobvtiyd9rwn</a></p>",
+          "time": "23:49",
+          "title": "Google 发布 Gemini 3.8 Flash，输入定价 $0.75/百万 tokens",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash，距上一版仅 3 周，作者称这款 flash 模型在多项基准上超越旗舰模型，输入价格仅 $0.75/百万 tokens、输出 $3.75。模型当日已在 AI Studio、Gemini app 和 Antigravity 可用；介绍价有效期至 2026 年 12 月 31 日，之后恢复 $1.50/$7.50 定价。</p>\n<p>🔗 <a href=\"https://x.com/ammaar/status/2095177414804472160\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkabhye01yfrompjs6xrcvp\">https://aihot.virxact.com/items/cmtkabhye01yfrompjs6xrcvp</a></p>",
+          "category": "AI 模型",
+          "source": "X：Ammaar Reshi (@ammaar)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkabhye01yfrompjs6xrcvp"
+        },
+        {
+          "time": "23:47",
+          "title": "Google 与 MrBeast 达成多年合作，Gemini 将进入其荒野生存视频",
+          "summary": "<p>Google 与 MrBeast 达成多年合作，MrBeast 将在后续视频中展示 Gemini、Google Health 和 Fitbit Air。首支视频定于 9 月 5 日发布，Jimmy Donaldson 和团队将穿越丛林、沙漠和北极三种极端环境，借助 Gemini 识别危险、应对剧烈天气变化。</p>\n<p>🔗 <a href=\"https://www.theverge.com/tech/988355/mrbeast-google-partnership-gemini-fitbit\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaa7gs01v4romp5p73ru5b\">https://aihot.virxact.com/items/cmtkaa7gs01v4romp5p73ru5b</a></p>",
+          "category": "行业动态",
+          "source": "The Verge：AI（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaa7gs01v4romp5p73ru5b"
+        },
+        {
+          "time": "23:45",
+          "title": "Google 发布 Gemini 3.8 Flash，面向 Pro 和 Ultra 用户开放",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash 模型，即日起面向 Pro 和 Ultra 用户开放。官方称该模型响应更可靠、更全面，可提供日常话题的可操作建议，并支持文本分析和复杂编码等深度任务。</p>\n<p>🔗 <a href=\"https://x.com/GeminiApp/status/2095176192307691835\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka69r501rkrompoabmlpd7\">https://aihot.virxact.com/items/cmtka69r501rkrompoabmlpd7</a></p>",
+          "category": "AI 模型",
+          "source": "X：Gemini (@GeminiApp)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtka69r501rkrompoabmlpd7"
+        },
+        {
+          "time": "23:43",
+          "title": "Google 发布 Gemini 3.8 Flash，智能体与编码能力再提升",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash，是 6 周内第 3 次更新的 Flash 模型，主打智能体和编码能力提升。官方跑分显示其在 Terminal-bench 2.1 达 89.4%、HLE-Verified 达 54.9%、LVBench 达 87.8%， introductory 价为输入 $0.75、输出 $3.75 每 1M tokens，2026 年 12 月 31 日后恢复 $1.50/$7.50 定价。</p>\n<p>🔗 <a href=\"https://x.com/OfficialLoganK/status/2095175881690173885\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka97wl01t3romplj860595\">https://aihot.virxact.com/items/cmtka97wl01t3romplj860595</a></p>",
+          "category": "AI 模型",
+          "source": "X：Logan Kilpatrick (@OfficialLoganK)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtka97wl01t3romplj860595"
+        },
+        {
+          "time": "23:43",
+          "title": "Google 发布 Gemini 3.8 Flash，面向复杂智能体与多步任务",
+          "summary": "<p>Google 发布 Gemini 3.8 Flash，主打处理复杂智能体和多步任务，推理能力显著提升，不仅写代码还能驾驭复杂项目。模型延续 effort controls，使完成任务的思考量与 token 花费成正比；官方还演示其在 @antigravity 中结合原生视频理解与编码，自主构建 3D 游戏、试玩找错并执行代码修改。</p>\n<p>🔗 <a href=\"https://x.com/GoogleAI/status/2095175759606231439\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka9kc901tsrompxde15uuq\">https://aihot.virxact.com/items/cmtka9kc901tsrompxde15uuq</a></p>",
+          "category": "AI 模型",
+          "source": "X：Google AI (@GoogleAI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtka9kc901tsrompxde15uuq"
+        },
+        {
+          "time": "23:42",
+          "title": "Google DeepMind 发布 Gemini 3.8 Flash 与 3.8 Flash Cyber 两款新模型",
+          "summary": "<p>Google DeepMind 发布两款 Gemini 新模型。Gemini 3.8 Flash 是其目前最智能的模型，相比 3.7 Flash 在软件工程、智能体任务和多步推理上有显著提升；Gemini 3.8 Flash Cyber 是其能力最强的网络安全模型，具备前沿水平的漏洞检测和自动修补能力。</p>\n<p>🔗 <a href=\"https://x.com/GoogleDeepMind/status/2095175498967949359\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka69qv01rjromp1bxpkghn\">https://aihot.virxact.com/items/cmtka69qv01rjromp1bxpkghn</a></p>",
+          "category": "AI 模型",
+          "source": "X：Google DeepMind (@GoogleDeepMind)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtka69qv01rjromp1bxpkghn"
+        },
+        {
+          "time": "23:40",
+          "title": "Grok Bot 安卓版上线并开放 Play Store 下载",
+          "summary": "<p>Grok Bot 安卓版现已上线，作者提供了 Google Play 下载链接（https://play.google.com/store/apps/details?id=ai.x.grok.bot）。</p>\n<p>🔗 <a href=\"https://x.com/poteto/status/2095175089969074243\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9ue1z01ilromphiometea\">https://aihot.virxact.com/items/cmtk9ue1z01ilromphiometea</a></p>",
           "category": "AI 产品",
           "source": "X：Lauren Tan (@poteto)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjhwqa107cbrobvtiyd9rwn"
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9ue1z01ilromphiometea"
         },
         {
-          "time": "09:55",
-          "title": "三星为 Galaxy Z Fold8 等机型推出 My FanCam 功能，AI 自动跟拍指定人物",
-          "summary": "<p>三星 9 月 1 日发布博文，宣布面向 Galaxy Z Fold8、Galaxy Z Flip8、Galaxy S26 FE 等机型推出 My FanCam 功能，可一键识别并追踪视频中指定人物，自动重新裁切画面使其保持在中心。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/243.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjha11d06serobvtjvhxf9m\">https://aihot.virxact.com/items/cmtjha11d06serobvtjvhxf9m</a></p>",
-          "category": "AI 产品",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjha11d06serobvtjvhxf9m"
-        },
-        {
-          "time": "09:54",
-          "title": "谷歌 Gemini 3.8 Flash（内部代号 Skimaki）最快周三上线，编程能力对标 OpenAI 与 Anthropic",
-          "summary": "<p>据《华尔街日报》9 月 1 日报道，谷歌将发布编程能力大幅升级的 Gemini 3.8 Flash，内部代号 Skimaki，最早当地时间周三上线。内部工具 Jetski 对比测试中工程师对其偏好超过 Anthropic 的 Opus 模型，编程方面显著缩小了与 Anthropic 和 OpenAI 的差距。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/242.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjha11d06sfrobvv2fasgii\">https://aihot.virxact.com/items/cmtjha11d06sfrobvv2fasgii</a></p>",
-          "category": "AI 模型",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjha11d06sfrobvv2fasgii"
-        },
-        {
-          "time": "09:52",
-          "title": "李飞飞 World Labs 发布多模态世界模型 Atlas，支持像素级相机控制生成 1440p 视频",
-          "summary": "<p>李飞飞创办的 World Labs 发布多模态世界模型 Atlas，称其能以像素级精确相机控制生成图像和视频帧，并在 3D 中重建。Atlas 可输出最长 1 分钟的 1440p 视频，从一至数十张图像进行空间重建，支持时空模拟和文本生成图像与 360 度全景，部分合作伙伴已获抢先体验，未来几周内开放早期访问。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/241.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjha11d06sgrobvvwx0ur1m\">https://aihot.virxact.com/items/cmtjha11d06sgrobvvwx0ur1m</a></p>",
-          "category": "AI 模型",
-          "source": "IT之家（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjha11d06sgrobvvwx0ur1m"
-        },
-        {
-          "time": "09:50",
-          "title": "Dex Horthy 推进 slopcodebench 评分，Fable 与 GLM checkpoint 表现领先",
-          "summary": "<p>🔗 <a href=\"https://x.com/dexhorthy/status/2094966154582270156\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjht6nu07aprobv2drwzisd\">https://aihot.virxact.com/items/cmtjht6nu07aprobv2drwzisd</a></p>",
+          "time": "23:40",
+          "title": "Harness-of-Harness 论文提出多日自主软件开发框架，三次迭代平均相对提升 52.25%",
+          "summary": "<p>上海人工智能实验室论文提出 Harness-of-Harness（HoH），把现有 coding agent harness 的执行组织为迭代的规划、编码、测试循环，使智能体在无人工干预下持续改进软件。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2095175056598966652\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaj1hp025srompxdggdxip\">https://aihot.virxact.com/items/cmtkaj1hp025srompxdggdxip</a></p>",
           "category": "论文",
-          "source": "X：Dex Horthy（HumanLayer）(@dexhorthy)",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjht6nu07aprobv2drwzisd"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaj1hp025srompxdggdxip"
         },
         {
-          "time": "09:43",
-          "title": "阿里云发布 Wan3.0，Omni-reference 支持原生 30 秒 1080P 音视频单次生成",
-          "summary": "<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2094964362867855840\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjfsz2n05kvrobv6i4ihjyp\">https://aihot.virxact.com/items/cmtjfsz2n05kvrobv6i4ihjyp</a></p>",
+          "time": "23:40",
+          "title": "DogeDesigner 称越用 Grok @Bot 越不想用其他工具",
+          "summary": "<p>DogeDesigner 发推称，越使用 Grok @Bot，越不想使用其他工具。</p>\n<p>🔗 <a href=\"https://x.com/cb_doge/status/2095174951250899155\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtka78ry01s2romp3rfz8jvp\">https://aihot.virxact.com/items/cmtka78ry01s2romp3rfz8jvp</a></p>",
+          "category": "技巧观点",
+          "source": "X：cb_doge (@cb_doge)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtka78ry01s2romp3rfz8jvp"
+        },
+        {
+          "time": "23:40",
+          "title": "Google 推出 Fairwind Program，提供 Gemini 3.8 Flash Cyber 与 CodeMender 自主漏洞防御",
+          "summary": "<p>Google 发布 Fairwind Program，面向政府机构和可信合作伙伴开放限制访问的先进网络防御能力，首批提供专用模型 Gemini 3.8 Flash Cyber 与 CodeMender 组合，用来自主查找、验证和修复漏洞，可在几分钟内生成可部署补丁而非耗时数周的人工修复。</p>\n<p>🔗 <a href=\"https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaaax301vurompaljkj7xq\">https://aihot.virxact.com/items/cmtkaaax301vurompaljkj7xq</a></p>",
           "category": "AI 产品",
-          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "source": "Google Blog：AI（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjfsz2n05kvrobv6i4ihjyp"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaaax301vurompaljkj7xq"
         },
         {
-          "time": "09:39",
-          "title": "英伟达接近以约 140 亿美元收购 Hugging Face，最快本周达成协议",
-          "summary": "<p>彭博社报道称，英伟达正就收购 Hugging Face 展开深入谈判，最快可能于本周达成协议，以 129 亿美元收购外加 10 亿美元员工留任激励，总规模接近 140 亿美元。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/238.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtjha11d06shrobvk8y8cw2n\">https://aihot.virxact.com/items/cmtjha11d06shrobvk8y8cw2n</a></p>",
-          "category": "行业动态",
+          "time": "23:34",
+          "title": "Motional 与 MIT 合作研究让自动驾驶汽车实时解释决策",
+          "summary": "<p>Motional 与 MIT 研究人员构建了一套让自动驾驶汽车实时解释自身决策的系统，旨在解决自动驾驶 AI 的黑箱问题。该成果发表于 Nature，团队包括 Motional CEO Laura Major 与 MIT 计算机科学与人工智能实验室的研究人员。</p>\n<p>🔗 <a href=\"https://www.artificialintelligence-news.com/news/motional-and-mit-ai-explains-self-driving-car-decisions\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9awhf02l1rovgx24h9qbq\">https://aihot.virxact.com/items/cmtk9awhf02l1rovgx24h9qbq</a></p>",
+          "category": "论文",
+          "source": "Artificial Intelligence News（网页）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9awhf02l1rovgx24h9qbq"
+        },
+        {
+          "time": "23:32",
+          "title": "MiniMax H3 Max 上线 OpenRouter，比 H3 更快更便宜",
+          "summary": "<p>MiniMax H3 Max 已在 OpenRouter 上线，官方称比 H3 更快且更便宜。同一提示词并排对比下，出片时间从约 3.5 分钟缩短到约 30 秒，单个片段价格从 $0.65 降到 $0.40。</p>\n<p>🔗 <a href=\"https://x.com/OpenRouter/status/2095173141404533128\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9fhim02qdrovgwbnzr5aq\">https://aihot.virxact.com/items/cmtk9fhim02qdrovgwbnzr5aq</a></p>",
+          "category": "AI 产品",
+          "source": "X：OpenRouter (@OpenRouter)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9fhim02qdrovgwbnzr5aq"
+        },
+        {
+          "time": "23:31",
+          "title": "RAG 系统效果为何取决于嵌入模型：ByteByteGo 图解检索机制与选型要点",
+          "summary": "<p>ByteByteGo 发文解析 RAG 系统中嵌入模型的关键作用，指出语言模型再强也无法弥补错误检索，因为嵌入模型决定了哪些文本进入上下文。文章图解了索引与检索两个阶段的工作流程，列举了语义相似但答非所问的多种失败模式，包括否定句、版本差异和数字标识等，并说明更换嵌入模型需要全量重建向量、索引和权限，成本高昂，类似蓝绿部署。</p>\n<p>🔗 <a href=\"https://blog.bytebytego.com/p/how-to-shrink-a-language-model-without\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9u31101horompzr0vxw4r\">https://aihot.virxact.com/items/cmtk9u31101horompzr0vxw4r</a></p>",
+          "category": "技巧观点",
+          "source": "ByteByteGo（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9u31101horompzr0vxw4r"
+        },
+        {
+          "time": "23:31",
+          "title": "谷歌低调上线 Gemini 3.8 Flash 模型，面向软件工程与智能体任务",
+          "summary": "<p>谷歌 9 月 2 日在 Google DeepMind 网站低调上线 Gemini 3.8 Flash 模型，基于 Gemini 3.7 Flash，截至发稿官方尚未通过新闻稿或社媒官宣。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/702.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkbahdj01i3roz5zn04t2yr\">https://aihot.virxact.com/items/cmtkbahdj01i3roz5zn04t2yr</a></p>",
+          "category": "AI 模型",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.virxact.com/items/cmtjha11d06shrobvk8y8cw2n"
+          "itemUrl": "https://aihot.virxact.com/items/cmtkbahdj01i3roz5zn04t2yr"
+        },
+        {
+          "time": "23:30",
+          "title": "Harness-of-Harness 论文提出多日自主软件开发框架，平均相对增益 52.25%",
+          "summary": "<p>上海人工智能实验室论文提出 Harness-of-Harness（HoH），包裹现有 coding-agent harness，将执行组织为规划、编码、测试的迭代循环，使编码智能体在无人类干预下持续改进软件。</p>\n<p>🔗 <a href=\"https://x.com/dair_ai/status/2095172426925801608\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9o92t018aromp3k18piwl\">https://aihot.virxact.com/items/cmtk9o92t018aromp3k18piwl</a></p>",
+          "category": "论文",
+          "source": "X：DAIR.AI (@dair_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9o92t018aromp3k18piwl"
+        },
+        {
+          "time": "23:29",
+          "title": "研究称三个站点制作了 215，128 个 AI 最佳软件页面并被 Perplexity 引用",
+          "summary": "<p>Trellner 于 2026 年 9 月 2 日向 perplexity/sonar 和 sonar-pro 询问 380 个软件类目的最佳产品，共 760 次调用，收集到 7，534 条引用，其中 59.8% 指向 Tranco 排名 10 万之后、23.4% 指向完全不在百万名内的域名。</p>\n<p>🔗 <a href=\"https://trellner.com/reports/manufactured-sources-behind-ai-recommendations\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaa8ps01vdromp1vyq95pz\">https://aihot.virxact.com/items/cmtkaa8ps01vdromp1vyq95pz</a></p>",
+          "category": "论文",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaa8ps01vdromp1vyq95pz"
+        },
+        {
+          "time": "23:29",
+          "title": "Multiverse Computing 发布 Quasar 438B 推理模型，自称欧洲领先",
+          "summary": "<p>Multiverse Computing 发布首款大模型 Quasar 438B，定位面向企业级智能体和编码的推理模型，支持英文和西班牙语。</p>\n<p>🔗 <a href=\"https://multiversecomputing.com/resources/introducing-quasar-438b-europe-s-leading-ai-model\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtkaa8ps01veromp15b9q02z\">https://aihot.virxact.com/items/cmtkaa8ps01veromp15b9q02z</a></p>",
+          "category": "AI 模型",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtkaa8ps01veromp15b9q02z"
+        },
+        {
+          "time": "23:28",
+          "title": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+          "summary": "<p>Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。</p>\n<p>🔗 <a href=\"https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9u4ga01hwrompqmqchjqj\">https://aihot.virxact.com/items/cmtk9u4ga01hwrompqmqchjqj</a></p>",
+          "category": "技巧观点",
+          "source": "Google AI：DEV 作者专属（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9u4ga01hwrompqmqchjqj"
+        },
+        {
+          "time": "23:28",
+          "title": "Adobe 将 Photoshop、Illustrator 等创意工具接入 Slack",
+          "summary": "<p>Adobe 宣布将 Photoshop、Premiere 和 Illustrator 等创意工具接入 Slack 协作平台，Adobe for Slack 已集成在 Slack 中。用户通过 Slackbot 选择 Manage Apps 添加 Adobe 后，可在聊天框输入 @Adobe 加提示词生成内容，还可引用聊天内容和共享文件辅助生成。</p>\n<p>🔗 <a href=\"https://www.ithome.com/0/997/701.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk95chs02bnrovg34g4k5jc\">https://aihot.virxact.com/items/cmtk95chs02bnrovg34g4k5jc</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk95chs02bnrovg34g4k5jc"
+        },
+        {
+          "time": "23:24",
+          "title": "ByteDance Seed 提出 HarnessDev 基准：让 LLM 创建并演化自己的 Agent harness",
+          "summary": "<p>ByteDance Seed 等机构发布 HarnessDev 论文（https://arxiv.org/abs/2609.01437），把评估单位从任务输出转为可运行的 harness，分 Creation 与 Evolution 两阶段，按能力和执行 token 成本打分。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2095170896407548190\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9gg5t02qqrovgjwpbgbzv\">https://aihot.virxact.com/items/cmtk9gg5t02qqrovgjwpbgbzv</a></p>",
+          "category": "论文",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9gg5t02qqrovgjwpbgbzv"
+        },
+        {
+          "time": "23:15",
+          "title": "Google Gemini 3.8 Flash 在 Gemini、Google AI Studio 和 API 上线",
+          "summary": "<p>Google Gemini 3.8 Flash 正在 Gemini、Google AI Studio 和 API 上推出，DeepSWE 1.1 得分 71%，接近 Claude Opus 5 的 74%，但价格低得多。定价为 2026 年 12 月 31 日前输入 $0.75、输出（含 thinking tokens）$3.75，2027 年 1 月 1 日起分别涨至 $1.50 和 $7.50。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2095168841751863411\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk94p2p028erovgv2zkw1g4\">https://aihot.virxact.com/items/cmtk94p2p028erovgv2zkw1g4</a></p>",
+          "category": "AI 模型",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk94p2p028erovgv2zkw1g4"
+        },
+        {
+          "time": "23:15",
+          "title": "Gemini 3.8 Flash benchmarks. And holy cow！ Flash outperforms 5.6 sol and opus 5 on terminal bench 2….",
+          "summary": "<p>🔗 <a href=\"https://x.com/kimmonismus/status/2095168773800026279\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk9gg6i02qrrovgltt6nkls\">https://aihot.virxact.com/items/cmtk9gg6i02qrrovgltt6nkls</a></p>",
+          "category": "技巧观点",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk9gg6i02qrrovgltt6nkls"
+        },
+        {
+          "time": "23:14",
+          "title": "Claude 校园大使项目开放申请，新增本科生、研究生和博士/博后三条通道",
+          "summary": "<p>Anthropic 宣布 Claude Campus Ambassadors 校园大使项目开放申请，今年扩大面向更多学生的机会，设本科生、研究生和 PhDs/postdocs 三条通道。申请入口为 https://anthropic.com/campus。</p>\n<p>🔗 <a href=\"https://x.com/claudeai/status/2095168559873773970\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk96zen02eorovg0qmw2rgq\">https://aihot.virxact.com/items/cmtk96zen02eorovg0qmw2rgq</a></p>",
+          "category": "行业动态",
+          "source": "X：Claude (@claudeai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk96zen02eorovg0qmw2rgq"
+        },
+        {
+          "time": "23:14",
+          "title": "Deedy 实测 Fable 5.1 生成钢笔手写英文字体",
+          "summary": "<p>Deedy 让 Fable 5.1 用钢笔风格生成英文手写体字体，认为效果非常好。他表示该模型在结合代码处理图形方面表现很强。</p>\n<p>🔗 <a href=\"https://x.com/deedydas/status/2095168468081315924\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk96mbc02dzrovg7w9e66i6\">https://aihot.virxact.com/items/cmtk96mbc02dzrovg7w9e66i6</a></p>",
+          "category": "技巧观点",
+          "source": "X：Deedy Das (@deedydas)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk96mbc02dzrovg7w9e66i6"
+        },
+        {
+          "time": "23:13",
+          "title": "Mistral 帮助文档确认除企业版外默认用用户数据训练模型",
+          "summary": "<p>Mistral 帮助中心文档说明：除企业版默认退出外，Vibe、移动端和 Mistral Studio 及 API 的用户输入输出数据默认可能用于模型训练，用户可随时选择退出。文中给出各平台的退出步骤，并提醒 Vibe 与 API 的退出开关相互独立，需分别设置；Vibe 中上传的文档也被视为输入数据。</p>\n<p>🔗 <a href=\"https://help.mistral.ai/en/articles/455207-can-i-opt-out-of-my-input-or-output-data-being-used-for-training\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.virxact.com/items/cmtk97n2j02fwrovgvz0fr3o0\">https://aihot.virxact.com/items/cmtk97n2j02fwrovgvz0fr3o0</a></p>",
+          "category": "行业动态",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.virxact.com/items/cmtk97n2j02fwrovgvz0fr3o0"
         }
       ],
-      "count": 50
+      "count": 32
     }
   ]
 }
