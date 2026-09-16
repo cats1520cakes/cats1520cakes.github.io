@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T17:08:36.221Z",
+  "updatedAt": "2026-09-16T04:58:46.139Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
@@ -8,464 +8,457 @@
       "weekday": "星期三",
       "items": [
         {
-          "time": "00:50",
-          "title": "猜测GPT-6 Sol将于周四发布",
-          "summary": "<p>sam正在为周四的重大发布造势</p>\n<p>我猜首先亮相的是GPT-6 Sol：编程能力+更长的智能体工作流，而Astra在复杂推理和判断方面仍然更强</p>\n<p>随后是Terra和Luna，最终是自Astra发布以来一直有传闻的那个持久性长时程GPT-6变体</p>\n<p>🔗 <a href=\"https://x.com/haider1/status/2099903570787360954\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2x5g4p05ewrowk0or35i3m\">https://aihot.news/items/cmu2x5g4p05ewrowk0or35i3m</a></p>",
+          "time": "12:42",
+          "title": "OpenAI 传早期洽谈以超 1.2 万亿美元估值融资，较 3 月 8520 亿美元上涨约 41%",
+          "summary": "<p>据 WSJ，OpenAI 正与投资者早期洽谈新一轮融资，估值可能超过 1.2 万亿美元，较 3 月的 8520 亿美元上涨约 41%，IPO 预计 2027 年。公司称活跃用户超 10 亿，Q2 营收增长 18% 至 67 亿美元，但运营利润率下滑，盈利时点被推后；Anthropic 估值仍约 2 万亿美元。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2100082761726115849\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3m6rnd03tsroc1iws7gubx\">https://aihot.news/items/cmu3m6rnd03tsroc1iws7gubx</a></p>",
+          "category": "行业动态",
+          "source": "X：Kim (@kimmonismus)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3m6rnd03tsroc1iws7gubx"
+        },
+        {
+          "time": "12:34",
+          "title": "Salesforce 发布企业智能体模型 Koa",
+          "summary": "<p>Salesforce 基于开源 Nemotron-3-Super-120B 训练出企业智能体模型 Koa，用配置 Agentforce 智能体的 Agent Script 声明式文件扩展成多轮任务与模拟用户角色，并以 GRPO 训练、按工具调用是否正确给予奖励。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2100080746056777899\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3m6rmy03trroc1wn9htahq\">https://aihot.news/items/cmu3m6rmy03trroc1wn9htahq</a></p>",
+          "category": "",
+          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3m6rmy03trroc1wn9htahq"
+        },
+        {
+          "time": "12:30",
+          "title": "Noam Brown：多智能体内部实验是最&quot;感受AGI&quot;时刻",
+          "summary": "<p>OpenAI 研究科学家 Noam Brown 称，内部研发多智能体时观察到的通信模式与复杂程度，是他自推理模型和 CoT 以来最&quot;感受 AGI&quot;的时刻。他还在 The Information 的 AI Deep Dive 首期节目中，就 OpenAI-Hugging Face 黑客事件表示这是一次&quot;重大警醒&quot;。</p>\n<p>🔗 <a href=\"https://x.com/haider1/status/2100079731282718766\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3lst80000rroc1r416ho7g\">https://aihot.news/items/cmu3lst80000rroc1r416ho7g</a></p>",
           "category": "",
           "source": "X：Haider (@haider1)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2x5g4p05ewrowk0or35i3m"
+          "itemUrl": "https://aihot.news/items/cmu3lst80000rroc1r416ho7g"
         },
         {
-          "time": "00:50",
-          "title": "能源团队如何用 Genie 与 AI 业务流程将窃电检测转化为受治理的行动",
-          "summary": "<p>Databricks 发文介绍能源团队如何借助 Genie 和 AI 业务流程，把窃电检测从单纯识别升级为受治理的行动。窃电指故意不付费使用燃气或电力，文章围绕这一场景展开。原文未披露具体模型版本、参数规模或性能数字。</p>\n<p>🔗 <a href=\"https://www.databricks.com/blog/how-energy-teams-turn-theft-detection-governed-action-genie-and-ai-business-processes\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wgt2z04qirowk0w5v3zge\">https://aihot.news/items/cmu2wgt2z04qirowk0w5v3zge</a></p>",
+          "time": "12:29",
+          "title": "Jensen GTC 再谈 VR 性能，Ian Buck 将讲 AgentX",
+          "summary": "<p>Jensen 在 GTC 上又拿 VR 性能来压低预期了。还好 Ian Buck 要来解决这个问题--他将在 Santa Clara 的 AI Infra Summit 上介绍真正的 AgentX。</p>\n<p>Vera Rubin NVL72 在 170 tokens/s 的 SLO 下，每美元吞吐量约为 GB300 的 67 倍。（1/2）🧵</p>\n<p>🔗 <a href=\"https://x.com/SemiAnalysis_/status/2100079531923038659\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3m6rnm03ttroc147qsjt05\">https://aihot.news/items/cmu3m6rnm03ttroc147qsjt05</a></p>",
           "category": "",
-          "source": "Databricks：Blog（RSS）",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wgt2z04qirowk0w5v3zge"
+          "itemUrl": "https://aihot.news/items/cmu3m6rnm03ttroc147qsjt05"
         },
         {
-          "time": "00:43",
-          "title": "Runway 推出 Solaris 概念",
-          "summary": "<p>让互联网变得可玩。一个 Solaris 概念。</p>\n<p>🔗 <a href=\"https://x.com/runwayml/status/2099901919959363600\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wli5e04vjrowkvt304k8i\">https://aihot.news/items/cmu2wli5e04vjrowkvt304k8i</a></p>",
+          "time": "12:21",
+          "title": "JD Vance 批评 AI 实验室造出 Frankenstein 后再要求政府监管",
+          "summary": "<p>JD Vance 在 All-In 播客上批评前沿 AI 实验室一边称造出了 Frankenstein、一边主张建立全球 AI 治理结构，称解法应是停止建造或提供防御机制。他称 Dario 对 AI 风险的担忧是真诚信念而非监管俘获，但指出有公司急需防御 Anthropic 最新模型中网络攻击工具的机制却被拒绝访问，呼吁 AI 公司不应转而要求政府监管，而应向企业开放防御工具。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2100077593366347951\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ln6uo06d5roo4zpviujsj\">https://aihot.news/items/cmu3ln6uo06d5roo4zpviujsj</a></p>",
+          "category": "技巧观点",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ln6uo06d5roo4zpviujsj"
+        },
+        {
+          "time": "12:20",
+          "title": "研究显示仅提供不必要工具即可让 LLM 作答率从 98.2% 降至 63.5%",
+          "summary": "<p>一篇论文发现，仅仅让相关工具可用就会使大语言模型放弃回答本可直接答的问题，六个模型的作答率从 98.2% 降至 63.5%，即使工具从未被调用。基准含 10 个领域 500 组查询对并设无工具对照；前序工具调用会挽回部分丢失答案但引入新损失，一句说明工具用途的系统提示词最多挽回 45.6 个百分点。</p>\n<p>🔗 <a href=\"https://x.com/dair_ai/status/2100077223252512956\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3lpuje06gproo4o0ghfn6h\">https://aihot.news/items/cmu3lpuje06gproo4o0ghfn6h</a></p>",
+          "category": "论文",
+          "source": "X：DAIR.AI (@dair_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3lpuje06gproo4o0ghfn6h"
+        },
+        {
+          "time": "12:19",
+          "title": "中国移动开源机器人通用工程底座 Open-RAIL，连接 VLA / WAM 模型与机器人本体",
+          "summary": "<p>中国移动宣布面向全球开源 Open-RAIL，一个连接 VLA / WAM 模型与机器人本体的通用工程底座，让模型推理、真机执行、数据回流、模型迭代在同一底座内闭环运转。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/003/013.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ljhlm064nroo4sld0c781\">https://aihot.news/items/cmu3ljhlm064nroo4sld0c781</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ljhlm064nroo4sld0c781"
+        },
+        {
+          "time": "12:17",
+          "title": "豆包大模型 2.1 Pro 更新 0915 版本：Agent 交付与多模态 Coding 升级",
+          "summary": "<p>火山引擎宣布豆包大模型 2.1 Pro 更新至 0915 版本，API 全量上线火山方舟，豆包 App 与 TRAE 已同步接入。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/003/012.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ljhlm064oroo4ltz83yiu\">https://aihot.news/items/cmu3ljhlm064oroo4ltz83yiu</a></p>",
+          "category": "AI 模型",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ljhlm064oroo4ltz83yiu"
+        },
+        {
+          "time": "12:08",
+          "title": "Tripo 与 GPT-6 Astra 工作流",
+          "summary": "<p>Tripo x GPT-6 Astra 工作流。</p>\n<p>看看我们的社区在构建什么 ↓ https://x.com/i/article/2099773857783750656</p>\n<p>🔗 <a href=\"https://x.com/tripoai/status/2100074375538200975\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3lff3c05yqroo4f85rqcvd\">https://aihot.news/items/cmu3lff3c05yqroo4f85rqcvd</a></p>",
           "category": "",
-          "source": "X：Runway (@runwayml)",
+          "source": "Tripo（官方 X）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wli5e04vjrowkvt304k8i"
+          "itemUrl": "https://aihot.news/items/cmu3lff3c05yqroo4f85rqcvd"
         },
         {
-          "time": "00:42",
-          "title": "Muse 帮用户跨平台追踪并补货日用品",
-          "summary": "<p>太棒的 musecase！</p>\n<p>【引用 @SinaHartung】：小小的 musecase，但我迷上了 muse 帮我追踪东西</p>\n<p>它还帮我在所有平台上重新订购护肤品、家居用品等</p>\n<p>我只要有一个自己喜爱物品的主文件，它就会一直帮我补货</p>\n<p>🔗 <a href=\"https://x.com/alexandr_wang/status/2099901631903248514\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2why1804syrowkit07r8o5\">https://aihot.news/items/cmu2why1804syrowkit07r8o5</a></p>",
+          "time": "12:04",
+          "title": "Jev 发布：20-200x 更快、40-400x 更便宜的前沿模型",
+          "summary": "<p>新前沿 AI 模型 Jev 发布，采用新训练方法 RLCD，速度提升 20-200x、成本降低 40-400x（输出 token 免费），定位为面向决策的可组合智能。实测多个提示词花费不到 $0.10，可让 LLM-as-a-judge 等场景近乎免费且极快。</p>\n<p>🔗 <a href=\"https://x.com/Yuchenj_UW/status/2100073397741134258\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3lwx1z03jcroc1px9an31y\">https://aihot.news/items/cmu3lwx1z03jcroc1px9an31y</a></p>",
           "category": "",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+          "source": "X：Yuchen Jin (@Yuchenj_UW)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2why1804syrowkit07r8o5"
+          "itemUrl": "https://aihot.news/items/cmu3lwx1z03jcroc1px9an31y"
         },
         {
-          "time": "00:41",
-          "title": "用户主动要求为 muse 付费",
-          "summary": "<p>人们竟然*主动要求*为 muse 付费！据我所知这是头一回！</p>\n<p>【引用 @AINewsPulse】：@alexandr_wang @alexandr_wang 加个捐赠按钮吧。这么好的产品，我们就想多付点钱 😀</p>\n<p>🔗 <a href=\"https://x.com/alexandr_wang/status/2099901500038549569\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2why1804szrowkn4ho4l15\">https://aihot.news/items/cmu2why1804szrowkn4ho4l15</a></p>",
+          "time": "12:03",
+          "title": "豆包大模型2.1 Pro更新至0915版本：多模态Coding与Agent交付能力升级",
+          "summary": "<p>火山引擎宣布 Doubao-Seed-2.1-pro 更新至0915版本，API 已全量上线火山方舟，豆包 app 和 TRAE 同步接入。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=MzI0NzU1NzI5NQ%3D%3D&amp;mid=2247544130&amp;idx=1&amp;sn=8621b6d2dfef0e3994a2cb9f9e6cf7fb\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3lflk905yuroo48ux82ous\">https://aihot.news/items/cmu3lflk905yuroo48ux82ous</a></p>",
+          "category": "AI 产品",
+          "source": "公众号：火山引擎",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3lflk905yuroo48ux82ous"
+        },
+        {
+          "time": "12:00",
+          "title": "DeepSeek V4.1 attention kernel 负责人 Liu Shengyu 文章刷屏，将 Anthropic 掌控 AGI 比作希特勒掌握原子弹",
+          "summary": "<p>DeepSeek V4.1 attention kernel 负责人 Liu Shengyu 的文章在微信公众号获得 10 万+ 阅读并登上知乎热榜第一。文中将 Anthropic 控制 AGI 比作希特勒获得原子弹，并设想未来要么走向&quot;赛博共产主义&quot;，要么是 Cyberpunk 2077 式的公司垄断。他随后强调倒数第二段观点纯属个人立场，不代表 DeepSeek。</p>\n<p>🔗 <a href=\"https://x.com/thexpin/status/2100072339866329546\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ln6v006d6roo4ic9ow6cu\">https://aihot.news/items/cmu3ln6v006d6roo4ic9ow6cu</a></p>",
+          "category": "技巧观点",
+          "source": "X：X.PIN (@thexpin)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ln6v006d6roo4ic9ow6cu"
+        },
+        {
+          "time": "12:00",
+          "title": "WSJ 称 OpenAI 正讨论 1.2 万亿美元估值的新一轮融资",
+          "summary": "<p>据 WSJ，OpenAI 正讨论以超过 1.2 万亿美元的私募估值进行 Pre-IPO 融资，距其以 8520 亿美元投后估值完成融资仅 6 个月。其 3 月一轮在 8520 亿美元投后估值下引入了 1220 亿美元承诺资本，公司可能明年上市。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2100072244269694986\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3l471y05glroo4ykl56cgz\">https://aihot.news/items/cmu3l471y05glroo4ykl56cgz</a></p>",
+          "category": "行业动态",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3l471y05glroo4ykl56cgz"
+        },
+        {
+          "time": "11:53",
+          "title": "开发者实测 Tripo P2.0 加 GPT-6 Astra 的 UE5.8 四足机器人动画制作管线",
+          "summary": "<p>Tripo 官方转发开发者 @koguGameDev 的实测：用 GPT image 2 生成参考图、Tripo P2.0 做 3D 生成，再让 Astra 通过 MCP 操作 Blender 完成拓扑、UV 与 IK 绑定，导入 UE5.8 实现四足机器人动画。动画实现两次失败，作者认为模型在把需求转化为设计与实现时仍需懂行者衔接，但 AI 带来的能力普惠会催生更多涌现。</p>\n<p>🔗 <a href=\"https://x.com/tripoai/status/2100070583375671763\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3lff3c05yrroo4phy7gg76\">https://aihot.news/items/cmu3lff3c05yrroo4phy7gg76</a></p>",
+          "category": "技巧观点",
+          "source": "Tripo（官方 X）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3lff3c05yrroo4phy7gg76"
+        },
+        {
+          "time": "11:51",
+          "title": "vivo 应用商店开放个人开发者通道，AI 应用等有序开放",
+          "summary": "<p>vivo 在 2026 vivo 开发者大会上宣布应用商店开放个人开发者通道，个人仅需实名认证即可入驻。官方将有序开放 AI 应用、蓝河应用、IoT 应用，并表示 AI 让应用开发门槛大幅降低，希望让更多创新被看见。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/984.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ljhlm064troo459c2ljbw\">https://aihot.news/items/cmu3ljhlm064troo459c2ljbw</a></p>",
           "category": "",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2why1804szrowkn4ho4l15"
+          "itemUrl": "https://aihot.news/items/cmu3ljhlm064troo459c2ljbw"
         },
         {
-          "time": "00:41",
-          "title": "TIME 报道 METR 调查 OpenAI 安全事件",
-          "summary": "<p>在等待 Dreamforce 主题演讲开始的时候，我正在读 TIME 最新那篇关于&quot;The AI Tipping Point&quot;的文章。</p>\n<p>有意思的是：据 TIME 报道，METR 的 Ajeya Cotra 和两位同事花了六天调查 OpenAI 的 Hugging Face 泄露事件，结果比她预想的更担忧。但 OpenAI 没有允许她的团队调查随后发生的、可能更严重的自家超级计算机泄露事件。至少可以说这很奇怪。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2099901458443284802\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wguoa04qprowky5p8amho\">https://aihot.news/items/cmu2wguoa04qprowky5p8amho</a></p>",
+          "time": "11:47",
+          "title": "Anthropic 联创 Jack Clark 呼吁 AI 发展减速",
+          "summary": "<p>Anthropic 联合创始人 Jack Clark 警告，面对比人类最聪明者还聪明 100 倍的 AI，人类存活概率很低，若不立即行动将大幅增加 AI 失控风险，世界需要放慢脚步。此番表态正值 Dario Amodei 的 p（doom） 升至 25%。</p>\n<p>🔗 <a href=\"https://x.com/AISafetyMemes/status/2100069034494726270\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3kkls104swroo42r69yxig\">https://aihot.news/items/cmu3kkls104swroo42r69yxig</a></p>",
+          "category": "",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3kkls104swroo42r69yxig"
+        },
+        {
+          "time": "11:47",
+          "title": "OpenAI 模型上周在 OpenRouter 支出份额首次超过 Anthropic",
+          "summary": "<p>据 OpenRouter 数据，上周用户在 OpenAI 模型上的支出超过 Anthropic 模型，为 2.5 年多以来首次。图表显示上一次出现这种情况是在 2024 年 2 月 26 日当周。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2100069022184390975\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3l471y05gmroo4vefyqz07\">https://aihot.news/items/cmu3l471y05gmroo4vefyqz07</a></p>",
+          "category": "技巧观点",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3l471y05gmroo4vefyqz07"
+        },
+        {
+          "time": "11:41",
+          "title": "三星电子扩大通用存储器模组外包，自有产能转向 AI 半导体后端",
+          "summary": "<p>三星电子正扩大通用存储器模组制造外包规模，将更多资源分配至 AI 半导体后端生产。韩媒 THE ELEC 报道称，三星认为用韩国温阳、天安封装厂生产 DDR5 内存模组、固态硬盘等通用产品是在浪费资源。Dreamtech、HANYANGDGT、SFA Semiconductor 等合作方正分别在印度、越南、菲律宾扩充产能。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/981.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ljhln064vroo4nk0knlmu\">https://aihot.news/items/cmu3ljhln064vroo4nk0knlmu</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ljhln064vroo4nk0knlmu"
+        },
+        {
+          "time": "11:35",
+          "title": "vivo 发布自研蓝河操作系统 4，WATCH 6 手表首发搭载",
+          "summary": "<p>vivo 在 2026 开发者大会上正式发布自研蓝河操作系统 4，并推出智能体操作系统（AgentOS）技术预览版。vivo WATCH 6 手表将首发搭载该系统，于 9 月 21 日 19：00 发布，采用蓝宝石玻璃表镜、超轻薄表体，支持进阶跑步指导等功能。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/977.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ljhln064xroo4jhq4kljx\">https://aihot.news/items/cmu3ljhln064xroo4jhq4kljx</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ljhln064xroo4jhq4kljx"
+        },
+        {
+          "time": "11:26",
+          "title": "vivo OriginOS 7 发布：蓝心小 V Pro 升级，首帧交互可打断",
+          "summary": "<p>vivo 正式发布 OriginOS 7，蓝心小 V 升级为 Pro，可调用 6，000 多项原子能力、支持超万种任务，实现跨端拆解执行与一句话调用系统功能。系统新增首帧交互可打断，宣称持久流畅从 5 年提升至 6 年，实测 6 年后流畅度衰减仅 5.08%。OriginOS 7 将于 10 月正式开启升级。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/974.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ljhln064zroo4abn8j5v2\">https://aihot.news/items/cmu3ljhln064zroo4abn8j5v2</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ljhln064zroo4abn8j5v2"
+        },
+        {
+          "time": "11:23",
+          "title": "苹果 iPhone 18 Pro/Max 引入 Apple Reference Image 像素级标注功能对抗 AI 伪造图片",
+          "summary": "<p>苹果 9 月 15 日发布博文，介绍在 iPhone 18 Pro、iPhone 18 Pro Max 等机型引入的 Apple Reference Image 功能，可在拍摄时对照片进行硬件级证明与时间戳绑定。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/971.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebae03lmroo4r570vwl8\">https://aihot.news/items/cmu3jebae03lmroo4r570vwl8</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebae03lmroo4r570vwl8"
+        },
+        {
+          "time": "11:23",
+          "title": "消息称 OpenAI 拟以超 1.2 万亿美元估值进行新一轮融资",
+          "summary": "<p>据《金融时报》《华尔街日报》报道，OpenAI 已就以 1.2 万亿美元估值进行新一轮融资与投资者展开初步谈判，谈判由投资者发起，能否成真取决于其上市规划。OpenAI 今年 3 月曾以 8250 亿美元投后估值融资 1220 亿美元，其 2026Q2 季度营收 67 亿美元，年化营收 8 月突破 400 亿美元，活跃用户超 10 亿。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/970.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebae03lnroo46srbor3b\">https://aihot.news/items/cmu3jebae03lnroo46srbor3b</a></p>",
+          "category": "行业动态",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebae03lnroo46srbor3b"
+        },
+        {
+          "time": "11:07",
+          "title": "Greg Brockman 谈执行胜于雄心",
+          "summary": "<p>执行 &gt; 雄心，来自 Greg Brockman（OpenAI 联合创始人兼总裁）。</p>\n<p>&quot;你无法影响结果。你只能影响输入……你不会靠说'我想赢超级碗'来赢得超级碗。你靠阻挡和擒抱来赢。这就是我们这一整年所做的事。&quot;</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2100059072888479835\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3iz1oa0aawrotb43s6j0xc\">https://aihot.news/items/cmu3iz1oa0aawrotb43s6j0xc</a></p>",
+          "category": "",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3iz1oa0aawrotb43s6j0xc"
+        },
+        {
+          "time": "11:07",
+          "title": "初探苹果首款折叠 iPhone Duo 影像体验：智能拍摄、看看镜头、Duo FaceTime 等",
+          "summary": "<p>据 MacRumors 报道，苹果为首款折叠手机 iPhone Duo 的双屏设计定制了新拍摄体验，包括利用 A20 Pro 芯片设备端 AI 在摆好姿势时自动拍合照的智能拍摄（Smart Take）、用外屏播放《花生漫画》吸引孩子看镜头的看看镜头（Kid Cue）、外屏实时取景的 Duo 预览，以及好友可经外屏加入通话的 Duo FaceTime。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/966.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03lqroo47z8ctxz8\">https://aihot.news/items/cmu3jebaf03lqroo47z8ctxz8</a></p>",
+          "category": "技巧观点",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03lqroo47z8ctxz8"
+        },
+        {
+          "time": "11:01",
+          "title": "vivo OriginOS 7 输入法升级：可识别聊天上下文，解决看不懂群友话题的问题",
+          "summary": "<p>vivo 在 2026 开发者大会上发布 OriginOS 7，其全新 vivo 输入法可理解当前聊天上下文并给出候选结果。在朋友要求发送身份证的场景中，输入法理解对话后直接推荐&quot;身份证&quot;，点一下找到、再点一下发出；群聊中遇到不了解的话题时，输入法会主动理解内容并弹出相关搜索词。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/964.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03lrroo4n4a8lr2w\">https://aihot.news/items/cmu3jebaf03lrroo4n4a8lr2w</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03lrroo4n4a8lr2w"
+        },
+        {
+          "time": "10:59",
+          "title": "Jev 发布：比 LLM 快 200 倍、便宜 400 倍的决策模型",
+          "summary": "<p>Diogo Almeida 推出专为决策而非文本生成设计的 AI 模型 Jev，采用新训练方法 RLCD，号称比同类 LLM 快 20-200 倍、便宜 40-400 倍。其输入 token 价格为每百万 $0.042，输出免费，代价是无法生成文本，演示包括控制游戏和选择 Wikipedia 链接。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2100057080698950042\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3iz1nv0aavrotb9lqv9my1\">https://aihot.news/items/cmu3iz1nv0aavrotb9lqv9my1</a></p>",
           "category": "",
           "source": "X：Kim (@kimmonismus)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wguoa04qprowky5p8amho"
+          "itemUrl": "https://aihot.news/items/cmu3iz1nv0aavrotb9lqv9my1"
         },
         {
-          "time": "00:40",
-          "title": "Meta Muse 获用户好评",
-          "summary": "<p>我们很高兴你这么喜欢 muse！</p>\n<p>引用 @teslantir：我其实并不需要，但我差点就想为 @Meta 用 @Muse 打造的这个东西付钱了 🥂</p>\n<p>🔗 <a href=\"https://x.com/alexandr_wang/status/2099901250003480883\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2why1804t0rowkygiop7wg\">https://aihot.news/items/cmu2why1804t0rowkygiop7wg</a></p>",
+          "time": "10:57",
+          "title": "vivo OriginOS 7 文件管理新增场景预判，发票、行程单自动整理",
+          "summary": "<p>vivo 在 2026 开发者大会上发布 OriginOS 7，其文件管理功能迎来 AI 升级，可按内容自动整理文件、自动命名并生成一句摘要。该功能还能根据当前场景预判用户需要的文件并主动推送，解决发票、行程单散落难找的问题。原文未披露具体上线时间与适配机型。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/962.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03ltroo4rukubrrm\">https://aihot.news/items/cmu3jebaf03ltroo4rukubrrm</a></p>",
           "category": "",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2why1804t0rowkygiop7wg"
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03ltroo4rukubrrm"
         },
         {
-          "time": "00:36",
-          "title": "前 Cursor 工程师复盘用 27 个 AI 智能体运营公司，月成本 340 美元、连续盈利 11 个月",
-          "summary": "<p>前 Cursor 核心团队、现 SpaceXAI 工程师发布 36 分钟复盘，其公司以 27 个 AI 智能体分工运营，月运营成本仅 340 美元（约人民币 2400 元），已连续 11 个月盈利。核心做法是强制所有 Agent 开工前读取同一份结构化 Markdown 记忆文件，包含商业模式、各 Agent 权限边界与历史 Bug，并总结出从单 Bot 问答到记忆共享自治舰队的 4 级架构跃迁。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2099900209367056510\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wdcti04n7rowkkq5d4q4a\">https://aihot.news/items/cmu2wdcti04n7rowkkq5d4q4a</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "time": "10:54",
+          "title": "Claude Tag 值班排障答疑会开放预约",
+          "summary": "<p>Anthropic 团队分享 Claude Tag 的值班用法：Slack 告警触发后，Claude 会拉取指标、对比部署差异并检查功能开关，找出可能原因并提出修复方案，供人工批准合并。Noah Zweben 现开放 office hours，帮助各组织配置 Claude Tag 用于值班与故障分诊，需 Team 或 Enterprise 套餐才能预约。</p>\n<p>🔗 <a href=\"https://x.com/noahzweben/status/2100055578790003022\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ir8zh0a1qrotbde3feo8z\">https://aihot.news/items/cmu3ir8zh0a1qrotbde3feo8z</a></p>",
+          "category": "",
+          "source": "X：Noah Zweben（@noahzweben）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wdcti04n7rowkkq5d4q4a"
+          "itemUrl": "https://aihot.news/items/cmu3ir8zh0a1qrotbde3feo8z"
         },
         {
-          "time": "00:36",
-          "title": "Elvis Saravia 将出席 Dreamforce",
-          "summary": "<p>我整个星期都会在 Dreamforce。这里热闹非凡！非常期待所有关于智能体和领域专用 harness 的会议和讨论。</p>\n<p>如果你也在附近，想聊聊，并且正在用 agent harness 做开发，给我发私信。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2099900124843425992\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wgun404qorowkfkdfnmu9\">https://aihot.news/items/cmu2wgun404qorowkfkdfnmu9</a></p>",
+          "time": "10:51",
+          "title": "vivo OriginOS 7 升级截屏直达：AI 识别券码，票券进卡包",
+          "summary": "<p>vivo 在 2026 开发者大会上发布 OriginOS 7，其截屏直达功能可将截屏从保存信息扩展为服务入口，AI 自动识别券码信息，取餐码上岛、票券进入卡包，需要时滑出卡包即可扫码。票券临期时，原子通知和小 V 建议会主动提醒。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/959.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03lvroo48juyc7he\">https://aihot.news/items/cmu3jebaf03lvroo48juyc7he</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03lvroo48juyc7he"
+        },
+        {
+          "time": "10:48",
+          "title": "微信 Windows / macOS PC 版 4.1.15 发布：双人通话可邀请更多人加入，文件和公众号文章支持问 AI",
+          "summary": "<p>微信团队发布微信 4.1.15 for Windows 和 4.1.15 for Mac，两个版本更新内容一致。新版本支持在双人语音或视频通话中邀请其他人加入，文件和公众号文章支持问 AI，并修复了一些已知问题。内测版中的语音转文字、浏览区域独立窗口展示等功能未在正式版中提及。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/956.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03lwroo4zdhb832m\">https://aihot.news/items/cmu3jebaf03lwroo4zdhb832m</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03lwroo4zdhb832m"
+        },
+        {
+          "time": "10:46",
+          "title": "阿里云 2026 云栖大会即将到来",
+          "summary": "<p>🚀 Apsara Conference 2026 即将到来！今年，探索技术如何重塑计算、以尖端模型和智能体 AI 驱动智能，并通过数字化转型为行业创造新机遇。Intelligence Goes Beyond。敬请期待更多详情！</p>\n<p>立即注册：https://click.alibabacloud.com/m/20000002869/</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2100053637984641274\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3ii3ur09qxrotbjkuzzy8s\">https://aihot.news/items/cmu3ii3ur09qxrotbjkuzzy8s</a></p>",
+          "category": "",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3ii3ur09qxrotbjkuzzy8s"
+        },
+        {
+          "time": "10:43",
+          "title": "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型",
+          "summary": "<p>vivo 发布原生编程智能体 BlueCode 预览版，目标把 AI 生产力装进口袋，并探索让手机成为生产力终端。vivo 同时预研「蓝心 30B MoE 端侧大模型」，探索在手机上应用。蓝心智能战略将全面升级，全新 OriginOS 7 与自研蓝河操作系统 4 同步登场。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/954.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03lyroo4odlqjwu7\">https://aihot.news/items/cmu3jebaf03lyroo4odlqjwu7</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03lyroo4odlqjwu7"
+        },
+        {
+          "time": "10:39",
+          "title": "vivo 发布小 V Cowork，可在手机上发起和管理 PC 端智能体任务",
+          "summary": "<p>vivo 在 2026 开发者大会上发布小 V Cowork，可在手机上随时发起和管理 PC 端的智能体任务，让手机成为随身的任务入口。vivo 同时预研&quot;蓝心 30B MoE 端侧大模型&quot;，支持多模态高阶理解、跨领域长链推理与复杂任务自主执行。大会还宣布蓝心智能战略全面升级，全新 OriginOS 7 与自研蓝河操作系统 4 同步登场。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/950.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebaf03lzroo433pt3ncj\">https://aihot.news/items/cmu3jebaf03lzroo433pt3ncj</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebaf03lzroo433pt3ncj"
+        },
+        {
+          "time": "10:30",
+          "title": "纳德拉谈数据中心带动小镇经济",
+          "summary": "<p>Satya Nadella 谈到，在华盛顿州 Quincy，一座 400/500 MW 的数据中心多年来为这个乡村小镇做出了贡献。</p>\n<p>税收增长了 12 倍，经济持续增长，新基础设施，以及学校、医院、城镇中心和水上运动中心等公共设施。</p>\n<p>----</p>\n<p>来自 &quot;All-In Podcast&quot; YouTube 频道，（完整视频链接见评论）</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2100049733100441968\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3hwgtp094jrotbz1dsv9uh\">https://aihot.news/items/cmu3hwgtp094jrotbz1dsv9uh</a></p>",
+          "category": "",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3hwgtp094jrotbz1dsv9uh"
+        },
+        {
+          "time": "10:30",
+          "title": "vivo 发布四款蓝心大模型，推出系统级蓝心 Harness",
+          "summary": "<p>vivo 在 2026 开发者大会上发布四款蓝心大模型，包括端到端 MoE 架构的 BlueLM-RealTime、30 亿参数的 BlueLM-Nano 和搭载自研 Agentic 引擎的 BlueLM-Flash / Pro。同时推出系统级蓝心 Harness，深入原系统内核层，已增加 6000 多项原子技能，支持超万种任务，并预研蓝心 30B MoE 端侧大模型。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/937.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebag03m2roo4fndfrs5v\">https://aihot.news/items/cmu3jebag03m2roo4fndfrs5v</a></p>",
+          "category": "AI 模型",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebag03m2roo4fndfrs5v"
+        },
+        {
+          "time": "10:30",
+          "title": "腾讯元宝携手 WorkBuddy 走进校园，推出 AI 录音笔实时转写与科研搜索功能",
+          "summary": "<p>腾讯元宝携手 WorkBuddy 走进各大校园，推出面向学生的新学期 AI 搭子功能。其 AI 录音笔支持课堂实时转写、边录边拍，录音笔记可一键同步至 WorkBuddy 和腾讯文档。科研场景下提供可溯源的精准 AI 搜索，专家模式可自动生成论文摘要和指定文件格式。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=Mzk0NzY4MjM5MA%3D%3D&amp;mid=2247522919&amp;idx=1&amp;sn=16b1133deb8df78cf67306c64b465fae\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3hv34k0936rotbmbz3ywi5\">https://aihot.news/items/cmu3hv34k0936rotbmbz3ywi5</a></p>",
+          "category": "",
+          "source": "公众号：腾讯元宝",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3hv34k0936rotbmbz3ywi5"
+        },
+        {
+          "time": "10:30",
+          "title": "SemiAnalysis 紧急播客：我们是否在劫难逃",
+          "summary": "<p>紧急特辑：我们是否在劫难逃？</p>\n<p>@JordanNanos @fabknowledge @SaasquatchC @maxkan</p>\n<p>0：00 冷开场 2：50 被美化的 Neocloud 8：21 前沿节奏 12：53 安全吞噬算力 20：38 Hugging Face 的教训 30：52 Moonshot 服务 Claude 36：37 Coxson 辞职 38：27 两年预测 49：19 特朗普治下的监管 57：21 更热还是更冷</p>\n<p>🔗 <a href=\"https://x.com/SemiAnalysis_/status/2100049535116398939\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3hwgu3094krotbul2r1x9x\">https://aihot.news/items/cmu3hwgu3094krotbul2r1x9x</a></p>",
+          "category": "",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3hwgu3094krotbul2r1x9x"
+        },
+        {
+          "time": "10:29",
+          "title": "vivo 蓝心小 V Pro 发布：一句话拆解任务，跨端调用超 6000 项能力",
+          "summary": "<p>vivo 在 2026 开发者大会上发布个人专属 AI 助理蓝心小 V Pro，用户说一句话即可自主拆解任务、跨端操作并逐步执行，可调用超过 6000 项原子能力、支持超万种任务。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/936.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3jebag03m3roo4f85pu4v0\">https://aihot.news/items/cmu3jebag03m3roo4f85pu4v0</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cmu3jebag03m3roo4f85pu4v0"
+        },
+        {
+          "time": "10:27",
+          "title": "Elvis Saravia 呼吁以工程科学解决 AI 对齐问题",
+          "summary": "<p>DAIR.AI 的 Elvis Saravia 主张用严谨的科学与工程方法解决 AI 安全问题，认为模型或 AI 产品若不安全、有缺陷，开发者有责任修复。他引用黄仁勋的观点称安全是工程问题，若对产品安全性没信心就不该发布，市场力量已足够，无需新增法律和监管。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2100048882998636661\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3hwgt5094irotb0euw8hhg\">https://aihot.news/items/cmu3hwgt5094irotb0euw8hhg</a></p>",
           "category": "",
           "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wgun404qorowkfkdfnmu9"
+          "itemUrl": "https://aihot.news/items/cmu3hwgt5094irotb0euw8hhg"
         },
         {
-          "time": "00:36",
-          "title": "Odyssey-3 基础世界模型发布",
-          "summary": "<p>今天我们发布 Odyssey-3，这是基础世界模型的一大步。</p>\n<p>它能控制机器人、驱动机器人本体、驾驶汽车（在印度的道路上！）、训练 AI、操控无人机，甚至玩电子游戏。</p>\n<p>我们迫不及待想看到它能赋能哪些智能系统。</p>\n<p>🔗 <a href=\"https://x.com/odysseyml/status/2099900067356586276\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2x1jmj05bnrowkknxt4jo9\">https://aihot.news/items/cmu2x1jmj05bnrowkknxt4jo9</a></p>",
-          "category": "",
-          "source": "X：Odyssey (@odysseyml)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2x1jmj05bnrowkknxt4jo9"
-        },
-        {
-          "time": "00:28",
-          "title": "OpenRouter 上 OpenAI 模型周消费额 2.5 年来首次超过 Anthropic",
-          "summary": "<p>OpenRouter 称上周用户在 OpenAI 模型上的支出首次超过 Anthropic 模型，这是 2.5 年多来的第一次。配图显示这是自 2024 年 2 月 26 日那周以来未出现过的情况，图表为 2026 年两家模型在 OpenRouter 上的每周钱包份额对比。</p>\n<p>🔗 <a href=\"https://x.com/OpenRouter/status/2099898254905549220\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2waq8q04j2rowkpzjhtjr9\">https://aihot.news/items/cmu2waq8q04j2rowkpzjhtjr9</a></p>",
-          "category": "技巧观点",
-          "source": "X：OpenRouter (@OpenRouter)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2waq8q04j2rowkpzjhtjr9"
-        },
-        {
-          "time": "00:23",
-          "title": "Eren Chen 上线机器人硬件精选商店",
-          "summary": "<p>Eren Chen（@ErenChenAI）上线机器人硬件在线商店，主打面向 Physical AI 与具身智能开发者的精选硬件库，采用全包一口价，无隐藏费用、无额外美国本土运费。订单从美国本土仓发货，交期短，替代传统海外散装采购的长海运与关税痛点。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2099896860789838147\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wdcti04n8rowk3cyjohzd\">https://aihot.news/items/cmu2wdcti04n8rowk3cyjohzd</a></p>",
-          "category": "",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wdcti04n8rowk3cyjohzd"
-        },
-        {
-          "time": "00:15",
-          "title": "NoimosAI 发布客户互动智能体，可自主构建并运行客户旅程",
-          "summary": "<p>NoimosAI 发布客户互动智能体，无需人工输入即可自主构建并运行客户旅程。用户可从 BigQuery、HubSpot 或 CSV 导入客户数据，给出如&quot;Onboard new users&quot;的目标，智能体便在画布上返回可编辑流程，包含注册触发、欢迎发送、回复条件及基于用户行为的分支动作。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2099894929937871203\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vzzgq049hrowkk7ouiizj\">https://aihot.news/items/cmu2vzzgq049hrowkk7ouiizj</a></p>",
-          "category": "",
-          "source": "X：Testing Catalog (@testingcatalog)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vzzgq049hrowkk7ouiizj"
-        },
-        {
-          "time": "00:15",
-          "title": "Poolday 视频智能体开放：70万次运行、1亿次剪辑",
-          "summary": "<p>Poolday 宣布其视频智能体已累计完成 70 万次 agent 运行和 1 亿次视频剪辑，并正式向所有人开放。该智能体可读取视频需求，结合用户已有素材与品牌资产自动完成成片，需要新画面时可调用生成模型，且输出保持逐层可编辑，能替换 logo、修改字幕。此前 Poolday 已融资 1100 万美元，前 50 名用户可让智能体直接为其制作视频。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2099894789160497444\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wguoa04qqrowkj1nk152a\">https://aihot.news/items/cmu2wguoa04qqrowkj1nk152a</a></p>",
-          "category": "",
-          "source": "X：Kim (@kimmonismus)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wguoa04qqrowkj1nk152a"
-        },
-        {
-          "time": "00:14",
-          "title": "GPT-6 Astra 一句提示词产出 2 分钟建筑短片，12 小时 1.96 亿 Token 完成 157 项成果",
-          "summary": "<p>作者 Zho 实测 GPT-6 Astra，仅凭一句提示词、不提供照片，让其完成精细建模、渲染、分镜、旁白、原创配乐到剪辑的 2 分钟建筑短片《POMPIDOU：A PUBLIC MACHINE》。</p>\n<p>🔗 <a href=\"https://x.com/ZHO_ZHO_ZHO/status/2099894689319334301\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wdcu404n9rowk2n5gj3m9\">https://aihot.news/items/cmu2wdcu404n9rowk2n5gj3m9</a></p>",
-          "category": "技巧观点",
-          "source": "X：ZHO (@ZHO_ZHO_ZHO)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wdcu404n9rowk2n5gj3m9"
-        },
-        {
-          "time": "00:14",
-          "title": "Capsule 发布：用 AI 把应用连同 SQLite 数据打包成单个 .capsule 文件",
-          "summary": "<p>Capsule 发布，可将 UI、媒体和本地 SQLite 数据打包为单个可移植的 .capsule 文件，应用无需云端、账号或网络即可运行，并支持用提示词或 ChatGPT、Claude 等 AI 助手生成和实时修改应用。</p>\n<p>🔗 <a href=\"https://withcapsule.app/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wnqm504x3rowkmawyq7b0\">https://aihot.news/items/cmu2wnqm504x3rowkmawyq7b0</a></p>",
-          "category": "AI 产品",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wnqm504x3rowkmawyq7b0"
-        },
-        {
-          "time": "00:14",
-          "title": "Cindy Cohn 与 Bruce Schneier 撰文：大规模监控已持续25年，够了",
-          "summary": "<p>Cindy Cohn 与 Bruce Schneier 撰文回顾9/11以来美国从定向监控转向大规模监控的25年历程，认为其收益从未得到充分论证，却持续侵蚀第四修正案与第一修正案权利。</p>\n<p>🔗 <a href=\"https://www.lawfaremedia.org/article/25-years-of-mass-surveillance-is-enough\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wnqm604x4rowko2pe7qom\">https://aihot.news/items/cmu2wnqm604x4rowko2pe7qom</a></p>",
-          "category": "技巧观点",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wnqm604x4rowko2pe7qom"
-        },
-        {
-          "time": "00:05",
-          "title": "你可能低估了 Computer Use：AI 智能体已能代做的电脑杂活实测",
-          "summary": "<p>对一款以概率形式作答的模型进行 Vibe Check，并实测 AI 智能体目前能替用户完成哪些电脑杂活，同时给出一套用 AI 做出靠谱演示文稿的工作流。</p>\n<p>🔗 <a href=\"https://every.to/context-window/you-re-probably-sleeping-on-computer-use\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2v58td0365rowku99l9yfz\">https://aihot.news/items/cmu2v58td0365rowku99l9yfz</a></p>",
-          "category": "",
-          "source": "Every：最新文章（网页）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2v58td0365rowku99l9yfz"
-        },
-        {
-          "time": "00:05",
-          "title": "TypeSafe 新模型 0.7 秒判定 Jev 写过的所有内容",
-          "summary": "<p>TypeSafe 推出新模型，可在 0.7 秒内对 Jev 写过的全部内容完成判定。该模型能把模糊问题快速、低成本地转化为概率，足以在 AI 智能体运行过程中实时检查其工作。</p>\n<p>🔗 <a href=\"https://every.to/also-true-for-humans/mini-vibe-check-typesafe-s-jev-judged-everything-i-ve-written-in-0-7-seconds\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2v58td0364rowksl8fyjii\">https://aihot.news/items/cmu2v58td0364rowksl8fyjii</a></p>",
-          "category": "",
-          "source": "Every：最新文章（网页）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2v58td0364rowksl8fyjii"
-        },
-        {
-          "time": "00:00",
-          "title": "IBM Research 在 ALTK-Evolve 中引入 Consistency Analyzer 与一致性指南，将 GPT-4.1 智能体在 AppWorld 上的一致性差距从 24.4pp 降到 12.0pp",
-          "summary": "<p>IBM Research 团队在 ALTK-Evolve 中推出 Consistency Analyzer 和一致性指南，针对智能体反复执行同一任务时结果不稳定的问题。</p>\n<p>🔗 <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-consistency\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2v45uz033frowk80glvv9t\">https://aihot.news/items/cmu2v45uz033frowk80glvv9t</a></p>",
-          "category": "论文",
-          "source": "Hugging Face：Blog（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2v45uz033frowk80glvv9t"
-        },
-        {
-          "time": "00:00",
-          "title": "前 Cursor 架构师用 Grok Bot 3 天直播造公司",
-          "summary": "<p>前 Cursor 核心架构师、现 xAI 工程师 Lauren Tan 联手 SpaceXAI 团队，于 9/15-9/17 发起 3 天极限直播，用云端 Grok Bot 智能体现场从零搭建一家公司。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2099891008326570081\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2varzq03dkrowk6xuegnrf\">https://aihot.news/items/cmu2varzq03dkrowk6xuegnrf</a></p>",
-          "category": "",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2varzq03dkrowk6xuegnrf"
-        },
-        {
-          "time": "00:00",
-          "title": "Replit 推出 Routines 定时情报功能",
-          "summary": "<p>你的每日情报报告，应该在你开口之前就已备好。</p>\n<p>Routines 按计划收集和整理信息，然后调用 Agent 找出真正重要的变化。</p>\n<p>无需在每一步都消耗 token，即可获得新鲜洞察。</p>\n<p>试试 Routines：https://replit.com/routines</p>\n<p>🔗 <a href=\"https://x.com/Replit/status/2099890996368777394\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2v84yi03acrowk38cbwja2\">https://aihot.news/items/cmu2v84yi03acrowk38cbwja2</a></p>",
-          "category": "",
-          "source": "X：Replit (@Replit)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2v84yi03acrowk38cbwja2"
-        },
-        {
-          "time": "00:00",
-          "title": "Google Cloud 用 GNN 与 Distributed GraphFlow 扩展电信网络自主运营",
-          "summary": "<p>Google Cloud 提出自主网络运营框架，以 Spanner Graph 上的网络数字孪生为底座，用新开源的 Python 库 Distributed GraphFlow（DGF）管理 GNN 建模全流程，高层 API 约 5 行代码即可训练和评估模型。</p>\n<p>🔗 <a href=\"https://cloud.google.com/blog/products/databases/run-gnns-at-scale-with-ease-introducing-distributed-graphflow\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wgztn04r5rowkaioannmt\">https://aihot.news/items/cmu2wgztn04r5rowkaioannmt</a></p>",
-          "category": "",
-          "source": "Google Cloud：Databases（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wgztn04r5rowkaioannmt"
-        },
-        {
-          "time": "00:00",
-          "title": "Google 发布 TranslateGemma 等多语言 AI 成果，语言技术覆盖 300 多种语言",
-          "summary": "<p>Google 宣布其语言技术已支持超过 300 种语言、覆盖全球 86% 人口，并发布 TranslateGemma 轻量开源翻译模型（基于 Gemini 训练、支持 55 种语言、可离线运行）。</p>\n<p>🔗 <a href=\"https://blog.google/innovation-and-ai/technology/ai/ai-for-every-language\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s\">https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s</a></p>",
-          "category": "AI 产品",
-          "source": "Google Blog：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vlgqe03sxrowkkyx8bc1s"
-        },
-        {
-          "time": "00:00",
-          "title": "Google 用 AI 加速科学发现与疾病检测：AlphaFold 已预测 2 亿个蛋白质结构",
-          "summary": "<p>Google 公布 AI 用于科学与医疗的最新进展：AlphaFold 已预测科学界已知的全部 2 亿个蛋白质结构，被 190 个国家 400 万名研究者使用，并在此基础上推出 AlphaGenome Atlas。</p>\n<p>🔗 <a href=\"https://blog.google/innovation-and-ai/technology/ai/ai-applications-science-people\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vlgqd03swrowkcrj4z802\">https://aihot.news/items/cmu2vlgqd03swrowkcrj4z802</a></p>",
-          "category": "",
-          "source": "Google Blog：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vlgqd03swrowkcrj4z802"
-        },
-        {
-          "time": "00:00",
-          "title": "Google 如何用 AI 推动社会公益",
-          "summary": "<p>Google 展示 AI 在科学发现与社会公益领域的落地进展，覆盖疾病检测、治疗与预防、自然灾害预测、教育普及和经济机会拓展等方向。Google 正与全球社区和研究者合作，推动 AI 突破惠及更多人。</p>\n<p>🔗 <a href=\"https://blog.google/innovation-and-ai/technology/ai/ai-for-societal-impact\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vlgqd03svrowk1fwx47mk\">https://aihot.news/items/cmu2vlgqd03svrowk1fwx47mk</a></p>",
-          "category": "",
-          "source": "Google Blog：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vlgqd03svrowk1fwx47mk"
-        }
-      ],
-      "count": 26
-    },
-    {
-      "date": "2026-09-15",
-      "weekday": "星期二",
-      "items": [
-        {
-          "time": "23:59",
-          "title": "据报道 OpenAI 以超 3 亿美元收购智能手机摄像头制造商 Glass Imaging",
-          "summary": "<p>据《华尔街日报》报道，OpenAI 以超过 3 亿美元收购智能手机摄像头制造商 Glass Imaging，后者 2019 年创立于加州 Los Altos，此前融资约 3000 万美元。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/09/14/openai-buys-smartphone-camera-maker-glass-imaging-for-300-million-report-says\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vl5ne03rsrowkqjgmm4fg\">https://aihot.news/items/cmu2vl5ne03rsrowkqjgmm4fg</a></p>",
-          "category": "行业动态",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vl5ne03rsrowkqjgmm4fg"
-        },
-        {
-          "time": "23:58",
-          "title": "LangChain 用 Baseten Loops 为 LangSmith Engine 训练定制模型",
-          "summary": "<p>LangChain 采用 Baseten Loops 为 LangSmith Engine 训练定制模型，通过 API 完成微调并直接部署到 Baseten 推理平台。</p>\n<p>🔗 <a href=\"https://www.baseten.co/blog/langchain-trains-custom-models-langsmith-engine-baseten-loops\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2wabib04hxrowkf93gg6od\">https://aihot.news/items/cmu2wabib04hxrowkf93gg6od</a></p>",
-          "category": "",
-          "source": "Baseten 工程博客（网页）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2wabib04hxrowkf93gg6od"
-        },
-        {
-          "time": "23:58",
-          "title": "Gary Marcus 解读 Sam Altman 对 Dario 的背书",
-          "summary": "<p>Gary Marcus 发文解读 Sam Altman 对 Dario 的公开背书，认为其真实含义是&quot;我们会以最快速度推进，只要不坐牢、不被诉讼到消失，但为了观感把它叫做'pacing'&quot;。他还引用 Elon Musk 的讽刺：一边说 AI 有 10% 概率毁灭人类，一边问&quot;你想在我们 IPO 里拿多少配额&quot;。</p>\n<p>🔗 <a href=\"https://garymarcus.substack.com/p/translating-sam\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2v2zsz032irowktdh98wub\">https://aihot.news/items/cmu2v2zsz032irowktdh98wub</a></p>",
-          "category": "",
-          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2v2zsz032irowktdh98wub"
-        },
-        {
-          "time": "23:57",
-          "title": "Meta One 订阅服务上线，最高档每月 499 美元",
-          "summary": "<p>Meta 于 9 月 15 日上线 Meta One 订阅套餐，将 Facebook、Instagram、WhatsApp 订阅与更多 Meta AI 使用额度打包，面向 AI 重度用户、创作者和商业用户。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/818.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vtg6s041yrowkjhnovk4b\">https://aihot.news/items/cmu2vtg6s041yrowkjhnovk4b</a></p>",
+          "time": "10:22",
+          "title": "华为小艺 Work 开启内测：鸿蒙手机、平板、电脑跨端协同，支持办公、代码、设计多种 AI 任务",
+          "summary": "<p>华为宣布小艺 Work 开启内测，定位覆盖办公、代码开发和创意创作的 AI 工作助理，支持鸿蒙手机、平板和电脑跨端协同，官网已提供版本号 0.6.9 的 Windows 客户端。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/926.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3h95d608ewrotbx6elxffq\">https://aihot.news/items/cmu3h95d608ewrotbx6elxffq</a></p>",
           "category": "AI 产品",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vtg6s041yrowkjhnovk4b"
+          "itemUrl": "https://aihot.news/items/cmu3h95d608ewrotbx6elxffq"
         },
         {
-          "time": "23:49",
-          "title": "swyx 喊话 OpenAI 造手机",
-          "summary": "<p>要来了！</p>\n<p>swyx 喊话 OpenAI：干脆做一款新手机吧，大家都想要 openaiphone。我们阅读速度是说话和朗读的 2-4 倍。OpenAI 的 Alexa、Reachy 混合形态也行，但请只把它当作通往手机的一块垫脚石。我们想要手机。署名：所有人。</p>\n<p>🔗 <a href=\"https://x.com/swyx/status/2099888258591429075\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2uunzm02u2rowkxbusox15\">https://aihot.news/items/cmu2uunzm02u2rowkxbusox15</a></p>",
+          "time": "10:19",
+          "title": "周鸿祎称不会再投资新能源汽车，建议创业者掌握 Agent",
+          "summary": "<p>360 集团创始人周鸿祎在第五届北斗规模应用国际峰会上表示，不会再投资新能源汽车，&quot;已经吃过一次亏，不会再入局&quot;，并称现在 AI 带来的机会更大，建议所有创业者都掌握 Agent。360 曾于 2021 年计划出资 29 亿元投资哪吒汽车，2022 年放弃剩余增资义务，保留 11.4266% 股权。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/923.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3h95d608exrotbgziyppdn\">https://aihot.news/items/cmu3h95d608exrotbgziyppdn</a></p>",
           "category": "",
-          "source": "X：swyx (@swyx)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2uunzm02u2rowkxbusox15"
+          "itemUrl": "https://aihot.news/items/cmu3h95d608exrotbgziyppdn"
         },
         {
-          "time": "23:49",
-          "title": "PixVerse Growth Studio 上线 Creative Variations",
-          "summary": "<p>PixVerse 在 Growth Studio 中上线 Creative Variations，可将同一产品转化为多个不同的视频创意，用于制作差异化广告素材并跨受众和营销目标测试。</p>\n<p>🔗 <a href=\"https://x.com/PixVerse/status/2099888221035331690\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2uxc8302x1rowkujqcfhtw\">https://aihot.news/items/cmu2uxc8302x1rowkujqcfhtw</a></p>",
-          "category": "",
-          "source": "X：PixVerse (@PixVerse)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2uxc8302x1rowkujqcfhtw"
-        },
-        {
-          "time": "23:47",
-          "title": "OpenAI 称已与 Anthropic、Google DeepMind 就 AI 安全协调数周",
-          "summary": "<p>OpenAI 全球政策负责人 Chris Lehane 周二向记者确认，公司与 Anthropic、Google DeepMind 就 AI 安全已进行了数周磋商。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/09/15/openai-anthropic-google-have-been-in-talks-on-ai-safety-for-weeks\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ujdr602ierowkgkfb0hn7\">https://aihot.news/items/cmu2ujdr602ierowkgkfb0hn7</a></p>",
-          "category": "行业动态",
-          "source": "TechCrunch：AI（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ujdr602ierowkgkfb0hn7"
-        },
-        {
-          "time": "23:44",
-          "title": "Garry Tan 连续力荐 Aside AI 浏览器，博主拆解其带登录态的 MCP 浏览器 Harness 架构",
-          "summary": "<p>YC 掌门人 Garry Tan 连续发推力荐 @AsideAI，称 Aside AI 浏览器/Harness 是可与任意 Agent 配合使用的最强消费级 AI 工具之一，Aside MCP 暴露带凭证的深度浏览器工具。</p>\n<p>🔗 <a href=\"https://x.com/AYi_AInotes/status/2099887062824481204\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2varzq03dlrowkob04ivb8\">https://aihot.news/items/cmu2varzq03dlrowkob04ivb8</a></p>",
-          "category": "技巧观点",
-          "source": "X：阿易 AI Notes (@AYi_AInotes)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2varzq03dlrowkob04ivb8"
-        },
-        {
-          "time": "23:41",
-          "title": "Gergely Orosz 探访 OpenAI：Codex 驱动的智能体软件工厂",
-          "summary": "<p>Gergely Orosz 实地探访 OpenAI 总部并访谈七位工程师与工程负责人，发现自约一月起 Codex 和 ChatGPT Work 已成为公司几乎所有工作的基础。</p>\n<p>🔗 <a href=\"https://newsletter.pragmaticengineer.com/p/openai-software-factory\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2utske02sjrowk2zs2agim\">https://aihot.news/items/cmu2utske02sjrowk2zs2agim</a></p>",
-          "category": "技巧观点",
-          "source": "Pragmatic Engineer（RSS）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2utske02sjrowk2zs2agim"
-        },
-        {
-          "time": "23:33",
-          "title": "华为监事会主席郭平：供应链虚心向苹果学习，ICT 及计算领域目标是成为英伟达",
-          "summary": "<p>华为心声社区披露监事会主席郭平与新员工座谈纪要。郭平表示华为不以超越苹果为目标，将持续学习苹果供应链的竞争力、弹性与韧性；在 ICT 及计算领域目标是成为英伟达，核心优势在于让全球大模型在昇腾、鲲鹏、超节点及集群上高效运行。他还称昇腾 950 系列通过架构创新缩小工艺受限下的差距，并谈到终端、智能驾驶和华为云需自研大模型，以及引望将继续由华为领导发展。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/810.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2vtg6t0422rowk077idvwr\">https://aihot.news/items/cmu2vtg6t0422rowk077idvwr</a></p>",
+          "time": "10:18",
+          "title": "黄仁勋在 All-in Summit 驳斥 AI 末日论，特朗普当众来电称 AI 担忧是骗局",
+          "summary": "<p>9 月 14 日英伟达 CEO 黄仁勋在美国洛杉矶 All-in Summit 峰会上回应 Anthropic CEO 阿莫迪 9 月 12 日呼吁放缓 AI 发展的发文，称末日论预测是编造的、不负责任。特朗普现场来电，称 AI 安全担忧是骗局，机器人不会接管世界，并称赞数据中心是未来 20、25 年的石油。黄仁勋还表示认为已进入 AGI 时刻，呼吁让整个美国一起前进。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/922.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3h95d608eyrotbcwslj9qi\">https://aihot.news/items/cmu3h95d608eyrotbcwslj9qi</a></p>",
           "category": "技巧观点",
           "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2vtg6t0422rowk077idvwr"
+          "itemUrl": "https://aihot.news/items/cmu3h95d608eyrotbcwslj9qi"
         },
         {
-          "time": "23:29",
-          "title": "Salesforce in Claude 测试版上线，37 项销售技能",
-          "summary": "<p>Salesforce in Claude 已开放测试版，把客户账户、商机和销售管道接入 Claude，并内置 37 项预置销售技能，可在对话内完成通话准备、交易复盘、管道看板与预测发送。</p>\n<p>🔗 <a href=\"https://x.com/frxiaobei/status/2099883397535703220\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2uxc7p02x0rowki8rvsbgz\">https://aihot.news/items/cmu2uxc7p02x0rowki8rvsbgz</a></p>",
+          "time": "10:12",
+          "title": "苹果 M5 Ultra 款 Mac Studio 跑分曝光：单核较 M3 Ultra 高约 29%、多核高约 34%",
+          "summary": "<p>型号为 Mac17，15 的苹果设备现身 GeekBench 跑分库，关联 M5 Ultra 芯片的 Mac Studio，配备 36 核 CPU、256GB 内存，单核 3，774 分、多核 52，516 分。相比 M3 Ultra 款 Mac Studio（32 核 CPU / 80 核 GPU），其单核领先约 29%、多核领先约 34%。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/913.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3h95d608ezrotb83bpqjex\">https://aihot.news/items/cmu3h95d608ezrotb83bpqjex</a></p>",
           "category": "",
-          "source": "X：小北 (@frxiaobei)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2uxc7p02x0rowki8rvsbgz"
+          "itemUrl": "https://aihot.news/items/cmu3h95d608ezrotb83bpqjex"
         },
         {
-          "time": "23:28",
-          "title": "Vidu S2 论文：实时交互、可编辑与空间视频生成",
-          "summary": "<p>Vidu S2 论文发布，提出实时交互、可编辑和空间视频生成，包含实时交互数字人模型 Vidu S2-Avatar 和实时视频编辑模型 Vidu S2-Editing。Vidu S2-Avatar 相比 Vidu S1 支持实时 720p 生成、可随时更新的动态参考和更强的指令遵循；Vidu S2-Editing 支持对视频流实时编辑，包括风格渲染、服装、角色和背景替换。论文链接 https://huggingface.co/papers/2609.11638，在线演示 https://vidu.com/vidu-stream。</p>\n<p>🔗 <a href=\"https://x.com/_akhaliq/status/2099883001840828920\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2u1vq706z1ro3xvsy4y2az\">https://aihot.news/items/cmu2u1vq706z1ro3xvsy4y2az</a></p>",
-          "category": "论文",
-          "source": "X：AK (@_akhaliq)",
+          "time": "10:08",
+          "title": "阿里云东盟论坛探讨东南亚AI落地",
+          "summary": "<p>东南亚正在加速其 AI 进程，将可能性转化为实际成果。欢迎参加阿里云区域论坛：东盟站--&quot;从智能到行动：东南亚的 AI 落地故事&quot;，聆听该地区企业如何拥抱 AI 并塑造未来。立即注册：https://click.alibabacloud.com/m/20000002869/</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2100044029203210330\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3hfjas08prrotbi903hbvu\">https://aihot.news/items/cmu3hfjas08prrotbi903hbvu</a></p>",
+          "category": "",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2u1vq706z1ro3xvsy4y2az"
+          "itemUrl": "https://aihot.news/items/cmu3hfjas08prrotbi903hbvu"
         },
         {
-          "time": "23:22",
-          "title": "AEO 创业公司 Profound 融资 1.8 亿美元，估值达 18 亿美元",
-          "summary": "<p>营销软件公司 Profound 宣布完成 1.8 亿美元 D 轮融资，估值 18 亿美元，距上一轮 9600 万美元 C 轮不到七个月。本轮融资由 Sequoia 和 Kleiner Perkins 领投，Lightspeed Venture Partners、Khosla Ventures 等跟投。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/09/15/aeo-startup-profound-hits-unicorn-valuation-raises-180m-series-d-7-months-after-last-round\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ujdr602ifrowk1x2zd23b\">https://aihot.news/items/cmu2ujdr602ifrowk1x2zd23b</a></p>",
-          "category": "行业动态",
-          "source": "TechCrunch：AI（RSS）",
+          "time": "10:06",
+          "title": "vivo 全球用户已接近 6 亿",
+          "summary": "<p>vivo 在 2026 开发者大会上宣布全球用户已近 6 亿，高级副总裁、首席技术官施玉坚同时展示了蓝图影像、蓝海续航系统、蓝心大模型、蓝晶芯片技术栈、蓝河操作系统等蓝科技家族技术。大会还宣布蓝心智能战略全面升级，全新 OriginOS 7 与自研蓝河操作系统 4 同步登场。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/902.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3h95d608f0rotb4cn0j5ea\">https://aihot.news/items/cmu3h95d608f0rotb4cn0j5ea</a></p>",
+          "category": "",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ujdr602ifrowk1x2zd23b"
+          "itemUrl": "https://aihot.news/items/cmu3h95d608f0rotb4cn0j5ea"
         },
         {
-          "time": "23:22",
-          "title": "Astra 一次性生成像素游戏",
-          "summary": "<p>Astra：&quot;为艺术家（Klimt、Rothko、O'Keefe 等）风格的像素画骑士创建一系列 sprite，带特殊攻击，并构建一个游戏&quot;</p>\n<p>一次完成，这说明了为什么你不能说 AI 没有运用某种&quot;判断力&quot;和&quot;创造力&quot;，即使它与我们的不同</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2099881570601439445\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2turve06tjro3xj0epykow\">https://aihot.news/items/cmu2turve06tjro3xj0epykow</a></p>",
+          "time": "10:04",
+          "title": "非LLM快速分类模型演示",
+          "summary": "<p>这是一个出色的演示，展示了一个旨在根据决策规则快速对信息进行分类的 AI 模型，比 LLM 更快、更便宜。它本身不是 LLM，无法输出文本或代码，但如果有效，在系统中能发挥有用的作用。（我自己还没试过）</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2100043071710777527\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3hfjbc08psrotbk8x7heiz\">https://aihot.news/items/cmu3hfjbc08psrotbk8x7heiz</a></p>",
           "category": "",
           "source": "X：Ethan Mollick (@emollick)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2turve06tjro3xj0epykow"
+          "itemUrl": "https://aihot.news/items/cmu3hfjbc08psrotbk8x7heiz"
         },
         {
-          "time": "23:21",
-          "title": "Anthropic 发布《构建 AI 原生营收组织》指南，详解 Claude 在销售团队的落地路径",
-          "summary": "<p>Anthropic 发布《构建 AI 原生营收组织》指南，介绍如何在销售团队中推广 Claude。指南包含成熟度模型、试点前的配置决策、三阶段推广计划（搭建、试点、扩展）、按效率/扩张/新能力三组衡量的 ROI 方法，以及阻碍全组织推广的常见陷阱。</p>\n<p>🔗 <a href=\"https://claude.com/blog/building-an-ai-native-revenue-organization\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2tklwf06i7ro3xyrubz8ca\">https://aihot.news/items/cmu2tklwf06i7ro3xyrubz8ca</a></p>",
+          "time": "09:53",
+          "title": "阿里云东盟论坛探讨东南亚AI应用",
+          "summary": "<p>东南亚的 AI 格局正在快速变化，为各行各业和市场带来新机遇。加入阿里云区域论坛：东盟站--&quot;从智能到行动：东南亚的 AI 应用故事&quot;，了解 AI 如何推动该地区的下一阶段增长。立即注册：https://click.alibabacloud.com/m/20000002869/</p>\n<p>🔗 <a href=\"https://x.com/alibaba_cloud/status/2100040369245130855\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3gcxlz07barotbs2gcuu7y\">https://aihot.news/items/cmu3gcxlz07barotbs2gcuu7y</a></p>",
           "category": "",
-          "source": "Claude：Blog（网页）",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2tklwf06i7ro3xyrubz8ca"
+          "itemUrl": "https://aihot.news/items/cmu3gcxlz07barotbs2gcuu7y"
         },
         {
-          "time": "23:21",
-          "title": "Anthropic 推出 Salesforce in Claude 测试版插件",
-          "summary": "<p>Anthropic 与 Salesforce 合作发布测试版插件 Salesforce in Claude，将卖家的客户、商机和管道数据在既有 Salesforce 权限下接入 Claude，包含 37 个面向客户经理日常工作的技能，如客户调研、电话准备、管道审查和 CRM 更新。</p>\n<p>🔗 <a href=\"https://claude.com/blog/salesforce-in-claude\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2tklwf06i6ro3xqe7a5kx8\">https://aihot.news/items/cmu2tklwf06i6ro3xqe7a5kx8</a></p>",
-          "category": "AI 产品",
-          "source": "Claude：Blog（网页）",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2tklwf06i6ro3xqe7a5kx8"
-        },
-        {
-          "time": "23:19",
-          "title": "Flam 获 4000 万美元 B 轮融资，主打交互式流媒体内容",
-          "summary": "<p>Flam 完成 4000 万美元 B 轮融资，由 QED Investors 领投，Datadog CEO Olivier Pomel、Martin Chavez 和 Venky Harinarayan 参投。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2099880702477001200\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2turwb06tlro3x1tpql4kg\">https://aihot.news/items/cmu2turwb06tlro3x1tpql4kg</a></p>",
+          "time": "09:50",
+          "title": "京东JDD圆桌热议人机共生：未来住宅或需为机器人留出空间",
+          "summary": "<p>京东全球科技探索者大会（JDD）上一场跨界圆桌讨论了机器人进入工厂与家庭后的人机共生问题，极佳视界创始人黄冠预计未来新房和小区或许需要为机器人设置充电、维修和使用工具的专门区域。京东JoyInside产品经理刘皓琰介绍，搭载JoyInside的AI毛绒玩具已让部分孩子将其视作伙伴，JoyInside正探索让AI从被动响应走向主动服务。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=MzU0MjU0MDMzMw%3D%3D&amp;mid=2247487518&amp;idx=1&amp;sn=537a0aaa5cc620373d6de18bf3c2c2d4\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3gfnft07cnrotb9soaer8m\">https://aihot.news/items/cmu3gfnft07cnrotb9soaer8m</a></p>",
           "category": "",
-          "source": "X：Testing Catalog (@testingcatalog)",
+          "source": "公众号：京东JoyAI",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2turwb06tlro3x1tpql4kg"
+          "itemUrl": "https://aihot.news/items/cmu3gfnft07cnrotb9soaer8m"
         },
         {
-          "time": "23:18",
-          "title": "Flam 获 4000 万美元 B 轮，推可交互视频格式 Flicks",
-          "summary": "<p>Flam 正在打造可在播放中交互的视频，其 Flicks 格式能把多个变化版本打包进一个小文件，观众点击即可改变屏幕内容，切换耗时不到 10 毫秒。该公司称已完成由 QED Investors 领投的 4000 万美元 B 轮融资，用于扩展 AI 研究与产品。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2099880639420092505\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ubpio02bdrowk226hbidp\">https://aihot.news/items/cmu2ubpio02bdrowk226hbidp</a></p>",
+          "time": "09:40",
+          "title": "ChatGPT 发布以来 AI 进展未放缓",
+          "summary": "<p>chatgpt 于 2022 年底发布</p>\n<p>现在已是 2026 年末，进展仍未放缓</p>\n<p>算力和收入大幅扩张，模型持续进步</p>\n<p>不知道 3 年后我们会怎么称呼它们，但再沿这条轨迹走 3 年，会越来越像 AGI</p>\n<p>🔗 <a href=\"https://x.com/haider1/status/2100036949713052027\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3gfw8c07dcrotbji00ansr\">https://aihot.news/items/cmu3gfw8c07dcrotbji00ansr</a></p>",
           "category": "",
-          "source": "X：Kim (@kimmonismus)",
+          "source": "X：Haider (@haider1)",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ubpio02bdrowk226hbidp"
+          "itemUrl": "https://aihot.news/items/cmu3gfw8c07dcrotbji00ansr"
         },
         {
-          "time": "23:18",
-          "title": "GPT-6-Sol 或本周发布",
-          "summary": "<p>我觉得这基本确认了 GPT-6-Sol 本周发布。据我听说还有 GPT-6-Luna，但可能不再有 Terra 系列模型了。</p>\n<p>🔗 <a href=\"https://x.com/kimmonismus/status/2099880438361727132\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ubpio02berowkdt7s11yd\">https://aihot.news/items/cmu2ubpio02berowkdt7s11yd</a></p>",
+          "time": "09:39",
+          "title": "惠普发布 ZBook Ultra G3a 16 移动工作站：支持本地运行 300B LLM",
+          "summary": "<p>惠普发布 ZBook Ultra G3a 16 移动工作站，基于 AMD 锐龙 AI Max PRO 400 &quot;Gorgon Halo&quot; 处理器，支持 192GB 统一内存，可将 160GB 分配为显存，从而本地运行 300B 参数规模的大语言模型。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/002/877.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu3h95d708f5rotb781f9jnu\">https://aihot.news/items/cmu3h95d708f5rotb781f9jnu</a></p>",
           "category": "",
-          "source": "X：Kim (@kimmonismus)",
+          "source": "IT之家（RSS）",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ubpio02berowkdt7s11yd"
-        },
-        {
-          "time": "23:17",
-          "title": "Plasma 发布 Radio，用共享频道让多个编码智能体实时协作",
-          "summary": "<p>Plasma 推出 Radio，一个让多个编码智能体互相协调的共享聊天室，类似 Slack 或 Microsoft Teams。用户创建频道后把链接粘贴给各智能体即可，无需注册；支持 Claude Code、Codex、Cursor、OpenCode、Grok 等任何能抓取 URL 的智能体，可跨本地与云端、跨机器、多人使用，频道保留完整对话以便多个智能体共同审查 PR、拆分任务或讨论 bug。</p>\n<p>🔗 <a href=\"https://x.com/omarsar0/status/2099880259210412282\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ubpib02bcrowkssbtwn0x\">https://aihot.news/items/cmu2ubpib02bcrowkssbtwn0x</a></p>",
-          "category": "AI 产品",
-          "source": "X：Elvis Saravia (@omarsar0, DAIR.AI)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ubpib02bcrowkssbtwn0x"
-        },
-        {
-          "time": "23:16",
-          "title": "Meta muse 应用获赞：AI 新形态",
-          "summary": "<p>muse 快速、易用，就是好用！！！</p>\n<p>（引用推文大意：终于试了 Meta 的 muse 应用，太棒了--快、简单、就是好用，这显然是 AI 的下一种形态。）</p>\n<p>🔗 <a href=\"https://x.com/alexandr_wang/status/2099879944612622581\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ucrl702cyrowkb7kk8qx3\">https://aihot.news/items/cmu2ucrl702cyrowkb7kk8qx3</a></p>",
-          "category": "",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ucrl702cyrowkb7kk8qx3"
-        },
-        {
-          "time": "23:13",
-          "title": "Muse 帮用户揪出 Chase 账户里的盗刷订阅",
-          "summary": "<p>Alexandr Wang 称 Muse 能替用户追查信用卡盗刷。引用推文显示，用户通过 Plaid 将 Muse 接入 Chase 账户后，Muse 发现一笔自己不认识、由 Adobe 扣款的循环订阅；Adobe 账户并不属于该用户，Chase 也未标记该笔扣款，Muse 却识别了出来。</p>\n<p>🔗 <a href=\"https://x.com/alexandr_wang/status/2099879368659230886\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2ucrl702czrowkp3eh8bi9\">https://aihot.news/items/cmu2ucrl702czrowkp3eh8bi9</a></p>",
-          "category": "",
-          "source": "X：Alexandr Wang（Scale AI 创始人/Meta 首席 AI 官） (@alexandr_wang)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2ucrl702czrowkp3eh8bi9"
-        },
-        {
-          "time": "23:04",
-          "title": "Krea Agent 接入 Pinterest",
-          "summary": "<p>在 Krea Agent 中引入 Pinterest。</p>\n<p>现在你可以把所有的 pin 和 board 导入工具，并将它们用作智能体的上下文。</p>\n<p>立即在 krea . ai / agent 试用</p>\n<p>🔗 <a href=\"https://x.com/krea_ai/status/2099876897106579762\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2tdrle066fro3xgfc32mh7\">https://aihot.news/items/cmu2tdrle066fro3xgfc32mh7</a></p>",
-          "category": "",
-          "source": "X：Krea AI (@krea_ai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2tdrle066fro3xgfc32mh7"
-        },
-        {
-          "time": "23:02",
-          "title": "Salesforce in Claude beta 版上线，内置 37 个销售技能",
-          "summary": "<p>Anthropic 宣布 Salesforce in Claude 开放 beta，可将账户、商机和销售管道数据接入 Claude，并提供 37 个预置销售技能。用户可在对话中直接准备客户通话、审查交易、创建管道仪表盘或提交销售预测，无需离开对话。</p>\n<p>🔗 <a href=\"https://x.com/claudeai/status/2099876514330206578\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cmu2tdrl1066ero3xwoxmle0j\">https://aihot.news/items/cmu2tdrl1066ero3xwoxmle0j</a></p>",
-          "category": "AI 产品",
-          "source": "X：Claude (@claudeai)",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/cmu2tdrl1066ero3xwoxmle0j"
+          "itemUrl": "https://aihot.news/items/cmu3h95d708f5rotb781f9jnu"
         }
       ],
-      "count": 24
+      "count": 50
     }
   ]
 }
