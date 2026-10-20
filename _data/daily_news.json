@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-19T18:45:18.652Z",
+  "updatedAt": "2026-10-20T05:01:19.727Z",
   "sourceName": "AI HOT · 每日 AI 资讯",
   "sourceUrl": "https://aihot.virxact.com/",
   "days": [
@@ -8,464 +8,457 @@
       "weekday": "星期二",
       "items": [
         {
-          "time": "02:20",
-          "title": "MIT 等团队开发 E(3)-Pose：用对称性先验提升胎儿脑 MRI 成像可靠性",
-          "summary": "<p>MIT、波士顿儿童医院与 Inria 的研究者开发并训练了深度学习模型 E(3)-Pose，可在胎儿头部运动时辅助成像，生成供放射科医生查看的高分辨率三维图像。该模型把胎儿头部的左右对称性等物理原理嵌入网络架构，而非仅从数据中学习物理规律，从而更准确地识别大脑朝向。相关论文已在 2026 年欧洲计算机视觉会议（ECCV）上展示，目前模型主要基于第三孕期胎儿训练。</p>\n<p>🔗 <a href=\"https://news.mit.edu/2026/teaching-ai-about-symmetry-could-make-prenatal-diagnosis-more-reliable-1019\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/o7iuymij09e915z8zzdvnn2mn\">https://aihot.news/items/o7iuymij09e915z8zzdvnn2mn</a></p>",
-          "category": "论文",
-          "source": "MIT News",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/o7iuymij09e915z8zzdvnn2mn"
-        },
-        {
-          "time": "02:01",
-          "title": "OpenAI 用 Codex 正在打造什么",
-          "summary": "<p>这是我们正在用 Codex 打造的东西：\n\nhttps://x.com/i/broadcasts/1RKZzBELBbXKB</p>\n<p>🔗 <a href=\"https://x.com/OpenAIDevs/status/2112242739198959913\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/x886nh15t1jpgpiht7lpgoq2e\">https://aihot.news/items/x886nh15t1jpgpiht7lpgoq2e</a></p>",
-          "category": "",
-          "source": "OpenAI Developers",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/x886nh15t1jpgpiht7lpgoq2e"
-        },
-        {
-          "time": "02:00",
-          "title": "OpenAI 推出 COOKED 首期直播",
-          "summary": "<p>COOKED：第 1 期 🧑‍🍳 https://x.com/i/broadcasts/1RKZzBELBbXKB</p>\n<p>🔗 <a href=\"https://x.com/OpenAIDevs/status/2112242522475078020\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/kix0drdnokrq9iekx3mff58w8\">https://aihot.news/items/kix0drdnokrq9iekx3mff58w8</a></p>",
-          "category": "",
-          "source": "OpenAI Developers",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/kix0drdnokrq9iekx3mff58w8"
-        },
-        {
-          "time": "01:48",
-          "title": "Dream Labs 发布机器人基础模型 Dream-1",
-          "summary": "<p>恭喜 @jang_yoel 和团队！\n做梦的好时代啊\n\n今天，Dream Labs 正式走出隐身模式，推出 Dream-1——一个机器人基础模型，能够控制它从未见过的双臂机器人，完成从未被训练过的任务，在从未到过的场所，每小时仅需 3 美元。\n\nDream API 即日起对所有人开放。🧵</p>\n<p>🔗 <a href=\"https://x.com/sainingxie/status/2112239537271476251\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/fn2abijlu6px0oh0vyoe1eo5p\">https://aihot.news/items/fn2abijlu6px0oh0vyoe1eo5p</a></p>",
-          "category": "行业动态",
-          "source": "谢赛宁",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/fn2abijlu6px0oh0vyoe1eo5p"
-        },
-        {
-          "time": "01:40",
-          "title": "Exa 3.0 搜索并列 Artificial Analysis Search Index 第一，Dynamic Highlights 模式降本 21%",
-          "summary": "<p>Exa 发布 Exa 3.0，其 Search API 新增 Dynamic Highlights 模式，在共享预算内决定每页返回的文本量。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2112237545203662912\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/c3oh95l3n2j2dotjz6psa4njg\">https://aihot.news/items/c3oh95l3n2j2dotjz6psa4njg</a></p>",
-          "category": "AI 模型",
-          "source": "Artificial Analysis",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/c3oh95l3n2j2dotjz6psa4njg"
-        },
-        {
-          "time": "01:39",
-          "title": "美检方称窃听 OpenAI 会议室的前工程师受沙特政府支持",
-          "summary": "<p>BBC 报道，美国检察官称涉嫌在 OpenAI 高管会议室安装窃听器的前工程师 Alfozan 获得沙特政府支持。一名未具名沙特王室成员与其频繁 WhatsApp 联系并试图招募其加入沙特 AI 项目，Alfozan 曾在 5 月同意“沙特比美国更需要他”，同时表示要等 OpenAI 股票归属；被捕次日其妻儿乘沙特军官预订的商务舱单程飞往卡塔尔。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2112237091258351762\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/o7h3vytmr6w3t81mz6ftuq6gk\">https://aihot.news/items/o7h3vytmr6w3t81mz6ftuq6gk</a></p>",
-          "category": "行业动态",
-          "source": "Rohan Paul",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/o7h3vytmr6w3t81mz6ftuq6gk"
-        },
-        {
-          "time": "01:36",
-          "title": "Kling AI 发布 Kling 4.0：支持立体声音频、多语言对口型，并推出轻量 Flash 版本",
-          "summary": "<p>Kling AI 发布视频生成模型 Kling 4.0，单次可生成最长 30 秒视频，提示词理解扩展到 8000 token，Omni Reference 最多接受 15 个参考素材，新增双声道立体声和十余种语言的对口型。</p>\n<p>🔗 <a href=\"https://the-decoder.com/kling-ai-drops-version-4-0-with-stereo-audio-multilingual-lip-sync-and-a-lighter-flash-variant/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/u7zl798prr1bgsazvhxthl2p3\">https://aihot.news/items/u7zl798prr1bgsazvhxthl2p3</a></p>",
-          "category": "AI 产品",
-          "source": "The Decoder：AI News",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/u7zl798prr1bgsazvhxthl2p3"
-        },
-        {
-          "time": "01:25",
-          "title": "Gartner：多数AI数据中心难回本，Shadeform推GPU转售",
-          "summary": "<p>“对大多数AI算力提供商来说太低了，无法收回其AI投资”\nGartner：许多建设AI数据中心的企业，可能在芯片过时之前都赚不回投入的成本。\n\n转售正成为GPU经济的一部分，@shadeformai Spot让供应商能把闲置算力重新投放市场。\n\nShadeform的Flex VM可以接收来自任何数据中心的裸金属GPU，并在30分钟内使其可租用。\n\n小型运营商从第一天起，就和其他人拥有同样的入口。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2112233773962297537\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/hddadajeo6akuor0q56va70xd\">https://aihot.news/items/hddadajeo6akuor0q56va70xd</a></p>",
-          "category": "AI 产品",
-          "source": "Rohan Paul",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/hddadajeo6akuor0q56va70xd"
-        },
-        {
-          "time": "01:17",
-          "title": "Jakub Pachocki 宣布 Aleksander Madry 回归 OpenAI 共同应对 AI 安全挑战",
-          "summary": "<p>OpenAI 首席科学家 Jakub Pachocki 宣布 Aleksander Madry 回归 OpenAI，与他就 AI 进展的速度与影响及对公司乃至全行业战略的启示展开工作。Madry 此前离职几个月后表示这更像一次学术休假，认为在 AI 进展进入新阶段后，应对越来越强的 AI 带来的安全与安保挑战必须成为核心优先事项，他将加入 Pachocki 团队协助规划应对路径。</p>\n<p>🔗 <a href=\"https://x.com/merettm/status/2112231743734579542\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/u9qfiq5ilpk1wpqy4b18ka9l5\">https://aihot.news/items/u9qfiq5ilpk1wpqy4b18ka9l5</a></p>",
-          "category": "行业动态",
-          "source": "Jakub Pachocki",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/u9qfiq5ilpk1wpqy4b18ka9l5"
-        },
-        {
-          "time": "01:12",
-          "title": "Reflection 模型任务成本与 ARC-AGI-3 结果待公布",
-          "summary": "<p>@reflection_ai 每任务成本基于我们测试时使用的 @Baseten 定价：每 100 万 token 输入 $1.30 / 输出 $4.30。\n\nARC-AGI-3 结果待公布。\n\n完整结果：https://arcprize.org/results/reflection-beam-1-0</p>\n<p>🔗 <a href=\"https://x.com/arcprize/status/2112230541730689510\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/wupulprcnql2vkjdjrghbnnnb\">https://aihot.news/items/wupulprcnql2vkjdjrghbnnnb</a></p>",
-          "category": "AI 模型",
-          "source": "ARC Prize",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/wupulprcnql2vkjdjrghbnnnb"
-        },
-        {
-          "time": "01:12",
-          "title": "ARC Prize 公布 Reflection Beam 1.0 结果",
-          "summary": "<p>@reflection_ai @baseten\n- 排行榜：https://arcprize.org/leaderboard\n- 复现公开结果：https://github.com/arcprize/arc-agi-benchmarking\n- 测试政策：https://arcprize.org/policy\n- Beam 1.0 完整结果：https://arcprize.org/results/reflection-beam-1-0</p>\n<p>🔗 <a href=\"https://x.com/arcprize/status/2112230543379095621\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/h9195178qoz6m24a4xqifyd10\">https://aihot.news/items/h9195178qoz6m24a4xqifyd10</a></p>",
-          "category": "AI 模型",
-          "source": "ARC Prize",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/h9195178qoz6m24a4xqifyd10"
-        },
-        {
-          "time": "01:12",
-          "title": "Reflection AI 的 Beam 1.0 公布 ARC-AGI (Verified) 成绩",
-          "summary": "<p>ARC Prize 公布 Beam 1.0 在 ARC-AGI (Verified) 的成绩：ARC-AGI-2 为 23.5%，每任务 $0.61；ARC-AGI-1 为 74.0%，每任务 $0.31。最佳成绩出现在 xhigh 推理档，但 high 档在 ARC-AGI-2 上也达到 20.0%，成本约低 43%。</p>\n<p>🔗 <a href=\"https://x.com/arcprize/status/2112230540283658499\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/yrxlq74afcd1ktyxgpx1uq068\">https://aihot.news/items/yrxlq74afcd1ktyxgpx1uq068</a></p>",
-          "category": "AI 模型",
-          "source": "ARC Prize",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/yrxlq74afcd1ktyxgpx1uq068"
-        },
-        {
-          "time": "01:09",
-          "title": "OpenAI 征集 Codex 使用案例",
-          "summary": "<p>你一直在用 Codex 做什么？</p>\n<p>🔗 <a href=\"https://x.com/OpenAIDevs/status/2112229620758265938\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/txp5otiwu0qrrwk460z8as0km\">https://aihot.news/items/txp5otiwu0qrrwk460z8as0km</a></p>",
-          "category": "",
-          "source": "OpenAI Developers",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/txp5otiwu0qrrwk460z8as0km"
-        },
-        {
-          "time": "01:04",
-          "title": "Salesforce 论文发现跨方智能体协作中无人主动核验同伴声明",
-          "summary": "<p>Salesforce 论文研究跨委托方的智能体间（A2A）协作失败原因，基于 Claude Code、Codex 和 Cursor 在独立沙箱中跑了 2500 多场会话、488 个场景，归纳出 20 种失败模式。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2112228442595013057\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/c6dksmgc8gsz01iwbtf31g2d8\">https://aihot.news/items/c6dksmgc8gsz01iwbtf31g2d8</a></p>",
-          "category": "论文",
-          "source": "Rohan Paul",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/c6dksmgc8gsz01iwbtf31g2d8"
-        },
-        {
-          "time": "01:00",
-          "title": "斯洛文尼亚办Claude Code聚会？",
-          "summary": "<p>如果我在斯洛文尼亚办一场聚会，把它办得超炸，会怎样？</p>\n<p>🔗 <a href=\"https://x.com/larsencc/status/2112227297063551169\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/bv8klt91qd24q4khbh73p2fdk\">https://aihot.news/items/bv8klt91qd24q4khbh73p2fdk</a></p>",
-          "category": "观点",
-          "source": "Larsen Cundric",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/bv8klt91qd24q4khbh73p2fdk"
-        },
-        {
-          "time": "00:59",
-          "title": "AI 游戏克隆让独立开发者不敢公开展示作品",
-          "summary": "<p>Ars Technica 报道称，AI 生成的游戏克隆让多位独立开发者抱怨作品被整批复制，McPixel 开发者 Sos Sosowski 记录了诸多案例，指出开发者陷入不分享就没销量、分享就被抄袭的两难。</p>\n<p>🔗 <a href=\"https://arstechnica.com/gaming/2026/10/ai-game-clones-are-making-indie-developers-afraid-to-show-their-work/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/zv77h80c8pzaj08ci5y5vy2h1\">https://aihot.news/items/zv77h80c8pzaj08ci5y5vy2h1</a></p>",
-          "category": "观点",
-          "source": "Ars Technica：AI",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/zv77h80c8pzaj08ci5y5vy2h1"
-        },
-        {
-          "time": "00:54",
-          "title": "Inception 扩散模型 Mercury 3 上线 OpenRouter",
-          "summary": "<p>Inception 的扩散模型 Mercury 3 上线 OpenRouter，生成速度超 1,000 tok/s，支持 1M 上下文，是 Mercury 2.5 的 4 倍。Inception 报告其在 IFBench、GPQA Diamond 和 SWE-Bench Atlas 上超过 GPT-6 Luna 和 Haiku 5.5；上线期五折，价格 $0.10/M 输入、$0.35/M 输出。</p>\n<p>🔗 <a href=\"https://x.com/OpenRouter/status/2112225779782398131\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb\">https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb</a></p>",
-          "category": "AI 产品",
-          "source": "OpenRouter",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/hnasqdie0vmly79xyg2ehqcgb"
-        },
-        {
-          "time": "00:46",
-          "title": "Devin 推出基于效率的自动审批与 Devin Coach",
-          "summary": "<p>如果你的 AI 预算流向最会用它的工程师，会怎样？\n\n一刀切的使用上限，是变相的招聘冻结。\n\n为最高产的工程师推出基于效率的自动审批，外加 Devin Coach 帮助每个人达到这一水平。\n\nhttps://devin.ai/blog/efficiency-based-cost-controls</p>\n<p>🔗 <a href=\"https://x.com/cognition/status/2112223929414607228\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/mwmswnhkvtk7dr3fbwb1ruriq\">https://aihot.news/items/mwmswnhkvtk7dr3fbwb1ruriq</a></p>",
-          "category": "AI 产品",
-          "source": "Cognition",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/mwmswnhkvtk7dr3fbwb1ruriq"
-        },
-        {
-          "time": "00:43",
-          "title": "Muse 帮你分担任何事",
-          "summary": "<p>你手上的事，我都帮你接过来</p>\n<p>🔗 <a href=\"https://x.com/Muse/status/2112223052494962814\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/wg1eqnvfqf57wolapvqss9umf\">https://aihot.news/items/wg1eqnvfqf57wolapvqss9umf</a></p>",
-          "category": "",
-          "source": "Muse",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/wg1eqnvfqf57wolapvqss9umf"
-        },
-        {
-          "time": "00:37",
-          "title": "Luma AI 打包多模态掩码精确序列并行",
-          "summary": "<p>面向打包多模态掩码的精确序列并行。\n\n它按层选择 ring attention、稀疏 all-to-all 或 Ulysses，数值与单 GPU 一致，并在最多 128 块 H100 上于 48 个案例中的 47 个优于 FlashMask + Ulysses 混合方案。\n\nhttps://lumalabs.ai/news/packed-multimodal-attention</p>\n<p>🔗 <a href=\"https://x.com/LumaLabsAI/status/2112221553383608479\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/hxgbmyixlhb0ywdexim6iwkce\">https://aihot.news/items/hxgbmyixlhb0ywdexim6iwkce</a></p>",
-          "category": "论文",
-          "source": "Luma AI",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/hxgbmyixlhb0ywdexim6iwkce"
-        },
-        {
-          "time": "00:35",
-          "title": "Wabi 公测 AI 群聊助手应用，可加入群聊并自动执行任务",
-          "summary": "<p>Wabi 面向公众上线其 AI messenger 应用，用户可将 AI 助手加入与亲友的群聊。助手可监听群聊内容并按需行动，例如日程变更时更新共享日历；计划可拆分为 threads，能创建自定义工具如餐厅地图；可连接 Gmail、Google Calendar 等账户并主动发现问题和发起对话，重要操作需用户许可，用户可随时移除连接。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2112221147932586492\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/vy7oref95czno94ezdcgbsc9k\">https://aihot.news/items/vy7oref95czno94ezdcgbsc9k</a></p>",
-          "category": "AI 产品",
-          "source": "Testing Catalog",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/vy7oref95czno94ezdcgbsc9k"
-        },
-        {
-          "time": "00:34",
-          "title": "Agent SDK 为 LLM 定义智能体躯体",
-          "summary": "<p>没有身体的大脑只会空谈。\n有身体的大脑才能把事情做成。\n\nLLM（模型）是大脑。harness 是身体：围绕模型的工具、文件和循环。Agent SDK 让你为自己的用例定义身体。</p>\n<p>🔗 <a href=\"https://x.com/adocomplete/status/2112220849772401038\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/wuurbzzbtyz2kzc82q7hkdf02\">https://aihot.news/items/wuurbzzbtyz2kzc82q7hkdf02</a></p>",
-          "category": "观点",
-          "source": "Ado Kukic",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/wuurbzzbtyz2kzc82q7hkdf02"
-        },
-        {
-          "time": "00:34",
-          "title": "OpenCode 更新 DeepSeek V4.1 Flash",
-          "summary": "<p>DeepSeek V4.1 Flash 在 OpenCode Go 和 Free 中已更新至 1017\n\n你这边无需做任何改动</p>\n<p>🔗 <a href=\"https://x.com/opencode/status/2112220734768779441\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ygeoomyaaisbv4x2vgnr68pmo\">https://aihot.news/items/ygeoomyaaisbv4x2vgnr68pmo</a></p>",
-          "category": "AI 产品",
-          "source": "opencode",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/ygeoomyaaisbv4x2vgnr68pmo"
-        },
-        {
-          "time": "00:27",
-          "title": "AgentCloak 创始人砸 Mac Mini 发布视频获 220 万播放",
-          "summary": "<p>AgentCloak 创始人 Peter Yared 在镜头前砸碎一台 Mac Mini，这条发布视频获得 220 万次播放和 3000 次下载。launchvideo.com 以流水线方式操盘此次发布：创始人出镜视频，创作者按受众规模分批放出。团队还拍了备选结尾——配置 1 万美元 Mac Studio 后合上笔记本，但砸机版本保留为主镜头，备选未使用。</p>\n<p>🔗 <a href=\"https://x.com/rohanpaul_ai/status/2112219196008665443\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/fq2gqzxlexxt3mscxbsnfjnf2\">https://aihot.news/items/fq2gqzxlexxt3mscxbsnfjnf2</a></p>",
-          "category": "观点",
-          "source": "Rohan Paul",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/fq2gqzxlexxt3mscxbsnfjnf2"
-        },
-        {
-          "time": "00:27",
-          "title": "Grok Bot 或成你最爱的员工",
-          "summary": "<p>Grok @Bot 可能会成为你最喜欢的员工</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2112219181500281276\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/men8g9eyn0g70wliop6v2b1sp\">https://aihot.news/items/men8g9eyn0g70wliop6v2b1sp</a></p>",
+          "time": "12:41",
+          "title": "Grok Bot 模板无需现成，直接创建即可",
+          "summary": "<p>确实，试试 @Bot 版 Grok</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2112403910908596503\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ph41nzo9cuxz80eo17dcil1ed\">https://aihot.news/items/ph41nzo9cuxz80eo17dcil1ed</a></p>",
           "category": "观点",
           "source": "Elon Musk",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/men8g9eyn0g70wliop6v2b1sp"
+          "itemUrl": "https://aihot.news/items/ph41nzo9cuxz80eo17dcil1ed"
         },
         {
-          "time": "00:27",
-          "title": "Thariq 谈用智能体时应放慢节奏",
-          "summary": "<p>我认为大多数用智能体多任务并行的人，放慢一点会更有益\n\n你正在做的大部分事情其实没那么重要——你的 P0 是什么？如果你全神贯注地对待它，会是什么样子？</p>\n<p>🔗 <a href=\"https://x.com/trq212/status/2112219173288120531\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/vo5vc2d5dezr3fumm1u8kubnf\">https://aihot.news/items/vo5vc2d5dezr3fumm1u8kubnf</a></p>",
+          "time": "12:17",
+          "title": "Cola 2.0 将于 11 月上线：AI Agent 两极分化",
+          "summary": "<p>作者提出 AI Agent 正分化为两条路线：技术路线追求完全自动化、取代人，产品路线则满足人的需求、帮助人，对应此前 Agent 与当下 Personal Agent（作者更愿称 Personal AI）的方向差异。作者称两条直线的交叉点已过，未来会渐行渐远。其团队在方向 2 上探索已久，4 月最早推出 Cola 1.0，全新的 Cola 2.0 将于 11 月上线。</p>\n<p>🔗 <a href=\"https://x.com/oran_ge/status/2112397734896623652\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/fuj987uwhq4087k2pmhi3k80a\">https://aihot.news/items/fuj987uwhq4087k2pmhi3k80a</a></p>",
           "category": "观点",
-          "source": "Thariq",
+          "source": "Oran Ge",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/vo5vc2d5dezr3fumm1u8kubnf"
+          "itemUrl": "https://aihot.news/items/fuj987uwhq4087k2pmhi3k80a"
         },
         {
-          "time": "00:25",
-          "title": "DeepSeek V4.1 Flash 1017 发布，Artificial Analysis 智能指数得分 45 并列开源模型第二",
-          "summary": "<p>DeepSeek 发布 DeepSeek V4.1 Flash 1017，在 Artificial Analysis Intelligence Index 得分 45，比 DeepSeek V4.1 Flash 提高 6 分，与 GLM-5.3 并列开源权重模型第二，仅次于 MiMo-V2.6-Pro。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2112218661432000694\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb\">https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb</a></p>",
-          "category": "AI 模型",
-          "source": "Artificial Analysis",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/wrlpmwb2tsk1moehp5kpsvovb"
-        },
-        {
-          "time": "00:16",
-          "title": "佛州警方称诈骗分子用 AI 克隆警长声音行骗",
-          "summary": "<p>佛罗里达州奥西奥拉县警方称，诈骗分子用 AI 克隆警长 Steve Moser 的声音并配上其照片，给一名居民留下语音留言，冒充其本人打电话。此类冒充警察、以陪审团义务或逮捕令为由的诈骗正在多个州蔓延，佐治亚州和宾夕法尼亚州近一周也有相关报案。在佛州，冒充警察属三级重罪。</p>\n<p>🔗 <a href=\"https://www.404media.co/police-say-scammers-used-ai-to-clone-a-sheriffs-voice/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/h8jk1f6ib040bv3kn42gojfd2\">https://aihot.news/items/h8jk1f6ib040bv3kn42gojfd2</a></p>",
-          "category": "行业动态",
-          "source": "404 Media",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/h8jk1f6ib040bv3kn42gojfd2"
-        },
-        {
-          "time": "00:16",
-          "title": "Manus Game Dev 打造飞行汽车游戏",
-          "summary": "<p>飞行汽车在 Manus Game Dev 中活了起来。\n\n@alanalyzing 用 Manus Game Dev 打造了这款游戏，赛道设在旧金山、东京和新加坡。\n\n描述你的想法，把它变成可玩的游戏——包含代码、美术和音效。</p>\n<p>🔗 <a href=\"https://x.com/ManusAI/status/2112216270859112791\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/vfza7on3yzra9hxpqe1uftq1a\">https://aihot.news/items/vfza7on3yzra9hxpqe1uftq1a</a></p>",
-          "category": "AI 产品",
-          "source": "Manus",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/vfza7on3yzra9hxpqe1uftq1a"
-        },
-        {
-          "time": "00:14",
-          "title": "Meta Muse Wonder Full (Max) 登上 Code Arena: WebDev 第 6 名，1726 分",
-          "summary": "<p>Arena 宣布 Meta 的 Muse Wonder Full (Max) 首次进入 Code Arena: WebDev 榜单，以 1726 分排名第 6，使 Meta 成为第 3 实验室，此前该位置由 Google 持有。</p>\n<p>🔗 <a href=\"https://x.com/arena/status/2112215825944117361\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/qxv5364a77v0d22sab7mq4dha\">https://aihot.news/items/qxv5364a77v0d22sab7mq4dha</a></p>",
-          "category": "AI 模型",
-          "source": "Arena",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/qxv5364a77v0d22sab7mq4dha"
-        },
-        {
-          "time": "00:13",
-          "title": "开发者用 Claude Code 给智能电视去广告去预装，把智能电视变回\"笨电视\"",
-          "summary": "<p>TechCrunch 报道了开发者用 AI 给智能电视&quot;降智&quot;的新趋势：通过 Claude Code 等工具移除广告、预装软件、追踪功能并更换启动器。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/10/19/people-are-using-ai-to-make-their-smart-tvs-dumb-again/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/y3398m935z7b9ys8tb1315kau\">https://aihot.news/items/y3398m935z7b9ys8tb1315kau</a></p>",
+          "time": "12:14",
+          "title": "邵猛开源儿童键盘打字游戏 Keyboard Island",
+          "summary": "<p>邵猛将给孩子做的键盘打字游戏 Keyboard Island 开源到 GitHub，此前已部署在 ChatGPT Sites。游戏由 Codex 生成，含 36 关起步、后增至几十关与无限模式，并加入按键音乐、头像实时拍摄入画、积分装饰小屋等孩子提出的需求。因有用户反馈无法访问并询问实现方式，他公开源码供交流。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2112397032912719957\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/al28qdx6nrnn2qsxn859w3zi8\">https://aihot.news/items/al28qdx6nrnn2qsxn859w3zi8</a></p>",
           "category": "教程",
-          "source": "TechCrunch：AI",
+          "source": "邵猛",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/y3398m935z7b9ys8tb1315kau"
+          "itemUrl": "https://aihot.news/items/al28qdx6nrnn2qsxn859w3zi8"
         },
         {
-          "time": "00:09",
-          "title": "Gemini 4 Argon 打造 3D 巫师棋",
-          "summary": "<p>我们的团队使用 Google Antigravity，在 Mac 版 Gemini 应用中，借助 Gemini 4 Argon 从零构建了一款可玩的 3D 巫师棋游戏。\n\n协调多智能体 Blender 工作流，完成建模、设计并交付流畅的实时动画，让你从想法直接走向可玩。</p>\n<p>🔗 <a href=\"https://x.com/GeminiApp/status/2112214581443498261\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ddfgeiufemigun9v4htxl29jd\">https://aihot.news/items/ddfgeiufemigun9v4htxl29jd</a></p>",
-          "category": "AI 产品",
-          "source": "Gemini",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/ddfgeiufemigun9v4htxl29jd"
-        },
-        {
-          "time": "00:00",
-          "title": "Meta 详解 GenRecs Tokenization：用稳定语义词表改造广告推荐",
-          "summary": "<p>Meta 工程博客介绍 GenRecs Tokenization，一种用稳定语义 token 词表替代逐条目 ID 的广告推荐数据表示，配合 GEM 与 Adaptive Ranking Model 带来 +0.35% 转化提升。</p>\n<p>🔗 <a href=\"https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/jvsexecctqhj3a8i0e0foewfm\">https://aihot.news/items/jvsexecctqhj3a8i0e0foewfm</a></p>",
-          "category": "论文",
-          "source": "Meta Engineering Blog",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/jvsexecctqhj3a8i0e0foewfm"
-        }
-      ],
-      "count": 33
-    },
-    {
-      "date": "2026-10-19",
-      "weekday": "星期一",
-      "items": [
-        {
-          "time": "23:58",
-          "title": "Artificial Analysis 评测 MiniMax-M3.1-Flash：智能指数 42 分，成本低于 MiniMax-M3 一半",
-          "summary": "<p>Artificial Analysis 基准测试 MiniMax 的 Flash 推理模型 MiniMax-M3.1-Flash，在 Artificial Analysis Intelligence Index 得 42 分，比 MiniMax-M3 高 13 分，与 GLM-5.3-Flash 持平，低于 DeepSeek V4.1 Flash 1017 的 45 分。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2112211865128608002\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/qd8k9c9ppa22ak50hmeuphdda\">https://aihot.news/items/qd8k9c9ppa22ak50hmeuphdda</a></p>",
+          "time": "12:14",
+          "title": "可灵（Kling）发布 Kling 4.0 视频模型，单条视频最长 30 秒",
+          "summary": "<p>据 The Decoder 报道，可灵（Kling）发布 Kling 4.0 视频模型，单条视频最长可生成 30 秒，提示词理解扩展到 8,000 tokens。新模型支持双声道立体声音频和超过十种语言的唇形同步，同时推出更轻量的 Flash 版本。</p>\n<p>🔗 <a href=\"https://x.com/thexpin/status/2112396910900265280\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/sibjln4bir8z4c2pio6dded0i\">https://aihot.news/items/sibjln4bir8z4c2pio6dded0i</a></p>",
           "category": "AI 模型",
-          "source": "Artificial Analysis",
+          "source": "X.PIN",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/qd8k9c9ppa22ak50hmeuphdda"
+          "itemUrl": "https://aihot.news/items/sibjln4bir8z4c2pio6dded0i"
         },
         {
-          "time": "23:55",
-          "title": "O'Reilly 用 NFL 数据连载搭建 AI 分析师，第一期拆解 Establish the run 之争",
-          "summary": "<p>O&apos;Reilly 作者 Chester Ismay 开启 The Monday Morning Agent 系列第一期，用约五个完整赛季的 nflverse 公开数据构建一个 AI 橄榄球分析师智能体。</p>\n<p>🔗 <a href=\"https://www.oreilly.com/radar/?p=20013\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/lclw45i1p721xyucyyvivdkq1\">https://aihot.news/items/lclw45i1p721xyucyyvivdkq1</a></p>",
-          "category": "教程",
-          "source": "O&apos;Reilly Radar",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/lclw45i1p721xyucyyvivdkq1"
-        },
-        {
-          "time": "23:54",
-          "title": "蚂蚁百灵开源 Ming-3.0 系列 5 个语音模型",
-          "summary": "<p>蚂蚁百灵今日开源 3 个语音家族共 5 个 Ming-3.0 模型。Ming-3.0-tts 含 0.5B 语音设计与副语言线索模型和 7.9B 总参数、1.3B 激活的 Tiny 长语音模型；Ming-3.0-audio 含 Flash 126B 总参数、6.5B 激活的理解与工具调用模型和 9.3B 总参数、2.7B 激活的 Tiny 高效对话模型；Ming-3.0-asr-tiny 为 8.6B 总参数、2B 激活的方言与上下文识别模型。图片补充：TTS 支持七种语言加两种方言，ASR 支持热词列表与对话上下文。</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2112210811997540475\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/uqinrni7f70ef46rykfx1n4ia\">https://aihot.news/items/uqinrni7f70ef46rykfx1n4ia</a></p>",
+          "time": "12:10",
+          "title": "蚂蚁百灵致谢开发者分享Ming-3.0",
+          "summary": "<p>感谢 @AdinaYakup 分享 Ming-3.0，帮助更多开发者了解我们五款开源语音模型的可能性！</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2112396003806728320\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/juwj0z0cjocotd3m4bvqo9nu2\">https://aihot.news/items/juwj0z0cjocotd3m4bvqo9nu2</a></p>",
           "category": "AI 模型",
           "source": "蚂蚁百灵",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/uqinrni7f70ef46rykfx1n4ia"
+          "itemUrl": "https://aihot.news/items/juwj0z0cjocotd3m4bvqo9nu2"
         },
         {
-          "time": "23:53",
-          "title": "Ethan Mollick 新书明日发售，预购福利今日截止",
-          "summary": "<p>我的书明天就要出版了，所以今天是获得预购福利的最后一天：一场有趣的 10 分钟 AI 语音访谈，会根据书中的理念为你提供个性化的提示词、想法和阅读材料\n\n你可以在这里下单并领取预购福利：https://co-existence.ai/</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2112210597571862980\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/oa8wrqidz5ztbjskz53dw5xdx\">https://aihot.news/items/oa8wrqidz5ztbjskz53dw5xdx</a></p>",
-          "category": "行业动态",
-          "source": "Ethan Mollick",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/oa8wrqidz5ztbjskz53dw5xdx"
-        },
-        {
-          "time": "23:45",
-          "title": "PyTorch Helion 借助 NVIDIA CompileIQ 联合搜索 ptxas 编译控制",
-          "summary": "<p>PyTorch Helion 现可借助 NVIDIA CompileIQ 搜索 ptxas 编译控制空间，并将其与 tile 大小、warp 数等内核配置联合调优，在已离线调优的约 27 个内核上进一步提速。CompileIQ 把调优结果打包为可移植的 Advanced Control File（ACF），Helion 的 autotuner 可将 ACF 列表作为额外搜索维度评估。</p>\n<p>🔗 <a href=\"https://pytorch.org/blog/one-search-two-layers-compiler-controls-inside-pytorch-helion-using-nvidia-compileiq/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/pbnocfvh6w4te89r3whqyk7z0\">https://aihot.news/items/pbnocfvh6w4te89r3whqyk7z0</a></p>",
-          "category": "教程",
-          "source": "PyTorch：Blog",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/pbnocfvh6w4te89r3whqyk7z0"
-        },
-        {
-          "time": "23:37",
-          "title": "Nvidia 发布 Nemotron 3.5 开源模型，面向企业 Agent 与本地 PC",
-          "summary": "<p>Nvidia 于周四发布面向常驻 Agent 和边缘计算的开源模型。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/10/19/nvidia-launches-new-open-models-to-run-agents-in-the-enterprise-and-on-pcs/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/p54tmtlktq5q4bxhaexz7plew\">https://aihot.news/items/p54tmtlktq5q4bxhaexz7plew</a></p>",
-          "category": "AI 模型",
-          "source": "TechCrunch：AI",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/p54tmtlktq5q4bxhaexz7plew"
-        },
-        {
-          "time": "23:33",
-          "title": "Mercury 年化收入突破 10 亿美元，CEO 做客 Newcomer 播客",
-          "summary": "<p>Mercury 年化收入突破 10 亿美元，同比增长约 50%，客户数超过 45 万，并正在推出薪资服务。CEO Immad Akhund 在 Newcomer 播客中披露了这些数据，还谈到 AI 智能体花钱、创业公司的泡沫时刻以及疫情后 fintech 创业的降温。</p>\n<p>🔗 <a href=\"https://www.newcomer.co/p/mercury-crosses-1-billion-annualized\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/nq2uafzqbba5zbcyts53hlbh3\">https://aihot.news/items/nq2uafzqbba5zbcyts53hlbh3</a></p>",
-          "category": "行业动态",
-          "source": "Newcomer 新闻长文",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/nq2uafzqbba5zbcyts53hlbh3"
-        },
-        {
-          "time": "23:30",
-          "title": "Meta 详解 Thin Orchestrator 模式：让路由少干活提升 AI 智能体可靠性",
-          "summary": "<p>Meta 工程团队介绍其数据管道智能体采用的瘦编排器（thin orchestrator）模式：一个约 1300 行的编排器只负责路由和可靠性检查，将 20+ 工作流分派给 14 个上下文隔离的专项子智能体，自身不做任何领域推理。</p>\n<p>🔗 <a href=\"https://engineering.fb.com/2026/10/19/ml-applications/thin-orchestrator-ai-agent-architecture/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/qh6pvehounuylklti7i0zl124\">https://aihot.news/items/qh6pvehounuylklti7i0zl124</a></p>",
-          "category": "教程",
-          "source": "Meta Engineering Blog",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/qh6pvehounuylklti7i0zl124"
-        },
-        {
-          "time": "23:24",
-          "title": "Dex Horthy 盛赞新生产力工具",
-          "summary": "<p>哦对，这玩意儿太酷了</p>\n<p>🔗 <a href=\"https://x.com/dexhorthy/status/2112203344664289604\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ctgebltjjdtb0aeobh1ee8xdx\">https://aihot.news/items/ctgebltjjdtb0aeobh1ee8xdx</a></p>",
-          "category": "",
-          "source": "Dex Horthy",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/ctgebltjjdtb0aeobh1ee8xdx"
-        },
-        {
-          "time": "23:20",
-          "title": "Viggle AI 发布 JST-2 世界模型",
-          "summary": "<p>今天我们发布 JST-2，全球首个全栈物理原生世界基础模型。\n\n许多世界模型在像素/视频空间中学习。我们回归第一性原理，在 3D 中构建了整个模型栈。\n\n数秒内生成 3D 场景并实时扩展。通过一个通用架构创建内置动作的角色。</p>\n<p>🔗 <a href=\"https://x.com/ViggleAI/status/2112202242048528540\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/oiji0al5s471sa5vhzj81s7dz\">https://aihot.news/items/oiji0al5s471sa5vhzj81s7dz</a></p>",
-          "category": "AI 模型",
-          "source": "Viggle AI",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/oiji0al5s471sa5vhzj81s7dz"
-        },
-        {
-          "time": "23:09",
-          "title": "Arena 开放 GPT-Image-2.5 Sunburst 直接测试，为期 14 天",
-          "summary": "<p>Arena 宣布 OpenAI 的 GPT-Image-2.5 Sunburst 在接下来 14 天内可在 Arena 的 Direct Mode 中直接测试，11 月 2 日早 8 点（太平洋时间）截止。</p>\n<p>🔗 <a href=\"https://x.com/arena/status/2112199487217434855\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/lvvsuuwvmxbwm8xu2ttg9diit\">https://aihot.news/items/lvvsuuwvmxbwm8xu2ttg9diit</a></p>",
+          "time": "12:10",
+          "title": "蚂蚁百灵 Ming-3.0 获 SGLang-Omni 首日支持",
+          "summary": "<p>感谢 @sgl_project 提供首日 SGLang-Omni 支持以及实用的 cookbook，帮助开发者把 Ming-3.0 用起来！</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2112395916955275387\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/v4yfl0pmfnaiqh1a1woxpbsub\">https://aihot.news/items/v4yfl0pmfnaiqh1a1woxpbsub</a></p>",
           "category": "AI 产品",
-          "source": "Arena",
+          "source": "蚂蚁百灵",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/lvvsuuwvmxbwm8xu2ttg9diit"
+          "itemUrl": "https://aihot.news/items/v4yfl0pmfnaiqh1a1woxpbsub"
         },
         {
-          "time": "23:08",
-          "title": "Gemini 4 Argon 把实景变可玩游戏",
-          "summary": "<p>借助 Gemini 4 Argon，任何开发者都能把物理空间变成互动游戏 🏁\n\n我们拍了一张真实桌子的照片，用 Argon 调度子智能体、Blender MCP 和 Nano Banana，把日常物品变成了这条可玩的 3D 赛道。</p>\n<p>🔗 <a href=\"https://x.com/Google/status/2112199261899411579\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/r5l8t34zlczqs1iacxe4xqfrs\">https://aihot.news/items/r5l8t34zlczqs1iacxe4xqfrs</a></p>",
+          "time": "12:09",
+          "title": "蚂蚁百灵开源 Ming-3.0 系列 5 款语音模型，vLLM-Omni 提供 Day-0 支持",
+          "summary": "<p>蚂蚁百灵感谢 vLLM 项目为 Ming-3.0 提供 Day-0 的 vLLM-Omni 支持，让模型更易部署。据引用内容，蚂蚁百灵开源了 5 款语音模型，覆盖 TTS、音频理解和 ASR，参数规模从 0.5B 到 126B 总参数（激活 6.5B），可通过 vLLM-Omni 直接部署。</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2112395816300388539\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/apk6xgrnbd73ujpbe32l1lmb5\">https://aihot.news/items/apk6xgrnbd73ujpbe32l1lmb5</a></p>",
           "category": "AI 产品",
-          "source": "Google",
+          "source": "蚂蚁百灵",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/r5l8t34zlczqs1iacxe4xqfrs"
+          "itemUrl": "https://aihot.news/items/apk6xgrnbd73ujpbe32l1lmb5"
         },
         {
-          "time": "23:03",
-          "title": "谷歌论文：四个 Gemini 4 Argon 智能体 27 小时自主通关《我的世界》击败末影龙",
-          "summary": "<p>谷歌研究人员发布论文，使用四个 Gemini 4 Argon 智能体在 27 小时内完全自主通关《我的世界》并击败末影龙，团队称这是 AI 智能体首次在无人类辅助下从头到尾通关。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/015/048.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/eaka832qgigdnj4edsqeni17d\">https://aihot.news/items/eaka832qgigdnj4edsqeni17d</a></p>",
-          "category": "论文",
-          "source": "IT之家·人工智能",
+          "time": "12:09",
+          "title": "蚂蚁百灵 Ming-3.0 接入本地 AI 工作流",
+          "summary": "<p>感谢 @atomic_chat_hq 帮助将 Ming-3.0 带入本地 AI 工作流，让开放语音模型更易获取！</p>\n<p>🔗 <a href=\"https://x.com/AntLingAGI/status/2112395707659526510\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/x52w4qbeod690ozgxzomr1jdi\">https://aihot.news/items/x52w4qbeod690ozgxzomr1jdi</a></p>",
+          "category": "AI 产品",
+          "source": "蚂蚁百灵",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/eaka832qgigdnj4edsqeni17d"
+          "itemUrl": "https://aihot.news/items/x52w4qbeod690ozgxzomr1jdi"
         },
         {
-          "time": "23:00",
-          "title": "NVIDIA 与 EBU、Adobe 推进媒体行业智能体安全",
-          "summary": "<p>NVIDIA 与欧洲广播联盟（EBU）扩大主权框架合作，引入主权云、开放模型和系统集成商，明确广播机构部署智能体时对数据、基础设施、模型与安全的控制方式。</p>\n<p>🔗 <a href=\"https://blogs.nvidia.com/blog/media-agentic-security-european-public-service-broadcasting-global-content-production/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/g1tfqu2kgqwv9jvr3u38pdru6\">https://aihot.news/items/g1tfqu2kgqwv9jvr3u38pdru6</a></p>",
-          "category": "行业动态",
-          "source": "NVIDIA Blog",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/g1tfqu2kgqwv9jvr3u38pdru6"
-        },
-        {
-          "time": "23:00",
-          "title": "Tripo 万圣节角色创作挑战赛开启",
-          "summary": "<p>Tripo x Charakuru 万圣节嘉年华正式上线！🎃\n\n把你的想象力变成 3D 现实。加入我们的社区挑战，创作你最棒的万圣节主题角色，角逐 1000 美元奖池！\n\n查看下方推文串了解如何参与！↓</p>\n<p>🔗 <a href=\"https://x.com/tripoai/status/2112197088326898080\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/q01mx0s0omtq36cmwpbxayot5\">https://aihot.news/items/q01mx0s0omtq36cmwpbxayot5</a></p>",
-          "category": "行业动态",
-          "source": "Tripo",
-          "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/q01mx0s0omtq36cmwpbxayot5"
-        },
-        {
-          "time": "23:00",
-          "title": "Numan 如何用 LangGraph 和 LangSmith 构建评测优先的 AI 健康教练 Nu",
-          "summary": "<p>英国数字健康公司 Numan 复盘其 AI 健康教练 Nu 的评测体系建设，核心结论是稀缺资产不是提示词而是评测标准。单轮静态数据集和脚本化多轮对话都难以覆盖真实会话，Nu 改为按类别打分的主题数据集、以更廉价模型扮演患者的模拟对话层，并让安全回归自动阻断发布。</p>\n<p>🔗 <a href=\"https://www.langchain.com/blog/how-numan-built-an-eval-first-ai-health-coach-with-langgraph-and-langsmith\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/nk19eo4eud45d47tmwxm684iu\">https://aihot.news/items/nk19eo4eud45d47tmwxm684iu</a></p>",
+          "time": "11:56",
+          "title": "WorkBuddy 推出港股美股持仓助手",
+          "summary": "<p>我们发布了很多功能。这一个是因为我们自己确实需要才做的。\n\n如果你在多个屏幕上同时盯港股和美股持仓，它能帮你减少干扰。</p>\n<p>🔗 <a href=\"https://x.com/WorkBuddy_AI/status/2112392576603164993\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/xg6cd3m6erswws44k7pr2o8ng\">https://aihot.news/items/xg6cd3m6erswws44k7pr2o8ng</a></p>",
           "category": "教程",
-          "source": "LangChain：Blog",
+          "source": "Tencent WorkBuddy",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/nk19eo4eud45d47tmwxm684iu"
+          "itemUrl": "https://aihot.news/items/xg6cd3m6erswws44k7pr2o8ng"
         },
         {
-          "time": "22:56",
-          "title": "WorkBuddy 推出独立 Office 窗口",
-          "summary": "<p>需要更多空间来真正把事情做完？\n借助 WorkBuddy 的独立 Office 窗口，你可以在单独窗口中打开 Office 文件，并将其与 AI 工作区并排摆放。审阅、编辑、跨内容工作，都不会丢失当前位置。\n更多空间，更少切换标签页。</p>\n<p>🔗 <a href=\"https://x.com/WorkBuddy_AI/status/2112196296832598228\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/u2o7cfv4k76p56g20n5ccejeh\">https://aihot.news/items/u2o7cfv4k76p56g20n5ccejeh</a></p>",
+          "time": "11:52",
+          "title": "Viggle 发布 3D 原生世界基础模型 JST-2，把物理结构写进 token",
+          "summary": "<p>Viggle 发布全栈物理原生世界基础模型 JST-2，与 Sora、Genie、Cosmos 等像素/视频空间路线相反，整个技术栈构建在 3D 空间。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2112391527330914623\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/i8s81ihzs5zl16pc3zgz4swkz\">https://aihot.news/items/i8s81ihzs5zl16pc3zgz4swkz</a></p>",
+          "category": "AI 模型",
+          "source": "邵猛",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/i8s81ihzs5zl16pc3zgz4swkz"
+        },
+        {
+          "time": "11:44",
+          "title": "Ming-3.0-tts 登顶 Artificial Analysis 开源 TTS 控制语音竞技场并居发音鲁棒性榜首",
+          "summary": "<p>蚂蚁集团 LingAGI 团队的开源权重语音合成模型 Ming-3.0-tts 在 Artificial Analysis Controlled Voice TTS Arena 成为开源权重第一名，并登顶发音鲁棒性榜单。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2112389514404462613\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/hmtwkn0ce2laamrzlp0v2zy1o\">https://aihot.news/items/hmtwkn0ce2laamrzlp0v2zy1o</a></p>",
+          "category": "AI 模型",
+          "source": "Artificial Analysis",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/hmtwkn0ce2laamrzlp0v2zy1o"
+        },
+        {
+          "time": "11:44",
+          "title": "智能体互转10美元刷出两家独角兽",
+          "summary": "<p>最快冲击 1 亿美元 ARR 的方式：\n\nA 公司的智能体每 3 秒给 B 公司转 10 美元。\n\nB 公司的智能体再把同样的 10 美元原样转回去。\n\n砰。两家 1 亿美元 ARR 的独角兽诞生了！</p>\n<p>🔗 <a href=\"https://x.com/Yuchenj_UW/status/2112389386075808194\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/pn4ksktnxw0562080efb9mj2n\">https://aihot.news/items/pn4ksktnxw0562080efb9mj2n</a></p>",
+          "category": "观点",
+          "source": "Yuchen Jin",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/pn4ksktnxw0562080efb9mj2n"
+        },
+        {
+          "time": "11:32",
+          "title": "35万个AI反骗骗子：Apate.ai 与国内大学生用 AI 反制诈骗的两个故事",
+          "summary": "<p>作者讲述两个用 AI 反制诈骗的案例。澳大利亚公司 Apate.ai 造了35万个 AI 装成易骗的普通人消耗骗子，已与骗子聊约250万次、累计耗掉约17年骗子时间，TPG 转接近59万通可疑来电，澳洲联邦银行公开报告的诈骗损失降低76%，今年8月获815万美元种子轮融资。</p>\n<p>🔗 <a href=\"https://x.com/Khazix0918/status/2112386350934868374\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/x2rrhprgamj7hhyb9aed0c0zo\">https://aihot.news/items/x2rrhprgamj7hhyb9aed0c0zo</a></p>",
+          "category": "观点",
+          "source": "卡兹克",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/x2rrhprgamj7hhyb9aed0c0zo"
+        },
+        {
+          "time": "11:29",
+          "title": "MiniMax M3.1-Flash 上线 WorkBuddy",
+          "summary": "<p>@MiniMax_AI 的 M3.1-Flash 刚刚上线 WorkBuddy。\n\n0.08x 消耗量。300K 上下文。最大思考强度。\n\n选它。提示它。发布它。\n\n然后把你做出来的东西丢到回复里。我们很好奇（充满爱意地）。</p>\n<p>🔗 <a href=\"https://x.com/WorkBuddy_AI/status/2112385683835007188\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ds49edg1sdqoqtasaqxlnzxl6\">https://aihot.news/items/ds49edg1sdqoqtasaqxlnzxl6</a></p>",
           "category": "AI 产品",
           "source": "Tencent WorkBuddy",
           "originalUrl": "",
-          "itemUrl": "https://aihot.news/items/u2o7cfv4k76p56g20n5ccejeh"
+          "itemUrl": "https://aihot.news/items/ds49edg1sdqoqtasaqxlnzxl6"
+        },
+        {
+          "time": "11:24",
+          "title": "开源「老爷爷」提示语路由skill，收录25条思考类提示语",
+          "summary": "<p>作者开源了一个名为「老爷爷」的提示语管理skill，仿照Matt Pocock的ask-matt路由形态，把今年积累的25条思考类提示语熔炼进一个路由，覆盖问清问题、学习理解、解决问题、决策、计划和自我认识六个场景。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&amp;mid=2247512425&amp;idx=1&amp;sn=7e0e605336d602aa5149ea92689de203\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/b6odkjxcazqlr1ckt35wgf94b\">https://aihot.news/items/b6odkjxcazqlr1ckt35wgf94b</a></p>",
+          "category": "教程",
+          "source": "公众号：卡尔的AI沃茨",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/b6odkjxcazqlr1ckt35wgf94b"
+        },
+        {
+          "time": "11:19",
+          "title": "Claude Code 团队 Addy Osmani 谈 AI Coding Agent 时代 Verification 为何成为核心瓶颈",
+          "summary": "<p>作者转述 Addy Osmani 的「Agentic Verification」文章，认为 Agent 瓶颈已从写出代码转移到知道代码是对的，不能自我验证的 Agent 本质上是在猜。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2112383097001926752\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/binu0rqcin70pprnoeny2665e\">https://aihot.news/items/binu0rqcin70pprnoeny2665e</a></p>",
+          "category": "教程",
+          "source": "邵猛",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/binu0rqcin70pprnoeny2665e"
+        },
+        {
+          "time": "11:09",
+          "title": "MiniMax 发布 M3.1 Flash，成本为 M3 的三分之一、速度约 3 倍",
+          "summary": "<p>MiniMax 发布 M3.1 Flash，称成本为 M3 的三分之一，速度约 3 倍。官方报告 DeepSWE v1.1 达 73.7%，生成速度超 200 tokens/s，并计划 10 月 23 日开放权重。该模型曾以 Space Bunny 之名匿名运行在 OpenRouter 和 OpenCode 上。</p>\n<p>🔗 <a href=\"https://x.com/thexpin/status/2112380664855064835\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ckxgsb93m97atnuiw9i4tmkvf\">https://aihot.news/items/ckxgsb93m97atnuiw9i4tmkvf</a></p>",
+          "category": "AI 模型",
+          "source": "X.PIN",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/ckxgsb93m97atnuiw9i4tmkvf"
+        },
+        {
+          "time": "10:49",
+          "title": "Meshy 开发者群聊开放申请",
+          "summary": "<p>开发者们好。👋\n\n我们为使用 Meshy 构建应用的开发者建了一个群聊：游戏、插件、API、MCP、CLI、智能体。\n\n分享你在做的东西、解决卡住的问题，还能提前看到新的 API 功能。管理员会审核每一份申请。回复说说你在构建什么。\n\nhttps://x.com/i/chat/group_join/g2098247318252228848/nL47XMeQ64</p>\n<p>🔗 <a href=\"https://x.com/MeshyAI/status/2112375703970988291\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/vp8rzamtve2e1ic9zx0u2k6m6\">https://aihot.news/items/vp8rzamtve2e1ic9zx0u2k6m6</a></p>",
+          "category": "行业动态",
+          "source": "Meshy",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/vp8rzamtve2e1ic9zx0u2k6m6"
+        },
+        {
+          "time": "10:41",
+          "title": "xAI 调整时间线推荐算法",
+          "summary": "<p>时间线推荐有两项重要变化：\n\n- 新的 AI/SI 排序模型，能更好地预测用户可能停留的时长\n\n- 检索模型经过训练，用于呈现用户会完整读完的帖子\n\n用户活跃秒数呈指数级增长，几乎每天都在创历史新高：</p>\n<p>🔗 <a href=\"https://x.com/elonmusk/status/2112373713937084809\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/z1z3qubw5bxklbuhy2w5snj61\">https://aihot.news/items/z1z3qubw5bxklbuhy2w5snj61</a></p>",
+          "category": "AI 产品",
+          "source": "Elon Musk",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/z1z3qubw5bxklbuhy2w5snj61"
+        },
+        {
+          "time": "10:34",
+          "title": "Meta 工程团队解析 Thin Orchestrator：让 Agent 更可靠的两层架构实践",
+          "summary": "<p>Meta 工程团队 @Meta_Engineers 发布 Agent 架构实践「Thin Orchestrator」，用约 1300 行确定性瘦编排器把 20+ 工作流路由到 14 个上下文隔离的专业 Agent，只有委派一步涉及 LLM 推理。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2112371729276563825\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ho1wgha4rie87rboanhzida86\">https://aihot.news/items/ho1wgha4rie87rboanhzida86</a></p>",
+          "category": "教程",
+          "source": "邵猛",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/ho1wgha4rie87rboanhzida86"
+        },
+        {
+          "time": "10:06",
+          "title": "Ant Group Ming-3.0-tts 登顶 Artificial Analysis 开源语音合成双榜单",
+          "summary": "<p>Artificial Analysis 评测显示，Ant Group 的 Ming-3.0-tts 成为 Controlled Voice TTS Arena 中排名第一的开源权重模型，并以 93.2% 的得分登顶 Pronunciation Robustness 榜单，与 Fish Audio Drama 3 Preview 持平，超过 Eleven v4 的 91.7%。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2112364868020105323\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/icpgs6u1uhjue7v71na7gcece\">https://aihot.news/items/icpgs6u1uhjue7v71na7gcece</a></p>",
+          "category": "AI 模型",
+          "source": "Artificial Analysis",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/icpgs6u1uhjue7v71na7gcece"
+        },
+        {
+          "time": "10:00",
+          "title": "邵猛谈跨 Agent 记忆层与 EverOS Cloud",
+          "summary": "<p>邵猛表示跨 Agent 记忆层确有必要，他高频使用 Grok Bot、Codex、Cursor 时经常需要搬运上下文，曾因 Codex 搞不定一个问题而转到 Grok Bot 解决，但搬运浪费时间和 token。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2112363257688473994\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/yezxoec3dbgk4a139pzci3pff\">https://aihot.news/items/yezxoec3dbgk4a139pzci3pff</a></p>",
+          "category": "观点",
+          "source": "邵猛",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/yezxoec3dbgk4a139pzci3pff"
+        },
+        {
+          "time": "09:52",
+          "title": "MIT 课程 MAS.S62「How to AI an AI」讲解 Harness 演化与多 agent 系统实证规律",
+          "summary": "<p>作者解读 MIT 课程 MAS.S62「How to AI an AI」Lecture 4-5 两讲，主题为 Harness 与多 agent 系统的演化。</p>\n<p>🔗 <a href=\"https://x.com/shao__meng/status/2112361253905854685\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/qkb20rcvkdy9ffp6wb5jdcm4e\">https://aihot.news/items/qkb20rcvkdy9ffp6wb5jdcm4e</a></p>",
+          "category": "教程",
+          "source": "邵猛",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/qkb20rcvkdy9ffp6wb5jdcm4e"
+        },
+        {
+          "time": "09:34",
+          "title": "蚂蚁百灵开源 Ming-3.0 语音系列模型，覆盖语音合成、音频理解与对话、语音识别",
+          "summary": "<p>蚂蚁百灵宣布开源 Ming-3.0 语音系列，共五款模型，覆盖语音合成、音频理解与对话、语音识别三类能力，开发者可按任务选用或组合进工作流。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/015/117.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ax2chwbm9ayptggqf8cauq6hx\">https://aihot.news/items/ax2chwbm9ayptggqf8cauq6hx</a></p>",
+          "category": "AI 模型",
+          "source": "IT之家·人工智能",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/ax2chwbm9ayptggqf8cauq6hx"
+        },
+        {
+          "time": "09:30",
+          "title": "观点：阻碍 Agent 互联的不是技术而是平台政治",
+          "summary": "<p>作者引用 @0xshawnpang 的分析认为，阻碍 Agent 互联的不是技术而是政治。文中回顾了中国自 2013 年移动端时代以来的「不联网」生态，包括内容不可发现、链接被拦、功能只能进 App 使用，并指出美国平台也在向 Agent 关门，如 Amazon 向 Perplexity 发函要求其购物代理 Comet 停止未经许可的访问，eBay 要求代买 Agent 事先获得许可，Target 采用 Agent 白名单，花旗不允许第三方 AI Agent 代客户登录账户，Delta 明确用户授权不构成对其的授权，Yelp 仅提供需 API 密钥的 MCP 接入。</p>\n<p>🔗 <a href=\"https://x.com/indigox/status/2112355683169603715\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/b5ye3jj9d1vo0vba3zk4m03e5\">https://aihot.news/items/b5ye3jj9d1vo0vba3zk4m03e5</a></p>",
+          "category": "观点",
+          "source": "indigo",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/b5ye3jj9d1vo0vba3zk4m03e5"
+        },
+        {
+          "time": "09:27",
+          "title": "纽约市长 Mamdani 批评联邦政府在 AI 监管上缺位，呼吁市民抵制",
+          "summary": "<p>纽约市长 Zohran Mamdani 在 AI Now Institute 主办的“The People&apos;s AI Assembly”活动上批评联邦政府在 AI 监管上“完全缺位”，呼吁纽约市民抵制 AI 必然取代工作与侵蚀尊严的叙事。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/iiv953am7kcj387oc1vhz9itn\">https://aihot.news/items/iiv953am7kcj387oc1vhz9itn</a></p>",
+          "category": "观点",
+          "source": "TechCrunch：AI",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/iiv953am7kcj387oc1vhz9itn"
+        },
+        {
+          "time": "09:18",
+          "title": "蚂蚁百灵开源 Ming-3.0 语音系列，提供语音合成、音频理解与语音识别五款模型",
+          "summary": "<p>蚂蚁百灵开源 Ming-3.0 语音系列，围绕声音创作、长语音分析、业务语音转写三类任务提供语音合成、音频理解与对话、语音识别共五款模型。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&amp;mid=2247488151&amp;idx=1&amp;sn=08860ade59750185570423c27daff3c0\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/nb58aijflh09gyui8nn3qvobt\">https://aihot.news/items/nb58aijflh09gyui8nn3qvobt</a></p>",
+          "category": "AI 模型",
+          "source": "公众号：蚂蚁百灵",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/nb58aijflh09gyui8nn3qvobt"
+        },
+        {
+          "time": "08:26",
+          "title": "Apate.ai 用35万个AI反诈拖住骗子，国内年轻人用AI视频反制AI卖惨账号",
+          "summary": "<p>作者讲述了两起用AI反制诈骗的案例。澳大利亚公司 Apate.ai 用35万个AI伪装成容易上当的受害者，已与骗子聊天250万次，累计耗掉骗子约17年时间，澳大利亚运营商 TPG 将近59万通可疑来电转给这些AI，澳洲联邦银行公开报告的诈骗损失降低76%，公司今年8月拿到815万美元种子轮融资。</p>\n<p>🔗 <a href=\"https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&amp;mid=2647687365&amp;idx=1&amp;sn=4102098fb8725531aa2f783fa2f20f20\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/awmaqqunma83599eii4g3akgw\">https://aihot.news/items/awmaqqunma83599eii4g3akgw</a></p>",
+          "category": "行业动态",
+          "source": "公众号：数字生命卡兹克",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/awmaqqunma83599eii4g3akgw"
+        },
+        {
+          "time": "08:14",
+          "title": "grokbot 账号合并后无法登录",
+          "summary": "<p>grokbot、cursor 和 x 三个账号合并后…\n我就彻底没法登录 grokbot 了\n三个部门协作的东西就是💩</p>\n<p>🔗 <a href=\"https://x.com/oran_ge/status/2112336569827004686\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ikptmdstbtakdcsyf8vjcurqy\">https://aihot.news/items/ikptmdstbtakdcsyf8vjcurqy</a></p>",
+          "category": "行业动态",
+          "source": "Oran Ge",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/ikptmdstbtakdcsyf8vjcurqy"
+        },
+        {
+          "time": "08:07",
+          "title": "用Claude自身学习Claude Code",
+          "summary": "<p>学Claude Code最快的方式不是看文档。\n\n而是问Claude。\n\n就问它hooks是怎么工作的。然后让它给你写一个hook。再让它把你的发布清单变成一个技能。\n\n它比任何教程都更了解自己。</p>\n<p>🔗 <a href=\"https://x.com/adocomplete/status/2112334872769593713\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/rvttwju2mxegxjxli80k3j6wf\">https://aihot.news/items/rvttwju2mxegxjxli80k3j6wf</a></p>",
+          "category": "教程",
+          "source": "Ado Kukic",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/rvttwju2mxegxjxli80k3j6wf"
+        },
+        {
+          "time": "08:07",
+          "title": "OpenAI Platform 新增 Decisions API 演练场",
+          "summary": "<p>补看 👀：OpenAI Platform 现在有了“Decisions”API 演练场。\n\n用户可以用近期发布的“Predicate”“Choice”和“Score”选项测试 OpenAI 的决策模型。\n\nProbability True 🤖</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2112334786794528884\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/xlw2pc9n2k3app6xwcpn4aj3a\">https://aihot.news/items/xlw2pc9n2k3app6xwcpn4aj3a</a></p>",
+          "category": "AI 产品",
+          "source": "Testing Catalog",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/xlw2pc9n2k3app6xwcpn4aj3a"
+        },
+        {
+          "time": "08:03",
+          "title": "Nace AI 发布 Drex Max 多模态决策模型，面向计算机使用智能体，Decision Index 得分 67.59",
+          "summary": "<p>Nace AI 发布多模态决策模型 Drex Max，可读取文本与图像并返回校准概率，在公开 Decision Index 0.3.2 上得分 67.59，比 TypeSafe 的 Jev 1.14 高 6.9 分。</p>\n<p>🔗 <a href=\"https://www.marktechpost.com/2026/10/19/nace-ai-drex-max-multimodal-decision-model/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/bhqzy77m0cacgwpzaacii9xi9\">https://aihot.news/items/bhqzy77m0cacgwpzaacii9xi9</a></p>",
+          "category": "AI 模型",
+          "source": "MarkTechPost",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/bhqzy77m0cacgwpzaacii9xi9"
+        },
+        {
+          "time": "08:01",
+          "title": "HP 如何用 Databricks CustomerLake 构建 AI 就绪的 CDP",
+          "summary": "<p>HP 在 Data + AI Summit 2026 上分享了基于 Databricks CustomerLake 构建 AI 就绪营销数据底座的做法，估算整合 CDP 能力后总拥有成本最多降低 40%。</p>\n<p>🔗 <a href=\"https://www.databricks.com/blog/hp-ai-ready-cdp-databricks-customerlake\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/naudd5z5s1v41elrwhcmwsjky\">https://aihot.news/items/naudd5z5s1v41elrwhcmwsjky</a></p>",
+          "category": "行业动态",
+          "source": "Databricks：Blog",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/naudd5z5s1v41elrwhcmwsjky"
+        },
+        {
+          "time": "08:00",
+          "title": "Arena 实测 Meta Muse Wonder 两款模型",
+          "summary": "<p>我们刚刚对 @AIatMeta 的 Muse Wonder 和 Muse Wonder Full 进行了测试，涵盖 3D 场景、动画 HTML 片段以及多个网站构建。\n\n观看 @petergostev 将这两款模型与 Claude Opus 5.5、Sonnet 5.5、Fable 5.1、GPT-6.1 Sol、GPT-6 Astra 和 Gemini 4 Argon 进行对比。\n\nhttps://www.youtube.com/watch?v=limOMzWqoeU</p>\n<p>🔗 <a href=\"https://x.com/arena/status/2112333096792318461\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/cyzwet99q4kyka3hf6ezewwl0\">https://aihot.news/items/cyzwet99q4kyka3hf6ezewwl0</a></p>",
+          "category": "AI 模型",
+          "source": "Arena",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/cyzwet99q4kyka3hf6ezewwl0"
+        },
+        {
+          "time": "07:58",
+          "title": "Simon Willison 回应《我为编程写的讣告》：编程智能体夺走了程序员的解谜乐趣",
+          "summary": "<p>Simon Willison 回应 Jeremy Scheff 的《我为编程写的讣告》，指出编程智能体让热爱解谜的程序员失去了核心乐趣。Scheff 认为编程曾是高薪的逻辑谜题工作，程序员掌握策略、时间线和可行性定义权。Willison 补充：若只在意构建可用系统，LLM 是持续馈赠；若享受解题过程，损失则非常真实。</p>\n<p>🔗 <a href=\"https://simonwillison.net/2026/Oct/19/my-obituary-for-programming/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/moz759nops2xahb1hhasq6318\">https://aihot.news/items/moz759nops2xahb1hhasq6318</a></p>",
+          "category": "观点",
+          "source": "Simon Willison 博客",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/moz759nops2xahb1hhasq6318"
+        },
+        {
+          "time": "07:58",
+          "title": "Claude Projects 多智能体协作界面",
+          "summary": "<p>新的 Claude Projects* 是一个不错的多智能体工作界面。它在设置面向用户的协调模型和运行线程、传递消息的独立智能体方面做得很好。需要一些调试，但相当强大。\n\n* 同名，但与旧版 Projects 无关🤪</p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2112332499917681028\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/jwsmlew1yitufomzw5622i2w5\">https://aihot.news/items/jwsmlew1yitufomzw5622i2w5</a></p>",
+          "category": "观点",
+          "source": "Ethan Mollick",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/jwsmlew1yitufomzw5622i2w5"
+        },
+        {
+          "time": "07:56",
+          "title": "研究称 AI 仅凭一张面部照片可预测癌症患者生存几率",
+          "summary": "<p>据彭博社报道，研究人员在《柳叶刀·数字健康》发表研究，开发出仅凭一张面部照片预测癌症患者生存几率的 AI 工具。模型使用超过 4000 万张人脸图像和 3 万多名癌症患者照片训练，可生成风险评分，分数最高者更可能在 90 天内死亡，估算年龄误差约 5 岁，并能在不同年龄、种族、性别和癌症类型人群中生效。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/015/079.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/i80rx5ef0hyc3hhy5tttvou26\">https://aihot.news/items/i80rx5ef0hyc3hhy5tttvou26</a></p>",
+          "category": "论文",
+          "source": "IT之家·人工智能",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/i80rx5ef0hyc3hhy5tttvou26"
+        },
+        {
+          "time": "07:50",
+          "title": "Suno Studio 2.0 三个易忽略功能",
+          "summary": "<p>3 个你可能错过的 Studio 2.0 功能 🎛️</p>\n<p>🔗 <a href=\"https://x.com/suno/status/2112330681351348472\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/bi7yss70u8zpoo82j6i25svyn\">https://aihot.news/items/bi7yss70u8zpoo82j6i25svyn</a></p>",
+          "category": "教程",
+          "source": "Suno",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/bi7yss70u8zpoo82j6i25svyn"
+        },
+        {
+          "time": "07:42",
+          "title": "Muse 调侃用自己名字命名",
+          "summary": "<p>用自己的名字给 Muse 命名，会奇怪吗？</p>\n<p>🔗 <a href=\"https://x.com/Muse/status/2112328592130752840\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/zbmc2bg3q5bhpjmilkjyn2fuv\">https://aihot.news/items/zbmc2bg3q5bhpjmilkjyn2fuv</a></p>",
+          "category": "",
+          "source": "Muse",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/zbmc2bg3q5bhpjmilkjyn2fuv"
+        },
+        {
+          "time": "07:39",
+          "title": "Anthropic 与 Nscale 据报道正洽谈再签 450 亿美元算力协议",
+          "summary": "<p>Bloomberg 援引知情人士报道称，Anthropic 与 Nscale 接近宣布第二笔 450 亿美元算力协议，距双方上月公布首笔同规模交易仅一个多月，谈判仍在进行、细节可能变化。两家公司均在推进 IPO，Nscale 拟以 300 亿美元估值上市但遭投资者阻力，大规模算力投入也令部分投资者担忧回报。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/10/19/nscale-and-anthropic-are-reportedly-in-talks-for-yet-another-45-billion-compute-deal/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/wqrhtp77zm07qjtfi9sjz6xbb\">https://aihot.news/items/wqrhtp77zm07qjtfi9sjz6xbb</a></p>",
+          "category": "行业动态",
+          "source": "TechCrunch：AI",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/wqrhtp77zm07qjtfi9sjz6xbb"
+        },
+        {
+          "time": "07:39",
+          "title": "日本演员协会发布生成式 AI 语音使用准则，《龙珠》悟空配音演员野泽雅子怒批未经授权使用其声音",
+          "summary": "<p>日本演员协会（JAU）在新闻发布会上发布生成式 AI 使用准则第一版，规定任何复刻演员声音的主体在每个环节都必须取得当事人同意，用于 AI 训练须获表演者许可，授权生成的语音被视作表演、企业需支付报酬或版税。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/015/074.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/m7ssds5wljbbizhbqm1j1ey9x\">https://aihot.news/items/m7ssds5wljbbizhbqm1j1ey9x</a></p>",
+          "category": "行业动态",
+          "source": "IT之家·人工智能",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/m7ssds5wljbbizhbqm1j1ey9x"
+        },
+        {
+          "time": "07:21",
+          "title": "Grok Bot 支持 iPhone 操作按钮通话",
+          "summary": "<p>再按一次操作按钮，或者说“goodbye”即可挂断 💭</p>\n<p>🔗 <a href=\"https://x.com/lingxi/status/2112323275791425841\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/ur1x9wumlxhde3begyl7ql1qf\">https://aihot.news/items/ur1x9wumlxhde3begyl7ql1qf</a></p>",
+          "category": "AI 产品",
+          "source": "Lingxi Li",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/ur1x9wumlxhde3begyl7ql1qf"
+        },
+        {
+          "time": "07:13",
+          "title": "微软推出 Guardian Agents 防护方案，警示前沿 AI 模型不可信、智能体堪比内部威胁",
+          "summary": "<p>微软于当地时间周一推出多项企业安全功能，核心是隶属于感知项目（Project Perception）的守护智能体（Guardian Agents），用于监控企业内部正在使用的各类 AI 智能体。</p>\n<p>🔗 <a href=\"https://www.ithome.com/1/015/069.htm\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/hqr9wzmplypj4va4u7denzlu3\">https://aihot.news/items/hqr9wzmplypj4va4u7denzlu3</a></p>",
+          "category": "AI 产品",
+          "source": "IT之家·人工智能",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/hqr9wzmplypj4va4u7denzlu3"
+        },
+        {
+          "time": "07:03",
+          "title": "Artificial Analysis 上线 HealthBench 与 HealthBench Professional 排行榜",
+          "summary": "<p>Artificial Analysis 为 OpenAI 的 HealthBench 与 HealthBench Professional 基准上线排行榜，评估模型对真实健康对话的回复。</p>\n<p>🔗 <a href=\"https://x.com/ArtificialAnlys/status/2112318755321868493\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/bggqqeynrt2xue6scm8c538ke\">https://aihot.news/items/bggqqeynrt2xue6scm8c538ke</a></p>",
+          "category": "AI 模型",
+          "source": "Artificial Analysis",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/bggqqeynrt2xue6scm8c538ke"
+        },
+        {
+          "time": "06:58",
+          "title": "NotebookLM 上线幻灯片与视频概览共创功能",
+          "summary": "<p>NotebookLM 宣布幻灯片（Slide Decks）与视频概览（Video Overviews）支持共创自定义。用户可选择来源中的建议主题或自拟主题，指定格式、长度、语言和视觉风格，再通过审阅编辑幻灯片大纲或视频制作笔记后生成。该功能面向所有 Pro 和 Ultra 订阅用户开放。</p>\n<p>🔗 <a href=\"https://x.com/Gemini_Notebook/status/2112317553762840595\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/g3m7ijw3m0v83ti6zlg7z8t9b\">https://aihot.news/items/g3m7ijw3m0v83ti6zlg7z8t9b</a></p>",
+          "category": "AI 产品",
+          "source": "Gemini Notebook",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/g3m7ijw3m0v83ti6zlg7z8t9b"
+        },
+        {
+          "time": "06:54",
+          "title": "MiniMax M3.1 Flash 限时免费开放",
+          "summary": "<p>⌘ + 🐰 = 🚀\n\n感谢 @CommandCodeAI！M3.1 Flash 限时对所有订阅用户免费。</p>\n<p>🔗 <a href=\"https://x.com/MiniMax_AI/status/2112316375163359303\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/aregcqxe5vvmbcs5ggq6129lj\">https://aihot.news/items/aregcqxe5vvmbcs5ggq6129lj</a></p>",
+          "category": "AI 产品",
+          "source": "MiniMax",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/aregcqxe5vvmbcs5ggq6129lj"
+        },
+        {
+          "time": "06:49",
+          "title": "Hugging Face 政策负责人：嵌入式 AI 评估器并非易事",
+          "summary": "<p>Hugging Face 首席政策官 Irene Solaiman 在 TechCrunch Disrupt 上表示，嵌入式 AI 评估器并非简单解法，评估结果的可复现性仍是核心难题，开放权重对此至关重要。</p>\n<p>🔗 <a href=\"https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/t9eijy5rarxqmixkdrc6bituk\">https://aihot.news/items/t9eijy5rarxqmixkdrc6bituk</a></p>",
+          "category": "观点",
+          "source": "TechCrunch：AI",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/t9eijy5rarxqmixkdrc6bituk"
+        },
+        {
+          "time": "06:31",
+          "title": "https://x.com/emollick/status/2112310600806072387",
+          "summary": "<p></p>\n<p>🔗 <a href=\"https://x.com/emollick/status/2112310600806072387\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/leygtwsj98839dzy5zwl5qdch\">https://aihot.news/items/leygtwsj98839dzy5zwl5qdch</a></p>",
+          "category": "观点",
+          "source": "Ethan Mollick",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/leygtwsj98839dzy5zwl5qdch"
+        },
+        {
+          "time": "06:30",
+          "title": "OpenAI 模型强化 COBOL、Fortran 等低资源语言能力",
+          "summary": "<p>OpenAI 称其最新模型在 COBOL、Fortran、Visual Basic 等低资源编程语言上具备更强的软件构建与迁移能力。这些语言支撑着银行、政府和企业的关键系统，进展意味着模型能理解数十年业务逻辑，帮助开发者现代化改造并保留可用部分。OpenAI 表示正围绕开发者与企业客户提出的挑战构建这些能力，并征集下一批要攻克的语言与工作流。</p>\n<p>🔗 <a href=\"https://x.com/OpenAI/status/2112310345863930168\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/wetq9vy6z4li192x4gnfxh4ru\">https://aihot.news/items/wetq9vy6z4li192x4gnfxh4ru</a></p>",
+          "category": "AI 模型",
+          "source": "OpenAI",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/wetq9vy6z4li192x4gnfxh4ru"
+        },
+        {
+          "time": "06:28",
+          "title": "ChatGPT Slides 支持实时协作编辑",
+          "summary": "<p>OpenAI 为 ChatGPT Slides 更新了实时协作编辑功能。\n\n&gt; Teams、Dots 和 ChatGPT 现在可以共同处理一份幻灯片，进行编辑、优化并留下评论。\n\n该功能已在 ChatGPT Pro、Business 和 Enterprise 套餐中提供。</p>\n<p>🔗 <a href=\"https://x.com/testingcatalog/status/2112309941058818222\">阅读原文</a></p>\n<p>via AIHOT · <a href=\"https://aihot.news/items/whzz9o2k1aq4893vtuzv9ecc5\">https://aihot.news/items/whzz9o2k1aq4893vtuzv9ecc5</a></p>",
+          "category": "AI 产品",
+          "source": "Testing Catalog",
+          "originalUrl": "",
+          "itemUrl": "https://aihot.news/items/whzz9o2k1aq4893vtuzv9ecc5"
         }
       ],
-      "count": 17
+      "count": 50
     },
     {
       "date": "2026-10-03",
